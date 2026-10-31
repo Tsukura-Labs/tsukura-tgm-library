@@ -53,7 +53,7 @@
     "color": "",
     "deviceType": "",
     "kind": 0,
-    "name": "triton5",
+    "name": "Triton5",
     "nameRuleJson": "",
     "networkOptionsJson": "",
     "networkProtocol": "",
@@ -20280,5 +20280,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }
