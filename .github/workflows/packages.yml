@@ -1,0 +1,72 @@
+name: packages
+
+# On every push to main: validate all devices, build one ZIP per changed device,
+# upload them to the release "packages" and publish a fresh index.json there.
+# Pull requests only validate.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Self-test
+        run: python .github/scripts/build_index.py --self-test
+      - name: Validate devices
+        run: python .github/scripts/build_index.py --validate-only
+
+  build:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Self-test
+        run: python .github/scripts/build_index.py --self-test
+
+      - name: Make sure the release "packages" exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view packages >/dev/null 2>&1 || \
+            gh release create packages --title "Device packages" \
+              --notes "Automatically generated device packages and index.json. Do not edit by hand."
+
+      - name: Fetch previous index.json (to find changed packages)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p build/prev
+          gh release download packages --pattern index.json --dir build/prev || true
+
+      - name: Validate, zip and build index
+        run: |
+          python .github/scripts/build_index.py \
+            --repo "${{ github.repository }}" \
+            --commit "${{ github.sha }}" \
+            --out build \
+            --previous build/prev/index.json
+
+      - name: Upload changed packages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          while IFS= read -r zip; do
+            [ -n "$zip" ] && gh release upload packages "$zip" --clobber
+          done < build/changed.txt
+
+      - name: Upload index.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload packages build/index.json --clobber

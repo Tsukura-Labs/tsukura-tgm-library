@@ -1,0 +1,11 @@
+{
+  "panels": [
+    {
+      "json": "{\"controls\":[]}",
+      "name": "Main",
+      "sort": 0,
+      "uuid": "00000000-0000-4000-8000-0000000000d1"
+    }
+  ],
+  "schema": "tgm.panels/1"
+}

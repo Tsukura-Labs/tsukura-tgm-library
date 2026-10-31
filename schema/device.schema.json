@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tgm.device/1",
+  "title": "TGM device (device.json)",
+  "type": "object",
+  "required": ["schema", "id", "version", "manufacturer", "device"],
+  "properties": {
+    "schema": { "const": "tgm.device/1" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}/[a-z0-9][a-z0-9-]{0,63}$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "description": { "type": "string", "maxLength": 20000 },
+    "manufacturer": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "website": { "type": ["string", "null"], "maxLength": 300 }
+      }
+    },
+    "device": {
+      "type": "object",
+      "required": ["uuid", "name"],
+      "properties": {
+        "uuid": { "type": "string", "minLength": 1, "maxLength": 64 },
+        "name": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "deviceType": { "type": ["string", "integer", "null"] },
+        "kind": { "type": ["string", "integer", "null"] },
+        "color": { "type": ["string", "integer", "null"] },
+        "note": { "type": ["string", "null"], "maxLength": 20000 },
+        "alias": { "type": ["string", "null"], "maxLength": 300 },
+        "bankOptions": { "type": ["string", "integer", "null"] },
+        "channelModesJson": { "type": ["string", "null"] },
+        "sysexRequest": { "type": ["string", "null"] },
+        "sysexHeader": { "type": ["string", "null"] },
+        "sysexDeviceId": { "type": ["string", "integer", "null"] },
+        "sysexExpected": { "type": ["string", "integer", "null"] },
+        "sysexQuietMs": { "type": ["integer", "null"] },
+        "sysexTimeoutMs": { "type": ["integer", "null"] },
+        "nameRuleJson": { "type": ["string", "null"] },
+        "sourceInfo": { "type": ["string", "null"] },
+        "pluginId": { "type": ["string", "null"] },
+        "networkProtocol": { "type": ["string", "integer", "null"] },
+        "networkOptionsJson": { "type": ["string", "null"] },
+        "audioMono": { "type": ["boolean", "integer", "null"] }
+      }
+    },
+    "banks": {
+      "type": "array",
+      "maxItems": 5000,
+      "items": {
+        "type": "object",
+        "required": ["uuid", "name"],
+        "properties": {
+          "uuid": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "name": { "type": "string", "maxLength": 160 },
+          "msb": { "type": ["integer", "null"] },
+          "lsb": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "authors": {
+      "type": "array",
+      "maxItems": 5000,
+      "items": {
+        "type": "object",
+        "required": ["uuid", "name"],
+        "properties": {
+          "uuid": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "name": { "type": "string", "maxLength": 160 },
+          "website": { "type": ["string", "null"], "maxLength": 300 }
+        }
+      }
+    },
+    "soundpacks": {
+      "type": "array",
+      "maxItems": 5000,
+      "items": {
+        "type": "object",
+        "required": ["uuid", "name"],
+        "properties": {
+          "uuid": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "name": { "type": "string", "maxLength": 160 },
+          "authorUuid": { "type": ["string", "null"] },
+          "description": { "type": ["string", "null"], "maxLength": 20000 },
+          "isOfficial": { "type": ["boolean", "integer", "null"] },
+          "firmwareVersion": { "type": ["string", "null"], "maxLength": 80 }
+        }
+      }
+    },
+    "presets": {
+      "type": "array",
+      "maxItems": 200000,
+      "items": {
+        "type": "object",
+        "required": ["uuid", "name"],
+        "properties": {
+          "uuid": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "bankUuid": { "type": ["string", "null"] },
+          "authorUuid": { "type": ["string", "null"] },
+          "soundpackUuid": { "type": ["string", "null"] },
+          "name": { "type": "string", "maxLength": 200 },
+          "origin": { "type": ["string", "integer", "null"] },
+          "version": { "type": ["string", "integer", "null"] },
+          "firmwareVersion": { "type": ["string", "null"] },
+          "category": { "type": ["string", "null"], "maxLength": 120 },
+          "subCategory": { "type": ["string", "null"], "maxLength": 120 },
+          "style": { "type": ["string", "null"], "maxLength": 120 },
+          "subStyle": { "type": ["string", "null"], "maxLength": 120 },
+          "tonlage": { "type": ["string", "null"], "maxLength": 120 },
+          "mood": { "type": ["string", "null"], "maxLength": 120 },
+          "expression": { "type": ["string", "null"], "maxLength": 120 },
+          "mode": { "type": ["string", "integer", "null"] },
+          "folderPath": { "type": ["array", "null"], "items": { "type": "string" } },
+          "sequenceJson": { "type": ["string", "null"] },
+          "triggersJson": { "type": ["string", "null"] },
+          "sysexDumpHex": { "type": ["string", "null"] },
+          "paramDumpJson": { "type": ["string", "null"] },
+          "tint": { "type": ["string", "integer", "null"] }
+        }
+      }
+    },
+    "images": {
+      "type": "object",
+      "properties": {
+        "device": { "type": "string", "pattern": "^images/[A-Za-z0-9._-]+\\.(png|jpg)$" },
+        "panel": { "type": "string", "pattern": "^images/[A-Za-z0-9._-]+\\.(png|jpg)$" }
+      }
+    }
+  }
+}

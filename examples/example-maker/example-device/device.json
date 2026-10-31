@@ -1,0 +1,67 @@
+{
+  "authors": [
+    {
+      "name": "Example Maker",
+      "uuid": "00000000-0000-4000-8000-0000000000a1",
+      "website": "https://example.com"
+    }
+  ],
+  "banks": [
+    {
+      "lsb": 0,
+      "msb": 0,
+      "name": "Factory",
+      "uuid": "00000000-0000-4000-8000-0000000000b1"
+    }
+  ],
+  "description": "Tiny example device used by the self-test. Not published.",
+  "device": {
+    "alias": "",
+    "audioMono": false,
+    "bankOptions": 0,
+    "deviceType": "synth",
+    "kind": "hardware",
+    "name": "Example Device",
+    "sysexQuietMs": 50,
+    "sysexTimeoutMs": 1000,
+    "uuid": "00000000-0000-4000-8000-000000000001"
+  },
+  "id": "example-maker/example-device",
+  "images": {
+    "device": "images/device.png",
+    "panel": "images/panel.png"
+  },
+  "manufacturer": {
+    "name": "Example Maker",
+    "website": "https://example.com"
+  },
+  "presets": [
+    {
+      "authorUuid": "00000000-0000-4000-8000-0000000000a1",
+      "bankUuid": "00000000-0000-4000-8000-0000000000b1",
+      "category": "Bass",
+      "folderPath": [],
+      "name": "Deep Sub",
+      "uuid": "00000000-0000-4000-8000-0000000000c0"
+    },
+    {
+      "authorUuid": "00000000-0000-4000-8000-0000000000a1",
+      "bankUuid": "00000000-0000-4000-8000-0000000000b1",
+      "category": "Pad",
+      "folderPath": [],
+      "name": "Warm Pad",
+      "uuid": "00000000-0000-4000-8000-0000000000c1"
+    },
+    {
+      "authorUuid": "00000000-0000-4000-8000-0000000000a1",
+      "bankUuid": "00000000-0000-4000-8000-0000000000b1",
+      "category": "Bass",
+      "folderPath": [],
+      "name": "Round Bass",
+      "uuid": "00000000-0000-4000-8000-0000000000c2"
+    }
+  ],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

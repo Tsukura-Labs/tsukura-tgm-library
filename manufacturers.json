@@ -1,0 +1,73 @@
+{
+  "schema": "tgm.manufacturers/1",
+  "manufacturers": [
+    {
+      "name": "Access",
+      "aliases": []
+    },
+    {
+      "name": "Alesis",
+      "aliases": []
+    },
+    {
+      "name": "Boss",
+      "aliases": []
+    },
+    {
+      "name": "Clavia",
+      "aliases": []
+    },
+    {
+      "name": "DigiTech",
+      "aliases": []
+    },
+    {
+      "name": "E-mu",
+      "aliases": []
+    },
+    {
+      "name": "Ensoniq",
+      "aliases": []
+    },
+    {
+      "name": "Fender",
+      "aliases": []
+    },
+    {
+      "name": "Kawai",
+      "aliases": []
+    },
+    {
+      "name": "Korg",
+      "aliases": []
+    },
+    {
+      "name": "Kurzweil",
+      "aliases": []
+    },
+    {
+      "name": "Lexicon",
+      "aliases": []
+    },
+    {
+      "name": "Novation",
+      "aliases": []
+    },
+    {
+      "name": "Roland",
+      "aliases": []
+    },
+    {
+      "name": "Studio Electronics",
+      "aliases": []
+    },
+    {
+      "name": "Waldorf",
+      "aliases": []
+    },
+    {
+      "name": "Yamaha",
+      "aliases": []
+    }
+  ]
+}
