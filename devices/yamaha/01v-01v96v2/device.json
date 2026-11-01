@@ -9,6 +9,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die kompakten Digitalmischpulte Yamaha 01V und 01V96 (Version 2). Beide bieten digitale Kanalbearbeitung mit Equalizer und Dynamik, integrierte Effekte sowie Szenenspeicher, über die komplette Mischungen gespeichert und abgerufen werden. Szenen und Parameter lassen sich per MIDI steuern.",
+          "features": [
+            "Kompaktes Digitalmischpult",
+            "Kanal-Equalizer und Dynamikbearbeitung",
+            "Integrierte Effektprozessoren",
+            "Szenenspeicher",
+            "MIDI-Steuerung von Szenen und Parametern"
+          ]
+        },
+        "en": {
+          "description": "This entry covers the Yamaha 01V and 01V96 (version 2) compact digital mixers. Both offer digital channel processing with EQ and dynamics, built-in effects and scene memories for storing and recalling complete mixes. Scenes and parameters can be controlled via MIDI.",
+          "features": [
+            "Compact digital mixer",
+            "Channel EQ and dynamics processing",
+            "Built-in effects processors",
+            "Scene memories",
+            "MIDI control of scenes and parameters"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "01v_01V96V2",
     "nameRuleJson": "",

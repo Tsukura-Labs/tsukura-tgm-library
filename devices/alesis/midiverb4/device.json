@@ -22,6 +22,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Alesis MIDIVerb 4 ist ein digitales Multieffektgerät im 19-Zoll-Rackformat aus den frühen 1990er-Jahren. Es liefert Hall-, Delay-, Chorus- und kombinierte Effektprogramme für Studio und Bühne. Programme lassen sich per MIDI-Programmwechsel umschalten und Parameter per MIDI steuern.",
+          "features": [
+            "Digitale Hall- und Delay-Effekte",
+            "Modulationseffekte wie Chorus und Flanger",
+            "Kombinierte Multieffekt-Programme",
+            "Werks- und Benutzerspeicher",
+            "MIDI-Programmwechsel und Parametersteuerung",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Alesis MIDIVerb 4 is a 19-inch rack digital multi-effects processor from the early 1990s. It provides reverb, delay, chorus and combined multi-effect programs for studio and stage use. Programs can be switched via MIDI program change and parameters controlled via MIDI.",
+          "features": [
+            "Digital reverb and delay effects",
+            "Modulation effects such as chorus and flanger",
+            "Combined multi-effect programs",
+            "Factory and user memories",
+            "MIDI program change and parameter control",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MIDIVerb4",
     "nameRuleJson": "",

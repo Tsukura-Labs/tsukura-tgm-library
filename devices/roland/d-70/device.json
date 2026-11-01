@@ -16,6 +16,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland D-70 ist ein Synthesizer aus dem Jahr 1990 mit 76 Tasten. Er nutzt eine erweiterte Form der LA-Synthese mit einem größeren PCM-Vorrat und Filtern zur Klangformung. Als Masterkeyboard eignet er sich durch seine Tastatur und die Steuerung externer Geräte über MIDI.",
+          "features": [
+            "Erweiterte LA-Synthese mit PCM-Samples",
+            "Filter zur Klangformung",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Steckplätze für Klang- und Speicherkarten",
+            "Tastatur mit 76 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Roland D-70 is a 76-key synthesizer from 1990. It uses an extended form of LA synthesis with a larger PCM sample set and filters for sound shaping. Its keyboard and MIDI control of external devices also make it suitable as a master keyboard.",
+          "features": [
+            "Extended LA synthesis with PCM samples",
+            "Filters for sound shaping",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Slots for sound and memory cards",
+            "76-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "D-70",
     "nameRuleJson": "",

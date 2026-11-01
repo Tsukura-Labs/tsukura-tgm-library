@@ -340,6 +340,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Clavinova-Modelle CVP-103 und CVP-105 von Yamaha. Clavinovas der CVP-Reihe sind Digitalpianos im Möbelgehäuse mit gewichteter Tastatur, die zusätzlich viele Instrumentenklänge und eine automatische Begleitung bieten. Sie richten sich an Heimmusiker und Unterhaltungsmusik.",
+          "features": [
+            "Digitalpiano mit gewichteter Tastatur",
+            "Automatische Begleitung (Styles)",
+            "Großer Klangvorrat neben Pianoklängen",
+            "Eingebaute Lautsprecher",
+            "Integrierte Effekte"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's Clavinova models CVP-103 and CVP-105. Clavinovas of the CVP line are cabinet-style digital pianos with a weighted keyboard that additionally offer many instrument sounds and automatic accompaniment. They are aimed at home musicians and entertainment music.",
+          "features": [
+            "Digital piano with weighted keyboard",
+            "Automatic accompaniment (styles)",
+            "Large sound set beyond piano sounds",
+            "Built-in speakers",
+            "Built-in effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CVP-103-105",
     "nameRuleJson": "",

@@ -22,6 +22,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland JD-990 ist ein Synthesizer-Modul im 19-Zoll-Rackformat aus dem Jahr 1993 und baut auf der Klangerzeugung des JD-800 auf. Er erweitert sie um zusätzliche Wellenformen, mehr Modulationsmöglichkeiten und einen Steckplatz für Erweiterungsboards der JV-Serie. Programmiert wird er über ein großes Display am Gerät.",
+          "features": [
+            "PCM-basierte Klangerzeugung (JD-800-Architektur)",
+            "Erweiterte Modulationsmöglichkeiten",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Steckplatz für SR-JV80-Erweiterungsboards",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Roland JD-990 is a 19-inch rack synthesizer module from 1993 built on the JD-800's sound engine. It extends it with additional waveforms, more modulation options and a slot for JV-series expansion boards. It is programmed via a large display on the unit.",
+          "features": [
+            "PCM-based synthesis (JD-800 architecture)",
+            "Extended modulation options",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Slot for SR-JV80 expansion boards",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "JD-990",
     "nameRuleJson": "",

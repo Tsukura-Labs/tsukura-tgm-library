@@ -16,6 +16,50 @@
     "channelModesJson": "{\"10\":\"DTX502 PRESET DRUM KIT\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha DTX502 ist ein Drum-Modul für E-Drum-Sets der DTX500-Serie. Es bietet Schlagzeug- und Percussion-Klänge in Drum-Kits, Übungsfunktionen und die Möglichkeit, eigene Samples zu laden. Über USB lässt es sich mit einem Computer verbinden.",
+          "features": [
+            "Drum-Kits mit Schlagzeug- und Percussion-Klängen",
+            "Trigger-Eingänge für Pads und Becken",
+            "Übungsfunktionen und Metronom",
+            "USB-Verbindung zum Computer",
+            "Laden eigener Samples"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha DTX502 is a drum module for the DTX500 series of electronic drum kits. It offers drum and percussion sounds in drum kits, practice functions and the ability to load user samples. It can be connected to a computer via USB.",
+          "features": [
+            "Drum kits with drum and percussion sounds",
+            "Trigger inputs for pads and cymbals",
+            "Practice functions and metronome",
+            "USB connection to a computer",
+            "Loading of user samples"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DTX502",
     "nameRuleJson": "",

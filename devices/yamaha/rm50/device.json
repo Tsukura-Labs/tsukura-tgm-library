@@ -100,6 +100,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha RM50 ist ein Rhythmus-Soundmodul aus dem Jahr 1992. Es enthält einen großen Vorrat an Schlagzeug- und Percussion-Samples, die zu Drum-Kits zusammengestellt und umfassend bearbeitet werden können. Über Kartensteckplätze lässt sich der Klangvorrat erweitern.",
+          "features": [
+            "Gesampelte Schlagzeug- und Percussion-Klänge",
+            "Frei zusammenstellbare Drum-Kits",
+            "Umfangreiche Klangbearbeitung",
+            "Erweiterbar über Klangkarten",
+            "Steuerung per MIDI"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha RM50 is a rhythm sound module from 1992. It contains a large range of drum and percussion samples that can be combined into drum kits and extensively edited. Card slots allow the sound set to be expanded.",
+          "features": [
+            "Sampled drum and percussion sounds",
+            "User-configurable drum kits",
+            "Extensive sound editing",
+            "Expandable via sound cards",
+            "MIDI control"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "RM50",
     "nameRuleJson": "",

@@ -9,6 +9,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland JX-8P ist ein analoger polyphoner Synthesizer aus dem Jahr 1985 mit 61 Tasten. Er ist 6-stimmig, nutzt digital gesteuerte Oszillatoren (DCO) und besitzt eine anschlagdynamische Tastatur mit Aftertouch. Zur komfortablen Programmierung gab es das Bedienteil PG-800.",
+          "features": [
+            "Analoge Klangerzeugung",
+            "6-stimmig polyphon",
+            "Zwei DCOs pro Stimme",
+            "Anschlagdynamik und Aftertouch",
+            "Programmierbar über das Bedienteil PG-800",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Roland JX-8P is a 61-key analog polyphonic synthesizer from 1985. It offers six voices, uses digitally controlled oscillators (DCOs) and has a velocity- and aftertouch-sensitive keyboard. The PG-800 programmer was available for convenient sound editing.",
+          "features": [
+            "Analog synthesis",
+            "6-voice polyphony",
+            "Two DCOs per voice",
+            "Velocity and aftertouch",
+            "Programmable via the PG-800 programmer",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "JX-8P",
     "nameRuleJson": "",

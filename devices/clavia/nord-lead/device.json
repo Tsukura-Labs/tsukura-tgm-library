@@ -34,6 +34,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Clavia Nord Lead erschien 1995 und gilt als einer der ersten virtuell-analogen Synthesizer. Er bildet die Klangerzeugung analoger Synthesizer per DSP nach und ist für die direkte Bedienung mit vielen Reglern ausgelegt. Es gab ihn als Keyboard und als Rack-Version; die Stimmenzahl war erweiterbar.",
+          "features": [
+            "Virtuell-analoge Klangerzeugung (DSP)",
+            "Zwei Oszillatoren pro Stimme",
+            "Multimode-Filter",
+            "Multitimbraler Betrieb",
+            "Bedienoberfläche mit direktem Reglerzugriff",
+            "Keyboard- und Rack-Version"
+          ]
+        },
+        "en": {
+          "description": "The Clavia Nord Lead was released in 1995 and is regarded as one of the first virtual analog synthesizers. It recreates analog synthesizer sound generation using DSPs and is designed for hands-on control with many knobs. It was available as a keyboard and a rack version, and its polyphony was expandable.",
+          "features": [
+            "Virtual analog synthesis (DSP)",
+            "Two oscillators per voice",
+            "Multimode filter",
+            "Multitimbral operation",
+            "Hands-on panel with direct knob access",
+            "Keyboard and rack versions"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Nord Lead",
     "nameRuleJson": "",

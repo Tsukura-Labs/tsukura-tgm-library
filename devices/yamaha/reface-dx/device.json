@@ -16,6 +16,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha reface DX ist ein kompakter FM-Synthesizer aus dem Jahr 2015 mit 37 Minitasten. Er arbeitet mit FM-Synthese mit vier Operatoren und ist 8-stimmig polyphon. Eingebaute Lautsprecher und Batteriebetrieb machen ihn mobil; ein Phrase Looper erlaubt das Aufnehmen von Spielphrasen.",
+          "features": [
+            "FM-Synthese mit 4 Operatoren",
+            "8-stimmig polyphon",
+            "37 Minitasten",
+            "Berührungsempfindliche Bedienflächen zur Klangbearbeitung",
+            "Phrase Looper",
+            "Eingebaute Lautsprecher und Batteriebetrieb"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha reface DX is a compact FM synthesizer from 2015 with 37 mini keys. It uses 4-operator FM synthesis and offers 8-voice polyphony. Built-in speakers and battery operation make it portable, and a phrase looper lets you record played phrases.",
+          "features": [
+            "4-operator FM synthesis",
+            "8-voice polyphony",
+            "37 mini keys",
+            "Touch-sensitive control strips for sound editing",
+            "Phrase looper",
+            "Built-in speakers and battery operation"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "reface DX",
     "nameRuleJson": "",

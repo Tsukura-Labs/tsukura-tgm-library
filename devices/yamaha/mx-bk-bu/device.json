@@ -88,6 +88,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (Audio und MIDI)",
+            "en": "USB TO HOST (audio and MIDI)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die farbigen Sondermodelle der Yamaha-MX-Synthesizer (Ausführungen BK und BU). Wie die übrigen MX-Modelle bieten sie einen Klangvorrat aus der MOTIF-Serie in einem leichten Gehäuse und ein integriertes USB-Audio-/MIDI-Interface. Sie eignen sich als mobiles Instrument und zur Steuerung von Musiksoftware.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-Klänge)",
+            "Multitimbraler Betrieb",
+            "Arpeggiator",
+            "USB-Audio- und MIDI-Interface",
+            "Steuerung von Computer-Software",
+            "Leichtes, kompaktes Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "This entry covers the colored special editions of Yamaha's MX synthesizers (BK and BU finishes). Like the other MX models, they offer a sound set from the MOTIF series in a lightweight enclosure and a built-in USB audio/MIDI interface. They are suitable as a portable instrument and for controlling music software.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF sounds)",
+            "Multitimbral operation",
+            "Arpeggiator",
+            "USB audio and MIDI interface",
+            "Control of computer software",
+            "Lightweight, compact enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MX BK/BU",
     "nameRuleJson": "",

@@ -22,6 +22,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Eingang für Blaswandler",
+            "en": "breath controller input"
+          },
+          "type": "other"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha VL70-m ist ein kompaktes Soundmodul aus dem Jahr 1996 mit Virtual-Acoustic-Klangerzeugung. Statt Samples abzuspielen, berechnet es Blas- und Streichinstrumente durch physikalische Modellierung und reagiert dadurch sehr ausdrucksstark auf Spielhilfen. Es ist monophon und besonders für das Spiel mit Blaswandler oder Blas-Controller ausgelegt.",
+          "features": [
+            "Physikalische Modellierung (Virtual Acoustic)",
+            "Monophon",
+            "Blas- und Streichinstrumentenklänge",
+            "Anschluss für Blaswandler",
+            "Kompaktes Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha VL70-m is a compact sound module from 1996 with Virtual Acoustic synthesis. Instead of playing back samples, it computes wind and bowed instruments through physical modeling, which makes it very expressive in response to performance controls. It is monophonic and especially designed for use with a breath controller or wind controller.",
+          "features": [
+            "Physical modeling (Virtual Acoustic)",
+            "Monophonic",
+            "Wind and bowed instrument sounds",
+            "Breath controller input",
+            "Compact enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "VL70-m",
     "nameRuleJson": "",

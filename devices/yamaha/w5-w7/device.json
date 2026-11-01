@@ -64,6 +64,58 @@
     "channelModesJson": "{\"10\":\"Drums\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Yamaha-Workstations W5 (76 Tasten) und W7 (61 Tasten) aus der Mitte der 1990er-Jahre. Sie bieten Sample-basierte AWM2-Klangerzeugung, einen integrierten Sequenzer und digitale Effekte. Damit waren sie als vollständige Produktionsinstrumente ausgelegt.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Digitale Effekte",
+            "Tastatur mit 76 (W5) bzw. 61 Tasten (W7)"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's W5 (76 keys) and W7 (61 keys) workstations from the mid-1990s. They offer sample-based AWM2 synthesis, a built-in sequencer and digital effects. This made them complete production instruments.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Digital effects",
+            "76-key (W5) or 61-key (W7) keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "W5/W7",
     "nameRuleJson": "",

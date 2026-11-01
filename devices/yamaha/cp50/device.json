@@ -28,6 +28,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha CP50 ist ein Stage Piano aus dem Jahr 2009 mit gewichteter Tastatur und 88 Tasten. Es bietet Sample-basierte Piano-, E-Piano- und weitere Instrumentenklänge und ist als einfacher ausgestattete Variante neben dem CP5 positioniert. Performances fassen Klänge, Splits und Layer für den Bühneneinsatz zusammen.",
+          "features": [
+            "Sample-basierte Piano- und E-Piano-Klänge",
+            "Gewichtete Tastatur mit 88 Tasten",
+            "Split- und Layer-Performances",
+            "Weitere Instrumentenklänge",
+            "Integrierte Effekte",
+            "USB-MIDI-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha CP50 is a stage piano from 2009 with a weighted 88-key keyboard. It offers sample-based piano, electric piano and other instrument sounds and is positioned as a more simply equipped variant alongside the CP5. Performances combine sounds, splits and layers for stage use.",
+          "features": [
+            "Sample-based piano and electric piano sounds",
+            "Weighted 88-key keyboard",
+            "Split and layer performances",
+            "Additional instrument sounds",
+            "Built-in effects",
+            "USB MIDI connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CP50",
     "nameRuleJson": "",

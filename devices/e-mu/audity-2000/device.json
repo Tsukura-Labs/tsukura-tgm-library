@@ -64,6 +64,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das E-mu Audity 2000 ist ein Soundmodul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1998 und gehört zur Proteus-2000-Familie. Sein Klangvorrat ist auf Synthesizer- und Elektronikklänge ausgerichtet. Kennzeichnend sind die Z-Plane-Filter von E-mu, ein Arpeggiator und Echtzeitregler am Gerät.",
+          "features": [
+            "Sample-basierte Klangerzeugung mit Synthesizer-Klängen",
+            "Z-Plane-Filter",
+            "Arpeggiator",
+            "Echtzeitregler am Gerät",
+            "Multitimbraler Betrieb",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The E-mu Audity 2000 is a 1U 19-inch rack sound module from 1998 and part of the Proteus 2000 family. Its sound set focuses on synthesizer and electronic sounds. Key features are E-mu's Z-Plane filters, an arpeggiator and real-time knobs on the front panel.",
+          "features": [
+            "Sample-based synthesis with synthesizer sounds",
+            "Z-Plane filters",
+            "Arpeggiator",
+            "Real-time knobs on the unit",
+            "Multitimbral operation",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Audity 2000",
     "nameRuleJson": "",

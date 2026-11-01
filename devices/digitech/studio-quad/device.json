@@ -16,6 +16,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das DigiTech Studio Quad ist ein digitales Multieffektgerät im 19-Zoll-Rackformat, das mehrere voneinander unabhängige Effektkanäle in einem Gerät bereitstellt. Damit lassen sich verschiedene Signale gleichzeitig mit eigenen Effekten wie Hall, Delay oder Chorus bearbeiten. Programme werden gespeichert und per MIDI umgeschaltet.",
+          "features": [
+            "Mehrere unabhängige Effektkanäle",
+            "Hall-, Delay- und Modulationseffekte",
+            "Programmspeicher",
+            "MIDI-Programmwechsel",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The DigiTech Studio Quad is a 19-inch rack digital multi-effects processor that provides several independent effect channels in one unit. This allows different signals to be processed simultaneously with their own effects such as reverb, delay or chorus. Programs are stored and switched via MIDI.",
+          "features": [
+            "Several independent effect channels",
+            "Reverb, delay and modulation effects",
+            "Program memory",
+            "MIDI program change",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Studio Quad",
     "nameRuleJson": "",

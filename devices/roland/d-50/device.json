@@ -16,6 +16,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Steckplatz für Speicherkarten",
+            "en": "memory card slot"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland D-50 ist ein digitaler Synthesizer aus dem Jahr 1987 mit 61 Tasten und Rolands erstes Instrument mit LA-Synthese. Er kombiniert kurze PCM-Anschlagsamples mit synthetischen Wellenformen und integrierten Chorus- und Halleffekten. Klänge wie Fantasia und Digital Native Dance prägten die Musik der späten 1980er-Jahre.",
+          "features": [
+            "LA-Synthese (Linear Arithmetic)",
+            "16-stimmig polyphon",
+            "Integrierte Chorus- und Halleffekte",
+            "Joystick zur Klangsteuerung",
+            "Steckplatz für Speicherkarten",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Roland D-50 is a 61-key digital synthesizer from 1987 and Roland's first instrument with LA synthesis. It combines short PCM attack samples with synthesized waveforms and built-in chorus and reverb effects. Sounds such as Fantasia and Digital Native Dance defined the music of the late 1980s.",
+          "features": [
+            "LA synthesis (Linear Arithmetic)",
+            "16-voice polyphony",
+            "Built-in chorus and reverb effects",
+            "Joystick for sound control",
+            "Memory card slot",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "D-50",
     "nameRuleJson": "",

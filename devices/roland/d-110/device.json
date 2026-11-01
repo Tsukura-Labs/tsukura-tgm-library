@@ -16,6 +16,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Steckplatz für Speicherkarten",
+            "en": "memory card slot"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland D-110 ist ein multitimbrales Soundmodul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1988. Es arbeitet mit LA-Synthese, die kurze PCM-Samples mit synthetischen Wellenformen kombiniert, und ist eng mit dem MT-32 und dem D-10/D-20 verwandt. Mehrere Einzelausgänge erlauben die getrennte Bearbeitung von Klängen am Mischpult.",
+          "features": [
+            "LA-Synthese (Linear Arithmetic)",
+            "Multitimbral mit Rhythmus-Part",
+            "Integrierter Hall",
+            "Mehrere Einzelausgänge",
+            "Steckplatz für Speicherkarten",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The Roland D-110 is a 1U 19-inch rack multitimbral sound module from 1988. It uses LA synthesis, which combines short PCM samples with synthesized waveforms, and is closely related to the MT-32 and the D-10/D-20. Several individual outputs allow separate processing of sounds on a mixing console.",
+          "features": [
+            "LA synthesis (Linear Arithmetic)",
+            "Multitimbral with rhythm part",
+            "Built-in reverb",
+            "Several individual outputs",
+            "Memory card slot",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "D-110",
     "nameRuleJson": "",

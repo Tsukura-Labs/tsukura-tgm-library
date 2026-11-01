@@ -34,6 +34,62 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Roland MC-505 ist eine Groovebox aus dem Jahr 1998, die Klangerzeugung und Pattern-Sequenzer in einem Gerät vereint. Sie richtet sich an Dance- und Elektronikproduktionen und bietet Synthesizer-, Bass- und Drumklänge, die in Echtzeit über Regler bearbeitet werden. Ein D-Beam-Controller erlaubt zusätzliche Klangsteuerung per Handbewegung.",
+          "features": [
+            "Pattern-basierter Sequenzer",
+            "Sample-basierte Synthesizer- und Drumklänge",
+            "64-stimmig polyphon",
+            "Echtzeitregler für Filter und Hüllkurven",
+            "D-Beam-Controller",
+            "Arpeggiator",
+            "Integrierte Effekte"
+          ]
+        },
+        "en": {
+          "description": "The Roland MC-505 is a groovebox from 1998 that combines a sound engine and pattern sequencer in one unit. It is aimed at dance and electronic production and offers synth, bass and drum sounds that can be edited in real time via knobs. A D-Beam controller adds sound control by hand movement.",
+          "features": [
+            "Pattern-based sequencer",
+            "Sample-based synth and drum sounds",
+            "64-voice polyphony",
+            "Real-time knobs for filter and envelopes",
+            "D-Beam controller",
+            "Arpeggiator",
+            "Built-in effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Groovebox_MC505",
     "nameRuleJson": "",

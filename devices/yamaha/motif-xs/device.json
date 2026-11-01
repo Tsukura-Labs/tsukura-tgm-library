@@ -76,6 +76,94 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Ethernet",
+            "en": "Ethernet"
+          },
+          "type": "network"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Workstations der Yamaha MOTIF-XS-Serie (XS6, XS7, XS8) aus dem Jahr 2007. Sie bieten Sample-basierte AWM2-Klangerzeugung mit 128 Stimmen, Sampling, Arpeggiatoren, einen integrierten Sequenzer und ein Farbdisplay. Ein Netzwerkanschluss erlaubt den Datenaustausch mit Computern.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "128-stimmig polyphon",
+            "Sampling-Funktion",
+            "Arpeggiatoren",
+            "Integrierter Sequenzer",
+            "Farbdisplay",
+            "USB- und Netzwerkanschluss"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's MOTIF XS series workstations (XS6, XS7, XS8) from 2007. They offer sample-based AWM2 synthesis with 128 voices, sampling, arpeggiators, a built-in sequencer and a color display. A network connector allows data exchange with computers.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "128-voice polyphony",
+            "Sampling function",
+            "Arpeggiators",
+            "Built-in sequencer",
+            "Color display",
+            "USB and network connectors"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MOTIF XS",
     "nameRuleJson": "",

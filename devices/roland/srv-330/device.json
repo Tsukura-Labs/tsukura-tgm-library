@@ -9,6 +9,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Roland SRV-330 Dimensional Space Reverb ist ein digitales Hallgerät im 19-Zoll-Rackformat aus den 1990er-Jahren. Es bietet hochwertige Hall- und Raumalgorithmen sowie räumliche Effekte. Programme und Parameter lassen sich per MIDI steuern.",
+          "features": [
+            "Digitale Hall- und Raumalgorithmen",
+            "Räumliche Effekte",
+            "Programmspeicher",
+            "MIDI-Steuerung",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Roland SRV-330 Dimensional Space Reverb is a 19-inch rack digital reverb unit from the 1990s. It offers high-quality reverb and room algorithms as well as spatial effects. Programs and parameters can be controlled via MIDI.",
+          "features": [
+            "Digital reverb and room algorithms",
+            "Spatial effects",
+            "Program memory",
+            "MIDI control",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SRV-330",
     "nameRuleJson": "",

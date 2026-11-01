@@ -52,6 +52,78 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Diskettenlaufwerk",
+            "en": "floppy disk drive"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha SY77 ist eine Synthesizer-Workstation mit 61 Tasten aus dem Jahr 1989. Seine RCM-Klangerzeugung verbindet erweiterte FM-Synthese (AFM) mit Sample-basierter AWM-Klangerzeugung, die auch kombiniert werden können. Ein Sequenzer, digitale Effekte und ein Diskettenlaufwerk ergänzen die Ausstattung; die Rack-Version ist das TG77.",
+          "features": [
+            "RCM-Klangerzeugung: AFM (erweiterte FM) und AWM (Samples)",
+            "Kombination von FM und Samples in einem Klang",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Digitale Effekte",
+            "Diskettenlaufwerk",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha SY77 is a 61-key synthesizer workstation from 1989. Its RCM sound engine combines advanced FM synthesis (AFM) with sample-based AWM synthesis, which can also be layered. A sequencer, digital effects and a floppy drive complete the feature set; the rack version is the TG77.",
+          "features": [
+            "RCM synthesis: AFM (advanced FM) and AWM (samples)",
+            "Combination of FM and samples in one sound",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Digital effects",
+            "Floppy disk drive",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SY77",
     "nameRuleJson": "",

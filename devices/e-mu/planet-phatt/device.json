@@ -40,6 +40,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das E-mu Planet Phatt ist ein Soundmodul im 19-Zoll-Rackformat aus den späten 1990er-Jahren mit einem Klangvorrat für Hip-Hop, R&B und verwandte Stile. Es enthält Drum-, Bass-, Keyboard- und Synthesizerklänge sowie Filter zur Klangformung. Wie das Orbit gehört es zur selben Modulgeneration von E-mu.",
+          "features": [
+            "Klangvorrat für Hip-Hop und R&B",
+            "Drum-, Bass- und Keyboardklänge",
+            "Resonanzfähige Filter",
+            "Groove-/Beats-Funktion",
+            "Multitimbraler Betrieb",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The E-mu Planet Phatt is a 19-inch rack sound module from the late 1990s with a sound set aimed at hip-hop, R&B and related styles. It contains drum, bass, keyboard and synth sounds plus filters for sound shaping. Like the Orbit, it belongs to the same generation of E-mu modules.",
+          "features": [
+            "Sound set for hip-hop and R&B",
+            "Drum, bass and keyboard sounds",
+            "Resonant filters",
+            "Groove/beats function",
+            "Multitimbral operation",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Planet Phatt",
     "nameRuleJson": "",

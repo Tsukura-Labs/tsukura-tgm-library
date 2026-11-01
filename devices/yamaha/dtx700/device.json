@@ -16,6 +16,68 @@
     "channelModesJson": "{\"10\":\"DTX700 KIT MODE\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha DTX700 ist ein Drum-Modul für E-Drum-Sets aus dem Jahr 2011. Es bietet einen großen Vorrat an Schlagzeug- und Percussion-Klängen in Drum-Kits, Trigger-Eingänge für Pads und Becken sowie Übungsfunktionen. Eigene Samples lassen sich laden, und über USB und MIDI ist es mit Computer und anderen Geräten verbindbar.",
+          "features": [
+            "Drum-Kits mit Schlagzeug- und Percussion-Klängen",
+            "Trigger-Eingänge für Pads und Becken",
+            "Übungsfunktionen und Metronom",
+            "USB-Verbindung zum Computer",
+            "Laden eigener Samples",
+            "Integrierte Effekte"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha DTX700 is a drum module for electronic drum kits from 2011. It offers a large range of drum and percussion sounds in drum kits, trigger inputs for pads and cymbals, and practice functions. User samples can be loaded, and it connects to computers and other devices via USB and MIDI.",
+          "features": [
+            "Drum kits with drum and percussion sounds",
+            "Trigger inputs for pads and cymbals",
+            "Practice functions and metronome",
+            "USB connection to a computer",
+            "Loading of user samples",
+            "Built-in effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DTX700",
     "nameRuleJson": "",

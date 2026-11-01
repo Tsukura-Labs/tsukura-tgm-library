@@ -9,6 +9,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha SY55 ist ein Synthesizer mit 61 Tasten aus dem Jahr 1989. Er nutzt Sample-basierte AWM-Klangerzeugung und ist 16-stimmig polyphon und multitimbral spielbar. Ein integrierter Sequenzer und digitale Effekte machen ihn zur kompakten Workstation; die Rack-Version ist das TG55.",
+          "features": [
+            "Sample-basierte AWM-Klangerzeugung",
+            "16-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Digitale Effekte",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha SY55 is a 61-key synthesizer from 1989. It uses sample-based AWM synthesis with 16-voice polyphony and multitimbral operation. A built-in sequencer and digital effects make it a compact workstation; the rack version is the TG55.",
+          "features": [
+            "Sample-based AWM synthesis",
+            "16-voice polyphony",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Digital effects",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SY55",
     "nameRuleJson": "",

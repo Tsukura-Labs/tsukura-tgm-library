@@ -88,6 +88,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (Audio und MIDI)",
+            "en": "USB TO HOST (audio and MIDI)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Yamaha-Synthesizer der MX-Serie aus den 2010er-Jahren. Sie bieten einen Klangvorrat aus der MOTIF-Serie in einem leichten, kompakten Gehäuse und ein integriertes USB-Audio-/MIDI-Interface. Damit eignen sie sich als mobiles Instrument und zur Steuerung von Musiksoftware.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-Klänge)",
+            "Multitimbraler Betrieb",
+            "Arpeggiator",
+            "USB-Audio- und MIDI-Interface",
+            "Steuerung von Computer-Software",
+            "Leichtes, kompaktes Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's MX series synthesizers from the 2010s. They offer a sound set from the MOTIF series in a lightweight, compact enclosure and a built-in USB audio/MIDI interface. This makes them suitable as a portable instrument and for controlling music software.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF sounds)",
+            "Multitimbral operation",
+            "Arpeggiator",
+            "USB audio and MIDI interface",
+            "Control of computer software",
+            "Lightweight, compact enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MX",
     "nameRuleJson": "",

@@ -16,6 +16,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das E-mu Procussion ist ein Percussion-Soundmodul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1991. Es enthält gesampelte Schlagzeug- und Percussion-Instrumente aus vielen Stilrichtungen, die zu Drum-Kits zusammengestellt werden. Es basiert auf der Technik der Proteus-Serie.",
+          "features": [
+            "Gesampelte Schlagzeug- und Percussion-Klänge",
+            "Frei zusammenstellbare Drum-Kits",
+            "Technik der Proteus-Serie",
+            "Multitimbraler Betrieb",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The E-mu Procussion is a 1U 19-inch rack percussion sound module from 1991. It contains sampled drum and percussion instruments from many styles that are combined into drum kits. It is based on the technology of the Proteus series.",
+          "features": [
+            "Sampled drum and percussion sounds",
+            "User-configurable drum kits",
+            "Proteus series technology",
+            "Multitimbral operation",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Procussion",
     "nameRuleJson": "",

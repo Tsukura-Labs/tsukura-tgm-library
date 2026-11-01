@@ -22,6 +22,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Diskettenlaufwerk",
+            "en": "floppy disk drive"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Korg T1 ist das Spitzenmodell der T-Serie aus dem Jahr 1989, einer erweiterten Weiterentwicklung der M1. Sie besitzt eine gewichtete Tastatur mit 88 Tasten, einen größeren Klangvorrat und ein eingebautes Diskettenlaufwerk. Klangerzeugung, Sequenzer und Effekte basieren auf dem AI-Konzept der M1.",
+          "features": [
+            "AI-Klangerzeugung (PCM-Samples)",
+            "Gewichtete Tastatur mit 88 Tasten",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Digitale Multieffekte",
+            "Eingebautes Diskettenlaufwerk"
+          ]
+        },
+        "en": {
+          "description": "The Korg T1 is the flagship of the T series from 1989, an expanded development of the M1. It has a weighted 88-key keyboard, a larger sound set and a built-in floppy drive. Its sound engine, sequencer and effects are based on the M1's AI concept.",
+          "features": [
+            "AI synthesis (PCM samples)",
+            "Weighted 88-key keyboard",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Digital multi-effects",
+            "Built-in floppy drive"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "T-1",
     "nameRuleJson": "",

@@ -9,6 +9,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Novation DrumStation ist ein Drum-Soundmodul im 19-Zoll-Rackformat aus den 1990er-Jahren. Sie bildet die Klänge der klassischen Roland-Drumcomputer TR-808 und TR-909 mit analoger Modellierung nach, statt Samples abzuspielen. Die Klangparameter lassen sich per Regler und MIDI verändern.",
+          "features": [
+            "Analog-Modellierung von TR-808- und TR-909-Klängen",
+            "Klangparameter in Echtzeit regelbar",
+            "Steuerung per MIDI",
+            "Drum-Kits als Programme speicherbar",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Novation DrumStation is a 19-inch rack drum sound module from the 1990s. It recreates the sounds of the classic Roland TR-808 and TR-909 drum machines using analog modeling rather than sample playback. Sound parameters can be changed via knobs and MIDI.",
+          "features": [
+            "Analog modeling of TR-808 and TR-909 sounds",
+            "Sound parameters adjustable in real time",
+            "MIDI control",
+            "Drum kits storable as programs",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DrumStation Rack",
     "nameRuleJson": "",

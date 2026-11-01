@@ -40,6 +40,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Alesis QuadraSynth Plus ist eine überarbeitete Version des QuadraSynth, des ersten Synthesizers von Alesis aus der Mitte der 1990er-Jahre. Er nutzt Sample-basierte Klangerzeugung mit 64 Stimmen und enthält einen Effektprozessor auf Basis des Alesis QuadraVerb. Die Klangbasis wurde später in der QS-Serie weiterentwickelt.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "64-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Integrierter Effektprozessor (QuadraVerb-basiert)",
+            "Steckplatz für Erweiterungskarten",
+            "Tastatur mit 76 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Alesis QuadraSynth Plus is a revised version of the QuadraSynth, Alesis's first synthesizer from the mid-1990s. It uses sample-based synthesis with 64 voices and includes an effects processor based on the Alesis QuadraVerb. Its sound engine was later developed further in the QS series.",
+          "features": [
+            "Sample-based synthesis",
+            "64-voice polyphony",
+            "Multitimbral operation",
+            "Built-in effects processor (QuadraVerb-based)",
+            "Expansion card slot",
+            "76-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "QuadraSynth Plus",
     "nameRuleJson": "",

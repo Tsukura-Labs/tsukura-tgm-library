@@ -40,6 +40,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha DTXTREME III ist ein Drum-Modul für E-Drum-Sets aus der Mitte der 2000er-Jahre und war damals das Spitzenmodell der DTX-Reihe. Es bietet einen großen Vorrat an Schlagzeug- und Percussion-Klängen, zahlreiche Trigger-Eingänge sowie eine Sampling-Funktion. Ein Sequenzer und Übungsfunktionen ergänzen die Ausstattung.",
+          "features": [
+            "Drum-Kits mit großem Klangvorrat",
+            "Zahlreiche Trigger-Eingänge",
+            "Sampling-Funktion",
+            "Pattern-Sequenzer",
+            "Übungsfunktionen und Metronom",
+            "Integrierte Effekte"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha DTXTREME III is a drum module for electronic drum kits from the mid-2000s and was then the flagship of the DTX line. It offers a large range of drum and percussion sounds, numerous trigger inputs and a sampling function. A sequencer and practice functions complete the feature set.",
+          "features": [
+            "Drum kits with a large sound set",
+            "Numerous trigger inputs",
+            "Sampling function",
+            "Pattern sequencer",
+            "Practice functions and metronome",
+            "Built-in effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DTXTREMEIII",
     "nameRuleJson": "",

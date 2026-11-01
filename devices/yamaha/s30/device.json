@@ -40,6 +40,64 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha S30 ist ein Synthesizer mit 61 Tasten aus der S-Serie um das Jahr 2000. Er bietet Sample-basierte AWM2-Klangerzeugung mit einem breiten Klangvorrat für Studio und Bühne. Er ist das Schwestermodell des S80 mit 88 Tasten.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha S30 is a 61-key synthesizer from the S series around 2000. It offers sample-based AWM2 synthesis with a broad sound set for studio and stage. It is the sister model of the 88-key S80.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "Multitimbral operation",
+            "Built-in effects",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "S30",
     "nameRuleJson": "",

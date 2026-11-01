@@ -892,6 +892,62 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha PSR-S700 ist ein Arranger-Keyboard mit 61 Tasten aus der PSR-S-Reihe der 2000er-Jahre. Es bietet automatische Begleitung mit Styles, einen großen Klangvorrat und Registrierungsspeicher für das Live-Spiel. Es richtet sich an ambitionierte Heimmusiker und Alleinunterhalter.",
+          "features": [
+            "Automatische Begleitung (Styles)",
+            "Akkorderkennung",
+            "Großer Klangvorrat",
+            "Registrierungsspeicher",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten",
+            "USB-Anschlüsse"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha PSR-S700 is a 61-key arranger keyboard from the PSR-S line of the 2000s. It offers automatic accompaniment with styles, a large sound set and registration memories for live playing. It is aimed at ambitious home musicians and solo entertainers.",
+          "features": [
+            "Automatic accompaniment (styles)",
+            "Chord recognition",
+            "Large sound set",
+            "Registration memory",
+            "Built-in effects",
+            "61-key keyboard",
+            "USB connectors"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "PSR-S700",
     "nameRuleJson": "",

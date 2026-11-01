@@ -22,6 +22,86 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 4,
+          "note": {
+            "de": "1/L-Mono, 2/R, 3, 4 (Klinke)",
+            "en": "1/L-mono, 2/R, 3, 4 (jack)"
+          },
+          "type": "audio-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Korg 01/W ist eine Synthesizer-Workstation aus dem Jahr 1991 und Nachfolgerin der M1. Ihre AI²-Klangerzeugung kombiniert PCM-Samples mit Waveshaping für obertonreichere Klänge. Ein integrierter Sequenzer und zwei Multieffektprozessoren machen sie zum vollständigen Produktionswerkzeug; Varianten gab es mit Diskettenlaufwerk und mit größerer Tastatur.",
+          "features": [
+            "AI²-Klangerzeugung (PCM-Samples)",
+            "Waveshaping zur Klangformung",
+            "32-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Zwei Multieffektprozessoren",
+            "Steckplätze für Klang- und Programmkarten"
+          ]
+        },
+        "en": {
+          "description": "The Korg 01/W is a synthesizer workstation from 1991 and the successor to the M1. Its AI² synthesis combines PCM samples with waveshaping for richer harmonics. A built-in sequencer and two multi-effects processors make it a complete production tool; variants were available with a floppy drive and with larger keyboards.",
+          "features": [
+            "AI² synthesis (PCM samples)",
+            "Waveshaping for sound shaping",
+            "32-voice polyphony",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Two multi-effects processors",
+            "Slots for sound and program cards"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "01 W",
     "nameRuleJson": "",

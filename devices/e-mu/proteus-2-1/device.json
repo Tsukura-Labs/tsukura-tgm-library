@@ -16,6 +16,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das E-mu Proteus/2 ist ein Soundmodul im 19-Zoll-Rackformat (1 HE) vom Anfang der 1990er-Jahre, dessen Klangvorrat auf Orchesterinstrumente spezialisiert ist. Es basiert auf der Proteus-Plattform mit 32 Stimmen und 16-fach multitimbralem Betrieb. Durch kompakte Bauform und Klangqualität war es in Studios und bei Filmmusik-Produktionen verbreitet.",
+          "features": [
+            "Orchester-Klangvorrat (Streicher, Bläser, Holz, Percussion)",
+            "32-stimmig polyphon",
+            "16-fach multitimbral",
+            "Sample-basierte Klangerzeugung",
+            "Mehrere Einzelausgänge",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The E-mu Proteus/2 is a 1U 19-inch rack sound module from the early 1990s whose sound set specializes in orchestral instruments. It is based on the Proteus platform with 32 voices and 16-part multitimbral operation. Its compact format and sound quality made it common in studios and film-score production.",
+          "features": [
+            "Orchestral sound set (strings, brass, woodwinds, percussion)",
+            "32-voice polyphony",
+            "16-part multitimbral",
+            "Sample-based synthesis",
+            "Several individual outputs",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Proteus 2 1",
     "nameRuleJson": "",

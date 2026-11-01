@@ -291,6 +291,9 @@ def build(args):
             "packageSha256": sha,
             "packageSize": os.path.getsize(zip_path),
         }
+        info = dev["device"].get("info")
+        if isinstance(info, dict) and info:   # device description (tgm.deviceinfo/1) travels in the index
+            entry["info"] = info
         entries.append(entry)
         if prev.get(dev["id"]) != sha:
             changed.append(zip_path)
@@ -347,6 +350,10 @@ def self_test():
         assert dev["packageUrl"].endswith("/releases/download/packages/example-maker-example-device-v1.zip")
         assert dev["presetCount"] == 3 and dev["hasPanel"] is True and dev["categories"] == ["Bass", "Pad"]
         assert validate(index, load_schema("index.schema.json")) == [], "index schema"
+        info = dev.get("info")
+        assert isinstance(info, dict) and info.get("schema") == "tgm.deviceinfo/1", "device info missing in index"
+        assert info["text"]["en"]["features"] and info["ports"][0]["type"] == "midi-in", "device info content"
+        assert "localEdit" not in info, "localEdit must never be published"
         assert len(open(os.path.join(ns.out, "changed.txt")).read().split()) == 1, "changed.txt"
         # determinism + previous-index handling
         ns.out = os.path.join(tmp, "b")

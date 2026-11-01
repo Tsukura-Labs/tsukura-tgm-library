@@ -34,6 +34,54 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Virus B ist die überarbeitete zweite Generation des Access Virus und erschien 1999; der Virus KB ist die Keyboard-Version mit derselben Klangerzeugung. Gegenüber dem Virus A bietet er mehr Stimmen, zusätzliche Modulationsmöglichkeiten und einen integrierten Vocoder. Die virtuell-analoge DSP-Klangerzeugung machte die Serie zu einem Standardinstrument der elektronischen Musik.",
+          "features": [
+            "Virtuell-analoge Klangerzeugung (DSP)",
+            "Desktop-Modul (B) und Keyboard (KB)",
+            "Zwei Filter mit flexiblem Routing",
+            "Integrierter Vocoder",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Audioeingänge zur Bearbeitung externer Signale"
+          ]
+        },
+        "en": {
+          "description": "The Virus B is the revised second generation of the Access Virus, released in 1999; the Virus KB is the keyboard version with the same sound engine. Compared with the Virus A it offers more voices, additional modulation options and a built-in vocoder. Its DSP-based virtual analog engine made the series a staple of electronic music.",
+          "features": [
+            "Virtual analog synthesis (DSP)",
+            "Desktop module (B) and keyboard (KB)",
+            "Two filters with flexible routing",
+            "Built-in vocoder",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Audio inputs for processing external signals"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Virus B/KB",
     "nameRuleJson": "",

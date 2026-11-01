@@ -274,6 +274,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 2,
+          "note": {
+            "de": "MIDI IN A und B, 5-polige DIN-Buchsen",
+            "en": "MIDI IN A and B, 5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland SC-88 Pro ist ein Sound-Canvas-Soundmodul aus dem Jahr 1996 im GS-Format. Er ist 64-stimmig polyphon und 32-fach multitimbral, wofür er zwei MIDI-Eingänge besitzt. Mit seinem großen Klangvorrat war er ein Standardgerät für die Produktion und Wiedergabe von MIDI-Dateien.",
+          "features": [
+            "GS/General-MIDI-kompatibel",
+            "64-stimmig polyphon",
+            "32-fach multitimbral",
+            "Zwei MIDI-Eingänge",
+            "Integrierte Effekte (Hall, Chorus, Insert-Effekte)",
+            "Großer Klangvorrat inkl. SC-55/SC-88-Klangsätzen"
+          ]
+        },
+        "en": {
+          "description": "The Roland SC-88 Pro is a Sound Canvas module from 1996 in GS format. It offers 64-voice polyphony and 32-part multitimbral operation, for which it has two MIDI inputs. With its large sound set it was a standard device for producing and playing back MIDI files.",
+          "features": [
+            "GS/General MIDI compatible",
+            "64-voice polyphony",
+            "32-part multitimbral",
+            "Two MIDI inputs",
+            "Built-in effects (reverb, chorus, insert effects)",
+            "Large sound set incl. SC-55/SC-88 sound maps"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SC-88 Pro",
     "nameRuleJson": "",

@@ -28,6 +28,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha CP5 ist ein Stage Piano aus dem Jahr 2009 mit gewichteter Hammermechanik und 88 Tasten. Es kombiniert die SCM-Klangerzeugung (Spectral Component Modeling) für Pianos mit Sample-basierten Klängen weiterer Instrumente. Performances mit Splits und Layern sowie umfangreiche Effekte sind für den Bühneneinsatz ausgelegt.",
+          "features": [
+            "SCM-Klangerzeugung für Pianos",
+            "Sample-basierte Klänge weiterer Instrumente",
+            "Gewichtete Hammermechanik mit 88 Tasten",
+            "Split- und Layer-Performances",
+            "Integrierte Effekte",
+            "USB-MIDI-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha CP5 is a stage piano from 2009 with a weighted 88-key hammer action. It combines the SCM (Spectral Component Modeling) engine for pianos with sample-based sounds of other instruments. Performances with splits and layers and extensive effects are designed for stage use.",
+          "features": [
+            "SCM sound engine for pianos",
+            "Sample-based sounds of other instruments",
+            "Weighted 88-key hammer action",
+            "Split and layer performances",
+            "Built-in effects",
+            "USB MIDI connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CP5",
     "nameRuleJson": "",

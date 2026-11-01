@@ -16,6 +16,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha CP40 Stage ist ein Stage Piano aus dem Jahr 2013 mit gewichteter Hammermechanik und 88 Tasten. Es bietet Sample-basierte Piano-, E-Piano- und weitere Instrumentenklänge sowie Effekte, die für das Live-Spiel direkt am Bedienfeld erreichbar sind. Gegenüber dem CP4 Stage ist es einfacher ausgestattet.",
+          "features": [
+            "Sample-basierte Piano- und E-Piano-Klänge",
+            "Gewichtete Hammermechanik mit 88 Tasten",
+            "Weitere Instrumentenklänge (Orgel, Streicher u. a.)",
+            "Live-orientierte Bedienoberfläche",
+            "Integrierte Effekte",
+            "USB-MIDI-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha CP40 Stage is a stage piano from 2013 with a weighted 88-key hammer action. It offers sample-based piano, electric piano and other instrument sounds plus effects that are directly accessible on the panel for live playing. It is more simply equipped than the CP4 Stage.",
+          "features": [
+            "Sample-based piano and electric piano sounds",
+            "Weighted 88-key hammer action",
+            "Additional instrument sounds (organ, strings and more)",
+            "Live-oriented control panel",
+            "Built-in effects",
+            "USB MIDI connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CP40",
     "nameRuleJson": "",

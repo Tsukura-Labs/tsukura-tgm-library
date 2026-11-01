@@ -28,6 +28,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Korg 05R/W ist ein kompaktes Soundmodul aus den frühen 1990er-Jahren. Es nutzt die AI²-Klangerzeugung von Korg und ist General-MIDI-kompatibel, was es für die Wiedergabe von MIDI-Dateien und als preisgünstige Klangquelle beliebt machte. Integrierte Effekte ergänzen die Klangerzeugung.",
+          "features": [
+            "AI²-Klangerzeugung",
+            "General-MIDI-kompatibel",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Kompaktes Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "The Korg 05R/W is a compact sound module from the early 1990s. It uses Korg's AI² synthesis and is General MIDI compatible, which made it popular for MIDI file playback and as an affordable sound source. Built-in effects complement the sound engine.",
+          "features": [
+            "AI² synthesis",
+            "General MIDI compatible",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Compact enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "05R W",
     "nameRuleJson": "",

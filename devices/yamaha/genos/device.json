@@ -1414,6 +1414,62 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha Genos ist eine Arranger-Workstation aus dem Jahr 2017 und Nachfolger der Tyros-Reihe. Es bietet einen sehr großen Klangvorrat, automatische Begleitung mit Styles, einen Touchscreen und umfangreiche Effekte. Die Tastatur hat 76 Tasten.",
+          "features": [
+            "Arranger-Workstation",
+            "Automatische Begleitung (Styles)",
+            "Sehr großer Klangvorrat",
+            "Touchscreen-Bedienung",
+            "Umfangreiche Effekte",
+            "Tastatur mit 76 Tasten",
+            "USB-Anschlüsse"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha Genos is an arranger workstation from 2017 and the successor to the Tyros line. It offers a very large sound set, automatic accompaniment with styles, a touchscreen and extensive effects. The keyboard has 76 keys.",
+          "features": [
+            "Arranger workstation",
+            "Automatic accompaniment (styles)",
+            "Very large sound set",
+            "Touchscreen operation",
+            "Extensive effects",
+            "76-key keyboard",
+            "USB connectors"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Genos",
     "nameRuleJson": "",

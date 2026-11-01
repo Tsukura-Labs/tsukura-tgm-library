@@ -22,6 +22,86 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Diskettenlaufwerk",
+            "en": "floppy disk drive"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Korg Trinity ist eine Workstation aus dem Jahr 1995 und war eines der ersten Instrumente mit Touchscreen-Bedienung. Ihre ACCESS-Klangerzeugung basiert auf PCM-Samples und wird durch umfangreiche Effekte und einen Sequenzer ergänzt. Optional ließ sie sich unter anderem mit einer MOSS-Synthesizer-Erweiterung ausbauen.",
+          "features": [
+            "ACCESS-Klangerzeugung (PCM-Samples)",
+            "Touchscreen-Bedienung",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Mehrere Effektprozessoren",
+            "Diskettenlaufwerk",
+            "Erweiterungsoptionen (u. a. MOSS)"
+          ]
+        },
+        "en": {
+          "description": "The Korg Trinity is a workstation from 1995 and one of the first instruments operated via a touchscreen. Its ACCESS synthesis is based on PCM samples and complemented by extensive effects and a sequencer. It could be expanded with options including a MOSS synthesizer board.",
+          "features": [
+            "ACCESS synthesis (PCM samples)",
+            "Touchscreen operation",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Multiple effects processors",
+            "Floppy disk drive",
+            "Expansion options (including MOSS)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Trinity",
     "nameRuleJson": "",

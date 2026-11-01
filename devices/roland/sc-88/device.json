@@ -238,6 +238,52 @@
     "channelModesJson": "{\"10\":\"Drum Sets\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 2,
+          "note": {
+            "de": "MIDI IN A und B, 5-polige DIN-Buchsen",
+            "en": "MIDI IN A and B, 5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland SC-88 ist ein Sound-Canvas-Soundmodul aus dem Jahr 1994 im GS-Format und Nachfolger des SC-55. Er ist 64-stimmig polyphon und 32-fach multitimbral, wofür er zwei MIDI-Eingänge besitzt. Er war ein verbreiteter Klangerzeuger für die Produktion und Wiedergabe von MIDI-Dateien.",
+          "features": [
+            "GS/General-MIDI-kompatibel",
+            "64-stimmig polyphon",
+            "32-fach multitimbral",
+            "Zwei MIDI-Eingänge",
+            "Integrierter Hall und Chorus",
+            "Klangsatz des SC-55 zusätzlich enthalten"
+          ]
+        },
+        "en": {
+          "description": "The Roland SC-88 is a Sound Canvas module from 1994 in GS format and the successor to the SC-55. It offers 64-voice polyphony and 32-part multitimbral operation, for which it has two MIDI inputs. It was a widely used sound source for producing and playing back MIDI files.",
+          "features": [
+            "GS/General MIDI compatible",
+            "64-voice polyphony",
+            "32-part multitimbral",
+            "Two MIDI inputs",
+            "Built-in reverb and chorus",
+            "Includes the SC-55 sound map"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SC-88",
     "nameRuleJson": "",

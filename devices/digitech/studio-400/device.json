@@ -16,6 +16,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das DigiTech Studio 400 ist ein digitales Studio-Multieffektgerät im 19-Zoll-Rackformat. Es bietet Hall-, Delay-, Modulations- und weitere Effekte, die in Programmen gespeichert werden. Programme und Parameter lassen sich per MIDI steuern.",
+          "features": [
+            "Digitaler Multieffektprozessor",
+            "Hall- und Delay-Effekte",
+            "Modulationseffekte",
+            "Programmspeicher",
+            "MIDI-Steuerung",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The DigiTech Studio 400 is a 19-inch rack digital studio multi-effects processor. It offers reverb, delay, modulation and other effects that are stored as programs. Programs and parameters can be controlled via MIDI.",
+          "features": [
+            "Digital multi-effects processor",
+            "Reverb and delay effects",
+            "Modulation effects",
+            "Program memory",
+            "MIDI control",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Studio 400",
     "nameRuleJson": "",

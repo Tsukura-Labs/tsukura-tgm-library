@@ -16,6 +16,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Boss GX-700 ist ein Gitarren-Multieffektgerät im 19-Zoll-Rackformat aus den 1990er-Jahren. Es kombiniert Verstärker- und Verzerrungssimulationen mit einer Kette klassischer Gitarreneffekte. Klangeinstellungen werden als Patches gespeichert und lassen sich per MIDI umschalten.",
+          "features": [
+            "Gitarren-Multieffektprozessor",
+            "Vorverstärker- und Verzerrungssimulationen",
+            "Modulations-, Delay- und Hall-Effekte",
+            "Patch-Speicher",
+            "MIDI-Programmwechsel",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Boss GX-700 is a 19-inch rack guitar multi-effects processor from the 1990s. It combines amp and distortion simulations with a chain of classic guitar effects. Sound settings are stored as patches and can be switched via MIDI.",
+          "features": [
+            "Guitar multi-effects processor",
+            "Preamp and distortion simulations",
+            "Modulation, delay and reverb effects",
+            "Patch memory",
+            "MIDI program change",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "GX-700",
     "nameRuleJson": "",

@@ -22,6 +22,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das E-mu UltraProteus ist ein Soundmodul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1992. Es kombiniert einen umfangreichen Sample-Vorrat mit den Z-Plane-Filtern, die E-mu kurz zuvor im Morpheus eingeführt hatte. Damit sind sowohl klassische Instrumentenklänge als auch sich wandelnde Synthesizerflächen möglich.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "Z-Plane-Filter (morphende Filter)",
+            "32-stimmig polyphon",
+            "16-fach multitimbral",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The E-mu UltraProteus is a 1U 19-inch rack sound module from 1992. It combines a large sample set with the Z-Plane filters that E-mu had introduced shortly before in the Morpheus. This allows both classic instrument sounds and evolving synthesizer textures.",
+          "features": [
+            "Sample-based synthesis",
+            "Z-Plane filters (morphing filters)",
+            "32-voice polyphony",
+            "16-part multitimbral",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "UltraProteus",
     "nameRuleJson": "",

@@ -16,6 +16,86 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 4,
+          "note": {
+            "de": "1/L-Mono, 2/R, 3, 4 (Klinke)",
+            "en": "1/L-mono, 2/R, 3, 4 (jack)"
+          },
+          "type": "audio-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Korg M1 aus dem Jahr 1988 ist eine Synthesizer-Workstation mit 61 Tasten und gehört zu den meistverkauften Synthesizern überhaupt. Ihre AI-Klangerzeugung basiert auf PCM-Samples, ergänzt durch digitale Multieffekte und einen integrierten Sequenzer. Viele ihrer Klänge, etwa Piano und Orgel, prägten die Popmusik um 1990.",
+          "features": [
+            "AI-Klangerzeugung (PCM-Samples)",
+            "16-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Digitale Multieffekte",
+            "Steckplätze für Klang- und Programmkarten",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Korg M1 from 1988 is a 61-key synthesizer workstation and one of the best-selling synthesizers of all time. Its AI synthesis is based on PCM samples, complemented by digital multi-effects and a built-in sequencer. Many of its sounds, such as its piano and organ, shaped pop music around 1990.",
+          "features": [
+            "AI synthesis (PCM samples)",
+            "16-voice polyphony",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Digital multi-effects",
+            "Slots for sound and program cards",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "M1",
     "nameRuleJson": "",

@@ -16,6 +16,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland U-220 ist ein multitimbrales Soundmodul im 19-Zoll-Rackformat aus dem Jahr 1989. Er arbeitet mit RS-PCM-Samples realer Instrumente und bietet mehrere Melodie-Parts sowie einen Rhythmus-Part. Über Kartensteckplätze lässt sich der Klangvorrat mit PCM-Karten erweitern.",
+          "features": [
+            "RS-PCM-Klangerzeugung (Samples)",
+            "Multitimbral mit Rhythmus-Part",
+            "Integrierte Hall- und Chorus-Effekte",
+            "Steckplätze für PCM-Klangkarten",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Roland U-220 is a 19-inch rack multitimbral sound module from 1989. It uses RS-PCM samples of real instruments and offers several melodic parts plus a rhythm part. Card slots allow the sound set to be expanded with PCM cards.",
+          "features": [
+            "RS-PCM synthesis (samples)",
+            "Multitimbral with rhythm part",
+            "Built-in reverb and chorus effects",
+            "Slots for PCM sound cards",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "U-220",
     "nameRuleJson": "",

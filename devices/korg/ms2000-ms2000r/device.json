@@ -9,6 +9,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Korg MS2000 ist ein virtuell-analoger Synthesizer aus dem Jahr 2000; der MS2000R ist die Rack-Version mit derselben Klangerzeugung. Er bietet analog nachgebildete Oszillatoren und Filter, einen integrierten Vocoder sowie einen Step-Sequenzer für Modulationen. Die Bedienoberfläche mit vielen Reglern ist auf direkten Zugriff ausgelegt.",
+          "features": [
+            "Virtuell-analoge Klangerzeugung",
+            "4-stimmig polyphon",
+            "Integrierter Vocoder",
+            "Step-Sequenzer für Modulationen",
+            "Arpeggiator",
+            "Keyboard- und Rack-Version"
+          ]
+        },
+        "en": {
+          "description": "The Korg MS2000 is a virtual analog synthesizer from 2000; the MS2000R is the rack version with the same sound engine. It offers emulated analog oscillators and filters, a built-in vocoder and a step sequencer for modulation. Its knob-laden panel is designed for direct access.",
+          "features": [
+            "Virtual analog synthesis",
+            "4-voice polyphony",
+            "Built-in vocoder",
+            "Step sequencer for modulation",
+            "Arpeggiator",
+            "Keyboard and rack versions"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MS2000 / MS2000R",
     "nameRuleJson": "",

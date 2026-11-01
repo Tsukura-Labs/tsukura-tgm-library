@@ -22,6 +22,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland JV-30 ist ein Synthesizer mit 61 Tasten aus dem Jahr 1992. Er ist GS-kompatibel und damit für die Wiedergabe und Produktion von General-MIDI-Songs ausgelegt, bietet aber auch eigene Klangbearbeitung. Er richtete sich als preisgünstiges Instrument an Heimstudios.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "GS/General-MIDI-kompatibel",
+            "16-fach multitimbral",
+            "Integrierter Hall und Chorus",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Roland JV-30 is a 61-key synthesizer from 1992. It is GS compatible and thus designed for playing and producing General MIDI songs, while also offering its own sound editing. It was aimed at home studios as an affordable instrument.",
+          "features": [
+            "Sample-based synthesis",
+            "GS/General MIDI compatible",
+            "16-part multitimbral",
+            "Built-in reverb and chorus",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "JV-30",
     "nameRuleJson": "",

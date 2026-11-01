@@ -9,6 +9,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha AN1x ist ein virtuell-analoger Synthesizer aus dem Jahr 1997 mit 61 Tasten. Seine Klangerzeugung nutzt die AN-Technologie (Analog Physical Modeling) von Yamaha und ist 10-stimmig polyphon. Ein Ribbon-Controller, frei belegbare Regler und ein Arpeggiator unterstützen das Live-Spiel.",
+          "features": [
+            "Virtuell-analoge Klangerzeugung (AN-Technologie)",
+            "10-stimmig polyphon",
+            "Ribbon-Controller",
+            "Arpeggiator und Step-Sequenzer",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha AN1x is a 61-key virtual analog synthesizer from 1997. Its sound engine uses Yamaha's AN (Analog Physical Modeling) technology and offers 10-voice polyphony. A ribbon controller, assignable knobs and an arpeggiator support live performance.",
+          "features": [
+            "Virtual analog synthesis (AN technology)",
+            "10-voice polyphony",
+            "Ribbon controller",
+            "Arpeggiator and step sequencer",
+            "Built-in effects",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "AN1x",
     "nameRuleJson": "",

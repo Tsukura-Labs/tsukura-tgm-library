@@ -70,6 +70,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha MOTIF-RACK ist ein Soundmodul im 19-Zoll-Rackformat mit dem Klangvorrat der ersten MOTIF-Generation. Es bietet Sample-basierte AWM2-Klangerzeugung, Arpeggiatoren und multitimbralen Betrieb. Damit eignet es sich als Klangerzeuger im Studio und auf der Bühne.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-Klänge)",
+            "Arpeggiatoren",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha MOTIF-RACK is a 19-inch rack sound module with the sound set of the first MOTIF generation. It offers sample-based AWM2 synthesis, arpeggiators and multitimbral operation. This makes it suitable as a sound source in the studio and on stage.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF sounds)",
+            "Arpeggiators",
+            "Multitimbral operation",
+            "Built-in effects",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MOTIF-RACK",
     "nameRuleJson": "",

@@ -22,6 +22,70 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland JV-80 ist ein Synthesizer mit 61 Tasten aus dem Jahr 1992 und begründete die JV-Serie. Seine Sample-basierte Klangerzeugung lässt sich über Steckplätze mit SR-JV80-Erweiterungsboards ausbauen. Regler auf der Bedienoberfläche erlauben die Klangsteuerung in Echtzeit.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "28-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Steckplätze für SR-JV80-Erweiterungsboards",
+            "Echtzeitregler",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Roland JV-80 is a 61-key synthesizer from 1992 that launched the JV series. Its sample-based sound engine can be expanded with SR-JV80 boards via internal slots. Knobs on the panel allow real-time sound control.",
+          "features": [
+            "Sample-based synthesis",
+            "28-voice polyphony",
+            "Multitimbral operation",
+            "Slots for SR-JV80 expansion boards",
+            "Real-time controls",
+            "Built-in effects",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "JV-80",
     "nameRuleJson": "",

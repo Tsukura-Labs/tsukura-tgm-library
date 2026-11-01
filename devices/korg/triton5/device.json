@@ -52,6 +52,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Korg Triton ist eine Workstation aus dem Jahr 1999 mit Sample-basierter HI-Klangerzeugung und Touchscreen-Bedienung. Sie verbindet Synthesizer, Sampler, Sequenzer und zwei polyphone Arpeggiatoren in einem Instrument und wurde um 2000 sehr verbreitet. Dieser Eintrag umfasst eine erweiterte Klangsammlung für die Triton-Familie.",
+          "features": [
+            "HI-Klangerzeugung (Hyper Integrated)",
+            "Touchscreen-Bedienung",
+            "Integrierte Sampling-Funktion",
+            "Zwei polyphone Arpeggiatoren",
+            "Integrierter Sequenzer",
+            "Umfangreiche Multieffekte"
+          ]
+        },
+        "en": {
+          "description": "The Korg Triton is a workstation from 1999 with sample-based HI synthesis and touchscreen operation. It combines synthesizer, sampler, sequencer and two polyphonic arpeggiators in one instrument and became very widespread around 2000. This entry covers an extended sound collection for the Triton family.",
+          "features": [
+            "HI synthesis (Hyper Integrated)",
+            "Touchscreen operation",
+            "Built-in sampling",
+            "Two polyphonic arpeggiators",
+            "Built-in sequencer",
+            "Extensive multi-effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Triton5",
     "nameRuleJson": "",

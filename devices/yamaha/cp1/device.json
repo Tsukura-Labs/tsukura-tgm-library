@@ -28,6 +28,66 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha CP1 ist ein Stage Piano aus dem Jahr 2009 und war das Spitzenmodell der damaligen CP-Serie. Seine SCM-Klangerzeugung (Spectral Component Modeling) bildet akustische und elektrische Pianos nach. Es besitzt eine gewichtete Hammermechanik mit 88 Tasten und ist auf den Bühneneinsatz ausgelegt.",
+          "features": [
+            "SCM-Klangerzeugung (Spectral Component Modeling)",
+            "Akustische und elektrische Pianoklänge",
+            "Gewichtete Hammermechanik mit 88 Tasten",
+            "Performance-Speicher",
+            "Integrierte Effekte"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha CP1 is a stage piano from 2009 and was the flagship of the CP series of that time. Its SCM (Spectral Component Modeling) engine recreates acoustic and electric pianos. It has a weighted 88-key hammer action and is designed for stage use.",
+          "features": [
+            "SCM sound engine (Spectral Component Modeling)",
+            "Acoustic and electric piano sounds",
+            "Weighted 88-key hammer action",
+            "Performance memories",
+            "Built-in effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CP1",
     "nameRuleJson": "",

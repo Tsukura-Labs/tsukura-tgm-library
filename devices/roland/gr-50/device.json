@@ -16,6 +16,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "13-poliger GK-Eingang für Gitarrentonabnehmer",
+            "en": "13-pin GK input for guitar pickup"
+          },
+          "type": "other"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland GR-50 ist ein Gitarrensynthesizer-Modul aus dem Jahr 1990. Er wandelt das Signal eines 13-poligen Roland-Gitarrentonabnehmers in Tonhöheninformationen um und steuert damit eine interne PCM-Klangerzeugung oder externe MIDI-Geräte. So lassen sich mit der Gitarre Synthesizer- und Instrumentenklänge spielen.",
+          "features": [
+            "Gitarre-zu-MIDI-Wandlung",
+            "Interne PCM-Klangerzeugung",
+            "Eingang für 13-polige Roland-GK-Tonabnehmer",
+            "Steuerung externer Klangerzeuger per MIDI",
+            "Patch-Speicher"
+          ]
+        },
+        "en": {
+          "description": "The Roland GR-50 is a guitar synthesizer module from 1990. It converts the signal from a 13-pin Roland guitar pickup into pitch information and uses it to drive an internal PCM sound engine or external MIDI devices. This lets a guitarist play synthesizer and instrument sounds.",
+          "features": [
+            "Guitar-to-MIDI conversion",
+            "Internal PCM sound engine",
+            "Input for 13-pin Roland GK pickups",
+            "Control of external sound modules via MIDI",
+            "Patch memory"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "GR-50",
     "nameRuleJson": "",

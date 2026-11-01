@@ -370,6 +370,66 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha CP300 ist ein Stage Piano mit gewichteter Hammermechanik und 88 Tasten aus den 2000er-Jahren. Es nutzt Sample-basierte AWM-Klangerzeugung mit Piano-, E-Piano- und weiteren Instrumentenklängen und besitzt eingebaute Lautsprecher. Damit eignet es sich sowohl für die Bühne als auch für das Spielen ohne externe Anlage.",
+          "features": [
+            "Sample-basierte AWM-Klangerzeugung",
+            "Gewichtete Hammermechanik mit 88 Tasten",
+            "Eingebaute Lautsprecher",
+            "Piano-, E-Piano- und weitere Instrumentenklänge",
+            "Integrierte Effekte"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha CP300 is a stage piano with a weighted 88-key hammer action from the 2000s. It uses sample-based AWM synthesis with piano, electric piano and other instrument sounds and has built-in speakers. This makes it suitable both for stage use and for playing without an external sound system.",
+          "features": [
+            "Sample-based AWM synthesis",
+            "Weighted 88-key hammer action",
+            "Built-in speakers",
+            "Piano, electric piano and other instrument sounds",
+            "Built-in effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CP300",
     "nameRuleJson": "",

@@ -76,6 +76,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha MOTIF-RACK ES ist ein Soundmodul im 19-Zoll-Rackformat mit dem Klangvorrat der MOTIF-ES-Workstations. Es bietet Sample-basierte AWM2-Klangerzeugung, Arpeggiatoren und multitimbralen Betrieb, jedoch ohne Sequenzer und Sampling. Damit eignet es sich als Klangerzeuger im Studio und auf der Bühne.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-ES-Klänge)",
+            "Arpeggiatoren",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "USB-MIDI-Anschluss",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha MOTIF-RACK ES is a 19-inch rack sound module with the sound set of the MOTIF ES workstations. It offers sample-based AWM2 synthesis, arpeggiators and multitimbral operation, but no sequencer or sampling. This makes it suitable as a sound source in the studio and on stage.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF ES sounds)",
+            "Arpeggiators",
+            "Multitimbral operation",
+            "Built-in effects",
+            "USB MIDI connection",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MOTIF-RACK ES",
     "nameRuleJson": "",

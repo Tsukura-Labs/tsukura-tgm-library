@@ -41,7 +41,11 @@
         "pluginId": { "type": ["string", "null"] },
         "networkProtocol": { "type": ["string", "integer", "null"] },
         "networkOptionsJson": { "type": ["string", "null"] },
-        "audioMono": { "type": ["boolean", "integer", "null"] }
+        "audioMono": { "type": ["boolean", "integer", "null"] },
+        "info": {
+          "type": ["object", "string", "null"],
+          "description": "Device description tgm.deviceinfo/1: {schema, text:{de|en:{description,features[]}}, ports:[{type,count,note:{de,en}}], source}. localEdit is local-only and never part of a package."
+        }
       }
     },
     "banks": {

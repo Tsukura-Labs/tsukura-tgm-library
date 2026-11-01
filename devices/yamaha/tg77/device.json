@@ -58,6 +58,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha TG77 ist die Rack-Version der SY77-Workstation im 19-Zoll-Format. Es bietet dieselbe RCM-Klangerzeugung aus erweiterter FM-Synthese (AFM) und Sample-basierter AWM-Klangerzeugung, jedoch ohne Tastatur und Sequenzer. Programmiert wird es über das Display am Gerät oder per Editor-Software.",
+          "features": [
+            "RCM-Klangerzeugung: AFM (erweiterte FM) und AWM (Samples)",
+            "Kombination von FM und Samples in einem Klang",
+            "Multitimbraler Betrieb",
+            "Digitale Effekte",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha TG77 is the 19-inch rack version of the SY77 workstation. It offers the same RCM synthesis with advanced FM (AFM) and sample-based AWM, but without keyboard and sequencer. It is programmed via the unit's display or with editor software.",
+          "features": [
+            "RCM synthesis: AFM (advanced FM) and AWM (samples)",
+            "Combination of FM and samples in one sound",
+            "Multitimbral operation",
+            "Digital effects",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "TG77",
     "nameRuleJson": "",

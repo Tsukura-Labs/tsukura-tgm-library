@@ -88,6 +88,94 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Ethernet",
+            "en": "Ethernet"
+          },
+          "type": "network"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Workstations der Yamaha MOTIF-XF-Serie (XF6, XF7, XF8) aus dem Jahr 2010. Sie bieten Sample-basierte AWM2-Klangerzeugung mit 128 Stimmen, Sampling, Arpeggiatoren und einen integrierten Sequenzer. Neu war die Erweiterung des Sample-Speichers mit Flash-Modulen, sodass geladene Samples beim Ausschalten erhalten bleiben.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "128-stimmig polyphon",
+            "Sampling-Funktion",
+            "Erweiterbar mit Flash-Speichermodulen",
+            "Arpeggiatoren",
+            "Integrierter Sequenzer",
+            "USB- und Netzwerkanschluss"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's MOTIF XF series workstations (XF6, XF7, XF8) from 2010. They offer sample-based AWM2 synthesis with 128 voices, sampling, arpeggiators and a built-in sequencer. A new feature was sample memory expansion with flash modules, so loaded samples are retained when the unit is switched off.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "128-voice polyphony",
+            "Sampling function",
+            "Expandable with flash memory modules",
+            "Arpeggiators",
+            "Built-in sequencer",
+            "USB and network connectors"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MOTIF XF",
     "nameRuleJson": "",

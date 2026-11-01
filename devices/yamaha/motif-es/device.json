@@ -70,6 +70,86 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Workstations der Yamaha MOTIF-ES-Serie (ES6, ES7, ES8) aus dem Jahr 2003. Sie bieten Sample-basierte AWM2-Klangerzeugung mit 128 Stimmen, Sampling-Funktion, Arpeggiatoren und einen integrierten Sequenzer. Über Steckplätze lassen sie sich mit PLG-Plugin-Boards erweitern.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "128-stimmig polyphon",
+            "Sampling-Funktion",
+            "Arpeggiatoren",
+            "Integrierter Sequenzer",
+            "Steckplätze für PLG-Plugin-Boards",
+            "USB-MIDI-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's MOTIF ES series workstations (ES6, ES7, ES8) from 2003. They offer sample-based AWM2 synthesis with 128 voices, a sampling function, arpeggiators and a built-in sequencer. They can be expanded with PLG plug-in boards via internal slots.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "128-voice polyphony",
+            "Sampling function",
+            "Arpeggiators",
+            "Built-in sequencer",
+            "Slots for PLG plug-in boards",
+            "USB MIDI connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MOTIF ES",
     "nameRuleJson": "",

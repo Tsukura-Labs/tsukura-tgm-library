@@ -28,6 +28,70 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Die Korg Wavestation EX ist eine erweiterte Fassung der Wavestation-Keyboard-Version mit 61 Tasten. Gegenüber dem Original bietet sie einen größeren Wellenform-Vorrat und zusätzliche Klänge. Klangerzeugung sind Vektorsynthese per Joystick und Wave Sequencing, also das zeitliche Aneinanderreihen von Wellenformen.",
+          "features": [
+            "Vektorsynthese mit Joystick",
+            "Wave Sequencing",
+            "32-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Digitale Multieffekte",
+            "Erweiterter Wellenform-Vorrat",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Korg Wavestation EX is an expanded version of the 61-key Wavestation keyboard. Compared with the original it offers a larger set of waveforms and additional sounds. Its sound engine uses joystick-controlled vector synthesis and wave sequencing, the timed chaining of waveforms.",
+          "features": [
+            "Vector synthesis with joystick",
+            "Wave sequencing",
+            "32-voice polyphony",
+            "Multitimbral operation",
+            "Digital multi-effects",
+            "Expanded waveform set",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Wavestation EX",
     "nameRuleJson": "",

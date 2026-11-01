@@ -9,6 +9,74 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 2,
+          "note": {
+            "de": "L und R, Klinke",
+            "en": "L and R, jack"
+          },
+          "type": "audio-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland MT-32 ist ein multitimbrales Soundmodul aus dem Jahr 1987 mit LA-Synthese. Er bietet mehrere Melodie-Parts und einen Rhythmus-Part mit integriertem Hall. Bekannt wurde er vor allem als Klangerzeuger für Computerspiele der späten 1980er- und frühen 1990er-Jahre.",
+          "features": [
+            "LA-Synthese (Linear Arithmetic)",
+            "Multitimbral mit Rhythmus-Part",
+            "Integrierter digitaler Hall",
+            "Weit verbreitet als Klangerzeuger für PC-Spiele",
+            "Desktop-Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "The Roland MT-32 is a multitimbral sound module from 1987 using LA synthesis. It offers several melodic parts and a rhythm part with built-in reverb. It became best known as a sound source for computer games of the late 1980s and early 1990s.",
+          "features": [
+            "LA synthesis (Linear Arithmetic)",
+            "Multitimbral with rhythm part",
+            "Built-in digital reverb",
+            "Widely used as a sound source for PC games",
+            "Desktop enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MT-32",
     "nameRuleJson": "",

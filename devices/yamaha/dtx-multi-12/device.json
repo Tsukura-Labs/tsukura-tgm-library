@@ -28,6 +28,68 @@
     "channelModesJson": "{\"10\":\"DTX MULTI 12 KIT MODE\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha DTX-MULTI 12 ist ein Multipad aus dem Jahr 2010 mit 12 anschlagdynamischen Pads und integriertem Klangerzeuger. Es bietet Schlagzeug-, Percussion- und weitere Klänge, die in Kits organisiert sind, und lässt sich um externe Pads und Trigger erweitern. Über USB und MIDI dient es auch als Controller für Computer und andere Klangerzeuger.",
+          "features": [
+            "12 anschlagdynamische Pads",
+            "Schlagzeug- und Percussion-Klänge",
+            "Kits mit frei zuweisbaren Klängen",
+            "Eingänge für externe Pads und Trigger",
+            "Integrierte Effekte",
+            "Einsatz als MIDI-Controller"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha DTX-MULTI 12 is a multi-pad from 2010 with 12 velocity-sensitive pads and a built-in sound engine. It offers drum, percussion and other sounds organized into kits and can be expanded with external pads and triggers. Via USB and MIDI it also serves as a controller for computers and other sound sources.",
+          "features": [
+            "12 velocity-sensitive pads",
+            "Drum and percussion sounds",
+            "Kits with freely assignable sounds",
+            "Inputs for external pads and triggers",
+            "Built-in effects",
+            "Usable as a MIDI controller"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DTX MULTI 12",
     "nameRuleJson": "",

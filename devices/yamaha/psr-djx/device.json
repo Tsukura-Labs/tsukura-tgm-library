@@ -100,6 +100,66 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha PSR-DJX ist ein Keyboard mit 61 Tasten aus den späten 1990er-Jahren, das auf Dance- und DJ-orientierte Musik ausgerichtet ist. Es bietet Begleit-Patterns im Stil elektronischer Tanzmusik, passende Klänge sowie Echtzeitfunktionen für das Live-Spiel. Es richtet sich an Einsteiger und Hobbymusiker.",
+          "features": [
+            "Dance-orientierte Begleit-Patterns",
+            "Klänge für elektronische Tanzmusik",
+            "Echtzeitregler für Klangveränderungen",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha PSR-DJX is a 61-key keyboard from the late 1990s aimed at dance and DJ-oriented music. It offers accompaniment patterns in electronic dance styles, matching sounds and real-time functions for live playing. It is aimed at beginners and hobby musicians.",
+          "features": [
+            "Dance-oriented accompaniment patterns",
+            "Sounds for electronic dance music",
+            "Real-time controls for sound changes",
+            "Built-in effects",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "PSR-DJX",
     "nameRuleJson": "",

@@ -58,6 +58,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die erste Generation der Yamaha-MOTIF-Workstations (MOTIF 6, 7, 8) aus dem Jahr 2001. Sie bieten Sample-basierte AWM2-Klangerzeugung, Arpeggiatoren, einen integrierten Sequenzer und Sampling-Möglichkeiten. Über Steckplätze lassen sie sich mit PLG-Plugin-Boards erweitern.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "62-stimmig polyphon",
+            "Arpeggiatoren",
+            "Integrierter Sequenzer",
+            "Sampling-Funktion",
+            "Steckplätze für PLG-Plugin-Boards"
+          ]
+        },
+        "en": {
+          "description": "This entry covers the first generation of Yamaha MOTIF workstations (MOTIF 6, 7, 8) from 2001. They offer sample-based AWM2 synthesis, arpeggiators, a built-in sequencer and sampling capabilities. They can be expanded with PLG plug-in boards via internal slots.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "62-voice polyphony",
+            "Arpeggiators",
+            "Built-in sequencer",
+            "Sampling function",
+            "Slots for PLG plug-in boards"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MOTIF",
     "nameRuleJson": "",

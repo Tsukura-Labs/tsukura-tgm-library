@@ -16,6 +16,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 4,
+          "note": {
+            "de": "Main L/R und Aux L/R, Klinke",
+            "en": "main L/R and aux L/R, jack"
+          },
+          "type": "audio-out"
+        },
+        {
+          "count": 2,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "footswitch"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Alesis SR-16 ist ein Drumcomputer aus dem Jahr 1990, der über viele Jahre produziert wurde und sehr verbreitet ist. Er enthält gesampelte Schlagzeugklänge, darunter Ambience-Varianten, sowie Werks- und Benutzer-Pattern. Gespielt und programmiert wird er über anschlagdynamische Pads, Pattern und Songs lassen sich per MIDI synchronisieren.",
+          "features": [
+            "Gesampelte Schlagzeug- und Percussion-Klänge",
+            "12 anschlagdynamische Pads",
+            "Werks- und Benutzer-Pattern",
+            "Song-Modus zum Verketten von Pattern",
+            "MIDI-Synchronisation",
+            "Fußschalter-Steuerung"
+          ]
+        },
+        "en": {
+          "description": "The Alesis SR-16 is a drum machine from 1990 that remained in production for many years and became very widespread. It contains sampled drum sounds, including ambience variants, plus preset and user patterns. It is played and programmed via velocity-sensitive pads, and patterns and songs can be synchronized via MIDI.",
+          "features": [
+            "Sampled drum and percussion sounds",
+            "12 velocity-sensitive pads",
+            "Preset and user patterns",
+            "Song mode for chaining patterns",
+            "MIDI synchronization",
+            "Footswitch control"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SR-16",
     "nameRuleJson": "",

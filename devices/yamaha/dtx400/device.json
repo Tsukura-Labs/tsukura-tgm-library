@@ -16,6 +16,48 @@
     "channelModesJson": "{\"10\":\"DTX400 KIT MODE\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha DTX400 ist ein Drum-Modul für E-Drum-Sets der DTX400-Serie aus dem Jahr 2013. Es enthält Schlagzeug- und Percussion-Klänge in Drum-Kits sowie Übungs- und Trainingsfunktionen. Die Serie richtet sich vor allem an Einsteiger und das Üben zu Hause.",
+          "features": [
+            "Drum-Kits mit Schlagzeug- und Percussion-Klängen",
+            "Trigger-Eingänge für Pads und Becken",
+            "Übungsfunktionen und Metronom",
+            "USB-Verbindung zum Computer"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha DTX400 is a drum module for the DTX400 series of electronic drum kits from 2013. It contains drum and percussion sounds in drum kits plus practice and training functions. The series is mainly aimed at beginners and home practice.",
+          "features": [
+            "Drum kits with drum and percussion sounds",
+            "Trigger inputs for pads and cymbals",
+            "Practice functions and metronome",
+            "USB connection to a computer"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DTX400",
     "nameRuleJson": "",

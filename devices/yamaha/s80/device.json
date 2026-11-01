@@ -46,6 +46,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha S80 ist ein Synthesizer mit gewichteter Tastatur und 88 Tasten aus dem Jahr 1999. Er bietet Sample-basierte AWM2-Klangerzeugung mit Schwerpunkt auf Piano- und Bühnenklängen sowie Echtzeitregler. Über Steckplätze lässt er sich mit PLG-Plugin-Boards erweitern.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Gewichtete Tastatur mit 88 Tasten",
+            "Echtzeitregler",
+            "Steckplätze für PLG-Plugin-Boards"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha S80 is a synthesizer with a weighted 88-key keyboard from 1999. It offers sample-based AWM2 synthesis focused on piano and stage sounds, plus real-time knobs. It can be expanded with PLG plug-in boards via internal slots.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Weighted 88-key keyboard",
+            "Real-time knobs",
+            "Slots for PLG plug-in boards"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "S80",
     "nameRuleJson": "",

@@ -1084,6 +1084,62 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha PSR-SX900 ist ein Arranger-Keyboard mit 61 Tasten aus der PSR-SX-Reihe, die Ende der 2010er-Jahre die PSR-S-Reihe ablöste. Es bietet automatische Begleitung mit Styles, einen großen Klangvorrat und Registrierungsspeicher für das Live-Spiel. Es ist das Spitzenmodell der Reihe.",
+          "features": [
+            "Automatische Begleitung (Styles)",
+            "Akkorderkennung",
+            "Großer Klangvorrat",
+            "Registrierungsspeicher",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten",
+            "USB-Anschlüsse"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha PSR-SX900 is a 61-key arranger keyboard from the PSR-SX line, which replaced the PSR-S line in the late 2010s. It offers automatic accompaniment with styles, a large sound set and registration memories for live playing. It is the top model of the line.",
+          "features": [
+            "Automatic accompaniment (styles)",
+            "Chord recognition",
+            "Large sound set",
+            "Registration memory",
+            "Built-in effects",
+            "61-key keyboard",
+            "USB connectors"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "PSR-SX900",
     "nameRuleJson": "",

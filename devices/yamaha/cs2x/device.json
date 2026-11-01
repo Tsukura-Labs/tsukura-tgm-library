@@ -22,6 +22,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha CS2x ist der Nachfolger des CS1x aus dem Jahr 1999 und ebenfalls ein Control Synthesizer mit 61 Tasten. Die Sample-basierte AWM2-Klangerzeugung ist XG-kompatibel und wird über Echtzeitregler und einen Arpeggiator bedient. Gegenüber dem Vorgänger bietet er einen erweiterten Klangvorrat.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "XG-kompatibel",
+            "Echtzeitregler für Filter und Hüllkurven",
+            "Arpeggiator",
+            "Multitimbraler Betrieb",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha CS2x, released in 1999 as the successor to the CS1x, is also a 61-key control synthesizer. Its sample-based AWM2 sound engine is XG compatible and is operated via real-time knobs and an arpeggiator. Compared with its predecessor it offers an expanded sound set.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "XG compatible",
+            "Real-time knobs for filter and envelopes",
+            "Arpeggiator",
+            "Multitimbral operation",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CS2X",
     "nameRuleJson": "",

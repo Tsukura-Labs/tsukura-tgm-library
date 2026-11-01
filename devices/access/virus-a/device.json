@@ -34,6 +34,54 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Virus A ist der erste Synthesizer des deutschen Herstellers Access und erschien 1997 als Desktop-Gerät. Er arbeitet mit DSP-basierter virtuell-analoger Klangerzeugung und prägte Ende der 1990er-Jahre den Klang vieler Trance- und Elektronikproduktionen. Neben den Synthesizer-Funktionen bietet er Audioeingänge, über die externe Signale durch Filter und Effekte geführt werden können.",
+          "features": [
+            "Virtuell-analoge Klangerzeugung (DSP)",
+            "Zwei Oszillatoren plus Sub-Oszillator",
+            "Zwei Filter, seriell oder parallel schaltbar",
+            "Sättigungsstufe im Filterweg",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Audioeingänge zur Bearbeitung externer Signale"
+          ]
+        },
+        "en": {
+          "description": "The Virus A was the first synthesizer from the German manufacturer Access, released in 1997 as a desktop unit. It uses DSP-based virtual analog synthesis and shaped the sound of many trance and electronic productions in the late 1990s. Besides its synthesizer functions it offers audio inputs that let external signals run through its filters and effects.",
+          "features": [
+            "Virtual analog synthesis (DSP)",
+            "Two oscillators plus sub oscillator",
+            "Two filters, serial or parallel routing",
+            "Saturation stage in the filter path",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Audio inputs for processing external signals"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Virus A",
     "nameRuleJson": "",

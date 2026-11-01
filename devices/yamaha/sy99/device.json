@@ -40,6 +40,54 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Diskettenlaufwerk",
+            "en": "floppy disk drive"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha SY99 ist eine Synthesizer-Workstation mit 76 Tasten aus dem Jahr 1991 und eine erweiterte Weiterentwicklung des SY77. Er bietet die RCM-Klangerzeugung aus AFM-Synthese und AWM-Samples und kann zusätzlich eigene Samples in seinen Speicher laden. Sequenzer, Effekte und Diskettenlaufwerk machen ihn zur vollständigen Workstation.",
+          "features": [
+            "RCM-Klangerzeugung: AFM (erweiterte FM) und AWM (Samples)",
+            "Laden eigener Samples in den Speicher",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Digitale Effekte",
+            "Diskettenlaufwerk",
+            "Tastatur mit 76 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha SY99 is a 76-key synthesizer workstation from 1991 and an expanded development of the SY77. It offers RCM synthesis with AFM and AWM samples and can also load user samples into its memory. Sequencer, effects and floppy drive make it a complete workstation.",
+          "features": [
+            "RCM synthesis: AFM (advanced FM) and AWM (samples)",
+            "Loading of user samples into memory",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Digital effects",
+            "Floppy disk drive",
+            "76-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SY99",
     "nameRuleJson": "",

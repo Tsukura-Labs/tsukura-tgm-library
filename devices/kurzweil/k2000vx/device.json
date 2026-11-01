@@ -70,6 +70,48 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag betrifft eine Variante aus der K2000-Familie von Kurzweil. Die K2000-Instrumente arbeiten mit der VAST-Klangerzeugung, die Samples mit frei kombinierbaren DSP-Funktionen wie Filtern und Verzerrung verbindet. Der Eintrag umfasst einen erweiterten Klangvorrat für diese Gerätefamilie.",
+          "features": [
+            "VAST-Klangerzeugung",
+            "Sample-basierte Klangerzeugung mit DSP-Funktionen",
+            "Multitimbraler Betrieb",
+            "Erweiterter Klangvorrat"
+          ]
+        },
+        "en": {
+          "description": "This entry covers a variant of Kurzweil's K2000 family. The K2000 instruments use VAST synthesis, which combines samples with freely combinable DSP functions such as filters and distortion. The entry includes an expanded sound set for this family of devices.",
+          "features": [
+            "VAST synthesis",
+            "Sample-based synthesis with DSP functions",
+            "Multitimbral operation",
+            "Expanded sound set"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "K2000VX",
     "nameRuleJson": "",

@@ -16,6 +16,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 12,
+          "note": {
+            "de": "Trigger-Eingänge (Klinke)",
+            "en": "trigger inputs (jack)"
+          },
+          "type": "other"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Alesis DM5 ist der 1995 erschienene Nachfolger des D4: ein Drum-Soundmodul im 19-Zoll-Rackformat (1 HE). Es bietet einen erweiterten Klangvorrat an Schlagzeug- und Percussion-Samples mit dynamischer Klangänderung je nach Anschlagstärke. Über Trigger-Eingänge wird es mit E-Drum-Pads oder Trigger-Aufnehmern gespielt.",
+          "features": [
+            "Gesampelte Schlagzeug- und Percussion-Klänge",
+            "Anschlagdynamische Klangvariationen",
+            "Frei zusammenstellbare Drum-Kits",
+            "Trigger-Eingänge für Pads und Aufnehmer",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The Alesis DM5, released in 1995 as the successor to the D4, is a 1U 19-inch rack drum sound module. It offers an expanded set of drum and percussion samples with sound variations that follow playing dynamics. It is played from electronic drum pads or drum triggers via its trigger inputs.",
+          "features": [
+            "Sampled drum and percussion sounds",
+            "Velocity-dependent sound variations",
+            "User-configurable drum kits",
+            "Trigger inputs for pads and drum triggers",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DM5",
     "nameRuleJson": "",

@@ -52,6 +52,64 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha S08 ist ein Synthesizer mit gewichteter Tastatur und 88 Tasten aus den frühen 2000er-Jahren. Er bietet Sample-basierte AWM2-Klangerzeugung mit einem breiten Klangvorrat, darunter Piano-Klänge, und ist die 88-Tasten-Variante des S03.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Gewichtete Tastatur mit 88 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha S08 is a synthesizer with a weighted 88-key keyboard from the early 2000s. It offers sample-based AWM2 synthesis with a broad sound set, including piano sounds, and is the 88-key variant of the S03.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Weighted 88-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "S08",
     "nameRuleJson": "",

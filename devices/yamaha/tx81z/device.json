@@ -9,6 +9,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha TX81Z ist ein FM-Soundmodul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1987. Er arbeitet mit FM-Synthese mit vier Operatoren, die neben Sinuswellen weitere Wellenformen nutzen können, und ist multitimbral spielbar. Besonders sein Bass-Klang Lately Bass wurde in der Popmusik bekannt.",
+          "features": [
+            "FM-Synthese mit 4 Operatoren",
+            "Acht wählbare Operator-Wellenformen",
+            "8-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Mikrostimmungen",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha TX81Z is a 1U 19-inch rack FM sound module from 1987. It uses 4-operator FM synthesis whose operators can use other waveforms besides sine waves, and it is multitimbral. Its Lately Bass sound in particular became well known in pop music.",
+          "features": [
+            "4-operator FM synthesis",
+            "Eight selectable operator waveforms",
+            "8-voice polyphony",
+            "Multitimbral operation",
+            "Microtunings",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "TX81Z",
     "nameRuleJson": "",

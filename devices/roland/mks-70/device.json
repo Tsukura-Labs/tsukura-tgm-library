@@ -9,6 +9,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland MKS-70 ist die Rack-Version des Super JX (JX-10) aus der Mitte der 1980er-Jahre. Er enthält zwei vollständige Synthesizer-Klangerzeugungen und ist damit 12-stimmig analog polyphon. Programmiert wird er komfortabel über das Bedienteil PG-800.",
+          "features": [
+            "Analoge Klangerzeugung",
+            "12-stimmig polyphon",
+            "Zwei DCOs pro Stimme",
+            "Zwei Klangerzeugungen für Layer und Split",
+            "Programmierbar über das Bedienteil PG-800",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Roland MKS-70 is the rack version of the Super JX (JX-10) from the mid-1980s. It contains two complete synthesizer engines, giving 12-voice analog polyphony. It is conveniently programmed via the PG-800 programmer.",
+          "features": [
+            "Analog synthesis",
+            "12-voice polyphony",
+            "Two DCOs per voice",
+            "Two engines for layer and split",
+            "Programmable via the PG-800 programmer",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MKS-70",
     "nameRuleJson": "",

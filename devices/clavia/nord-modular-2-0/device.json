@@ -9,6 +9,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Clavia Nord Modular ist ein virtuell-modularer Synthesizer, der 1997 erschien. Klänge werden in einem Editor am Computer aus Modulen wie Oszillatoren, Filtern und Hüllkurven zusammengesteckt und anschließend auf der DSP-Hardware gespielt. Dieser Eintrag umfasst die Werksklänge des Betriebssystems 2.0.",
+          "features": [
+            "Virtuell-modulare Klangerzeugung (DSP)",
+            "Patches werden am Computer frei verkabelt",
+            "Große Auswahl an Modulen",
+            "Multitimbraler Betrieb",
+            "Echtzeitbedienung über Regler am Gerät",
+            "Werksklänge des Betriebssystems 2.0"
+          ]
+        },
+        "en": {
+          "description": "The Clavia Nord Modular is a virtual modular synthesizer released in 1997. Sounds are built in a computer editor by patching modules such as oscillators, filters and envelopes, and then played on the DSP hardware. This entry covers the factory sounds of operating system 2.0.",
+          "features": [
+            "Virtual modular synthesis (DSP)",
+            "Patches are wired freely on the computer",
+            "Large selection of modules",
+            "Multitimbral operation",
+            "Real-time control via knobs on the unit",
+            "Factory sounds of operating system 2.0"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Nord Modular 2.0",
     "nameRuleJson": "",

@@ -16,6 +16,40 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag beschreibt einen allgemeinen General-MIDI-Klangerzeuger und kein bestimmtes Einzelgerät. Er enthält die 128 standardisierten GM-Instrumentenklänge, die bei allen GM-kompatiblen Geräten unter denselben Programmnummern liegen. Damit lassen sich beliebige GM-fähige Soundmodule, Keyboards oder Software-Klangerzeuger ansteuern.",
+          "features": [
+            "128 GM-Instrumentenklänge",
+            "Einheitliche Programmnummern nach GM-Standard",
+            "Schlagzeug auf MIDI-Kanal 10",
+            "Für jedes GM-kompatible Gerät nutzbar"
+          ]
+        },
+        "en": {
+          "description": "This entry describes a generic General MIDI sound generator rather than a specific device. It contains the 128 standardized GM instrument sounds, which share the same program numbers on all GM-compatible devices. It can therefore be used to control any GM-capable sound module, keyboard or software instrument.",
+          "features": [
+            "128 GM instrument sounds",
+            "Standard GM program numbers",
+            "Drums on MIDI channel 10",
+            "Usable with any GM-compatible device"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "GM Device",
     "nameRuleJson": "",

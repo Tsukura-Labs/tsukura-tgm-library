@@ -22,6 +22,68 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland JV-880 ist die Rack-Version des JV-80 im 19-Zoll-Format (1 HE) aus dem Jahr 1992. Er bietet dieselbe Sample-basierte Klangerzeugung mit 28 Stimmen und einen Steckplatz für ein SR-JV80-Erweiterungsboard. In vielen Studios der 1990er-Jahre war er ein verbreiteter Klangerzeuger.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "28-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Steckplatz für ein SR-JV80-Erweiterungsboard",
+            "Integrierte Effekte",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The Roland JV-880 is the 1U 19-inch rack version of the JV-80 from 1992. It offers the same sample-based sound engine with 28 voices and one slot for an SR-JV80 expansion board. It was a common sound source in many 1990s studios.",
+          "features": [
+            "Sample-based synthesis",
+            "28-voice polyphony",
+            "Multitimbral operation",
+            "Slot for one SR-JV80 expansion board",
+            "Built-in effects",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "JV-880",
     "nameRuleJson": "",

@@ -70,6 +70,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland JV-1010 ist ein kompaktes Soundmodul im Halb-Rack-Format aus dem Jahr 1999. Er enthält den Klangvorrat des JV-1080 und ein bereits eingebautes Session-Erweiterungsboard und ist 64-stimmig polyphon. Über einen Steckplatz lässt er sich mit einem weiteren SR-JV80-Board ausbauen.",
+          "features": [
+            "Sample-basierte Klangerzeugung der JV-Serie",
+            "64-stimmig polyphon",
+            "16-fach multitimbral",
+            "Eingebautes Session-Erweiterungsboard",
+            "Steckplatz für ein SR-JV80-Erweiterungsboard",
+            "Kompaktes Halb-Rack-Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "The Roland JV-1010 is a compact half-rack sound module from 1999. It contains the JV-1080's sound set plus a pre-installed Session expansion board and offers 64-voice polyphony. A slot allows expansion with one more SR-JV80 board.",
+          "features": [
+            "Sample-based synthesis of the JV series",
+            "64-voice polyphony",
+            "16-part multitimbral",
+            "Pre-installed Session expansion board",
+            "Slot for one SR-JV80 expansion board",
+            "Compact half-rack enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "JV-1010",
     "nameRuleJson": "",

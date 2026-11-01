@@ -154,6 +154,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland XP-10 ist ein Synthesizer mit 61 Tasten aus den späten 1990er-Jahren. Er ist General-MIDI-kompatibel und nutzt Sample-basierte Klangerzeugung aus der JV/XP-Familie. Als Einstiegsinstrument richtete er sich an Heimstudios und Einsteiger.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "General-MIDI-kompatibel",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Roland XP-10 is a 61-key synthesizer from the late 1990s. It is General MIDI compatible and uses sample-based synthesis from the JV/XP family. As an entry-level instrument it was aimed at home studios and beginners.",
+          "features": [
+            "Sample-based synthesis",
+            "General MIDI compatible",
+            "Multitimbral operation",
+            "Built-in effects",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "XP-10",
     "nameRuleJson": "",

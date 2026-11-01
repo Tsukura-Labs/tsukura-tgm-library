@@ -40,6 +40,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        },
+        {
+          "count": 2,
+          "note": {
+            "de": "Steckplätze für Erweiterungskarten (PCMCIA)",
+            "en": "expansion card slots (PCMCIA)"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Alesis QS7 ist ein Synthesizer mit 76 Tasten aus der QS-Serie, die 1997 erschien. Er arbeitet mit Sample-basierter Klangerzeugung, ist 64-stimmig polyphon und multitimbral spielbar. Eingebaute Effekte auf Basis der Alesis-Effektgeräte sowie Steckplätze für Erweiterungskarten ergänzen die Ausstattung.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "64-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Integrierter Multieffektprozessor",
+            "Steckplätze für Klang-Erweiterungskarten",
+            "Tastatur mit 76 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Alesis QS7 is a 76-key synthesizer from the QS series introduced in 1997. It uses sample-based synthesis, offers 64-voice polyphony and is multitimbral. Built-in effects derived from Alesis's effects processors and slots for expansion cards complete the feature set.",
+          "features": [
+            "Sample-based synthesis",
+            "64-voice polyphony",
+            "Multitimbral operation",
+            "Built-in multi-effects processor",
+            "Slots for sound expansion cards",
+            "76-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "QS7",
     "nameRuleJson": "",

@@ -16,6 +16,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Studio Electronics SE-1 ist ein monophoner analoger Synthesizer im 19-Zoll-Rackformat aus dem Jahr 1993. Seine Klangerzeugung orientiert sich am Minimoog und ist vollständig per MIDI speicher- und steuerbar. Er ist besonders für Bass- und Leadklänge bekannt.",
+          "features": [
+            "Analoge Klangerzeugung",
+            "Monophon",
+            "Drei Oszillatoren",
+            "Klangarchitektur nach Vorbild des Minimoog",
+            "Klangspeicher und MIDI-Steuerung der Parameter",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Studio Electronics SE-1 is a monophonic analog synthesizer in a 19-inch rack format from 1993. Its sound architecture is modeled on the Minimoog and can be fully stored and controlled via MIDI. It is especially known for bass and lead sounds.",
+          "features": [
+            "Analog synthesis",
+            "Monophonic",
+            "Three oscillators",
+            "Minimoog-inspired architecture",
+            "Patch memory and MIDI parameter control",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "SE-1",
     "nameRuleJson": "",

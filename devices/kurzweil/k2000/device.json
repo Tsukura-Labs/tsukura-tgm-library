@@ -22,6 +22,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Kurzweil K2000 ist eine Synthesizer-Workstation aus dem Jahr 1991. Seine VAST-Klangerzeugung verbindet Samples mit frei kombinierbaren DSP-Funktionen wie Filtern, Verzerrung und Oszillatoren. Er war auch als Rack-Version und mit Sampling-Option erhältlich.",
+          "features": [
+            "VAST-Klangerzeugung (Variable Architecture Synthesis Technology)",
+            "Sample-basierte Klangerzeugung mit DSP-Funktionen",
+            "24-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Integrierter Sequenzer",
+            "Optionale Sampling-Funktion"
+          ]
+        },
+        "en": {
+          "description": "The Kurzweil K2000 is a synthesizer workstation from 1991. Its VAST engine combines samples with freely combinable DSP functions such as filters, distortion and oscillators. It was also available as a rack version and with a sampling option.",
+          "features": [
+            "VAST synthesis (Variable Architecture Synthesis Technology)",
+            "Sample-based synthesis with DSP functions",
+            "24-voice polyphony",
+            "Multitimbral operation",
+            "Built-in sequencer",
+            "Optional sampling function"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "K2000",
     "nameRuleJson": "",

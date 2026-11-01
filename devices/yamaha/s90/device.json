@@ -58,6 +58,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha S90 ist ein Synthesizer mit gewichteter Hammermechanik und 88 Tasten aus dem Jahr 2003. Er bietet den Klangvorrat der ersten MOTIF-Generation mit besonderem Schwerpunkt auf Piano-Klängen und ist für den Bühneneinsatz ausgelegt. Über Steckplätze lässt er sich mit PLG-Plugin-Boards erweitern.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-Klänge)",
+            "Gewichtete Hammermechanik mit 88 Tasten",
+            "Schwerpunkt auf Piano-Klängen",
+            "Multitimbraler Betrieb",
+            "Steckplätze für PLG-Plugin-Boards",
+            "USB-MIDI-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha S90 is a synthesizer with a weighted 88-key hammer action from 2003. It offers the sound set of the first MOTIF generation with a particular focus on piano sounds and is designed for stage use. It can be expanded with PLG plug-in boards via internal slots.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF sounds)",
+            "Weighted 88-key hammer action",
+            "Focus on piano sounds",
+            "Multitimbral operation",
+            "Slots for PLG plug-in boards",
+            "USB MIDI connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "S90",
     "nameRuleJson": "",

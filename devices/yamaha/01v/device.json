@@ -9,6 +9,50 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha 01V ist ein kompaktes Digitalmischpult aus dem Jahr 1998. Es bietet digitale Kanalbearbeitung mit Equalizer und Dynamik, integrierte Effektprozessoren und Szenenspeicher für komplette Mischungen. Szenen und Parameter lassen sich per MIDI steuern und automatisieren.",
+          "features": [
+            "Kompaktes Digitalmischpult",
+            "Kanal-Equalizer und Dynamikbearbeitung",
+            "Integrierte Effektprozessoren",
+            "Szenenspeicher",
+            "MIDI-Steuerung von Szenen und Parametern"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha 01V is a compact digital mixer from 1998. It offers digital channel processing with EQ and dynamics, built-in effects processors and scene memories for complete mixes. Scenes and parameters can be controlled and automated via MIDI.",
+          "features": [
+            "Compact digital mixer",
+            "Channel EQ and dynamics processing",
+            "Built-in effects processors",
+            "Scene memories",
+            "MIDI control of scenes and parameters"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "01v",
     "nameRuleJson": "",

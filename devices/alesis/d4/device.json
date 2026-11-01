@@ -16,6 +16,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 12,
+          "note": {
+            "de": "Trigger-Eingänge (Klinke)",
+            "en": "trigger inputs (jack)"
+          },
+          "type": "other"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Alesis D4 ist ein Drum-Soundmodul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1991. Es enthält eine große Sammlung gesampelter Schlagzeug- und Percussion-Klänge, die zu Drum-Kits zusammengestellt werden. Über Trigger-Eingänge lässt es sich direkt mit E-Drum-Pads oder Trigger-Aufnehmern an akustischen Trommeln spielen.",
+          "features": [
+            "Gesampelte Schlagzeug- und Percussion-Klänge",
+            "Frei zusammenstellbare Drum-Kits",
+            "Trigger-Eingänge für Pads und Aufnehmer",
+            "Steuerung per MIDI",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The Alesis D4 is a 1U 19-inch rack drum sound module from 1991. It contains a large collection of sampled drum and percussion sounds that are combined into drum kits. Its trigger inputs let it be played directly from electronic drum pads or triggers mounted on acoustic drums.",
+          "features": [
+            "Sampled drum and percussion sounds",
+            "User-configurable drum kits",
+            "Trigger inputs for pads and drum triggers",
+            "MIDI control",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "D4",
     "nameRuleJson": "",

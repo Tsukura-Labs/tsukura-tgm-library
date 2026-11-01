@@ -208,6 +208,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Yamaha-Synthesizer der MM-Serie (MM6 und MM8) aus der Mitte der 2000er-Jahre. Sie bieten einen Sample-basierten Klangvorrat mit Wurzeln in der MOTIF-Serie, Arpeggiatoren und einfache Begleitfunktionen. Die Modelle richten sich an Einsteiger und mobile Musiker.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "Klangvorrat mit Wurzeln in der MOTIF-Serie",
+            "Arpeggiator",
+            "Echtzeitregler",
+            "Integrierte Effekte",
+            "USB-MIDI-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's MM series synthesizers (MM6 and MM8) from the mid-2000s. They offer a sample-based sound set rooted in the MOTIF series, arpeggiators and simple accompaniment functions. The models are aimed at beginners and mobile musicians.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "Sound set rooted in the MOTIF series",
+            "Arpeggiator",
+            "Real-time knobs",
+            "Built-in effects",
+            "USB MIDI connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MM",
     "nameRuleJson": "",

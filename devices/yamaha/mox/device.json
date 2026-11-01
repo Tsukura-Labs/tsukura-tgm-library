@@ -76,6 +76,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (Audio und MIDI)",
+            "en": "USB TO HOST (audio and MIDI)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Yamaha-Synthesizer der MOX-Serie (MOX6 und MOX8) aus dem Jahr 2011. Sie bieten den Klangvorrat der MOTIF XS in einem leichten Gehäuse, dazu Arpeggiatoren, einen Sequenzer und ein integriertes USB-Audio-/MIDI-Interface. Die Modelle haben 61 bzw. 88 Tasten.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-XS-Klänge)",
+            "Arpeggiatoren",
+            "Integrierter Sequenzer",
+            "USB-Audio- und MIDI-Interface",
+            "Integrierte Effekte",
+            "Leichtes Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's MOX series synthesizers (MOX6 and MOX8) from 2011. They offer the MOTIF XS sound set in a lightweight enclosure, along with arpeggiators, a sequencer and a built-in USB audio/MIDI interface. The models have 61 and 88 keys respectively.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF XS sounds)",
+            "Arpeggiators",
+            "Built-in sequencer",
+            "USB audio and MIDI interface",
+            "Built-in effects",
+            "Lightweight enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MOX",
     "nameRuleJson": "",

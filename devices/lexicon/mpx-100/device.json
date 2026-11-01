@@ -106,6 +106,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Lexicon MPX 100 ist ein Effektgerät im 19-Zoll-Rackformat (1 HE) aus den späten 1990er-Jahren. Es bietet Lexicon-Hallalgorithmen sowie Delay-, Chorus- und Pitch-Effekte, die auch in Kombination laufen können. Die Bedienung ist bewusst einfach gehalten, mit Programmwahlschalter, Einstellregler und Tap-Taste für das Tempo.",
+          "features": [
+            "Lexicon-Hallalgorithmen",
+            "Delay-, Chorus- und Pitch-Effekte",
+            "Kombinationsprogramme mit zwei Effekten",
+            "Tap-Taste für Delay-Tempo",
+            "MIDI-Steuerung",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The Lexicon MPX 100 is a 1U 19-inch rack effects processor from the late 1990s. It offers Lexicon reverb algorithms plus delay, chorus and pitch effects that can also run in combination. Operation is deliberately simple, with a program selector, an adjust knob and a tap button for tempo.",
+          "features": [
+            "Lexicon reverb algorithms",
+            "Delay, chorus and pitch effects",
+            "Combination programs with two effects",
+            "Tap button for delay tempo",
+            "MIDI control",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MPX-100",
     "nameRuleJson": "",

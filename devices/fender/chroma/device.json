@@ -9,6 +9,33 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Chroma ist ein analoger polyphoner Synthesizer, der ab 1982 unter dem Namen Rhodes bzw. Fender vertrieben wurde und von ehemaligen ARP-Entwicklern stammt. Er verfügt über 16 analoge Synthesizer-Kanäle, die einzeln oder paarweise zu Stimmen kombiniert werden, sowie eine gewichtete Holztastatur. Ab Werk besaß er eine Computerschnittstelle statt MIDI; MIDI wurde bei vielen Geräten nachträglich nachgerüstet.",
+          "features": [
+            "Analoge Klangerzeugung",
+            "16 Synthesizer-Kanäle, paarweise kombinierbar",
+            "Mikroprozessorgesteuerte Klangspeicherung",
+            "Gewichtete, anschlagdynamische Tastatur",
+            "Split- und Layer-Betrieb"
+          ]
+        },
+        "en": {
+          "description": "The Chroma is an analog polyphonic synthesizer sold from 1982 under the Rhodes/Fender name and designed by former ARP engineers. It has 16 analog synthesizer channels that can be used singly or paired into voices, plus a weighted wooden keyboard. It shipped with a computer interface instead of MIDI; many units were later retrofitted with MIDI.",
+          "features": [
+            "Analog synthesis",
+            "16 synthesizer channels, combinable in pairs",
+            "Microprocessor-controlled patch memory",
+            "Weighted, velocity-sensitive keyboard",
+            "Split and layer modes"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Chroma",
     "nameRuleJson": "",

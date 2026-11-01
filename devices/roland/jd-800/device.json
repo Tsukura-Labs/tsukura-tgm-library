@@ -9,6 +9,70 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland JD-800 ist ein digitaler Synthesizer aus dem Jahr 1991 mit 61 Tasten. Er kombiniert PCM-Wellenformen mit klassischer subtraktiver Klangformung und ist für seine Bedienoberfläche mit zahlreichen Schiebereglern bekannt, die direkten Zugriff auf alle Parameter bieten. Damit war er eine Antwort auf den Wunsch nach analogähnlicher Bedienung digitaler Synthesizer.",
+          "features": [
+            "PCM-basierte Klangerzeugung mit subtraktiver Klangformung",
+            "Zahlreiche Schieberegler für direkten Parameterzugriff",
+            "24-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Steckplatz für Klangkarten",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Roland JD-800 is a 61-key digital synthesizer from 1991. It combines PCM waveforms with classic subtractive sound shaping and is known for its panel full of sliders offering direct access to all parameters. It answered the demand for analog-style control of digital synthesizers.",
+          "features": [
+            "PCM-based synthesis with subtractive sound shaping",
+            "Numerous sliders for direct parameter access",
+            "24-voice polyphony",
+            "Multitimbral operation",
+            "Built-in effects",
+            "Sound card slot",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "JD-800",
     "nameRuleJson": "",

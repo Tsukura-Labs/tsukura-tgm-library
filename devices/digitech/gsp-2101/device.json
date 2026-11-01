@@ -16,6 +16,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der DigiTech GSP-2101 ist ein Gitarren-Vorverstärker mit integriertem Multieffektprozessor im 19-Zoll-Rackformat. Er verbindet eine Röhrenvorstufe mit digitalen Effekten wie Hall, Delay, Chorus und Pitch-Effekten. Programme werden gespeichert und lassen sich per MIDI umschalten.",
+          "features": [
+            "Gitarren-Vorverstärker mit Röhrenstufe",
+            "Digitale Multieffekte",
+            "Hall, Delay, Chorus und Pitch-Effekte",
+            "Programmspeicher",
+            "MIDI-Programmwechsel",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The DigiTech GSP-2101 is a 19-inch rack guitar preamp with an integrated multi-effects processor. It combines a tube preamp stage with digital effects such as reverb, delay, chorus and pitch effects. Programs are stored and can be switched via MIDI.",
+          "features": [
+            "Guitar preamp with tube stage",
+            "Digital multi-effects",
+            "Reverb, delay, chorus and pitch effects",
+            "Program memory",
+            "MIDI program change",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "GSP-2101",
     "nameRuleJson": "",

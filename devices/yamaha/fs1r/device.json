@@ -106,6 +106,52 @@
     "channelModesJson": "{\"5\":\"PERFORMANCES\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha FS1R ist ein Synthesizer-Modul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1998. Er kombiniert FM-Synthese mit Formant-Shaping, wodurch sich neben klassischen FM-Klängen auch vokalartige und sich wandelnde Klänge erzeugen lassen. Wegen seiner komplexen Programmierung wird er oft mit Editor-Software bedient.",
+          "features": [
+            "Formant-Shaping-Synthese mit FM",
+            "Stimmhafte und stimmlose Operatoren",
+            "Formant-Sequenzen",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha FS1R is a 1U 19-inch rack synthesizer module from 1998. It combines FM synthesis with formant shaping, allowing vocal-like and evolving sounds in addition to classic FM tones. Because programming it is complex, it is often operated with editor software.",
+          "features": [
+            "Formant shaping synthesis with FM",
+            "Voiced and unvoiced operators",
+            "Formant sequences",
+            "Multitimbral operation",
+            "Built-in effects",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "FS1R",
     "nameRuleJson": "",

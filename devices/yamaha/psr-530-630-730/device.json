@@ -334,6 +334,66 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Yamaha-Arranger-Keyboards PSR-530, PSR-630 und PSR-730 aus den 1990er-Jahren. Sie bieten automatische Begleitung mit Styles, einen umfangreichen Klangvorrat und Registrierungsspeicher für das Live-Spiel. Die Modelle richten sich an Heimmusiker und Alleinunterhalter.",
+          "features": [
+            "Automatische Begleitung (Styles)",
+            "Akkorderkennung",
+            "Großer Klangvorrat",
+            "Registrierungsspeicher",
+            "Integrierte Effekte"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's PSR-530, PSR-630 and PSR-730 arranger keyboards from the 1990s. They offer automatic accompaniment with styles, an extensive sound set and registration memories for live playing. The models are aimed at home musicians and solo entertainers.",
+          "features": [
+            "Automatic accompaniment (styles)",
+            "Chord recognition",
+            "Large sound set",
+            "Registration memory",
+            "Built-in effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "PSR-530-630-730",
     "nameRuleJson": "",

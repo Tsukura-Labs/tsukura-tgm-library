@@ -58,6 +58,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha S90 ES ist ein Synthesizer mit gewichteter Hammermechanik und 88 Tasten aus dem Jahr 2005. Er bietet den Klangvorrat der MOTIF ES mit Arpeggiatoren und ist als Bühneninstrument mit Schwerpunkt auf Piano-Klängen ausgelegt. Über Steckplätze lässt er sich mit PLG-Plugin-Boards erweitern.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-ES-Klänge)",
+            "Gewichtete Hammermechanik mit 88 Tasten",
+            "Arpeggiatoren",
+            "Multitimbraler Betrieb",
+            "Steckplätze für PLG-Plugin-Boards",
+            "USB-MIDI-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha S90 ES is a synthesizer with a weighted 88-key hammer action from 2005. It offers the MOTIF ES sound set with arpeggiators and is designed as a stage instrument with a focus on piano sounds. It can be expanded with PLG plug-in boards via internal slots.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF ES sounds)",
+            "Weighted 88-key hammer action",
+            "Arpeggiators",
+            "Multitimbral operation",
+            "Slots for PLG plug-in boards",
+            "USB MIDI connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "S90ES",
     "nameRuleJson": "",

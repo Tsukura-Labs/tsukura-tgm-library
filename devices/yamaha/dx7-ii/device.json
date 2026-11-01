@@ -16,6 +16,78 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Steckplatz für Speicherkassetten",
+            "en": "memory cartridge slot"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha DX7 II ist der 1986 erschienene Nachfolger des legendären DX7 mit 61 Tasten. Er arbeitet mit 6-Operator-FM-Synthese und ist 16-stimmig polyphon; neu waren unter anderem Split- und Dual-Modus. Die Varianten DX7IID und DX7IIFD unterscheiden sich vor allem durch das Diskettenlaufwerk des FD-Modells.",
+          "features": [
+            "FM-Synthese mit 6 Operatoren",
+            "16-stimmig polyphon",
+            "Split- und Dual-Modus",
+            "Mikrostimmungen",
+            "Steckplatz für Speicherkassetten",
+            "Anschluss für Blaswandler",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha DX7 II, released in 1986, is the 61-key successor to the legendary DX7. It uses 6-operator FM synthesis with 16-voice polyphony and introduced features such as split and dual modes. The DX7IID and DX7IIFD variants differ mainly in the FD model's floppy drive.",
+          "features": [
+            "6-operator FM synthesis",
+            "16-voice polyphony",
+            "Split and dual modes",
+            "Microtunings",
+            "Memory cartridge slot",
+            "Breath controller input",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "DX7 II",
     "nameRuleJson": "",

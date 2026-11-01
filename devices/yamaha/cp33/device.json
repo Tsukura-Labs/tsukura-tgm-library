@@ -40,6 +40,66 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha CP33 ist ein kompaktes Stage Piano mit gewichteter Tastatur und 88 Tasten aus den 2000er-Jahren. Es bietet Sample-basierte Piano-, E-Piano- und weitere Instrumentenklänge. Der Schwerpunkt liegt auf einfacher Bedienung und geringem Gewicht für den Bühneneinsatz.",
+          "features": [
+            "Sample-basierte AWM-Klangerzeugung",
+            "Gewichtete Tastatur mit 88 Tasten",
+            "Piano- und E-Piano-Klänge",
+            "Integrierte Effekte",
+            "Kompakte Bauform"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha CP33 is a compact stage piano with a weighted 88-key keyboard from the 2000s. It offers sample-based piano, electric piano and other instrument sounds. The focus is on simple operation and low weight for stage use.",
+          "features": [
+            "Sample-based AWM synthesis",
+            "Weighted 88-key keyboard",
+            "Piano and electric piano sounds",
+            "Built-in effects",
+            "Compact design"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "CP33",
     "nameRuleJson": "",

@@ -82,6 +82,54 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 2,
+          "note": {
+            "de": "MIDI A und MIDI B, 5-polige DIN-Buchsen",
+            "en": "MIDI A and MIDI B, 5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das E-mu Proteus 2000 ist ein Soundmodul im 19-Zoll-Rackformat (1 HE) aus dem Jahr 1998 und Ausgangspunkt einer ganzen Modulfamilie. Es ist 128-stimmig polyphon, 32-fach multitimbral und besitzt zwei MIDI-Eingänge. Die Klangerzeugung mit Z-Plane-Filtern lässt sich über Steckplätze mit weiteren Sound-ROMs erweitern.",
+          "features": [
+            "128-stimmig polyphon",
+            "32-fach multitimbral",
+            "Zwei MIDI-Eingänge",
+            "Z-Plane-Filter",
+            "Erweiterbar mit Sound-ROMs",
+            "Echtzeitregler am Gerät",
+            "19-Zoll-Rackgerät (1 HE)"
+          ]
+        },
+        "en": {
+          "description": "The E-mu Proteus 2000 is a 1U 19-inch rack sound module from 1998 and the basis of a whole family of modules. It offers 128-voice polyphony, 32-part multitimbral operation and two MIDI inputs. Its sound engine with Z-Plane filters can be expanded with additional sound ROMs via internal slots.",
+          "features": [
+            "128-voice polyphony",
+            "32-part multitimbral",
+            "Two MIDI inputs",
+            "Z-Plane filters",
+            "Expandable with sound ROMs",
+            "Real-time knobs on the unit",
+            "19-inch rack unit (1U)"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Proteus 2000",
     "nameRuleJson": "",

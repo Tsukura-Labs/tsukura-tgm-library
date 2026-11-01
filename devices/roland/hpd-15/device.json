@@ -22,6 +22,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Roland HPD-15 HandSonic ist ein Handpercussion-Instrument aus dem Jahr 2000. Eine in mehrere Zonen unterteilte Schlagfläche wird mit den Händen gespielt und löst Percussion- und Schlagzeugklänge aus vielen Kulturen aus. Es lässt sich zudem als MIDI-Controller für externe Klangerzeuger nutzen.",
+          "features": [
+            "Mit den Händen gespielte Schlagfläche mit 15 Zonen",
+            "Percussion-Klänge aus vielen Kulturen",
+            "Anschlagdynamische Spielweise",
+            "Integrierte Effekte",
+            "Nutzbar als MIDI-Controller"
+          ]
+        },
+        "en": {
+          "description": "The Roland HPD-15 HandSonic is a hand percussion instrument from 2000. A playing surface divided into several zones is played with the hands and triggers percussion and drum sounds from many cultures. It can also be used as a MIDI controller for external sound modules.",
+          "features": [
+            "Hand-played surface with 15 zones",
+            "Percussion sounds from many cultures",
+            "Velocity-sensitive playing",
+            "Built-in effects",
+            "Usable as a MIDI controller"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "HPD-15",
     "nameRuleJson": "",

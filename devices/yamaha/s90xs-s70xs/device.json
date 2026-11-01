@@ -76,6 +76,76 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (Audio und MIDI)",
+            "en": "USB TO HOST (audio and MIDI)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Yamaha-Synthesizer S90 XS (88 Tasten) und S70 XS (76 Tasten) aus dem Jahr 2009, beide mit gewichteter Hammermechanik. Sie bieten den Klangvorrat der MOTIF XS mit Arpeggiatoren und sind als Bühneninstrumente ausgelegt. Ein integriertes USB-Audio-/MIDI-Interface erleichtert die Arbeit mit dem Computer.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung (MOTIF-XS-Klänge)",
+            "Gewichtete Hammermechanik (88 bzw. 76 Tasten)",
+            "Arpeggiatoren",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "USB-Audio- und MIDI-Interface"
+          ]
+        },
+        "en": {
+          "description": "This entry covers Yamaha's S90 XS (88 keys) and S70 XS (76 keys) synthesizers from 2009, both with a weighted hammer action. They offer the MOTIF XS sound set with arpeggiators and are designed as stage instruments. A built-in USB audio/MIDI interface simplifies working with a computer.",
+          "features": [
+            "Sample-based AWM2 synthesis (MOTIF XS sounds)",
+            "Weighted hammer action (88 or 76 keys)",
+            "Arpeggiators",
+            "Multitimbral operation",
+            "Built-in effects",
+            "USB audio and MIDI interface"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "S90XS/S70XS",
     "nameRuleJson": "",

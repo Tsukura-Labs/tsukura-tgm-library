@@ -1024,6 +1024,60 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha PSR-A5000 ist ein Arranger-Keyboard aus den 2020er-Jahren, das auf orientalische und weitere weltmusikalische Stile ausgerichtet ist. Es bietet automatische Begleitung mit Styles, einen sehr großen Klangvorrat einschließlich regionaler Instrumente sowie Funktionen für Skalen mit Vierteltönen. Registrierungsspeicher und Effekte unterstützen das Live-Spiel.",
+          "features": [
+            "Automatische Begleitung (Styles)",
+            "Klangvorrat mit orientalischen und regionalen Instrumenten",
+            "Skalen-Einstellungen für Vierteltöne",
+            "Registrierungsspeicher",
+            "Integrierte Effekte",
+            "USB-Anschluss"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha PSR-A5000 is an arranger keyboard from the 2020s aimed at Oriental and other world-music styles. It offers automatic accompaniment with styles, a very large sound set including regional instruments, and scale functions for quarter tones. Registration memories and effects support live playing.",
+          "features": [
+            "Automatic accompaniment (styles)",
+            "Sound set with Oriental and regional instruments",
+            "Scale settings for quarter tones",
+            "Registration memory",
+            "Built-in effects",
+            "USB connection"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "PSR-A5000",
     "nameRuleJson": "",

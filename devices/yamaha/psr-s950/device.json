@@ -718,6 +718,62 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "USB TO HOST (MIDI-Verbindung zum Computer)",
+            "en": "USB TO HOST (MIDI connection to a computer)"
+          },
+          "type": "usb"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Yamaha PSR-S950 ist ein Arranger-Keyboard mit 61 Tasten aus der PSR-S-Reihe der 2010er-Jahre. Es bietet automatische Begleitung mit Styles, einen großen Klangvorrat und Registrierungsspeicher für das Live-Spiel. Es war das obere Modell seiner Generation und richtet sich an Alleinunterhalter und Bühnenmusiker.",
+          "features": [
+            "Automatische Begleitung (Styles)",
+            "Akkorderkennung",
+            "Großer Klangvorrat",
+            "Registrierungsspeicher",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten",
+            "USB-Anschlüsse"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha PSR-S950 is a 61-key arranger keyboard from the PSR-S line of the 2010s. It offers automatic accompaniment with styles, a large sound set and registration memories for live playing. It was the upper model of its generation and is aimed at solo entertainers and stage musicians.",
+          "features": [
+            "Automatic accompaniment (styles)",
+            "Chord recognition",
+            "Large sound set",
+            "Registration memory",
+            "Built-in effects",
+            "61-key keyboard",
+            "USB connectors"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "PSR-S950",
     "nameRuleJson": "",

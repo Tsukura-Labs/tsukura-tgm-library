@@ -40,6 +40,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das E-mu Orbit V2 ist ein Soundmodul im 19-Zoll-Rackformat aus den späten 1990er-Jahren mit einem Klangvorrat für Dance- und Elektronikmusik. Es bietet Synthesizer-, Bass- und Drumklänge sowie Filter zur Klangformung in Echtzeit. Version 2 ist eine überarbeitete Fassung des ursprünglichen Orbit.",
+          "features": [
+            "Klangvorrat für Dance- und Elektronikmusik",
+            "Synthesizer-, Bass- und Drumklänge",
+            "Resonanzfähige Filter",
+            "Groove-/Beats-Funktion",
+            "Multitimbraler Betrieb",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The E-mu Orbit V2 is a 19-inch rack sound module from the late 1990s with a sound set aimed at dance and electronic music. It offers synth, bass and drum sounds plus filters for real-time sound shaping. Version 2 is a revised edition of the original Orbit.",
+          "features": [
+            "Sound set for dance and electronic music",
+            "Synth, bass and drum sounds",
+            "Resonant filters",
+            "Groove/beats function",
+            "Multitimbral operation",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Orbit V2",
     "nameRuleJson": "",

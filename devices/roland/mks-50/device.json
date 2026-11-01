@@ -9,6 +9,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Roland MKS-50 ist die Rack-Version des Alpha Juno aus dem Jahr 1986. Er ist ein 6-stimmiger analoger Synthesizer mit digital gesteuerten Oszillatoren (DCO) im 19-Zoll-Format. Seine Klänge, etwa der bekannte Hoover-Sound, wurden später in der Rave- und Techno-Musik populär.",
+          "features": [
+            "Analoge Klangerzeugung",
+            "6-stimmig polyphon",
+            "Ein DCO pro Stimme mit Sub-Oszillator",
+            "Resonanzfähiges Tiefpassfilter",
+            "Chorus",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Roland MKS-50 is the 1986 rack version of the Alpha Juno. It is a 6-voice analog synthesizer with digitally controlled oscillators (DCOs) in a 19-inch format. Its sounds, such as the well-known hoover sound, later became popular in rave and techno music.",
+          "features": [
+            "Analog synthesis",
+            "6-voice polyphony",
+            "One DCO per voice with sub oscillator",
+            "Resonant low-pass filter",
+            "Chorus",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "MKS-50",
     "nameRuleJson": "",

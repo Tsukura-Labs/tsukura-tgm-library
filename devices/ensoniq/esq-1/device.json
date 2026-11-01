@@ -9,6 +9,70 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Steckplatz für Speicherkassetten",
+            "en": "memory cartridge slot"
+          },
+          "type": "storage"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Ensoniq ESQ-1 ist ein Hybrid-Synthesizer aus dem Jahr 1986 mit 61 Tasten. Er kombiniert digitale Oszillatoren mit gesampelten Wellenformen und analogen Filtern und ist 8-stimmig polyphon. Ein eingebauter 8-Spur-Sequenzer machte ihn zu einem frühen Workstation-Vorläufer.",
+          "features": [
+            "Hybride Klangerzeugung: digitale Oszillatoren, analoge Filter",
+            "Drei Oszillatoren pro Stimme",
+            "8-stimmig polyphon",
+            "Multitimbraler Betrieb",
+            "8-Spur-Sequenzer",
+            "Steckplatz für Speicherkassetten",
+            "Tastatur mit 61 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Ensoniq ESQ-1 is a 61-key hybrid synthesizer from 1986. It combines digital oscillators with sampled waveforms and analog filters, and offers 8-voice polyphony. A built-in 8-track sequencer made it an early forerunner of the workstation concept.",
+          "features": [
+            "Hybrid synthesis: digital oscillators, analog filters",
+            "Three oscillators per voice",
+            "8-voice polyphony",
+            "Multitimbral operation",
+            "8-track sequencer",
+            "Cartridge slot for memory cartridges",
+            "61-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "ESQ-1",
     "nameRuleJson": "",

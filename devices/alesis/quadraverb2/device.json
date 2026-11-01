@@ -28,6 +28,52 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Alesis QuadraVerb 2 ist ein digitales Multieffektgerät im 19-Zoll-Rackformat aus den 1990er-Jahren und Nachfolger des verbreiteten QuadraVerb. Es kann mehrere Effekte wie Hall, Delay, Chorus, Pitch-Effekte und Equalizer gleichzeitig in frei konfigurierbaren Ketten verarbeiten. Programme und Parameter lassen sich umfassend per MIDI steuern.",
+          "features": [
+            "Mehrere Effekte gleichzeitig",
+            "Hall, Delay, Chorus, Flanger, Pitch-Effekte",
+            "Parametrischer und grafischer Equalizer",
+            "Frei konfigurierbare Effektketten",
+            "MIDI-Steuerung von Programmen und Parametern",
+            "19-Zoll-Rackgerät"
+          ]
+        },
+        "en": {
+          "description": "The Alesis QuadraVerb 2 is a 19-inch rack digital multi-effects processor from the 1990s and the successor to the widely used QuadraVerb. It can process several effects such as reverb, delay, chorus, pitch effects and EQ simultaneously in freely configurable chains. Programs and parameters can be extensively controlled via MIDI.",
+          "features": [
+            "Several simultaneous effects",
+            "Reverb, delay, chorus, flanger, pitch effects",
+            "Parametric and graphic EQ",
+            "Freely configurable effect chains",
+            "MIDI control of programs and parameters",
+            "19-inch rack unit"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "QuadraVerb2",
     "nameRuleJson": "",

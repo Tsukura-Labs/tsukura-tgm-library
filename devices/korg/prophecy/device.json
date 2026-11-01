@@ -22,6 +22,54 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Korg Prophecy ist ein monophoner Synthesizer aus dem Jahr 1995 mit 37 Tasten. Seine MOSS-Klangerzeugung umfasst virtuell-analoge Synthese, physikalische Modellierung von Blas-, Zupf- und Streichinstrumenten sowie weitere Algorithmen. Markant sind die Spielhilfen, darunter ein Ribbon-Controller und ein walzenförmiger Controller.",
+          "features": [
+            "MOSS-Klangerzeugung (Multi-Oscillator Synthesis System)",
+            "Physikalische Modellierung und virtuell-analoge Synthese",
+            "Monophon",
+            "Ribbon-Controller",
+            "Arpeggiator",
+            "Integrierte Effekte",
+            "Tastatur mit 37 Tasten"
+          ]
+        },
+        "en": {
+          "description": "The Korg Prophecy is a monophonic 37-key synthesizer from 1995. Its MOSS sound engine includes virtual analog synthesis, physical modeling of wind, plucked and bowed instruments, and further algorithms. Its performance controls, including a ribbon controller and a cylindrical controller, are distinctive.",
+          "features": [
+            "MOSS sound engine (Multi-Oscillator Synthesis System)",
+            "Physical modeling and virtual analog synthesis",
+            "Monophonic",
+            "Ribbon controller",
+            "Arpeggiator",
+            "Built-in effects",
+            "37-key keyboard"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "Prophecy",
     "nameRuleJson": "",

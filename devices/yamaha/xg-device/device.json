@@ -286,6 +286,42 @@
     "channelModesJson": "{\"10\":\"XG Drumkits\"}",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag beschreibt einen allgemeinen Klangerzeuger nach dem XG-Standard von Yamaha und kein bestimmtes Einzelgerät. XG erweitert General MIDI um zusätzliche Klangbänke, Drum-Kits und Effekte bei festgelegter Programmbelegung. Damit lassen sich XG-kompatible Soundmodule, Keyboards oder Software-Klangerzeuger ansteuern.",
+          "features": [
+            "Klangbelegung nach Yamaha-XG-Standard",
+            "Abwärtskompatibel zu General MIDI",
+            "Zusätzliche Klangbänke und Drum-Kits",
+            "Standardisierte Effekte",
+            "Für jedes XG-kompatible Gerät nutzbar"
+          ]
+        },
+        "en": {
+          "description": "This entry describes a generic sound generator following Yamaha's XG standard rather than a specific device. XG extends General MIDI with additional sound banks, drum kits and effects using a defined program layout. It can be used to control XG-compatible sound modules, keyboards or software instruments.",
+          "features": [
+            "Sound layout per Yamaha XG standard",
+            "Backward compatible with General MIDI",
+            "Additional sound banks and drum kits",
+            "Standardized effects",
+            "Usable with any XG-compatible device"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "XG Device",
     "nameRuleJson": "",

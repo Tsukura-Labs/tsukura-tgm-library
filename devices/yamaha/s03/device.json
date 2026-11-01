@@ -34,6 +34,66 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke",
+            "en": "stereo jack"
+          },
+          "type": "headphones"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "Klinke",
+            "en": "jack"
+          },
+          "type": "sustain-pedal"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Der Yamaha S03 ist ein leichter Synthesizer mit 61 Tasten aus den frühen 2000er-Jahren. Er bietet Sample-basierte AWM2-Klangerzeugung mit einem breiten Klangvorrat und ist für den mobilen Einsatz und Einsteiger ausgelegt. Die 88-Tasten-Variante ist der S08.",
+          "features": [
+            "Sample-basierte AWM2-Klangerzeugung",
+            "Multitimbraler Betrieb",
+            "Integrierte Effekte",
+            "Tastatur mit 61 Tasten",
+            "Leichtes Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "The Yamaha S03 is a lightweight 61-key synthesizer from the early 2000s. It offers sample-based AWM2 synthesis with a broad sound set and is designed for mobile use and beginners. The 88-key variant is the S08.",
+          "features": [
+            "Sample-based AWM2 synthesis",
+            "Multitimbral operation",
+            "Built-in effects",
+            "61-key keyboard",
+            "Lightweight enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "S03",
     "nameRuleJson": "",

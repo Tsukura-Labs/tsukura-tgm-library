@@ -22,6 +22,48 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Das Roland M-SE1 ist ein kompaktes Soundmodul aus Rolands M-Serie der 1990er-Jahre. Die Module dieser Serie bieten jeweils einen auf ein bestimmtes Einsatzgebiet zugeschnittenen Klangvorrat. Es wird über MIDI multitimbral gespielt.",
+          "features": [
+            "Sample-basierte Klangerzeugung",
+            "Spezialisierter Klangvorrat",
+            "Multitimbraler Betrieb",
+            "Kompaktes Gehäuse"
+          ]
+        },
+        "en": {
+          "description": "The Roland M-SE1 is a compact sound module from Roland's M series of the 1990s. Each module in this series offers a sound set tailored to a particular field of use. It is played multitimbrally via MIDI.",
+          "features": [
+            "Sample-based synthesis",
+            "Specialized sound set",
+            "Multitimbral operation",
+            "Compact enclosure"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "M-SE1",
     "nameRuleJson": "",

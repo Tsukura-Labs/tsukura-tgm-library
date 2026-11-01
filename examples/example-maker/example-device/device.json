@@ -20,6 +20,38 @@
     "audioMono": false,
     "bankOptions": 0,
     "deviceType": "synth",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 2,
+          "type": "audio-out"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Kleines Beispielgeraet fuer den Selbsttest.",
+          "features": [
+            "Beispiel-Kernfunktion"
+          ]
+        },
+        "en": {
+          "description": "Tiny example device for the self-test.",
+          "features": [
+            "Example core function"
+          ]
+        }
+      }
+    },
     "kind": "hardware",
     "name": "Example Device",
     "sysexQuietMs": 50,

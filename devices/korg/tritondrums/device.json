@@ -40,6 +40,58 @@
     "channelModesJson": "",
     "color": "",
     "deviceType": "",
+    "info": {
+      "ports": [
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-in"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-out"
+        },
+        {
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          },
+          "type": "midi-thru"
+        }
+      ],
+      "schema": "tgm.deviceinfo/1",
+      "source": "tgm-prefill",
+      "text": {
+        "de": {
+          "description": "Dieser Eintrag umfasst die Drum-Kits der Korg-Triton-Workstation aus dem Jahr 1999. Die Triton nutzt Sample-basierte HI-Klangerzeugung; Drum-Kits verteilen Schlagzeug- und Percussion-Samples auf einzelne Tasten. Sie werden typischerweise auf einem eigenen MIDI-Kanal für Rhythmusspuren gespielt.",
+          "features": [
+            "Drum-Kits der Triton-Workstation",
+            "Schlagzeug- und Percussion-Samples",
+            "Klänge pro Taste einzeln zugewiesen",
+            "HI-Klangerzeugung (Hyper Integrated)",
+            "Integrierte Multieffekte"
+          ]
+        },
+        "en": {
+          "description": "This entry covers the drum kits of the Korg Triton workstation from 1999. The Triton uses sample-based HI synthesis; drum kits map drum and percussion samples to individual keys. They are typically played on a dedicated MIDI channel for rhythm tracks.",
+          "features": [
+            "Drum kits of the Triton workstation",
+            "Drum and percussion samples",
+            "Sounds assigned individually per key",
+            "HI synthesis (Hyper Integrated)",
+            "Built-in multi-effects"
+          ]
+        }
+      }
+    },
     "kind": 0,
     "name": "TritonDrums",
     "nameRuleJson": "",
