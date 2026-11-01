@@ -326,7 +326,7 @@
       "uuid": "ffc26420-77de-8250-95f1-9537a14a3c55"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha PSR-530-630-730 (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha PSR-530-630-730 (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha PSR-530-630-730 (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha PSR-530-630-730 (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Cjp24, CC BY-SA 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_PSR-530.jpg\nPhoto: Cjp24, CC BY-SA 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_PSR-530.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -351,7 +351,9 @@
     "uuid": "d8ef6771-a77c-8838-8d7c-59031d76f6ae"
   },
   "id": "yamaha/psr-530-630-730",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -18352,5 +18354,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

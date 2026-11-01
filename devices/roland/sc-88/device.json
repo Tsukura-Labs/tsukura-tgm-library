@@ -230,7 +230,7 @@
       "uuid": "fc352abe-0bc4-853c-a369-2869d5c2dd7f"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland SC-88 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland SC-88 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland SC-88 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland SC-88 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Phanoo, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_SC-88.jpg\nPhoto: Phanoo, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_SC-88.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -255,7 +255,9 @@
     "uuid": "37bff084-a88b-88fb-981d-7d93a0851ee1"
   },
   "id": "roland/sc-88",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Roland",
     "website": ""
@@ -29916,5 +29918,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

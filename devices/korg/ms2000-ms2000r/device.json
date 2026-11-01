@@ -1,7 +1,7 @@
 {
   "authors": [],
   "banks": [],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"MS2000 (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"MS2000 (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"MS2000 (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"MS2000 (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Korg_MS2000.jpg: John Athayde derivative work: Clusternote, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_MS2000_front_view.jpg\nPhoto: Korg_MS2000.jpg: John Athayde derivative work: Clusternote, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_MS2000_front_view.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -26,7 +26,9 @@
     "uuid": "76c2314e-ac0f-87b7-b678-6b78575165d1"
   },
   "id": "korg/ms2000-ms2000r",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Korg",
     "website": ""
@@ -3363,5 +3365,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

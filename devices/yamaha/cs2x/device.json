@@ -14,7 +14,7 @@
       "uuid": "d8bfdbce-1121-8458-9e6f-ae8554263bfd"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha CS2X (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha CS2X (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha CS2X (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha CS2X (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Verdel, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_CS2x_synthesizer.jpg\nPhoto: Verdel, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_CS2x_synthesizer.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -39,7 +39,9 @@
     "uuid": "b9418536-0eac-8736-b7ea-22e01bdd792b"
   },
   "id": "yamaha/cs2x",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -6704,5 +6706,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

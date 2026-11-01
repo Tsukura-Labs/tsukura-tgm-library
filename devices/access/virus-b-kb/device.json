@@ -26,7 +26,7 @@
       "uuid": "90c339ff-b5de-8d14-bec0-74c78448751b"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Virus B (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Virus B (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Virus B (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Virus B (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Access-virusb-1999.jpg: Musicproducer derivative work: Clusternote, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Access_Virus_B_(1999).jpg\nPhoto: Access-virusb-1999.jpg: Musicproducer derivative work: Clusternote, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Access_Virus_B_(1999).jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -51,7 +51,9 @@
     "uuid": "a160a457-e955-8aaa-ad88-0f1ea3da0524"
   },
   "id": "access/virus-b-kb",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Access",
     "website": ""
@@ -16700,5 +16702,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

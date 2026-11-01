@@ -8,7 +8,7 @@
       "uuid": "ac1874f2-97e9-8301-aa8c-a94a15eda0cd"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"E-mu Proteus 2 1 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"E-mu Proteus 2 1 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"E-mu Proteus 2 1 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"E-mu Proteus 2 1 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: ZugPlayz, CC BY 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:E-MU_Proteus_2.png\nPhoto: ZugPlayz, CC BY 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:E-MU_Proteus_2.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -33,7 +33,9 @@
     "uuid": "6edbfc0d-8210-88a2-8ad2-7b31dcc50ece"
   },
   "id": "e-mu/proteus-2-1",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "E-mu",
     "website": ""
@@ -3370,5 +3372,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

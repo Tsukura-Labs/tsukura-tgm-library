@@ -80,7 +80,7 @@
       "uuid": "fb91d8a3-ed09-84a7-bdbe-c1de043e7837"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MX VOICES (1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MX VOICES (1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MX VOICES (1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MX VOICES (1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Yamaha stage - Motif XF Premium Collection, MOX, MX demo by Adrian Zalten, with Ralf Gustke on Yamaha DTX950K E-Drum - Musikmesse Frankfurt 2013.jpg: Torsten Maue from Magdeburg, Deutschland derived work: clusternote, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_MX61.jpg\nPhoto: Yamaha stage - Motif XF Premium Collection, MOX, MX demo by Adrian Zalten, with Ralf Gustke on Yamaha DTX950K E-Drum - Musikmesse Frankfurt 2013.jpg: Torsten Maue from Magdeburg, Deutschland derived work: clusternote, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_MX61.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -105,7 +105,9 @@
     "uuid": "97b86c89-7aff-8320-8bba-e3c4defda4ee"
   },
   "id": "yamaha/mx",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -33992,5 +33994,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

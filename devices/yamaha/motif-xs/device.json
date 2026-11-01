@@ -68,7 +68,7 @@
       "uuid": "eaf9d86d-ada8-8929-a7c8-559f72d4e0ff"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MOTIF XS VOICES (1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MOTIF XS VOICES (1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MOTIF XS VOICES (1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MOTIF XS VOICES (1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: AKX_ from Finland, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Motif_@_MUSICVOX.jpg\nPhoto: AKX_ from Finland, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Motif_@_MUSICVOX.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -93,7 +93,9 @@
     "uuid": "328b0200-5089-8a20-8935-5eb5604703b8"
   },
   "id": "yamaha/motif-xs",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -31744,5 +31746,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

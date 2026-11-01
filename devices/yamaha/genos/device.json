@@ -1406,7 +1406,7 @@
       "uuid": "ff4cc4b9-a7bb-8863-909c-ffd4903dc2f2"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha Genos VOICES (1)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha Genos VOICES (1)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha Genos VOICES (1)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha Genos VOICES (1)\" (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Solomon203, CC BY-SA 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Genos_and_PSR-S975_20190713a.jpg\nPhoto: Solomon203, CC BY-SA 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Genos_and_PSR-S975_20190713a.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -1431,7 +1431,9 @@
     "uuid": "9eb72819-a679-8cb1-bb47-db7a0e02faa7"
   },
   "id": "yamaha/genos",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -66962,5 +66964,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

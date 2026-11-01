@@ -26,7 +26,7 @@
       "uuid": "ec5a75ec-e035-81e7-a76a-8f0bdeb0b7f9"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Virus-A (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Virus-A (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Virus-A (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Virus-A (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Access_Virus_A_in_a_box.jpg: stephen mcg from San Francisco, United States Access_Virus_A_rob_papen_patch_\"Tech-no\".jpg: stephen mcg from San Francisco, United States derivative work: Access Virus A.png: Clusternote (talk) derivative work: Clusternote (talk), CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Access_Virus_A.jpg\nPhoto: Access_Virus_A_in_a_box.jpg: stephen mcg from San Francisco, United States Access_Virus_A_rob_papen_patch_\"Tech-no\".jpg: stephen mcg from San Francisco, United States derivative work: Access Virus A.png: Clusternote (talk) derivative work: Clusternote (talk), CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Access_Virus_A.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -51,7 +51,9 @@
     "uuid": "a62dede8-0df0-8fcd-8590-070a8197a8a6"
   },
   "id": "access/virus-a",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Access",
     "website": ""
@@ -16700,5 +16702,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

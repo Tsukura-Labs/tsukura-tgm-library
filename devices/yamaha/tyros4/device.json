@@ -914,7 +914,7 @@
       "uuid": "fe0e5ed4-8de2-8625-9d0e-13af47a769d5"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha Tyros4 VOICES (1.00)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha Tyros4 VOICES (1.00)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha Tyros4 VOICES (1.00)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha Tyros4 VOICES (1.00)\" (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Philip Nelson, CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Tyros4,_NAMM2011.jpg\nPhoto: Philip Nelson, CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Tyros4,_NAMM2011.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -939,7 +939,9 @@
     "uuid": "b142608c-39d8-8d50-905f-d0deb17a6073"
   },
   "id": "yamaha/tyros4",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -47852,5 +47854,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

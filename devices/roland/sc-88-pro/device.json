@@ -266,7 +266,7 @@
       "uuid": "fa98eaeb-3676-8663-bbbd-9fbadaf24af3"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland SC-88 Pro (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland SC-88 Pro (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland SC-88 Pro (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland SC-88 Pro (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Darklanlan, CC BY 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_SC-88Pro.jpg\nPhoto: Darklanlan, CC BY 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_SC-88Pro.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -291,7 +291,9 @@
     "uuid": "8725dfee-47be-812d-bb54-8fc7b5952f7e"
   },
   "id": "roland/sc-88-pro",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Roland",
     "website": ""
@@ -21690,5 +21692,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

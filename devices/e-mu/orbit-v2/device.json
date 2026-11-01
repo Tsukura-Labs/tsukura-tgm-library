@@ -32,7 +32,7 @@
       "uuid": "c2ec387b-cc3f-80ff-970f-07c85982abee"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"E-mu Orbit V2 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"E-mu Orbit V2 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"E-mu Orbit V2 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"E-mu Orbit V2 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Musicproducer, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:E-MU-System_Orbit_V2.jpg\nPhoto: Musicproducer, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:E-MU-System_Orbit_V2.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -57,7 +57,9 @@
     "uuid": "ce1a4127-aff4-86f4-8bff-8dc5b1115deb"
   },
   "id": "e-mu/orbit-v2",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "E-mu",
     "website": ""
@@ -16706,5 +16708,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

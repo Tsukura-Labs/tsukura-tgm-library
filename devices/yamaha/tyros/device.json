@@ -380,7 +380,7 @@
       "uuid": "f70cf71f-412b-8f7f-ad17-0280d2575912"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha Tyros (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha Tyros (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha Tyros (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha Tyros (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Matroskin, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Tyros.jpg\nPhoto: Matroskin, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Tyros.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -405,7 +405,9 @@
     "uuid": "8067f118-8b56-8a17-a44b-dd642a37f31a"
   },
   "id": "yamaha/tyros",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -24308,5 +24310,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

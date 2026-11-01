@@ -26,7 +26,7 @@
       "uuid": "caefd1fd-7c17-8da3-86fd-ee0027590d18"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"GrooveBox_MC505 (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"GrooveBox_MC505 (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"GrooveBox_MC505 (Version 1.00)\", erstellt von Henryk Jaenisch (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"GrooveBox_MC505 (Version 1.00)\", created by Henryk Jaenisch (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: DJFLEX-mk2 at English Wikipedia, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:MC505a.jpg\nPhoto: DJFLEX-mk2 at English Wikipedia, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:MC505a.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -51,7 +51,9 @@
     "uuid": "4ed633ce-191a-8fff-a3f8-88c4cc8fd464"
   },
   "id": "roland/groovebox-mc505",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Roland",
     "website": ""
@@ -14048,5 +14050,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

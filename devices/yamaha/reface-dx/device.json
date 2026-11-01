@@ -8,7 +8,7 @@
       "uuid": "6ff870de-ffd2-833f-a958-b88584c8be47"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha reface DX (version 1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha reface DX (version 1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha reface DX (version 1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha reface DX (version 1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: AdamV57, CC BY-SA 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Reface_DX_Synth.jpg\nPhoto: AdamV57, CC BY-SA 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_Reface_DX_Synth.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -33,7 +33,9 @@
     "uuid": "e112f2b8-6487-8b20-980e-1bae81808bf1"
   },
   "id": "yamaha/reface-dx",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -874,5 +876,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

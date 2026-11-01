@@ -1,7 +1,7 @@
 {
   "authors": [],
   "banks": [],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Nord Modular 2.0 Factory (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Nord Modular 2.0 Factory (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Nord Modular 2.0 Factory (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Nord Modular 2.0 Factory (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Caseman 16:05, 11 May 2007 (UTC), CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Nord_Modular.jpg\nPhoto: Caseman 16:05, 11 May 2007 (UTC), CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Nord_Modular.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -26,7 +26,9 @@
     "uuid": "5846f33d-a983-80ae-ac14-b166983cc80f"
   },
   "id": "clavia/nord-modular-2-0",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Clavia",
     "website": ""
@@ -2635,5 +2637,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

@@ -8,7 +8,7 @@
       "uuid": "71a3e32b-23eb-8903-bf55-e95eac15fef0"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Alesis SR-16 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Alesis SR-16 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Alesis SR-16 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Alesis SR-16 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: David McMahon, CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Alesis_SR-16,_Devi_Ever_OK.jpg\nPhoto: David McMahon, CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Alesis_SR-16,_Devi_Ever_OK.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -33,7 +33,9 @@
     "uuid": "541b84a4-3e6d-8078-92af-00a5a1a04f94"
   },
   "id": "alesis/sr-16",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Alesis",
     "website": ""
@@ -2642,5 +2644,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

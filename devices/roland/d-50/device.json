@@ -8,7 +8,7 @@
       "uuid": "17d1649a-732e-8d6c-9b92-2940710b8748"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland D-50 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland D-50 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland D-50 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland D-50 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: iixorbiusii, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_D-50_Front.JPG\nPhoto: iixorbiusii, Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_D-50_Front.JPG",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -33,7 +33,9 @@
     "uuid": "0f301b29-c17c-8a33-8a7b-eb7bed59a39c"
   },
   "id": "roland/d-50",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Roland",
     "website": ""
@@ -1706,5 +1708,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

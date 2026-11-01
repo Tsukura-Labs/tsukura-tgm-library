@@ -44,7 +44,7 @@
       "uuid": "e8ab02b8-5b9c-8457-a7f2-85e50d655e09"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Triton (version 1.00)\", erstellt von Frank Heller (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Triton (version 1.00)\", created by Frank Heller (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Triton (version 1.00)\", erstellt von Frank Heller (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Triton (version 1.00)\", created by Frank Heller (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Korg_triton.jpg: Cyberjobe derivative work: Clusternote (talk), Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Triton_Pro.png\nPhoto: Korg_triton.jpg: Cyberjobe derivative work: Clusternote (talk), Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Triton_Pro.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -69,7 +69,9 @@
     "uuid": "013e9262-2fd5-8d81-8515-3ec8677522c4"
   },
   "id": "korg/triton5",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Korg",
     "website": ""
@@ -20280,5 +20282,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3
 }

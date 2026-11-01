@@ -14,7 +14,7 @@
       "uuid": "795e4e28-64bb-84df-8e4f-97e902502a27"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Kurzweil K2000 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Kurzweil K2000 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Kurzweil K2000 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Kurzweil K2000 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Matt Perry, CC BY 2.5, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Kurzweil_K2000_top.png\nPhoto: Matt Perry, CC BY 2.5, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Kurzweil_K2000_top.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -39,7 +39,9 @@
     "uuid": "1b6dae91-8c1b-88d1-a047-376153c54a21"
   },
   "id": "kurzweil/k2000",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Kurzweil",
     "website": ""
@@ -5248,5 +5250,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

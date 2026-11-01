@@ -32,7 +32,7 @@
       "uuid": "e0b0329b-4870-89d7-aa35-094b30cb1e47"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Nord Modular 3.0 Factory (version 1.00)\", erstellt von Rainer Hain (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Nord Modular 3.0 Factory (version 1.00)\", created by Rainer Hain (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Nord Modular 3.0 Factory (version 1.00)\", erstellt von Rainer Hain (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Nord Modular 3.0 Factory (version 1.00)\", created by Rainer Hain (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Caseman 16:05, 11 May 2007 (UTC), CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Nord_Modular.jpg\nPhoto: Caseman 16:05, 11 May 2007 (UTC), CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Nord_Modular.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -57,7 +57,9 @@
     "uuid": "1cd045aa-2cd2-8046-9c13-43abfccdf51b"
   },
   "id": "clavia/nord-modular",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Clavia",
     "website": ""
@@ -12936,5 +12938,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

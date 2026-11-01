@@ -53,3 +53,13 @@ device will be removed.
 dieser Sammlung; die Nennung der urspruenglichen Skript-Ersteller bleibt erhalten. Jedes solche Geraet nennt
 Quell-Skript und Ersteller in seiner `description`. Rechteinhaber, die widersprechen, koennen ein Issue
 eroeffnen; das Geraet wird dann entfernt.
+
+### Device photos / Geraetefotos
+
+**EN** - Some device photos (`images/device.jpg`) come from Wikimedia Commons. They are NOT covered by the
+CC0 dedication: each keeps its own free license (public domain, CC0, CC BY or CC BY-SA). Photographer,
+license and source page are named at the end of the device's `description`. Reuse them under their license.
+
+**DE** - Einige Geraetefotos (`images/device.jpg`) stammen von Wikimedia Commons. Sie fallen NICHT unter die
+CC0-Widmung, sondern behalten ihre eigene freie Lizenz (gemeinfrei, CC0, CC BY oder CC BY-SA). Fotograf,
+Lizenz und Quellseite stehen am Ende der `description` des Geraets. Weiterverwendung nur nach dieser Lizenz.

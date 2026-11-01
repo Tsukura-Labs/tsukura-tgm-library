@@ -32,7 +32,7 @@
       "uuid": "fd9ff268-31da-8dc2-a9a3-61a7f17972e2"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Alesis QuadraSynth Plus (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Alesis QuadraSynth Plus (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Alesis QuadraSynth Plus (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Alesis QuadraSynth Plus (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Alyssa Tomfohrde, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Alesis_QuadraSynth_Plus.jpg\nPhoto: Alyssa Tomfohrde, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Alesis_QuadraSynth_Plus.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -57,7 +57,9 @@
     "uuid": "cf4854fb-810a-8862-9ac9-03e2a4e06611"
   },
   "id": "alesis/quadrasynth-plus",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Alesis",
     "website": ""
@@ -16706,5 +16708,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

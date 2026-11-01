@@ -80,7 +80,7 @@
       "uuid": "e6f2446f-06ce-8fbc-bc81-2e9f9a38765a"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MX BK/BU VOICES (1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MX BK/BU VOICES (1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MX BK/BU VOICES (1.01)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MX BK/BU VOICES (1.01)\" (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Pete Brown from Gambrills, MD, USA, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_MX61_decorated_with_Yamaha_Synth_40th_Anniversary_special_sticker_-_2015_NAMM_Show.jpg\nPhoto: Pete Brown from Gambrills, MD, USA, CC BY 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_MX61_decorated_with_Yamaha_Synth_40th_Anniversary_special_sticker_-_2015_NAMM_Show.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -105,7 +105,9 @@
     "uuid": "2f068f09-00bc-8d0f-9dcd-28da9793fedc"
   },
   "id": "yamaha/mx-bk-bu",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -33992,5 +33994,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

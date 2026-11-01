@@ -14,7 +14,7 @@
       "uuid": "cbace3d7-20b0-8bcf-a5f6-f918a949b918"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Korg Trinity (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Korg Trinity (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Korg Trinity (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Korg Trinity (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Korg_M3_&_Trinity.JPG: Iixorbiusii derivative work: Clusternote (talk), Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Trinity.png\nPhoto: Korg_M3_&_Trinity.JPG: Iixorbiusii derivative work: Clusternote (talk), Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Trinity.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -39,7 +39,9 @@
     "uuid": "06db90f2-b149-8e77-a068-485f6218e720"
   },
   "id": "korg/trinity",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Korg",
     "website": ""
@@ -13360,5 +13362,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

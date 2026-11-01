@@ -92,7 +92,7 @@
       "uuid": "ef5d7948-9161-8f57-9b7d-a945bce1303e"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha RM50 (1.00)\", erstellt von Tony EScueta (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha RM50 (1.00)\", created by Tony EScueta (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha RM50 (1.00)\", erstellt von Tony EScueta (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha RM50 (1.00)\", created by Tony EScueta (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Matt Perry, CC BY 2.5, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_RM50.png\nPhoto: Matt Perry, CC BY 2.5, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_RM50.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -117,7 +117,9 @@
     "uuid": "81047b3d-3ae0-84a7-9340-c22dc5c4d852"
   },
   "id": "yamaha/rm50",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -32782,5 +32784,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

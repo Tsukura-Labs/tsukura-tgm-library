@@ -1,7 +1,7 @@
 {
   "authors": [],
   "banks": [],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Ensoniq ESQ-1 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Ensoniq ESQ-1 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Ensoniq ESQ-1 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Ensoniq ESQ-1 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Jenkstom, CC0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Ensoniq_ESQ-1.jpg\nPhoto: Jenkstom, CC0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Ensoniq_ESQ-1.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -26,7 +26,9 @@
     "uuid": "28ea1c39-a948-812e-9523-c7c24afb4353"
   },
   "id": "ensoniq/esq-1",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Ensoniq",
     "website": ""
@@ -7315,5 +7317,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

@@ -56,7 +56,7 @@
       "uuid": "eb15b322-039b-858b-b7f3-1d2488106420"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Audity 2000 v2.0x (version 1.00)\", erstellt von Per Odeltorp (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Audity 2000 v2.0x (version 1.00)\", created by Per Odeltorp (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Audity 2000 v2.0x (version 1.00)\", erstellt von Per Odeltorp (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Audity 2000 v2.0x (version 1.00)\", created by Per Odeltorp (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: ZugPlayz, CC BY 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:E-MU_Audity_2000.png\nPhoto: ZugPlayz, CC BY 4.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:E-MU_Audity_2000.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -81,7 +81,9 @@
     "uuid": "a8b32cee-7359-82f5-a08d-78d25635a53e"
   },
   "id": "e-mu/audity-2000",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "E-mu",
     "website": ""
@@ -30042,5 +30044,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

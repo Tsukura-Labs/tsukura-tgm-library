@@ -44,7 +44,7 @@
       "uuid": "cb6ab762-8d9e-853c-9135-a77b3098dfe7"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Korg Wavestation SR (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Korg Wavestation SR (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Korg Wavestation SR (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Korg Wavestation SR (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: glacial23, CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Wavestation_SR.jpg\nPhoto: glacial23, CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Wavestation_SR.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -69,7 +69,9 @@
     "uuid": "413c9a15-88c0-88f6-a082-f958f470c2d3"
   },
   "id": "korg/wavestation-sr",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Korg",
     "website": ""
@@ -15146,5 +15148,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

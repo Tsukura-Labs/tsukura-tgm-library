@@ -98,7 +98,7 @@
       "uuid": "e559932b-630b-8ddb-ae6e-ad7f58e45958"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha FS1R (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha FS1R (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha FS1R (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha FS1R (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Raymangold22, CC0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_FS1R.jpg\nPhoto: Raymangold22, CC0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Yamaha_FS1R.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -123,7 +123,9 @@
     "uuid": "4a42a2f1-af3a-863e-a810-047caaa266c9"
   },
   "id": "yamaha/fs1r",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -53380,5 +53382,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

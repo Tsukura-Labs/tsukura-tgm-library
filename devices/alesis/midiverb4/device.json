@@ -14,7 +14,7 @@
       "uuid": "7eff660d-962f-896b-9d98-b8adbc60491d"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Alesis MIDIVerb4 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Alesis MIDIVerb4 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Alesis MIDIVerb4 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Alesis MIDIVerb4 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: StudioRack1.jpg: Oscar derivative work: Clusternote, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Alesis_MidiVerb4.jpg\nPhoto: StudioRack1.jpg: Oscar derivative work: Clusternote, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Alesis_MidiVerb4.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -39,7 +39,9 @@
     "uuid": "f466b11a-5c45-86e3-a725-0d835f30e4f0"
   },
   "id": "alesis/midiverb4",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Alesis",
     "website": ""
@@ -6704,5 +6706,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

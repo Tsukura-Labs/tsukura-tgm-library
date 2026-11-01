@@ -20,7 +20,7 @@
       "uuid": "bb3ab8bf-7a6e-8ca5-af92-323ab6dd6c47"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Korg Wavestation EX (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Korg Wavestation EX (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Korg Wavestation EX (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Korg Wavestation EX (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Matt Perry, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Wavestation_front.png\nPhoto: Matt Perry, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Korg_Wavestation_front.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -45,7 +45,9 @@
     "uuid": "c943421c-d7cd-8478-bf05-d896b230bf35"
   },
   "id": "korg/wavestation-ex",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Korg",
     "website": ""
@@ -5638,5 +5640,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

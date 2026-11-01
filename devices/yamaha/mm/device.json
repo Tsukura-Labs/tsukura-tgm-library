@@ -200,7 +200,7 @@
       "uuid": "f4794eb9-e580-8cfd-aea2-c6d0dc6f72cb"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MM (1.00)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MM (1.00)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha MM (1.00)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha MM (1.00)\" (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Yamahamusician (talk), Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:YAMAHA_MM6.jpg\nPhoto: Yamahamusician (talk), Public domain, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:YAMAHA_MM6.jpg",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -225,7 +225,9 @@
     "uuid": "26aced5a-ae93-8236-9d5a-75cd2f54806e"
   },
   "id": "yamaha/mm",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Yamaha",
     "website": ""
@@ -15028,5 +15030,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }

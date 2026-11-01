@@ -32,7 +32,7 @@
       "uuid": "dd35e5fd-dfdf-8dc2-9412-3bc5b09fa2c5"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland JV-1080 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland JV-1080 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Roland JV-1080 (version 1.00)\", erstellt von Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Roland JV-1080 (version 1.00)\", created by Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH (shipped with Steinberg Cubase). Imported 2026-10-31.\n\nFoto: Matt Perry, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_JV-1080_front.png\nPhoto: Matt Perry, CC BY-SA 3.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Roland_JV-1080_front.png",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -57,7 +57,9 @@
     "uuid": "1d532302-275b-84df-9b80-9a2ccd6b0547"
   },
   "id": "roland/jv-1080",
-  "images": {},
+  "images": {
+    "device": "images/device.jpg"
+  },
   "manufacturer": {
     "name": "Roland",
     "website": ""
@@ -19442,5 +19444,5 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2
 }
