@@ -31,7 +31,8 @@ SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 MAX_IMAGE_BYTES = 2 * 1024 * 1024
 ALLOWED_IMAGE_EXT = (".png", ".jpg")
 FIXED_ZIP_DATE = (1980, 1, 1, 0, 0, 0)
-CDN = "https://cdn.jsdelivr.net/gh"
+# Raw file host for device files (jsDelivr refuses GitHub repos larger than 50 MB).
+RAW = "https://raw.githubusercontent.com"
 
 
 # ----------------------------------------------------------------------------
@@ -267,7 +268,7 @@ def build(args):
         zip_path = os.path.join(pkg_dir, zip_name)
         build_zip(folder, zip_path)
         sha = sha256_file(zip_path)
-        base = "%s/%s@%s/devices/%s/%s" % (CDN, args.repo, args.commit, m, d)
+        base = "%s/%s/%s/devices/%s/%s" % (RAW, args.repo, args.commit, m, d)
         images = dev.get("images") or {}
         thumb = images.get("device") or images.get("panel")
         presets = dev.get("presets") or []
@@ -342,7 +343,7 @@ def self_test():
         assert dev["packageSize"] == os.path.getsize(zpath), "size mismatch"
         names = zipfile.ZipFile(zpath).namelist()
         assert names == sorted(names) and "device.json" in names, "zip layout"
-        assert dev["thumbUrl"].startswith(CDN + "/example/tsukura-tgm-library@0123456789abcdef"), "thumb url"
+        assert dev["thumbUrl"].startswith(RAW + "/example/tsukura-tgm-library/0123456789abcdef"), "thumb url"
         assert dev["packageUrl"].endswith("/releases/download/packages/example-maker-example-device-v1.zip")
         assert dev["presetCount"] == 3 and dev["hasPanel"] is True and dev["categories"] == ["Bass", "Pad"]
         assert validate(index, load_schema("index.schema.json")) == [], "index schema"
