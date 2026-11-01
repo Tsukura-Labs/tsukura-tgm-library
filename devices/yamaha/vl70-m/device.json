@@ -6758,5 +6758,335 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Sensitivity",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Coarse Tune",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 40,
+      "max": 88
+    },
+    {
+      "name": "Harmonic Content",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Brightness",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Cutoff",
+      "group": "Filter",
+      "kind": 3,
+      "number": 160,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Resonance",
+      "group": "Filter",
+      "kind": 3,
+      "number": 161,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter EG Depth",
+      "group": "Filter",
+      "kind": 3,
+      "number": 162,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 227,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Decay Time",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 228,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 230,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 136,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 137,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 138,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EQ Bass",
+      "group": "Effekte / EQ",
+      "kind": 3,
+      "number": 176,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EQ Treble",
+      "group": "Effekte / EQ",
+      "kind": 3,
+      "number": 177,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Main Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Volume",
+      "group": "Mixer / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 00 00 04 {val} F7"
+    },
+    {
+      "name": "Breath Controller",
+      "group": "Sonstiges / Breath",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Foot Controller",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Control Change 13",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sound Module Mode",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 57 00 00 7E {val} F7"
+    },
+    {
+      "name": "XG System On (VL-XG)",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 43 {dev} 4C 00 00 7E {val} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 4C 00 00 06 {val} F7"
+    }
+  ]
 }

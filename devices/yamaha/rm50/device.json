@@ -32828,5 +32828,1087 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 00 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 01 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 02 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 03 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 04 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 05 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 06 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 07 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 08 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 09 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 0A 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 0B 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 0C 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 0D 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 0E 0C 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Channel 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 30 01 00 00 0F 0C 00 {val} F7"
+    },
+    {
+      "name": "Gain",
+      "group": "Mixer / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 00 00 {val} F7"
+    },
+    {
+      "name": "Attenuate",
+      "group": "Mixer / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 08 00 {val} F7"
+    },
+    {
+      "name": "Gain",
+      "group": "Mixer / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 00 00 {val} F7"
+    },
+    {
+      "name": "Attenuate",
+      "group": "Mixer / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 08 00 {val} F7"
+    },
+    {
+      "name": "Gain",
+      "group": "Mixer / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 00 00 {val} F7"
+    },
+    {
+      "name": "Attenuate",
+      "group": "Mixer / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 08 00 {val} F7"
+    },
+    {
+      "name": "Gain",
+      "group": "Mixer / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 00 00 {val} F7"
+    },
+    {
+      "name": "Attenuate",
+      "group": "Mixer / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 08 00 {val} F7"
+    },
+    {
+      "name": "Gain",
+      "group": "Mixer / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 00 00 {val} F7"
+    },
+    {
+      "name": "Attenuate",
+      "group": "Mixer / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 08 00 {val} F7"
+    },
+    {
+      "name": "Gain",
+      "group": "Mixer / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 00 00 {val} F7"
+    },
+    {
+      "name": "Attenuate",
+      "group": "Mixer / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 08 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 00 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 01 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 02 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 03 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 04 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 05 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 06 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 07 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 08 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 09 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 0A 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 0B 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 0C 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 0D 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 0E 03 00 {val} F7"
+    },
+    {
+      "name": "Attenuator",
+      "group": "Mixer / Channel 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 01 00 00 0F 03 00 {val} F7"
+    },
+    {
+      "name": "Self Reject",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 01 00 {val} F7"
+    },
+    {
+      "name": "Noise Reject",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 02 00 {val} F7"
+    },
+    {
+      "name": "Cross Reject",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 03 00 {val} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 04 00 {val} F7"
+    },
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 05 00 {val} F7"
+    },
+    {
+      "name": "MIDI Note",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 06 00 {val} F7"
+    },
+    {
+      "name": "MIDI Gate",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 07 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "Sonstiges / Trigger 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 00 09 00 {val} F7"
+    },
+    {
+      "name": "Self Reject",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 01 00 {val} F7"
+    },
+    {
+      "name": "Noise Reject",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 02 00 {val} F7"
+    },
+    {
+      "name": "Cross Reject",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 03 00 {val} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 04 00 {val} F7"
+    },
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 05 00 {val} F7"
+    },
+    {
+      "name": "MIDI Note",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 06 00 {val} F7"
+    },
+    {
+      "name": "MIDI Gate",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 07 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "Sonstiges / Trigger 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 01 09 00 {val} F7"
+    },
+    {
+      "name": "Self Reject",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 01 00 {val} F7"
+    },
+    {
+      "name": "Noise Reject",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 02 00 {val} F7"
+    },
+    {
+      "name": "Cross Reject",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 03 00 {val} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 04 00 {val} F7"
+    },
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 05 00 {val} F7"
+    },
+    {
+      "name": "MIDI Note",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 06 00 {val} F7"
+    },
+    {
+      "name": "MIDI Gate",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 07 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "Sonstiges / Trigger 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 02 09 00 {val} F7"
+    },
+    {
+      "name": "Self Reject",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 01 00 {val} F7"
+    },
+    {
+      "name": "Noise Reject",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 02 00 {val} F7"
+    },
+    {
+      "name": "Cross Reject",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 03 00 {val} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 04 00 {val} F7"
+    },
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 05 00 {val} F7"
+    },
+    {
+      "name": "MIDI Note",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 06 00 {val} F7"
+    },
+    {
+      "name": "MIDI Gate",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 07 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "Sonstiges / Trigger 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 03 09 00 {val} F7"
+    },
+    {
+      "name": "Self Reject",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 01 00 {val} F7"
+    },
+    {
+      "name": "Noise Reject",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 02 00 {val} F7"
+    },
+    {
+      "name": "Cross Reject",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 03 00 {val} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 04 00 {val} F7"
+    },
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 05 00 {val} F7"
+    },
+    {
+      "name": "MIDI Note",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 06 00 {val} F7"
+    },
+    {
+      "name": "MIDI Gate",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 07 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "Sonstiges / Trigger 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 04 09 00 {val} F7"
+    },
+    {
+      "name": "Self Reject",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 01 00 {val} F7"
+    },
+    {
+      "name": "Noise Reject",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 02 00 {val} F7"
+    },
+    {
+      "name": "Cross Reject",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 03 00 {val} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 04 00 {val} F7"
+    },
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 05 00 {val} F7"
+    },
+    {
+      "name": "MIDI Note",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 06 00 {val} F7"
+    },
+    {
+      "name": "MIDI Gate",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 99,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 07 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "Sonstiges / Trigger 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 30 04 00 00 05 09 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 00 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 01 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 02 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 03 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 04 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 05 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 06 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 07 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 08 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 09 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 0A 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 0B 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 0C 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 0D 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 0E 00 00 {val} F7"
+    },
+    {
+      "name": "Channel Mode",
+      "group": "Sonstiges / Channel 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 30 01 00 00 0F 00 00 {val} F7"
+    }
+  ]
 }

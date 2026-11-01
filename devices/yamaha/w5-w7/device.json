@@ -17146,5 +17146,135 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Control",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 84,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Sensitivity",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Coarse Tune",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 40,
+      "max": 88
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Send 1 (Reverb)",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Send 2 (Chorus)",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Send 3 (Delay/Rev)",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Instrument Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Volume (Universal)",
+      "group": "Mixer / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 7F 7F 04 01 00 {val} F7"
+    },
+    {
+      "name": "Foot Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Switch",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "General MIDI Mode On",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 1,
+      "sysex": "F0 7E 7F 09 {val} F7"
+    }
+  ]
 }

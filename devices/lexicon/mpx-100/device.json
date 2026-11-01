@@ -6834,5 +6834,2287 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "BassMult",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "MidRT",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "BassXover",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Rt HC",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "RefLvlL",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "RefLvlR",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "EkoFbkL",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 0B 00 00 00 F7"
+    },
+    {
+      "name": "EkoFbkR",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 0C 00 00 00 F7"
+    },
+    {
+      "name": "Size",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 144,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 0D 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 0E 00 00 00 F7"
+    },
+    {
+      "name": "Spin",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 0F 00 00 00 F7"
+    },
+    {
+      "name": "Wander",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 00 01 00 00 F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 01 01 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 02 01 00 00 F7"
+    },
+    {
+      "name": "Hi Cut Out",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 03 01 00 00 F7"
+    },
+    {
+      "name": "RvbLevel",
+      "group": "Effekte / Plate",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 00 00 00 00 04 01 00 00 F7"
+    },
+    {
+      "name": "BassMult",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "MidRT",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "BassXover",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Rt HC",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "RefLvlL",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "RefLvlR",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "EkoFbkL",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 0B 00 00 00 F7"
+    },
+    {
+      "name": "EkoFbkR",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 0C 00 00 00 F7"
+    },
+    {
+      "name": "Size",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 144,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 0D 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 0E 00 00 00 F7"
+    },
+    {
+      "name": "Spin",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 0F 00 00 00 F7"
+    },
+    {
+      "name": "Wander",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 00 01 00 00 F7"
+    },
+    {
+      "name": "Shape",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 01 01 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 02 01 00 00 F7"
+    },
+    {
+      "name": "Hi Cut Out",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 03 01 00 00 F7"
+    },
+    {
+      "name": "RvbLevel",
+      "group": "Effekte / Chamber",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 01 00 00 00 04 01 00 00 F7"
+    },
+    {
+      "name": "Duration",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 112,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "LowSlope",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "HighSlope",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "BassXover",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Rt HC",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "RefLvlL",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "RefLvlR",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "Shape",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 0B 00 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 0C 00 00 00 F7"
+    },
+    {
+      "name": "Hi Cut Out",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 0D 00 00 00 F7"
+    },
+    {
+      "name": "RvbLevel",
+      "group": "Effekte / Inverse",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 02 00 00 00 0E 00 00 00 F7"
+    },
+    {
+      "name": "DecayTime",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "Rt HC",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Size",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 144,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "Spin",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Wander",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "DecayLevel",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "Hi Cut Out",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "RvbLevel",
+      "group": "Effekte / Ambience",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 03 00 00 00 04 00 00 00 03 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "CascadeFbk",
+      "group": "Effekte / DX1 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "B1HiCut",
+      "group": "Effekte / DX1 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "B2HiCut",
+      "group": "Effekte / DX1 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Master Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "Master Dly",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "Master Fbk",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "MasterXFbk",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Left 1 Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "Left 2 Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0B 00 00 00 F7"
+    },
+    {
+      "name": "Left 3 Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0C 00 00 00 F7"
+    },
+    {
+      "name": "Right1 Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0D 00 00 00 F7"
+    },
+    {
+      "name": "Right2 Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0E 00 00 00 F7"
+    },
+    {
+      "name": "Right3 Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0F 00 00 00 F7"
+    },
+    {
+      "name": "L-L Fbk",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 06 01 00 00 F7"
+    },
+    {
+      "name": "L-R Fbk",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 07 01 00 00 F7"
+    },
+    {
+      "name": "R-R Fbk",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 08 01 00 00 F7"
+    },
+    {
+      "name": "R-L Fbk",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 09 01 00 00 F7"
+    },
+    {
+      "name": "L-L Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0A 01 00 00 F7"
+    },
+    {
+      "name": "L-R Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0B 01 00 00 F7"
+    },
+    {
+      "name": "R-R Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0C 01 00 00 F7"
+    },
+    {
+      "name": "R-L Lvl",
+      "group": "Effekte / DX1 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 04 00 00 00 01 00 00 00 0D 01 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / DX1 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay 1",
+      "group": "Effekte / DX1 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay 2",
+      "group": "Effekte / DX1 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Resonance1",
+      "group": "Effekte / DX1 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Resonance2",
+      "group": "Effekte / DX1 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX1 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / DX1 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / DX1 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Effekte / DX1 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 01 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Phase",
+      "group": "Effekte / DX1 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Blend",
+      "group": "Effekte / DX1 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 01 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Tune 1",
+      "group": "Effekte / DX1 Detune",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 02 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "Tune 2",
+      "group": "Effekte / DX1 Detune",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 02 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay",
+      "group": "Effekte / DX1 Detune",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 04 00 00 00 02 00 00 00 02 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "CascadeFbk",
+      "group": "Effekte / DX2 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "B1HiCut",
+      "group": "Effekte / DX2 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "B2HiCut",
+      "group": "Effekte / DX2 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Master Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "Master Dly",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "Master Fbk",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "MasterXFbk",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Left 1 Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "Left 2 Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0B 00 00 00 F7"
+    },
+    {
+      "name": "Left 3 Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0C 00 00 00 F7"
+    },
+    {
+      "name": "Right1Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0D 00 00 00 F7"
+    },
+    {
+      "name": "Right2 Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0E 00 00 00 F7"
+    },
+    {
+      "name": "Right3 Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0F 00 00 00 F7"
+    },
+    {
+      "name": "L-L Fbk",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 06 01 00 00 F7"
+    },
+    {
+      "name": "L-R Fbk",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 07 01 00 00 F7"
+    },
+    {
+      "name": "R-R Fbk",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 08 01 00 00 F7"
+    },
+    {
+      "name": "R-L Fbk",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 09 01 00 00 F7"
+    },
+    {
+      "name": "L-L Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0A 01 00 00 F7"
+    },
+    {
+      "name": "L-R Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0B 01 00 00 F7"
+    },
+    {
+      "name": "R-R Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0C 01 00 00 F7"
+    },
+    {
+      "name": "R-L Lvl",
+      "group": "Effekte / DX2 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 05 00 00 00 01 00 00 00 0D 01 00 00 F7"
+    },
+    {
+      "name": "Feedback 1",
+      "group": "Effekte / DX2 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 00 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "Delay Left",
+      "group": "Effekte / DX2 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 00 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Interval 1",
+      "group": "Effekte / DX2 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 36,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "Feedback 2",
+      "group": "Effekte / DX2 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Delay Rgt",
+      "group": "Effekte / DX2 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 00 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Interval 2",
+      "group": "Effekte / DX2 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 36,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 00 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Mstr Rate",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Depth Drum",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "Depth Horn",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Res Drum",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Res Horn",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "Width",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Balance",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "Acclrtn1",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "Dcclrtn1",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 0B 00 00 00 F7"
+    },
+    {
+      "name": "DryMix",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 0C 00 00 00 F7"
+    },
+    {
+      "name": "Acclrtn2",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 0D 00 00 00 F7"
+    },
+    {
+      "name": "Dcclrtn2",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 0E 00 00 00 F7"
+    },
+    {
+      "name": "Mstr Depth",
+      "group": "Effekte / DX2 Rotary",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00 0F 00 00 00 F7"
+    },
+    {
+      "name": "Input Lvl",
+      "group": "Effekte / DX2 Tremolo",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 02 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / DX2 Tremolo",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 02 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Phase",
+      "group": "Effekte / DX2 Tremolo",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 02 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Effekte / DX2 Tremolo",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 05 00 00 00 02 00 00 00 02 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "CascadeFbk",
+      "group": "Effekte / DX3 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "B1HiCut",
+      "group": "Effekte / DX3 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "B2HiCut",
+      "group": "Effekte / DX3 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / DX3 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay 1",
+      "group": "Effekte / DX3 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 01 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay 2",
+      "group": "Effekte / DX3 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Resonance1",
+      "group": "Effekte / DX3 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 01 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Resonance2",
+      "group": "Effekte / DX3 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 01 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX3 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 01 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / DX3 Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 01 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "BassMult",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "MidRT",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "BassXover",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Size",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 144,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Spin",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "Wander",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Shape",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / DX3 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 06 00 00 00 02 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "CascadeFbk",
+      "group": "Effekte / DX4 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "B1HiCut",
+      "group": "Effekte / DX4 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "B2HiCut",
+      "group": "Effekte / DX4 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Feedback L",
+      "group": "Effekte / DX4 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 01 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "Delay Left",
+      "group": "Effekte / DX4 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Interval 1",
+      "group": "Effekte / DX4 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 36,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 01 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "Feedback R",
+      "group": "Effekte / DX4 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Delay Rgt",
+      "group": "Effekte / DX4 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 01 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Interval 2",
+      "group": "Effekte / DX4 Pitch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 36,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 01 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "BassMult",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "MidRT",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "BassXover",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Size",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 144,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Spin",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "Wander",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Shape",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / DX4 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 07 00 00 00 02 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "CascadeFbk",
+      "group": "Effekte / DX5 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "B1HiCut",
+      "group": "Effekte / DX5 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "B2HiCut",
+      "group": "Effekte / DX5 Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "BassMult",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "MidRT",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "BassXover",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "Size",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 144,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Spin",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "Wander",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 08 00 00 00 F7"
+    },
+    {
+      "name": "Shape",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "Spread",
+      "group": "Effekte / DX5 Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 04 00 00 00 04 00 00 00 08 00 00 00 01 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "Master Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "Master Dly",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "Master Fbk",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "MasterXFbk",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "HiCut",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Left 1 Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0A 00 00 00 F7"
+    },
+    {
+      "name": "Left 2 Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0B 00 00 00 F7"
+    },
+    {
+      "name": "Left 3 Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0C 00 00 00 F7"
+    },
+    {
+      "name": "Right1 Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0D 00 00 00 F7"
+    },
+    {
+      "name": "Right2 Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0E 00 00 00 F7"
+    },
+    {
+      "name": "Right3 Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 25,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0F 00 00 00 F7"
+    },
+    {
+      "name": "L-L Fbk",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 06 01 00 00 F7"
+    },
+    {
+      "name": "L-R Fbk",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 07 01 00 00 F7"
+    },
+    {
+      "name": "R-R Fbk",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 08 01 00 00 F7"
+    },
+    {
+      "name": "R-L Fbk",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 09 01 00 00 F7"
+    },
+    {
+      "name": "L-L Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0A 01 00 00 F7"
+    },
+    {
+      "name": "L-R Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0B 01 00 00 F7"
+    },
+    {
+      "name": "R-R Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0C 01 00 00 F7"
+    },
+    {
+      "name": "R-L Lvl",
+      "group": "Effekte / DX5 Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 00 00 00 00 0D 01 00 00 F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / DX5 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Effekte / DX5 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 01 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "Phase",
+      "group": "Effekte / DX5 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 01 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "Blend",
+      "group": "Effekte / DX5 Flange",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 200,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 01 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "Tune 1",
+      "group": "Effekte / DX5 Detune",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 02 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "Tune 2",
+      "group": "Effekte / DX5 Detune",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 02 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "PreDelay",
+      "group": "Effekte / DX5 Detune",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 05 00 00 00 04 00 00 00 08 00 00 00 02 00 00 00 02 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "Byp=Mute",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "PchDisable",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "PLoad Mute,",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "DigOut=Dry",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 03 00 00 00 F7"
+    },
+    {
+      "name": "MidiOT=Out",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 04 00 00 00 F7"
+    },
+    {
+      "name": "MidiPgmDis",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 05 00 00 00 F7"
+    },
+    {
+      "name": "MidiClkDis",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 06 00 00 00 F7"
+    },
+    {
+      "name": "GlbPrgTpo",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 07 00 00 00 F7"
+    },
+    {
+      "name": "Algorithm",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 00 00 00 00 09 00 00 00 F7"
+    },
+    {
+      "name": "MidiDpAct",
+      "group": "Sonstiges / Events",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 01 00 00 00 00 00 00 00 F7"
+    },
+    {
+      "name": "MidiDpU",
+      "group": "Sonstiges / Events",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 01 00 00 00 01 00 00 00 F7"
+    },
+    {
+      "name": "MidiDpA",
+      "group": "Sonstiges / Events",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 01 00 00 00 02 00 00 00 F7"
+    },
+    {
+      "name": "StorePgm",
+      "group": "Sonstiges / Events",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 06 0E 00 01 02 00 00 00 {valln} {valhn} 00 00 02 00 00 00 01 00 00 00 03 00 00 00 F7"
+    }
+  ]
 }

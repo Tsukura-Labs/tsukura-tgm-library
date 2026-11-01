@@ -2653,5 +2653,664 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 1",
+      "kind": 2,
+      "number": 1,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 2",
+      "kind": 2,
+      "number": 2,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 3",
+      "kind": 2,
+      "number": 3,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 4",
+      "kind": 2,
+      "number": 4,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 5",
+      "kind": 2,
+      "number": 5,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 6",
+      "kind": 2,
+      "number": 6,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 7",
+      "kind": 2,
+      "number": 7,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 8",
+      "kind": 2,
+      "number": 8,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 9",
+      "kind": 2,
+      "number": 9,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 10",
+      "kind": 2,
+      "number": 10,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 11",
+      "kind": 2,
+      "number": 11,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 12",
+      "kind": 2,
+      "number": 12,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 13",
+      "kind": 2,
+      "number": 13,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 14",
+      "kind": 2,
+      "number": 14,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 15",
+      "kind": 2,
+      "number": 15,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 16",
+      "kind": 2,
+      "number": 16,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 17",
+      "kind": 2,
+      "number": 17,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 18",
+      "kind": 2,
+      "number": 18,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 19",
+      "kind": 2,
+      "number": 19,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 20",
+      "kind": 2,
+      "number": 20,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 21",
+      "kind": 2,
+      "number": 21,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 22",
+      "kind": 2,
+      "number": 22,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 23",
+      "kind": 2,
+      "number": 23,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Input 24",
+      "kind": 2,
+      "number": 24,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Stereo Out",
+      "kind": 2,
+      "number": 30,
+      "channel": 0,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 1",
+      "kind": 1,
+      "number": 64,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 2",
+      "kind": 1,
+      "number": 65,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 3",
+      "kind": 1,
+      "number": 66,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 4",
+      "kind": 1,
+      "number": 67,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 5",
+      "kind": 1,
+      "number": 68,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 6",
+      "kind": 1,
+      "number": 69,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 7",
+      "kind": 1,
+      "number": 70,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 8",
+      "kind": 1,
+      "number": 71,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 9",
+      "kind": 1,
+      "number": 72,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 10",
+      "kind": 1,
+      "number": 73,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 11",
+      "kind": 1,
+      "number": 74,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 12",
+      "kind": 1,
+      "number": 75,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 13",
+      "kind": 1,
+      "number": 76,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 14",
+      "kind": 1,
+      "number": 77,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 15",
+      "kind": 1,
+      "number": 78,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 16",
+      "kind": 1,
+      "number": 79,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 17",
+      "kind": 1,
+      "number": 80,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 18",
+      "kind": 1,
+      "number": 81,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 19",
+      "kind": 1,
+      "number": 82,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 20",
+      "kind": 1,
+      "number": 83,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 21",
+      "kind": 1,
+      "number": 84,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 22",
+      "kind": 1,
+      "number": 85,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 23",
+      "kind": 1,
+      "number": 86,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Input 24",
+      "kind": 1,
+      "number": 87,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 1",
+      "kind": 1,
+      "number": 89,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 2",
+      "kind": 1,
+      "number": 90,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 3",
+      "kind": 1,
+      "number": 91,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 4",
+      "kind": 1,
+      "number": 92,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 5",
+      "kind": 1,
+      "number": 93,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 6",
+      "kind": 1,
+      "number": 94,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 7",
+      "kind": 1,
+      "number": 95,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 8",
+      "kind": 1,
+      "number": 102,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 9",
+      "kind": 1,
+      "number": 103,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 10",
+      "kind": 1,
+      "number": 104,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 11",
+      "kind": 1,
+      "number": 105,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 12",
+      "kind": 1,
+      "number": 106,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 13",
+      "kind": 1,
+      "number": 107,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 14",
+      "kind": 1,
+      "number": 108,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 15",
+      "kind": 1,
+      "number": 109,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 16",
+      "kind": 1,
+      "number": 110,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 17",
+      "kind": 1,
+      "number": 111,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 18",
+      "kind": 1,
+      "number": 112,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 19",
+      "kind": 1,
+      "number": 113,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 20",
+      "kind": 1,
+      "number": 114,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 21",
+      "kind": 1,
+      "number": 115,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 22",
+      "kind": 1,
+      "number": 116,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 23",
+      "kind": 1,
+      "number": 117,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Input 24",
+      "kind": 1,
+      "number": 118,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

@@ -12984,5 +12984,34 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Bank Change",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 8
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Program Change",
+      "group": "Sonstiges",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98
+    }
+  ]
 }

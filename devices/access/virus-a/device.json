@@ -16750,5 +16750,1174 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pulsewidth",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave Select",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 64
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keyfollow",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pulsewidth",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave Select",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 64
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Amount",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Filt Env Amt",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Filt Env Amt",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keyfollow",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc Balance",
+      "group": "Oszillatoren / Mix",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sub Osc Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sub Osc Shape",
+      "group": "Oszillatoren / Mix",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Osc Main Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 1,
+      "number": 36,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Noise Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 1,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Twin Mode",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 97,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Twin Detune",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 98,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panorama Spread",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 99,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Twin LFO Phase",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 100,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc Init Phase",
+      "group": "Oszillatoren / Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 23 {val} F7"
+    },
+    {
+      "name": "Punch Intensity",
+      "group": "Oszillatoren / Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 24 {val} F7"
+    },
+    {
+      "name": "Osc 1 Shape Velocity",
+      "group": "Oszillatoren / Velocity",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 2F {val} F7"
+    },
+    {
+      "name": "Osc 2 Shape Velocity",
+      "group": "Oszillatoren / Velocity",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 30 {val} F7"
+    },
+    {
+      "name": "Pulsewidth Velocity",
+      "group": "Oszillatoren / Velocity",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 31 {val} F7"
+    },
+    {
+      "name": "FM Amount Velocity",
+      "group": "Oszillatoren / Velocity",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 32 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff 2 Offset",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 42,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 43,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Amount",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 44,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Amount",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keyfollow",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keyfollow",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Balance",
+      "group": "Filter / Common",
+      "kind": 1,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Saturation Curve",
+      "group": "Filter / Common",
+      "kind": 1,
+      "number": 49,
+      "channel": -1,
+      "min": 0,
+      "max": 6
+    },
+    {
+      "name": "Mode",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Mode",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Filter Routing",
+      "group": "Filter / Common",
+      "kind": 1,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Env Polarity",
+      "group": "Filter / Filter 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 1E {val} F7"
+    },
+    {
+      "name": "Env Polarity",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 1F {val} F7"
+    },
+    {
+      "name": "Cutoff Link",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 20 {val} F7"
+    },
+    {
+      "name": "Keytrack Base",
+      "group": "Filter / Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 21 {val} F7"
+    },
+    {
+      "name": "Filter 1 Env Amt Velocity",
+      "group": "Filter / Filter 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 34 {val} F7"
+    },
+    {
+      "name": "Filter 2 Env Amt Velocity",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 35 {val} F7"
+    },
+    {
+      "name": "Resonance Velocity",
+      "group": "Filter / Filter 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 38 {val} F7"
+    },
+    {
+      "name": "Resonance Velocity",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 39 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Time",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 59,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 60,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 61,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 62,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 63,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 68,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Env Mode",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 69,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Mode (Poly/Mono)",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Env Mode",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Mode (Poly/Mono)",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keyfollow",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrigger",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 1 Amount",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 2 Amount",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pulsewidth Amount",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance Amount",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Gain Amount",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc Shape Amount",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Amount",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff 1 Amount",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff 2 Amount",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 89,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panorama Amount",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 90,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 07 {val} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 08 {val} F7"
+    },
+    {
+      "name": "Mode (Poly/Mono)",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 09 {val} F7"
+    },
+    {
+      "name": "Keyfollow",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 0A {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 0B {val} F7"
+    },
+    {
+      "name": "Osc Amount",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 0C {val} F7"
+    },
+    {
+      "name": "Osc ModWheel Amount",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 0D {val} F7"
+    },
+    {
+      "name": "Clock",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 19,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 12 {val} F7"
+    },
+    {
+      "name": "Clock",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 19,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 13 {val} F7"
+    },
+    {
+      "name": "Input Mode",
+      "group": "Effekte / Input",
+      "kind": 1,
+      "number": 101,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Input Select",
+      "group": "Effekte / Input",
+      "kind": 1,
+      "number": 102,
+      "channel": -1,
+      "min": 0,
+      "max": 8
+    },
+    {
+      "name": "Mix",
+      "group": "Effekte / Chorus",
+      "kind": 1,
+      "number": 105,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "Effekte / Chorus",
+      "kind": 1,
+      "number": 106,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / Chorus",
+      "kind": 1,
+      "number": 107,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Delay",
+      "group": "Effekte / Chorus",
+      "kind": 1,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Chorus",
+      "kind": 1,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO Shape",
+      "group": "Effekte / Chorus",
+      "kind": 1,
+      "number": 110,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Effect Send",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 113,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 117,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO Shape",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 118,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Clock",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 14 {val} F7"
+    },
+    {
+      "name": "Channel Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panorama",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Patch Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Amp Velocity",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 3C {val} F7"
+    },
+    {
+      "name": "Panorama Velocity",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 3D {val} F7"
+    },
+    {
+      "name": "Bank Select",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Mod Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Transpose",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Key Mode",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Arp Mode",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 01 {val} F7"
+    },
+    {
+      "name": "Arp Octave Range",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 03 {val} F7"
+    },
+    {
+      "name": "Clock Tempo",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 10 {val} F7"
+    },
+    {
+      "name": "Arp Clock",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 19,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 11 {val} F7"
+    },
+    {
+      "name": "Bender Range Up",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 1A {val} F7"
+    },
+    {
+      "name": "Bender Range Down",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 1B {val} F7"
+    },
+    {
+      "name": "Bender Scale",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 33 01 {dev} 71 40 1C {val} F7"
+    }
+  ]
 }

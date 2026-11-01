@@ -3416,5 +3416,34 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Program Change",
+      "group": "Sonstiges / Program",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression Pedal (FC-200)",
+      "group": "Sonstiges / Control",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "CTL Pedal (FC-200)",
+      "group": "Sonstiges / Control",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

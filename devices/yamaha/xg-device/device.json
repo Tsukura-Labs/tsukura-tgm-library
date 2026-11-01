@@ -13707,5 +13707,1665 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mono/Poly",
+      "group": "Oszillatoren / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 05 {val} F7"
+    },
+    {
+      "name": "Note Shift",
+      "group": "Oszillatoren / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 08 {val} F7"
+    },
+    {
+      "name": "Bend Pitch Control",
+      "group": "Oszillatoren / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 23 {val} F7"
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 67 {val} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 68 {val} F7"
+    },
+    {
+      "name": "Harmonic Content",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Brightness",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff NRPN",
+      "group": "Filter",
+      "kind": 3,
+      "number": 160,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance NRPN",
+      "group": "Filter",
+      "kind": 3,
+      "number": 161,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "HPF Cutoff NRPN",
+      "group": "Filter",
+      "kind": 3,
+      "number": 164,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bend Filter Control",
+      "group": "Filter / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 24 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack NRPN",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 227,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Decay NRPN",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 228,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Release NRPN",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 230,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Initial Level",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 69 {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 6A {val} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 6B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 6C {val} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 136,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 137,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 138,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "MW Pitch Control",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 1D {val} F7"
+    },
+    {
+      "name": "MW Filter Control",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 1E {val} F7"
+    },
+    {
+      "name": "MW Amp Control",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 1F {val} F7"
+    },
+    {
+      "name": "MW LFO PMod Depth",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 20 {val} F7"
+    },
+    {
+      "name": "MW LFO FMod Depth",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 21 {val} F7"
+    },
+    {
+      "name": "MW LFO AMod Depth",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 22 {val} F7"
+    },
+    {
+      "name": "Bend LFO PMod Depth",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 26 {val} F7"
+    },
+    {
+      "name": "Bend LFO FMod Depth",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 27 {val} F7"
+    },
+    {
+      "name": "Bend LFO AMod Depth",
+      "group": "LFOs / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 28 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EQ Bass Gain NRPN",
+      "group": "Effekte / Part EQ",
+      "kind": 3,
+      "number": 176,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EQ Treble Gain NRPN",
+      "group": "Effekte / Part EQ",
+      "kind": 3,
+      "number": 177,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EQ Bass Freq NRPN",
+      "group": "Effekte / Part EQ",
+      "kind": 3,
+      "number": 180,
+      "channel": -1,
+      "min": 4,
+      "max": 40
+    },
+    {
+      "name": "EQ Treble Freq NRPN",
+      "group": "Effekte / Part EQ",
+      "kind": 3,
+      "number": 181,
+      "channel": -1,
+      "min": 28,
+      "max": 58
+    },
+    {
+      "name": "Reverb Return",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 0C {val} F7"
+    },
+    {
+      "name": "Reverb Pan",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 0D {val} F7"
+    },
+    {
+      "name": "Chorus Return",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 2C {val} F7"
+    },
+    {
+      "name": "Chorus Pan",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 2D {val} F7"
+    },
+    {
+      "name": "Send Chorus To Reverb",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 2E {val} F7"
+    },
+    {
+      "name": "Variation Return",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 56 {val} F7"
+    },
+    {
+      "name": "Variation Pan",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 57 {val} F7"
+    },
+    {
+      "name": "Send To Reverb",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 58 {val} F7"
+    },
+    {
+      "name": "Send To Chorus",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 59 {val} F7"
+    },
+    {
+      "name": "Variation Connection",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 4C 02 01 5A {val} F7"
+    },
+    {
+      "name": "EQ Type",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 4C 02 40 00 {val} F7"
+    },
+    {
+      "name": "Gain 1",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 4C 02 40 01 {val} F7"
+    },
+    {
+      "name": "Frequency 1",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 4,
+      "max": 40,
+      "sysex": "F0 43 {dev} 4C 02 40 02 {val} F7"
+    },
+    {
+      "name": "Q 1",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 120,
+      "sysex": "F0 43 {dev} 4C 02 40 03 {val} F7"
+    },
+    {
+      "name": "Shape 1",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 4C 02 40 04 {val} F7"
+    },
+    {
+      "name": "Gain 2",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 4C 02 40 05 {val} F7"
+    },
+    {
+      "name": "Frequency 2",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 54,
+      "sysex": "F0 43 {dev} 4C 02 40 06 {val} F7"
+    },
+    {
+      "name": "Q 2",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 120,
+      "sysex": "F0 43 {dev} 4C 02 40 07 {val} F7"
+    },
+    {
+      "name": "Gain 3",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 4C 02 40 09 {val} F7"
+    },
+    {
+      "name": "Frequency 3",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 54,
+      "sysex": "F0 43 {dev} 4C 02 40 0A {val} F7"
+    },
+    {
+      "name": "Q 3",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 120,
+      "sysex": "F0 43 {dev} 4C 02 40 0B {val} F7"
+    },
+    {
+      "name": "Gain 4",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 4C 02 40 0D {val} F7"
+    },
+    {
+      "name": "Frequency 4",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 54,
+      "sysex": "F0 43 {dev} 4C 02 40 0E {val} F7"
+    },
+    {
+      "name": "Q 4",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 120,
+      "sysex": "F0 43 {dev} 4C 02 40 0F {val} F7"
+    },
+    {
+      "name": "Gain 5",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 4C 02 40 11 {val} F7"
+    },
+    {
+      "name": "Frequency 5",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 28,
+      "max": 58,
+      "sysex": "F0 43 {dev} 4C 02 40 12 {val} F7"
+    },
+    {
+      "name": "Q 5",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 120,
+      "sysex": "F0 43 {dev} 4C 02 40 13 {val} F7"
+    },
+    {
+      "name": "Shape 5",
+      "group": "Effekte / Master EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 4C 02 40 14 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 7,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 10,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 11,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 91,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 93,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 94,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 7,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 10,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 11,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 91,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 93,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 94,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 7,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 10,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 11,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 91,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 93,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 94,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 7,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 10,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 11,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 91,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 93,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 94,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 7,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 10,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 11,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 91,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 93,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 94,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 7,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 10,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 11,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 91,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 93,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 94,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 7,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 10,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 11,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 91,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 93,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 94,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 7,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 10,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 11,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 91,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 93,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 94,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 7,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 10,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 11,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 91,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 93,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 94,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 7,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 10,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 11,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 91,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 93,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 94,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 7,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 10,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 11,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 91,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 93,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 94,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 7,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 10,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 11,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 91,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 93,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 94,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 7,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 10,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 11,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 91,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 93,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 94,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 7,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 10,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 11,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 91,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 93,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 94,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 7,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 10,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 11,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 91,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 93,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 94,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 7,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 10,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 11,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 91,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 93,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 94,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Volume",
+      "group": "Mixer / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 00 00 04 {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 11 {val} F7"
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Transpose",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 4C 00 00 06 {val} F7"
+    },
+    {
+      "name": "XG System On",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 43 {dev} 4C 00 00 7E {val} F7"
+    },
+    {
+      "name": "All Parameter Reset",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 43 {dev} 4C 00 00 7F {val} F7"
+    },
+    {
+      "name": "GM System On",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 1,
+      "sysex": "F0 7E 7F 09 {val} F7"
+    },
+    {
+      "name": "Velocity Sense Depth",
+      "group": "Sonstiges / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 0C {val} F7"
+    },
+    {
+      "name": "Velocity Sense Offset",
+      "group": "Sonstiges / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 0D {val} F7"
+    },
+    {
+      "name": "Bend Amp Control",
+      "group": "Sonstiges / Part (ch)",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 {ch} 25 {val} F7"
+    }
+  ]
 }

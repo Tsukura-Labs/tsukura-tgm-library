@@ -138,7 +138,7 @@
     "note": "",
     "pluginId": "",
     "sourceInfo": "E-mu Proteus 2000, version 1.00, Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH",
-    "sysexDeviceId": 16,
+    "sysexDeviceId": 0,
     "sysexExpected": 0,
     "sysexHeader": "",
     "sysexQuietMs": 300,
@@ -40094,5 +40094,1404 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Instrument",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Double Detune",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 13 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Double Detune Width",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 14 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Non-Transpose",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 16 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Glide Rate",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 18 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Glide Curve",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 18 0F {dev} 55 01 02 19 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Loop",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 1A 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Start Offset",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 1C 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Solo Mode",
+      "group": "Oszillatoren / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 18 0F {dev} 55 01 02 1D 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Knob A: Tone (Filter Fc)",
+      "group": "Filter / Knobs",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Knob B: Presence (Resonance)",
+      "group": "Filter / Knobs",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Knob C: Shape (Filter Env Amt)",
+      "group": "Filter / Knobs",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Frequency",
+      "group": "Filter / Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 0C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Q / Morph",
+      "group": "Filter / Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 0C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Knob E: Attack",
+      "group": "Hüllkurven / Knobs",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Knob F: Decay/Release",
+      "group": "Hüllkurven / Knobs",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mode",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk1 Rate",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk1 Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy1 Rate",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy1 Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 05 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls1 Rate",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 06 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls1 Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 07 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk2 Rate",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 08 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk2 Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 09 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy2 Rate",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0A 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy2 Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0B 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls2 Rate",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0C 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls2 Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0D 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 2,
+      "sysex": "F0 18 0F {dev} 55 01 02 0E 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk1 Rate",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0F 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy1 Rate",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 11 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls1 Rate",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 13 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk2 Rate",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 15 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy2 Rate",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 17 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls2 Rate",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 19 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Repeat",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 29 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 2,
+      "sysex": "F0 18 0F {dev} 55 01 02 1B 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk1 Rate",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 1C 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy1 Rate",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 1E 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls1 Rate",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 20 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Atk2 Rate",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 22 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Dcy2 Rate",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 24 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rls2 Rate",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 26 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Repeat",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 2A 0E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Knob G: Movement (LFO)",
+      "group": "LFOs / Knobs",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Knob H: LFO Rate",
+      "group": "LFOs / Knobs",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Variation",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Sync",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 05 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 06 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 0F {dev} 55 01 02 07 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 08 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Variation",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 09 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Sync",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 0A 0D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Knob K: FX A Amount",
+      "group": "Effekte / Knobs",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Knob L: FX B Amount",
+      "group": "Effekte / Knobs",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Algorithm",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 44,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 90,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "HF Damp",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A>B",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Main",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 05 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Sub 1",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 06 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Sub 2",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 07 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Sub 3",
+      "group": "Effekte / Preset FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0F 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Algorithm",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 32,
+      "sysex": "F0 18 0F {dev} 55 01 02 08 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 09 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "LFO Rate",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0A 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0B 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Main",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0C 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Sub 1",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0D 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Sub 2",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0E 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Sub 4",
+      "group": "Effekte / Preset FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 10 09 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Algorithm",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 44,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 90,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "HF Damp",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "B>A Send",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 1",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 05 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 2",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 06 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 3",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 07 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 4",
+      "group": "Effekte / Master FX A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0F 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Algorithm",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 32,
+      "sysex": "F0 18 0F {dev} 55 01 02 08 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 09 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "LFO Rate",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0A 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0B 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 1",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0C 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 2",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0D 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 3",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 0E 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mix Send 4",
+      "group": "Effekte / Master FX B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 10 04 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Channel Select",
+      "group": "Mixer / Multi",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Volume",
+      "group": "Mixer / Multi",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Pan",
+      "group": "Mixer / Multi",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Multi",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 07 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Preset",
+      "group": "Mixer / Multi",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 895,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Submix",
+      "group": "Mixer / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Knob D: Image (Layers)",
+      "group": "Sonstiges / Knobs",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Knob I: Dynamic 1 (Vel>Vol)",
+      "group": "Sonstiges / Knobs",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Knob J: Dynamic 2 (Vel>Filter)",
+      "group": "Sonstiges / Knobs",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mod Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select MSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select LSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch 1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch 2",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch 3",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Layer Select (edit target)",
+      "group": "Sonstiges / Remote Edit",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 07 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Clock Tempo",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 500,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 02 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "FX Bypass",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 02 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 18 0F {dev} 55 01 02 08 02 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Key Low",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 05 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Key Low Fade",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 06 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Key High",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 07 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Key High Fade",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 08 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Vel Low",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 09 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Vel Low Fade",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0A 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Vel High",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0B 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Vel High Fade",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0C 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "RT Low",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0D 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "RT Low Fade",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0E 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "RT High",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 0F 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "RT High Fade",
+      "group": "Sonstiges / Layer Ranges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 10 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Group",
+      "group": "Sonstiges / Layer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 23,
+      "sysex": "F0 18 0F {dev} 55 01 02 1E 0B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Sonstiges / Preset Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 08 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Sonstiges / Preset Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 08 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pattern",
+      "group": "Sonstiges / Preset Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 299,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 08 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Note Value",
+      "group": "Sonstiges / Preset Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 19,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 08 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Velocity",
+      "group": "Sonstiges / Preset Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 05 08 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Gate Time",
+      "group": "Sonstiges / Preset Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 06 08 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Latch",
+      "group": "Sonstiges / Preset Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 0E 08 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Sonstiges / Master Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 01 05 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Sonstiges / Master Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 18 0F {dev} 55 01 02 02 05 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pattern",
+      "group": "Sonstiges / Master Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 199,
+      "sysex": "F0 18 0F {dev} 55 01 02 03 05 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Note Value",
+      "group": "Sonstiges / Master Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 19,
+      "sysex": "F0 18 0F {dev} 55 01 02 04 05 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Velocity",
+      "group": "Sonstiges / Master Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 0F {dev} 55 01 02 05 05 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Gate Time",
+      "group": "Sonstiges / Master Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 100,
+      "sysex": "F0 18 0F {dev} 55 01 02 06 05 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Latch",
+      "group": "Sonstiges / Master Arp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 0F {dev} 55 01 02 0E 05 {vallsb} {valmsb} F7"
+    }
+  ]
 }

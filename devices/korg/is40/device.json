@@ -13156,5 +13156,142 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Cutoff Modulation",
+      "group": "Filter",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Brightness",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Modulation (Mod Wheel)",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Controller 1",
+      "group": "Effekte / Dynamic Mod",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Controller 2",
+      "group": "Effekte / Dynamic Mod",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "C Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "D Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX 1 On/Off",
+      "group": "Effekte / Switches",
+      "kind": 1,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX 2 On/Off",
+      "group": "Effekte / Switches",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan (A:B)",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Damper",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

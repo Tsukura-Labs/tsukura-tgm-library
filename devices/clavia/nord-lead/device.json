@@ -16644,5 +16644,376 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Oct Shift",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Unison",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Poly/Legato/Mono",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Auto",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 1 Waveform",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 2 Waveform",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 2 Semitones",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 2 Fine Tune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Depth",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 2 Keyboard Tracking",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pulse Width",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Oscillator Sync",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Oscillator Mix",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 8,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mode",
+      "group": "Filter",
+      "kind": 1,
+      "number": 44,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 42,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Filter",
+      "kind": 1,
+      "number": 43,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Velocity",
+      "group": "Filter",
+      "kind": 1,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keyboard Track",
+      "group": "Filter",
+      "kind": 1,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Amount",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 36,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 38,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mod Wheel Destination",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Amount",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate / Arp Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination / Arp Mode",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Amount / Arp Range",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Gain",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

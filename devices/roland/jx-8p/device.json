@@ -1747,5 +1747,609 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Range",
+      "group": "Oszillatoren / DCO-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 0B {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / DCO-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 0C {val} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / DCO-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 0D {val} F7"
+    },
+    {
+      "name": "LFO Mod Depth",
+      "group": "Oszillatoren / DCO-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 0E {val} F7"
+    },
+    {
+      "name": "ENV Mod Depth",
+      "group": "Oszillatoren / DCO-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 0F {val} F7"
+    },
+    {
+      "name": "Range",
+      "group": "Oszillatoren / DCO-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 10 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / DCO-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 11 {val} F7"
+    },
+    {
+      "name": "Crossmod",
+      "group": "Oszillatoren / DCO-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 12 {val} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / DCO-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 13 {val} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / DCO-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 14 {val} F7"
+    },
+    {
+      "name": "LFO Mod Depth",
+      "group": "Oszillatoren / DCO-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 15 {val} F7"
+    },
+    {
+      "name": "ENV Mod Depth",
+      "group": "Oszillatoren / DCO-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 16 {val} F7"
+    },
+    {
+      "name": "DCO Dynamics",
+      "group": "Oszillatoren / DCO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 1A {val} F7"
+    },
+    {
+      "name": "DCO Env Mode",
+      "group": "Oszillatoren / DCO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 1B {val} F7"
+    },
+    {
+      "name": "DCO-1 Level",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 1C {val} F7"
+    },
+    {
+      "name": "DCO-2 Level",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 1D {val} F7"
+    },
+    {
+      "name": "Env Mod Depth",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 1E {val} F7"
+    },
+    {
+      "name": "Dynamics",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 1F {val} F7"
+    },
+    {
+      "name": "Env Mode",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 20 {val} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 30 01 01 {val} F7"
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 64,
+      "sysex": "F0 41 36 {ch} 21 30 01 02 {val} F7"
+    },
+    {
+      "name": "Unison Detune",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 30 01 06 {val} F7"
+    },
+    {
+      "name": "Portamento Time CC",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento On/Off",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "HPF Cutoff",
+      "group": "Filter / HPF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 21 {val} F7"
+    },
+    {
+      "name": "Cutoff Freq",
+      "group": "Filter / VCF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 22 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / VCF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 23 {val} F7"
+    },
+    {
+      "name": "LFO Mod Depth",
+      "group": "Filter / VCF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 24 {val} F7"
+    },
+    {
+      "name": "ENV Mod Depth",
+      "group": "Filter / VCF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 25 {val} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Filter / VCF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 26 {val} F7"
+    },
+    {
+      "name": "Dynamics",
+      "group": "Filter / VCF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 27 {val} F7"
+    },
+    {
+      "name": "Env Mode",
+      "group": "Filter / VCF",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 28 {val} F7"
+    },
+    {
+      "name": "VCA Env Mode",
+      "group": "Hüllkurven / VCA",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 3A {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / ENV-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 2F {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / ENV-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 30 {val} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / ENV-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 31 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / ENV-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 32 {val} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Hüllkurven / ENV-1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 33 {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / ENV-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 34 {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / ENV-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 35 {val} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / ENV-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 36 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / ENV-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 37 {val} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Hüllkurven / ENV-2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 38 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 2C {val} F7"
+    },
+    {
+      "name": "Delay Time",
+      "group": "LFOs / LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 2D {val} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 2E {val} F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "LFOs / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 30 01 00 {val} F7"
+    },
+    {
+      "name": "Bend LFO Depth",
+      "group": "LFOs / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 30 01 05 {val} F7"
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 2B {val} F7"
+    },
+    {
+      "name": "VCA Level",
+      "group": "Mixer / VCA",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 29 {val} F7"
+    },
+    {
+      "name": "VCA Dynamics",
+      "group": "Mixer / VCA",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 36 {ch} 21 20 01 2A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Assign Mode",
+      "group": "Sonstiges / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 41 36 {ch} 21 30 01 03 {val} F7"
+    },
+    {
+      "name": "After Touch Select",
+      "group": "Sonstiges / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 36 {ch} 21 30 01 04 {val} F7"
+    },
+    {
+      "name": "Tone Number",
+      "group": "Sonstiges / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 36 {ch} 21 30 01 07 {val} F7"
+    },
+    {
+      "name": "Bank Number",
+      "group": "Sonstiges / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 36 {ch} 21 30 01 08 {val} F7"
+    },
+    {
+      "name": "Hold",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bender",
+      "group": "Sonstiges",
+      "kind": 6,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Channel Aftertouch",
+      "group": "Sonstiges",
+      "kind": 7,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Program Change",
+      "group": "Sonstiges",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

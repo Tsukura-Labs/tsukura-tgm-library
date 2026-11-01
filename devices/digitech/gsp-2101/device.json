@@ -4352,5 +4352,16 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Program Change",
+      "group": "Sonstiges / Program",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

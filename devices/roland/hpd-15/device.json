@@ -4260,5 +4260,366 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Decay",
+      "group": "Oszillatoren / Pad Set A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 62,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 00 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Oszillatoren / Pad Set B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 62,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 01 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Oszillatoren / Pad Set C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 62,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 02 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Type",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 17,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Algorithm",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Level",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Time",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 04 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb HF Damp",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 17,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 05 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay Feedback",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Type",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 84,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 07 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Depth (EZ Edit)",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 08 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Algorithm",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Output Volume",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Reverb Send",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 1",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 0C {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 2",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 0D {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 3",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 0E {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 4",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 0F {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 5",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 10 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 6",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 11 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 7",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 12 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 8",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 13 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 9",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 14 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 10",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 15 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 11",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 16 {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Parameter 12",
+      "group": "Effekte / M-FX",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 30 17 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Pad Set A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 00 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Switch",
+      "group": "Effekte / Pad Set A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 00 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Pad Set B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 01 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Switch",
+      "group": "Effekte / Pad Set B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 01 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Pad Set C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 02 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "M-FX Switch",
+      "group": "Effekte / Pad Set C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 02 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Pad Set A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 00 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Pad Set B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 01 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Pad Set C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 00 2E 12 < 01 00 02 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bank Select MSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    }
+  ]
 }

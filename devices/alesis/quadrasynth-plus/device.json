@@ -16762,5 +16762,2967 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Sample group",
+      "group": "Oszillatoren / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 47,
+      "sysex": "F0 00 00 0E 0E 10 40 00 00 {val} F7"
+    },
+    {
+      "name": "Sample number",
+      "group": "Oszillatoren / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 40 00 04 {val} F7"
+    },
+    {
+      "name": "Pitch detune type",
+      "group": "Oszillatoren / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 43 00 06 {val} F7"
+    },
+    {
+      "name": "Pitch wheel mod",
+      "group": "Oszillatoren / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 43 01 00 {val} F7"
+    },
+    {
+      "name": "Portamento mode",
+      "group": "Oszillatoren / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 02 00 {val} F7"
+    },
+    {
+      "name": "Portamento rate",
+      "group": "Oszillatoren / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 43 02 04 {val} F7"
+    },
+    {
+      "name": "Key mode",
+      "group": "Oszillatoren / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 02 06 {val} F7"
+    },
+    {
+      "name": "Sample group",
+      "group": "Oszillatoren / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 47,
+      "sysex": "F0 00 00 0E 0E 10 40 20 00 {val} F7"
+    },
+    {
+      "name": "Sample number",
+      "group": "Oszillatoren / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 40 20 04 {val} F7"
+    },
+    {
+      "name": "Pitch detune type",
+      "group": "Oszillatoren / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 43 20 06 {val} F7"
+    },
+    {
+      "name": "Pitch wheel mod",
+      "group": "Oszillatoren / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 43 21 00 {val} F7"
+    },
+    {
+      "name": "Portamento mode",
+      "group": "Oszillatoren / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 22 00 {val} F7"
+    },
+    {
+      "name": "Portamento rate",
+      "group": "Oszillatoren / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 43 22 04 {val} F7"
+    },
+    {
+      "name": "Key mode",
+      "group": "Oszillatoren / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 22 06 {val} F7"
+    },
+    {
+      "name": "Sample group",
+      "group": "Oszillatoren / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 47,
+      "sysex": "F0 00 00 0E 0E 10 40 40 00 {val} F7"
+    },
+    {
+      "name": "Sample number",
+      "group": "Oszillatoren / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 40 40 04 {val} F7"
+    },
+    {
+      "name": "Pitch detune type",
+      "group": "Oszillatoren / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 43 40 06 {val} F7"
+    },
+    {
+      "name": "Pitch wheel mod",
+      "group": "Oszillatoren / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 43 41 00 {val} F7"
+    },
+    {
+      "name": "Portamento mode",
+      "group": "Oszillatoren / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 42 00 {val} F7"
+    },
+    {
+      "name": "Portamento rate",
+      "group": "Oszillatoren / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 43 42 04 {val} F7"
+    },
+    {
+      "name": "Key mode",
+      "group": "Oszillatoren / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 42 06 {val} F7"
+    },
+    {
+      "name": "Sample group",
+      "group": "Oszillatoren / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 47,
+      "sysex": "F0 00 00 0E 0E 10 40 60 00 {val} F7"
+    },
+    {
+      "name": "Sample number",
+      "group": "Oszillatoren / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 40 60 04 {val} F7"
+    },
+    {
+      "name": "Pitch detune type",
+      "group": "Oszillatoren / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 43 60 06 {val} F7"
+    },
+    {
+      "name": "Pitch wheel mod",
+      "group": "Oszillatoren / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 43 61 00 {val} F7"
+    },
+    {
+      "name": "Portamento mode",
+      "group": "Oszillatoren / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 62 00 {val} F7"
+    },
+    {
+      "name": "Portamento rate",
+      "group": "Oszillatoren / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 43 62 04 {val} F7"
+    },
+    {
+      "name": "Key mode",
+      "group": "Oszillatoren / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 43 62 06 {val} F7"
+    },
+    {
+      "name": "Filter frequency",
+      "group": "Filter / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 44 00 00 {val} F7"
+    },
+    {
+      "name": "Filter kbd track",
+      "group": "Filter / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 44 00 02 {val} F7"
+    },
+    {
+      "name": "Filter frequency",
+      "group": "Filter / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 44 20 00 {val} F7"
+    },
+    {
+      "name": "Filter kbd track",
+      "group": "Filter / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 44 20 02 {val} F7"
+    },
+    {
+      "name": "Filter frequency",
+      "group": "Filter / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 44 40 00 {val} F7"
+    },
+    {
+      "name": "Filter kbd track",
+      "group": "Filter / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 44 40 02 {val} F7"
+    },
+    {
+      "name": "Filter frequency",
+      "group": "Filter / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 44 60 00 {val} F7"
+    },
+    {
+      "name": "Filter kbd track",
+      "group": "Filter / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 44 60 02 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 00 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 00 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 00 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 00 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 01 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 01 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4D 01 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 02 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 02 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 02 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 00 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 00 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 00 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 00 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 01 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 01 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4E 01 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 02 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 02 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 02 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 00 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 00 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 00 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 00 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 01 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 01 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4F 01 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 02 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 02 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 02 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 20 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 20 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 20 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 20 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 21 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 21 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4D 21 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 22 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 22 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 22 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 20 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 20 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 20 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 20 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 21 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 21 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4E 21 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 22 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 22 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 22 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 20 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 20 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 20 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 20 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 21 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 21 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4F 21 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 22 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 22 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 22 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 40 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 40 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 40 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 40 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 41 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 41 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4D 41 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 42 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 42 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 42 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 40 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 40 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 40 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 40 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 41 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 41 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4E 41 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 42 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 42 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 42 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 40 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 40 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 40 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 40 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 41 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 41 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4F 41 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 42 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 42 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 42 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 60 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 60 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 60 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 60 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 61 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 61 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4D 61 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 62 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4D 62 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4D 62 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 60 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 60 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 60 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 60 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 61 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 61 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4E 61 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 62 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4E 62 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4E 62 04 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 60 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 60 02 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 60 04 {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 60 06 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 61 00 {val} F7"
+    },
+    {
+      "name": "Sustain decay",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 61 02 {val} F7"
+    },
+    {
+      "name": "Trig type",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4F 61 06 {val} F7"
+    },
+    {
+      "name": "Time track",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 62 00 {val} F7"
+    },
+    {
+      "name": "Sustain pedal",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 4F 62 02 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Hüllkurven / Sound 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4F 62 04 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 1 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4A 00 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 1 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 00 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 1 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 00 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 1 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4A 00 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 1 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 01 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 1 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4B 00 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 1 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 00 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 1 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 00 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 1 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4B 00 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 1 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 01 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 1 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4C 00 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 1 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 00 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 1 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 00 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 1 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4C 00 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 1 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 01 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 2 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4A 20 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 2 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 20 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 2 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 20 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 2 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4A 20 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 2 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 21 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 2 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4B 20 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 2 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 20 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 2 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 20 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 2 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4B 20 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 2 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 21 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 2 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4C 20 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 2 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 20 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 2 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 20 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 2 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4C 20 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 2 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 21 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 3 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4A 40 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 3 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 40 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 3 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 40 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 3 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4A 40 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 3 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 41 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 3 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4B 40 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 3 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 40 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 3 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 40 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 3 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4B 40 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 3 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 41 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 3 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4C 40 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 3 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 40 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 3 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 40 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 3 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4C 40 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 3 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 41 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 4 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4A 60 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 4 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 60 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 4 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 60 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 4 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4A 60 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 4 Pitch LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4A 61 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 4 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4B 60 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 4 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 60 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 4 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 60 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 4 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4B 60 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 4 Filter LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4B 61 00 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Sound 4 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 4C 60 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Sound 4 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 60 02 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Sound 4 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 60 04 {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "LFOs / Sound 4 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 4C 60 06 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "LFOs / Sound 4 Amp LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 4C 61 00 {val} F7"
+    },
+    {
+      "name": "Effect level",
+      "group": "Effekte / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 42 00 00 {val} F7"
+    },
+    {
+      "name": "Effect bus",
+      "group": "Effekte / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 42 00 02 {val} F7"
+    },
+    {
+      "name": "Effect level",
+      "group": "Effekte / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 42 20 00 {val} F7"
+    },
+    {
+      "name": "Effect bus",
+      "group": "Effekte / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 42 20 02 {val} F7"
+    },
+    {
+      "name": "Effect level",
+      "group": "Effekte / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 42 40 00 {val} F7"
+    },
+    {
+      "name": "Effect bus",
+      "group": "Effekte / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 42 40 02 {val} F7"
+    },
+    {
+      "name": "Effect level",
+      "group": "Effekte / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 42 60 00 {val} F7"
+    },
+    {
+      "name": "Effect bus",
+      "group": "Effekte / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 00 0E 0E 10 42 60 02 {val} F7"
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 64 01 00 {val} F7"
+    },
+    {
+      "name": "Input 1",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 00 0E 0E 10 64 00 00 {val} F7"
+    },
+    {
+      "name": "Input 2",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 64 00 02 {val} F7"
+    },
+    {
+      "name": "Prdly 10ms",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 29,
+      "sysex": "F0 00 00 0E 0E 10 64 01 02 {val} F7"
+    },
+    {
+      "name": "Prdly 1ms",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 00 00 0E 0E 10 64 01 04 {val} F7"
+    },
+    {
+      "name": "Inp flter",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 64 02 00 {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 64 02 02 {val} F7"
+    },
+    {
+      "name": "Diffusion",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 64 03 04 {val} F7"
+    },
+    {
+      "name": "Density",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 64 03 00 {val} F7"
+    },
+    {
+      "name": "Low decay",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 64 02 04 {val} F7"
+    },
+    {
+      "name": "High decay",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 64 02 06 {val} F7"
+    },
+    {
+      "name": "Mix",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 66 00 04 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 41 00 00 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 41 00 02 {val} F7"
+    },
+    {
+      "name": "Output",
+      "group": "Mixer / Sound 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 41 00 04 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 41 20 00 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 41 20 02 {val} F7"
+    },
+    {
+      "name": "Output",
+      "group": "Mixer / Sound 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 41 20 04 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 41 40 00 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 41 40 02 {val} F7"
+    },
+    {
+      "name": "Output",
+      "group": "Mixer / Sound 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 41 40 04 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 41 60 00 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 00 00 0E 0E 10 41 60 02 {val} F7"
+    },
+    {
+      "name": "Output",
+      "group": "Mixer / Sound 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 00 0E 0E 10 41 60 04 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 00 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 02 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 08 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 0A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 10 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 12 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 18 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 1A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 20 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 22 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 28 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 2A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 30 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 32 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 38 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 3A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 40 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 42 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 48 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 4A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 50 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 52 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 58 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 5A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 60 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 62 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 68 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 6A {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 70 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 72 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Mix Ch 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 21 00 78 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Mix Ch 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 00 00 0E 0E 10 21 00 7A {val} F7"
+    },
+    {
+      "name": "Veloc curve",
+      "group": "Sonstiges / Sound 1 Amp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 45 00 00 {val} F7"
+    },
+    {
+      "name": "Low note",
+      "group": "Sonstiges / Sound 1 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 00 00 {val} F7"
+    },
+    {
+      "name": "High note",
+      "group": "Sonstiges / Sound 1 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 00 02 {val} F7"
+    },
+    {
+      "name": "Overlap",
+      "group": "Sonstiges / Sound 1 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 46 00 04 {val} F7"
+    },
+    {
+      "name": "Veloc curve",
+      "group": "Sonstiges / Sound 2 Amp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 45 20 00 {val} F7"
+    },
+    {
+      "name": "Low note",
+      "group": "Sonstiges / Sound 2 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 20 00 {val} F7"
+    },
+    {
+      "name": "High note",
+      "group": "Sonstiges / Sound 2 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 20 02 {val} F7"
+    },
+    {
+      "name": "Overlap",
+      "group": "Sonstiges / Sound 2 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 46 20 04 {val} F7"
+    },
+    {
+      "name": "Veloc curve",
+      "group": "Sonstiges / Sound 3 Amp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 45 40 00 {val} F7"
+    },
+    {
+      "name": "Low note",
+      "group": "Sonstiges / Sound 3 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 40 00 {val} F7"
+    },
+    {
+      "name": "High note",
+      "group": "Sonstiges / Sound 3 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 40 02 {val} F7"
+    },
+    {
+      "name": "Overlap",
+      "group": "Sonstiges / Sound 3 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 46 40 04 {val} F7"
+    },
+    {
+      "name": "Veloc curve",
+      "group": "Sonstiges / Sound 4 Amp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 00 0E 0E 10 45 60 00 {val} F7"
+    },
+    {
+      "name": "Low note",
+      "group": "Sonstiges / Sound 4 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 60 00 {val} F7"
+    },
+    {
+      "name": "High note",
+      "group": "Sonstiges / Sound 4 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 00 0E 0E 10 46 60 02 {val} F7"
+    },
+    {
+      "name": "Overlap",
+      "group": "Sonstiges / Sound 4 Range",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 00 00 0E 0E 10 46 60 04 {val} F7"
+    }
+  ]
 }

@@ -13696,5 +13696,307 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Controller",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Controller",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Perf",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 26 {val} F7"
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Perf",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 30 00 27 {val} F7"
+    },
+    {
+      "name": "Resonance (Harmonic)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff (Brightness)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Decay Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Perf Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 24 {val} F7"
+    },
+    {
+      "name": "Sustain Offset",
+      "group": "Hüllkurven / Perf Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 25 {val} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Perf Reverb Send",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 39 {val} F7"
+    },
+    {
+      "name": "Perf Chorus Send",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 3A {val} F7"
+    },
+    {
+      "name": "Chorus Control",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 23 {val} F7"
+    },
+    {
+      "name": "Return",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 01 16 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 01 17 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Perf Pan",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 21 {val} F7"
+    },
+    {
+      "name": "Perf Volume",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 30 00 38 {val} F7"
+    },
+    {
+      "name": "Master Volume (GM)",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 7F 7F 04 01 00 {val} F7"
+    },
+    {
+      "name": "Bank Select MSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select LSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Master Fine Tune",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Master Coarse Tune",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 40,
+      "max": 88
+    }
+  ]
 }

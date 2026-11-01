@@ -1,0 +1,11 @@
+{
+  "schema": "tgm.panels/1",
+  "panels": [
+    {
+      "uuid": "6f6bc79a4a6a45bbd7d81fada368e00d",
+      "name": "Klangbearbeitung",
+      "sort": 0,
+      "json": "{\"v\":1,\"w\":800,\"h\":400,\"controls\":[{\"id\":\"c1\",\"t\":7,\"x\":16,\"y\":16,\"w\":276,\"h\":124,\"label\":\"Oszillatoren\",\"color\":\"#649AD8\"},{\"id\":\"c5\",\"t\":7,\"x\":308,\"y\":16,\"w\":200,\"h\":124,\"label\":\"Effekte\",\"color\":\"#64D8C1\"},{\"id\":\"c2\",\"t\":0,\"x\":28,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Pitch Bend Sensitivity\",\"color\":\"#649AD8\",\"kind\":5,\"num\":0,\"ch\":-1,\"sx\":\"\",\"min\":0,\"max\":12,\"def\":2,\"names\":[],\"slot\":0,\"rx\":true,\"step\":1,\"vd\":1},{\"id\":\"c3\",\"t\":0,\"x\":112,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Fine Tuning\",\"color\":\"#649AD8\",\"kind\":5,\"num\":1,\"ch\":-1,\"sx\":\"\",\"min\":32,\"max\":96,\"def\":64,\"names\":[],\"slot\":1,\"rx\":true,\"step\":1,\"vd\":1},{\"id\":\"c4\",\"t\":0,\"x\":196,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Coarse Tuning\",\"color\":\"#649AD8\",\"kind\":5,\"num\":2,\"ch\":-1,\"sx\":\"\",\"min\":16,\"max\":112,\"def\":64,\"names\":[],\"slot\":2,\"rx\":true,\"step\":1,\"vd\":1},{\"id\":\"c6\",\"t\":0,\"x\":320,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Reverb Send\",\"color\":\"#64D8C1\",\"kind\":1,\"num\":91,\"ch\":-1,\"sx\":\"\",\"min\":0,\"max\":127,\"def\":0,\"names\":[],\"slot\":3,\"rx\":true,\"step\":1,\"vd\":1},{\"id\":\"c7\",\"t\":0,\"x\":404,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Chorus Send\",\"color\":\"#64D8C1\",\"kind\":1,\"num\":93,\"ch\":-1,\"sx\":\"\",\"min\":0,\"max\":127,\"def\":0,\"names\":[],\"slot\":4,\"rx\":true,\"step\":1,\"vd\":1}]}"
+    }
+  ]
+}

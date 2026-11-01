@@ -3440,5 +3440,133 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / EG",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / EG",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Reverb",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Main Volume",
+      "group": "Mixer / Part",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 1 (Sustain)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select MSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select LSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

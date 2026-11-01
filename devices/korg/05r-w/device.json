@@ -80,7 +80,7 @@
     "note": "",
     "pluginId": "",
     "sourceInfo": "Korg 05R W, version 1.00, Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH",
-    "sysexDeviceId": 16,
+    "sysexDeviceId": 48,
     "sysexExpected": 0,
     "sysexHeader": "",
     "sysexQuietMs": 300,
@@ -8886,5 +8886,1182 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Oscillator Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 42 {dev} 36 41 00 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Assign Mono",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 42 {dev} 36 41 01 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Hold",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 42 {dev} 36 41 02 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 19 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Emphasis Intensity",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 21 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 5C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Emphasis Intensity",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 64 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Osc 2 Delay Start",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 5A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Cutoff Modulation",
+      "group": "Filter",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Brightness",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / VDF 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 1F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "EG Intensity",
+      "group": "Filter / VDF 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 20 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Kbd Track Key",
+      "group": "Filter / VDF 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 31 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / VDF 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 62 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "EG Intensity",
+      "group": "Filter / VDF 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 63 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Kbd Track Key",
+      "group": "Filter / VDF 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 74 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 04 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 06 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 07 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / VDF 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 23 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / VDF 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 25 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Slope Time",
+      "group": "Hüllkurven / VDF 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 27 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / VDF 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 29 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / VDA 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 39 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / VDA 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 3A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / VDA 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 3B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Break Point",
+      "group": "Hüllkurven / VDA 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 3C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Slope Time",
+      "group": "Hüllkurven / VDA 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 3D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / VDA 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 3E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / VDA 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 3F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / VDF 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 66 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / VDF 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 68 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Slope Time",
+      "group": "Hüllkurven / VDF 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 6A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / VDF 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 6C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / VDA 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 7C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / VDA 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 7D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / VDA 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 7E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Break Point",
+      "group": "Hüllkurven / VDA 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 7F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Slope Time",
+      "group": "Hüllkurven / VDA 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 00 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / VDA 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 01 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / VDA 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 02 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Modulation (Mod Wheel)",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / VDF MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 42 {dev} 36 41 0B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Frequency",
+      "group": "LFOs / VDF MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 0C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity",
+      "group": "LFOs / VDF MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 0D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / VDF MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 0E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Key Sync",
+      "group": "LFOs / VDF MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 42 {dev} 36 41 10 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity by After Touch",
+      "group": "LFOs / VDF MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 13 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity by Joystick",
+      "group": "LFOs / VDF MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 15 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 42 {dev} 36 41 4E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Frequency",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 4F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 50 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 51 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Fade In",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 52 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Key Sync",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 42 {dev} 36 41 53 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Freq Mod by AT+JS",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 55 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity Mod by AT",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 56 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity Mod by JS",
+      "group": "LFOs / Osc 1 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 57 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 42 {dev} 36 41 11 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Frequency",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 12 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 13 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 14 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Fade In",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 15 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Key Sync",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 42 {dev} 36 41 16 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Freq Mod by AT+JS",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 18 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity Mod by AT",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 19 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Intensity Mod by JS",
+      "group": "LFOs / Osc 2 Pitch MG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 42 {dev} 36 41 1A 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Effect Controller 1",
+      "group": "Effekte / Dynamic Mod",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Controller 2",
+      "group": "Effekte / Dynamic Mod",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "C Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "D Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX 1 On/Off",
+      "group": "Effekte / Switches",
+      "kind": 1,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX 2 On/Off",
+      "group": "Effekte / Switches",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan (A:B)",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 1C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 1D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 1E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Kbd Track Key",
+      "group": "Mixer / VDA 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 46 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 5F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 60 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 61 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Kbd Track Key",
+      "group": "Mixer / VDA 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 09 01 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 08 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 68 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 70 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 78 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 09 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 69 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 71 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 79 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 0A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 6A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 72 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 7A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 0B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 6B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 73 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 7B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 0C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 6C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 74 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 7C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 0D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 6D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 75 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 7D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 0E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 6E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 76 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 7E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Timbre 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 42 {dev} 36 41 0F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "A:B Pan",
+      "group": "Mixer / Timbre 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 42 {dev} 36 41 6F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "C Send",
+      "group": "Mixer / Timbre 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 77 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "D Send",
+      "group": "Mixer / Timbre 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 42 {dev} 36 41 7F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Damper",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

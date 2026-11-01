@@ -5078,5 +5078,2656 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Tone Media",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Number",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Coarse",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 56,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Fine",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Detune Depth",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Depth",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Rate",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Ch Press Sens",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Poly Press Sens",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Lower",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Upper",
+      "group": "Oszillatoren / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Media",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Number",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Coarse",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 56,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Fine",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Detune Depth",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Depth",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Rate",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Ch Press Sens",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Poly Press Sens",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Lower",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Upper",
+      "group": "Oszillatoren / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Media",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Number",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Coarse",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 56,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Fine",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Detune Depth",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Depth",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Rate",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Ch Press Sens",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Poly Press Sens",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Lower",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Upper",
+      "group": "Oszillatoren / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Media",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Number",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Coarse",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 56,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Fine",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Detune Depth",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Depth",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Rate",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Ch Press Sens",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Poly Press Sens",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Lower",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Upper",
+      "group": "Oszillatoren / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Media",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Number",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Coarse",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 56,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Fine",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Detune Depth",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Depth",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Rate",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Ch Press Sens",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Poly Press Sens",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Lower",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Upper",
+      "group": "Oszillatoren / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Media",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Number",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Coarse",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 56,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Shift Fine",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Detune Depth",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Depth",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Auto Bend Rate",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Ch Press Sens",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Poly Press Sens",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 27,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Lower",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bend Range Upper",
+      "group": "Oszillatoren / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Master Fine Tune (RPN 1, MSB only)",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 32,
+      "max": 96
+    },
+    {
+      "name": "Attack Rate",
+      "group": "Hüllkurven / Timbre 1 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay Rate",
+      "group": "Hüllkurven / Timbre 1 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Timbre 1 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Rate",
+      "group": "Hüllkurven / Timbre 1 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Rate",
+      "group": "Hüllkurven / Timbre 2 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay Rate",
+      "group": "Hüllkurven / Timbre 2 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Timbre 2 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Rate",
+      "group": "Hüllkurven / Timbre 2 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Rate",
+      "group": "Hüllkurven / Timbre 3 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay Rate",
+      "group": "Hüllkurven / Timbre 3 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Timbre 3 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Rate",
+      "group": "Hüllkurven / Timbre 3 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Rate",
+      "group": "Hüllkurven / Timbre 4 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay Rate",
+      "group": "Hüllkurven / Timbre 4 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Timbre 4 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Rate",
+      "group": "Hüllkurven / Timbre 4 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Rate",
+      "group": "Hüllkurven / Timbre 5 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay Rate",
+      "group": "Hüllkurven / Timbre 5 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Timbre 5 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Rate",
+      "group": "Hüllkurven / Timbre 5 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Rate",
+      "group": "Hüllkurven / Timbre 6 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay Rate",
+      "group": "Hüllkurven / Timbre 6 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Timbre 6 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Rate",
+      "group": "Hüllkurven / Timbre 6 Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Rise Time",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation Depth",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Ch Aftertouch Sens",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Poly Aftertouch Sens",
+      "group": "LFOs / Timbre 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Rise Time",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation Depth",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Ch Aftertouch Sens",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Poly Aftertouch Sens",
+      "group": "LFOs / Timbre 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Rise Time",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation Depth",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Ch Aftertouch Sens",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Poly Aftertouch Sens",
+      "group": "LFOs / Timbre 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Rise Time",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation Depth",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Ch Aftertouch Sens",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Poly Aftertouch Sens",
+      "group": "LFOs / Timbre 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Rise Time",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation Depth",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Ch Aftertouch Sens",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Poly Aftertouch Sens",
+      "group": "LFOs / Timbre 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Rise Time",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation Depth",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Ch Aftertouch Sens",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Poly Aftertouch Sens",
+      "group": "LFOs / Timbre 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Sensitivity (RPN 0)",
+      "group": "LFOs",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12
+    },
+    {
+      "name": "Chorus Switch",
+      "group": "Effekte / Setup",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 00 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Switch",
+      "group": "Effekte / Setup",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 00 01 {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Type",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Out Mode",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Level",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Delay",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Rate",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Depth",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Feedback",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 63,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Type",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Time",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Level",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Delay Feedback",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 07 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 17 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 47 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 57 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level Boost Switch",
+      "group": "Mixer / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Volume",
+      "group": "Mixer / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 08 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan (15 = Random)",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Volume",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Pan",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan (15 = Random)",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Volume",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Pan",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan (15 = Random)",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Volume",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Pan",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan (15 = Random)",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 39 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Volume",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 3A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Pan",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 3B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan (15 = Random)",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 49 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Volume",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 4A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Pan",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 4B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 58 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan (15 = Random)",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 59 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Volume",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 5A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Pan",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 5B {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Level",
+      "group": "Mixer / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Mixer / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level Ch Press Sens",
+      "group": "Mixer / Timbre 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 10 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Level",
+      "group": "Mixer / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Mixer / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level Ch Press Sens",
+      "group": "Mixer / Timbre 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 11 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Level",
+      "group": "Mixer / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Mixer / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level Ch Press Sens",
+      "group": "Mixer / Timbre 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 12 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Level",
+      "group": "Mixer / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Mixer / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level Ch Press Sens",
+      "group": "Mixer / Timbre 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 13 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Level",
+      "group": "Mixer / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Mixer / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level Ch Press Sens",
+      "group": "Mixer / Timbre 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 14 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Level",
+      "group": "Mixer / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Mixer / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level Ch Press Sens",
+      "group": "Mixer / Timbre 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 15 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LCD Contrast",
+      "group": "Sonstiges / Setup",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 2B 12 < 10 00 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rhythm Setup No",
+      "group": "Sonstiges / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "Voice Reserve",
+      "group": "Sonstiges / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "Receive Channel",
+      "group": "Sonstiges / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Hold",
+      "group": "Sonstiges / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 04 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Number",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Voice Reserve",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 01 {val} > {rchk} F7"
+    },
+    {
+      "name": "Receive Channel",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range Low",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range High",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 04 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Level",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 05 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Threshold",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Hold",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 0C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Number",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 10 {val} > {rchk} F7"
+    },
+    {
+      "name": "Voice Reserve",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 11 {val} > {rchk} F7"
+    },
+    {
+      "name": "Receive Channel",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 12 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range Low",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 13 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range High",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 14 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Level",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 15 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Threshold",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 16 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Hold",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Number",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Voice Reserve",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Receive Channel",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range Low",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range High",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Level",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Threshold",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Hold",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Number",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Voice Reserve",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Receive Channel",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 32 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range Low",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 33 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range High",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 34 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Level",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 35 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Threshold",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 36 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Hold",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Number",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 40 {val} > {rchk} F7"
+    },
+    {
+      "name": "Voice Reserve",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 41 {val} > {rchk} F7"
+    },
+    {
+      "name": "Receive Channel",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range Low",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range High",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Level",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 45 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Threshold",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 46 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Hold",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 4C {val} > {rchk} F7"
+    },
+    {
+      "name": "Timbre Number",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 50 {val} > {rchk} F7"
+    },
+    {
+      "name": "Voice Reserve",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 51 {val} > {rchk} F7"
+    },
+    {
+      "name": "Receive Channel",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 52 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range Low",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 53 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Range High",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 54 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Level",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 55 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo Threshold",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 56 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rx Hold",
+      "group": "Sonstiges / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 2B 12 < 10 05 5C {val} > {rchk} F7"
+    },
+    {
+      "name": "Hold 1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Pitch Bend",
+      "group": "Sonstiges",
+      "kind": 6,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Channel Pressure",
+      "group": "Sonstiges",
+      "kind": 7,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Program Change",
+      "group": "Sonstiges",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

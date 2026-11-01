@@ -930,5 +930,1518 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Algorithm [MIDI Control]",
+      "group": "Oszillatoren / Algorithm",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Output Level [MIDI Control]",
+      "group": "Oszillatoren / Op 1",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Level [MIDI Control]",
+      "group": "Oszillatoren / Op 1",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Type [MIDI Control]",
+      "group": "Oszillatoren / Op 1",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Mode [MIDI Control]",
+      "group": "Oszillatoren / Op 1",
+      "kind": 1,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Coarse [MIDI Control]",
+      "group": "Oszillatoren / Op 1",
+      "kind": 1,
+      "number": 89,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Fine [MIDI Control]",
+      "group": "Oszillatoren / Op 1",
+      "kind": 1,
+      "number": 90,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Output Level [MIDI Control]",
+      "group": "Oszillatoren / Op 2",
+      "kind": 1,
+      "number": 102,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Level [MIDI Control]",
+      "group": "Oszillatoren / Op 2",
+      "kind": 1,
+      "number": 103,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Type [MIDI Control]",
+      "group": "Oszillatoren / Op 2",
+      "kind": 1,
+      "number": 104,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Mode [MIDI Control]",
+      "group": "Oszillatoren / Op 2",
+      "kind": 1,
+      "number": 105,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Coarse [MIDI Control]",
+      "group": "Oszillatoren / Op 2",
+      "kind": 1,
+      "number": 106,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Fine [MIDI Control]",
+      "group": "Oszillatoren / Op 2",
+      "kind": 1,
+      "number": 107,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Output Level [MIDI Control]",
+      "group": "Oszillatoren / Op 3",
+      "kind": 1,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Level [MIDI Control]",
+      "group": "Oszillatoren / Op 3",
+      "kind": 1,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Type [MIDI Control]",
+      "group": "Oszillatoren / Op 3",
+      "kind": 1,
+      "number": 110,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Mode [MIDI Control]",
+      "group": "Oszillatoren / Op 3",
+      "kind": 1,
+      "number": 111,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Coarse [MIDI Control]",
+      "group": "Oszillatoren / Op 3",
+      "kind": 1,
+      "number": 112,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Fine [MIDI Control]",
+      "group": "Oszillatoren / Op 3",
+      "kind": 1,
+      "number": 113,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Output Level [MIDI Control]",
+      "group": "Oszillatoren / Op 4",
+      "kind": 1,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Level [MIDI Control]",
+      "group": "Oszillatoren / Op 4",
+      "kind": 1,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Feedback Type [MIDI Control]",
+      "group": "Oszillatoren / Op 4",
+      "kind": 1,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Mode [MIDI Control]",
+      "group": "Oszillatoren / Op 4",
+      "kind": 1,
+      "number": 117,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Coarse [MIDI Control]",
+      "group": "Oszillatoren / Op 4",
+      "kind": 1,
+      "number": 118,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Freq Fine [MIDI Control]",
+      "group": "Oszillatoren / Op 4",
+      "kind": 1,
+      "number": 119,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 0C {val} F7"
+    },
+    {
+      "name": "Part Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 0D {val} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 0E {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 0F {val} F7"
+    },
+    {
+      "name": "Algorithm",
+      "group": "Oszillatoren / Algorithm",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 11,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 10 {val} F7"
+    },
+    {
+      "name": "On/Off",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 12 {val} F7"
+    },
+    {
+      "name": "Feedback Level",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 13 {val} F7"
+    },
+    {
+      "name": "Feedback Type",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 14 {val} F7"
+    },
+    {
+      "name": "Freq Mode",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 15 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 16 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 17 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 18 {val} F7"
+    },
+    {
+      "name": "Level Vel Sens",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 11 {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Depth",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 0A {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Depth",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 0B {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Curve",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 0C {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Curve",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 0D {val} F7"
+    },
+    {
+      "name": "On/Off",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 12 {val} F7"
+    },
+    {
+      "name": "Feedback Level",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 13 {val} F7"
+    },
+    {
+      "name": "Feedback Type",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 14 {val} F7"
+    },
+    {
+      "name": "Freq Mode",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 15 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 16 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 17 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 18 {val} F7"
+    },
+    {
+      "name": "Level Vel Sens",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 11 {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Depth",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 0A {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Depth",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 0B {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Curve",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 0C {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Curve",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 0D {val} F7"
+    },
+    {
+      "name": "On/Off",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 12 {val} F7"
+    },
+    {
+      "name": "Feedback Level",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 13 {val} F7"
+    },
+    {
+      "name": "Feedback Type",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 14 {val} F7"
+    },
+    {
+      "name": "Freq Mode",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 15 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 16 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 17 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 18 {val} F7"
+    },
+    {
+      "name": "Level Vel Sens",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 11 {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Depth",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 0A {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Depth",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 0B {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Curve",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 0C {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Curve",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 0D {val} F7"
+    },
+    {
+      "name": "On/Off",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 12 {val} F7"
+    },
+    {
+      "name": "Feedback Level",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 13 {val} F7"
+    },
+    {
+      "name": "Feedback Type",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 14 {val} F7"
+    },
+    {
+      "name": "Freq Mode",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 15 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 16 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 17 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 18 {val} F7"
+    },
+    {
+      "name": "Level Vel Sens",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 11 {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Depth",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 0A {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Depth",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 0B {val} F7"
+    },
+    {
+      "name": "Level Scaling Left Curve",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 0C {val} F7"
+    },
+    {
+      "name": "Level Scaling Right Curve",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 0D {val} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 15 {val} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 16 {val} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 17 {val} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 18 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 19 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 1A {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 1B {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 1C {val} F7"
+    },
+    {
+      "name": "Pitch EG On/Off",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 10 {val} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 01 {val} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 02 {val} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 03 {val} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 04 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 05 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 06 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 07 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 08 {val} F7"
+    },
+    {
+      "name": "Kbd Rate Scaling",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 09 {val} F7"
+    },
+    {
+      "name": "Pitch EG On/Off",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 10 {val} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 01 {val} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 02 {val} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 03 {val} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 04 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 05 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 06 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 07 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 08 {val} F7"
+    },
+    {
+      "name": "Kbd Rate Scaling",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 09 {val} F7"
+    },
+    {
+      "name": "Pitch EG On/Off",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 10 {val} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 01 {val} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 02 {val} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 03 {val} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 04 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 05 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 06 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 07 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 08 {val} F7"
+    },
+    {
+      "name": "Kbd Rate Scaling",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 09 {val} F7"
+    },
+    {
+      "name": "Pitch EG On/Off",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 10 {val} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 01 {val} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 02 {val} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 03 {val} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 04 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 05 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 06 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 07 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 08 {val} F7"
+    },
+    {
+      "name": "Kbd Rate Scaling",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 09 {val} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 11 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 12 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 13 {val} F7"
+    },
+    {
+      "name": "Pitch Mod Depth",
+      "group": "LFOs / LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 14 {val} F7"
+    },
+    {
+      "name": "LFO AMD Depth",
+      "group": "LFOs / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 0E {val} F7"
+    },
+    {
+      "name": "LFO PMD On/Off",
+      "group": "LFOs / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 00 0F {val} F7"
+    },
+    {
+      "name": "LFO AMD Depth",
+      "group": "LFOs / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 0E {val} F7"
+    },
+    {
+      "name": "LFO PMD On/Off",
+      "group": "LFOs / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 01 0F {val} F7"
+    },
+    {
+      "name": "LFO AMD Depth",
+      "group": "LFOs / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 0E {val} F7"
+    },
+    {
+      "name": "LFO PMD On/Off",
+      "group": "LFOs / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 02 0F {val} F7"
+    },
+    {
+      "name": "LFO AMD Depth",
+      "group": "LFOs / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 0E {val} F7"
+    },
+    {
+      "name": "LFO PMD On/Off",
+      "group": "LFOs / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 31 03 0F {val} F7"
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / Effect 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 1D {val} F7"
+    },
+    {
+      "name": "Parameter 1",
+      "group": "Effekte / Effect 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 1E {val} F7"
+    },
+    {
+      "name": "Parameter 2",
+      "group": "Effekte / Effect 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 1F {val} F7"
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / Effect 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 20 {val} F7"
+    },
+    {
+      "name": "Parameter 1",
+      "group": "Effekte / Effect 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 21 {val} F7"
+    },
+    {
+      "name": "Parameter 2",
+      "group": "Effekte / Effect 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 7F 1C 05 30 00 22 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Local Control",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 7F 1C 05 00 00 06 {val} F7"
+    },
+    {
+      "name": "Master Transpose",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 7F 1C 05 00 00 07 {val} F7"
+    }
+  ]
 }

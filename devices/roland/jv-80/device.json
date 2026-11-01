@@ -5896,5 +5896,61 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Pitch Bend Sensitivity",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12
+    },
+    {
+      "name": "Fine Tuning",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 32,
+      "max": 96
+    },
+    {
+      "name": "Coarse Tuning",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 16,
+      "max": 112
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

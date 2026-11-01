@@ -3670,5 +3670,322 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren / Master",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Coarse Tune",
+      "group": "Oszillatoren / Preview",
+      "kind": 3,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Fine Tune",
+      "group": "Oszillatoren / Preview",
+      "kind": 3,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Flange Rate",
+      "group": "Effekte / Flange",
+      "kind": 3,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Master",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Volume",
+      "group": "Mixer / Preview",
+      "kind": 3,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Pan",
+      "group": "Mixer / Preview",
+      "kind": 3,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Output",
+      "group": "Mixer / Preview",
+      "kind": 3,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger Select",
+      "group": "Sonstiges / Trigger",
+      "kind": 3,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger V-Curve",
+      "group": "Sonstiges / Trigger",
+      "kind": 3,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger Note",
+      "group": "Sonstiges / Trigger",
+      "kind": 3,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger Gain",
+      "group": "Sonstiges / Trigger",
+      "kind": 3,
+      "number": 3,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger Cross-talk",
+      "group": "Sonstiges / Trigger",
+      "kind": 3,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger Decay",
+      "group": "Sonstiges / Trigger",
+      "kind": 3,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger Noise Floor",
+      "group": "Sonstiges / Trigger",
+      "kind": 3,
+      "number": 6,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Bank",
+      "group": "Sonstiges / Preview",
+      "kind": 3,
+      "number": 8,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Sound",
+      "group": "Sonstiges / Preview",
+      "kind": 3,
+      "number": 9,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Preview Assign Group",
+      "group": "Sonstiges / Preview",
+      "kind": 3,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Drumset Root Note",
+      "group": "Sonstiges / MIDI",
+      "kind": 3,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / MIDI",
+      "kind": 3,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "MIDI Thru",
+      "group": "Sonstiges / MIDI",
+      "kind": 3,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Program Change Enable",
+      "group": "Sonstiges / MIDI",
+      "kind": 3,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "PC Table Source",
+      "group": "Sonstiges / MIDI",
+      "kind": 3,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "PC Table Destination",
+      "group": "Sonstiges / MIDI",
+      "kind": 3,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Note Chase",
+      "group": "Sonstiges / Misc",
+      "kind": 3,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Quiet Preview Select",
+      "group": "Sonstiges / Misc",
+      "kind": 3,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch Mode",
+      "group": "Sonstiges / Misc",
+      "kind": 3,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch Close Note",
+      "group": "Sonstiges / Misc",
+      "kind": 3,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch Held Note",
+      "group": "Sonstiges / Misc",
+      "kind": 3,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Store Drumset Dest",
+      "group": "Sonstiges / Drumset",
+      "kind": 3,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Store Drumset",
+      "group": "Sonstiges / Drumset",
+      "kind": 3,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Recall Factory Source",
+      "group": "Sonstiges / Drumset",
+      "kind": 3,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Recall Factory Dest",
+      "group": "Sonstiges / Drumset",
+      "kind": 3,
+      "number": 49,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Recall All Factory",
+      "group": "Sonstiges / Drumset",
+      "kind": 3,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges / Master",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
 }

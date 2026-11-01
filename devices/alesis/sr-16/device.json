@@ -2706,5 +2706,16 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Drum Set (Program Change)",
+      "group": "Sonstiges / Drum Set",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

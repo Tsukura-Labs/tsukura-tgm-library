@@ -6752,5 +6752,25 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Bank (Preset/User)",
+      "group": "Sonstiges / Program",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Program Change",
+      "group": "Sonstiges / Program",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

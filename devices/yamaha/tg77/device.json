@@ -10888,5 +10888,2251 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Element Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 43 {dev} 34 02 00 00 00 00 {val} F7"
+    },
+    {
+      "name": "Wheel Pitch Bend Range",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 34 02 00 00 28 00 {val} F7"
+    },
+    {
+      "name": "Random Pitch",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 02 00 00 3B 00 {val} F7"
+    },
+    {
+      "name": "Portamento Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 34 02 00 00 3C 00 {val} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 3D 00 {val} F7"
+    },
+    {
+      "name": "Element Note Shift",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 03 00 00 02 00 {val} F7"
+    },
+    {
+      "name": "Algorithm",
+      "group": "Oszillatoren / AFM Algorithm",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 44,
+      "sysex": "F0 43 {dev} 34 05 00 00 00 00 {val} F7"
+    },
+    {
+      "name": "Amp Mod Sens",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 56 00 00 10 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Output Level Correction",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 56 00 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 34 56 00 00 17 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 56 00 00 1B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Amp Mod Sens",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 46 00 00 10 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Output Level Correction",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 46 00 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 34 46 00 00 17 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 46 00 00 1B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Amp Mod Sens",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 36 00 00 10 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Output Level Correction",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 36 00 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 34 36 00 00 17 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 36 00 00 1B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Amp Mod Sens",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 26 00 00 10 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Output Level Correction",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 26 00 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 34 26 00 00 17 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 26 00 00 1B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Amp Mod Sens",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 16 00 00 10 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Output Level Correction",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 16 00 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 34 16 00 00 17 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 16 00 00 1B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Amp Mod Sens",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 06 00 00 10 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Output Level Correction",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 06 00 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 43 {dev} 34 06 00 00 17 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 06 00 00 1B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Wave Source",
+      "group": "Oszillatoren / AWM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 34 07 00 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Wave Number",
+      "group": "Oszillatoren / AWM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 34 07 00 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Freq Mode",
+      "group": "Oszillatoren / AWM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 34 07 00 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Fixed Note",
+      "group": "Oszillatoren / AWM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / AWM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Pitch Mod Sens",
+      "group": "Oszillatoren / AWM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 07 00 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Bias Device Assign",
+      "group": "Filter / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 121,
+      "sysex": "F0 43 {dev} 34 02 00 00 32 00 {val} F7"
+    },
+    {
+      "name": "Cutoff Bias Range",
+      "group": "Filter / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 33 00 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / AWM Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Filter Mode",
+      "group": "Filter / AWM Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 34 09 03 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / AWM Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 09 05 00 32 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "EG Bias Device Assign",
+      "group": "Hüllkurven / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 121,
+      "sysex": "F0 43 {dev} 34 02 00 00 36 00 {val} F7"
+    },
+    {
+      "name": "EG Bias Range",
+      "group": "Hüllkurven / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 37 00 {val} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 05 00 00 01 00 {val} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 05 00 00 02 00 {val} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 05 00 00 03 00 {val} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 05 00 00 04 00 {val} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 05 00 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 06 00 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 07 00 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 08 00 {val} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 09 00 {val} F7"
+    },
+    {
+      "name": "Range",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 05 00 00 0A 00 {val} F7"
+    },
+    {
+      "name": "Rate Scaling",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 34 05 00 00 0B 00 {val} F7"
+    },
+    {
+      "name": "Velocity Switch",
+      "group": "Hüllkurven / AFM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 34 05 00 00 0C 00 {val} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Loop Point",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 56 00 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 56 00 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Loop Point",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 46 00 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 46 00 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Loop Point",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 36 00 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 36 00 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Loop Point",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 26 00 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 26 00 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 2",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 2",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Loop Point",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 16 00 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 16 00 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 02 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 2",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 2",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Loop Point",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 06 00 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 06 00 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Range",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 07 00 00 0F {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Velocity Switch",
+      "group": "Hüllkurven / AWM Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 34 07 00 00 11 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "EG Mode",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 34 07 00 00 4F {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1 (Attack/Hold)",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 50 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2 (Decay)",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 51 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 52 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4 (Decay)",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 53 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 54 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 55 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 07 00 00 56 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Rate Velocity Switch",
+      "group": "Hüllkurven / AWM Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 34 07 00 00 61 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 1",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 09 03 00 03 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 2",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 09 03 00 04 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 3",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 09 03 00 05 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Rate 4",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 09 03 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 1",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 09 03 00 07 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Rate 2",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 34 09 03 00 08 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 0A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 0C {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 1",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 0E {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level 2",
+      "group": "Hüllkurven / AWM Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 09 03 00 0F {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Mod Device Assign",
+      "group": "LFOs / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 121,
+      "sysex": "F0 43 {dev} 34 02 00 00 2A 00 {val} F7"
+    },
+    {
+      "name": "Pitch Mod Range",
+      "group": "LFOs / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 2B 00 {val} F7"
+    },
+    {
+      "name": "Amp Mod Device Assign",
+      "group": "LFOs / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 121,
+      "sysex": "F0 43 {dev} 34 02 00 00 2C 00 {val} F7"
+    },
+    {
+      "name": "Amp Mod Range",
+      "group": "LFOs / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 2D 00 {val} F7"
+    },
+    {
+      "name": "Filter Mod Device Assign",
+      "group": "LFOs / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 121,
+      "sysex": "F0 43 {dev} 34 02 00 00 2E 00 {val} F7"
+    },
+    {
+      "name": "Filter Mod Range",
+      "group": "LFOs / Controllers",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 2F 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / AFM Main LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 05 00 00 0D 00 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / AFM Main LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 05 00 00 0E 00 {val} F7"
+    },
+    {
+      "name": "Pitch Mod Depth",
+      "group": "LFOs / AFM Main LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 0F 00 {val} F7"
+    },
+    {
+      "name": "Amp Mod Depth",
+      "group": "LFOs / AFM Main LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 10 00 {val} F7"
+    },
+    {
+      "name": "Filter Mod Depth",
+      "group": "LFOs / AFM Main LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 11 00 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / AFM Main LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 34 05 00 00 12 00 {val} F7"
+    },
+    {
+      "name": "Initial Phase",
+      "group": "LFOs / AFM Main LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 05 00 00 13 00 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / AFM Sub LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 05 00 00 15 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / AFM Sub LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 16 00 {val} F7"
+    },
+    {
+      "name": "Delay Time",
+      "group": "LFOs / AFM Sub LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 05 00 00 18 00 {val} F7"
+    },
+    {
+      "name": "Pitch Mod Depth",
+      "group": "LFOs / AFM Sub LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 05 00 00 19 00 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / AWM LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 07 00 00 12 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / AWM LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 07 00 00 13 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Pitch Mod Depth",
+      "group": "LFOs / AWM LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 14 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Amp Mod Depth",
+      "group": "LFOs / AWM LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 15 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Filter Mod Depth",
+      "group": "LFOs / AWM LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 07 00 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / AWM LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 34 07 00 00 17 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Initial Phase",
+      "group": "LFOs / AWM LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 34 07 00 00 18 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Effect Mode",
+      "group": "Effekte",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 34 08 00 00 00 00 {val} F7"
+    },
+    {
+      "name": "Balance",
+      "group": "Effekte / Chorus 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 02 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Effekte / Chorus 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 03 00 {val} F7"
+    },
+    {
+      "name": "Balance",
+      "group": "Effekte / Chorus 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 09 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Effekte / Chorus 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 0A 00 {val} F7"
+    },
+    {
+      "name": "Balance",
+      "group": "Effekte / Reverb 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 10 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Effekte / Reverb 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 11 00 {val} F7"
+    },
+    {
+      "name": "Balance",
+      "group": "Effekte / Reverb 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 16 00 {val} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Effekte / Reverb 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 34 08 00 00 17 00 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume Limit Low",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 39 00 {val} F7"
+    },
+    {
+      "name": "Voice Volume",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 02 00 00 3F 00 {val} F7"
+    },
+    {
+      "name": "Element Level",
+      "group": "Mixer / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 03 00 00 00 00 {val} F7"
+    },
+    {
+      "name": "Breath Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Foot Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Note Limit Low",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 03 00 00 03 00 {val} F7"
+    },
+    {
+      "name": "Note Limit High",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 03 00 00 04 00 {val} F7"
+    },
+    {
+      "name": "Velocity Limit Low",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 03 00 00 05 00 {val} F7"
+    },
+    {
+      "name": "Velocity Limit High",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 34 03 00 00 06 00 {val} F7"
+    }
+  ]
 }

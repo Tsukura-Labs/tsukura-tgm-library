@@ -3404,5 +3404,963 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Sensitivity",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Channel Fine Tuning",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Channel Coarse Tuning",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance (Timbre)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Brightness (Cutoff)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Envelope",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Envelope",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Envelope",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation Depth Range",
+      "group": "LFOs",
+      "kind": 5,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 1",
+      "kind": 1,
+      "number": 91,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 1",
+      "kind": 1,
+      "number": 93,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 2",
+      "kind": 1,
+      "number": 91,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 2",
+      "kind": 1,
+      "number": 93,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 3",
+      "kind": 1,
+      "number": 91,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 3",
+      "kind": 1,
+      "number": 93,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 4",
+      "kind": 1,
+      "number": 91,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 4",
+      "kind": 1,
+      "number": 93,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 5",
+      "kind": 1,
+      "number": 91,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 5",
+      "kind": 1,
+      "number": 93,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 6",
+      "kind": 1,
+      "number": 91,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 6",
+      "kind": 1,
+      "number": 93,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 7",
+      "kind": 1,
+      "number": 91,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 7",
+      "kind": 1,
+      "number": 93,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 8",
+      "kind": 1,
+      "number": 91,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 8",
+      "kind": 1,
+      "number": 93,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 9",
+      "kind": 1,
+      "number": 91,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 9",
+      "kind": 1,
+      "number": 93,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 10",
+      "kind": 1,
+      "number": 91,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 10",
+      "kind": 1,
+      "number": 93,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 11",
+      "kind": 1,
+      "number": 91,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 11",
+      "kind": 1,
+      "number": 93,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 12",
+      "kind": 1,
+      "number": 91,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 12",
+      "kind": 1,
+      "number": 93,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 13",
+      "kind": 1,
+      "number": 91,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 13",
+      "kind": 1,
+      "number": 93,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 14",
+      "kind": 1,
+      "number": 91,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 14",
+      "kind": 1,
+      "number": 93,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 15",
+      "kind": 1,
+      "number": 91,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 15",
+      "kind": 1,
+      "number": 93,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 16",
+      "kind": 1,
+      "number": 91,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 16",
+      "kind": 1,
+      "number": 93,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 7,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 10,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 11,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 7,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 10,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 11,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 7,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 10,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 11,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 7,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 10,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 11,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 7,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 10,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 11,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 7,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 10,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 11,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 7,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 10,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 11,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 7,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 10,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 11,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 7,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 10,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 11,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 7,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 10,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 11,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 7,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 10,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 11,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 7,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 10,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 11,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 7,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 10,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 11,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 7,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 10,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 11,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 7,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 10,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 11,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 7,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 10,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 11,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Volume",
+      "group": "Mixer / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 7F 7F 04 01 00 {val} F7"
+    },
+    {
+      "name": "Sound Variation",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select MSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select LSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain (Hold)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "GM Mode",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 3,
+      "sysex": "F0 7E 7F 09 {val} F7"
+    }
+  ]
 }

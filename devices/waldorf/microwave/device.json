@@ -68,7 +68,7 @@
     "note": "",
     "pluginId": "",
     "sourceInfo": "Waldorf MicroWave, version 1.00, Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH",
-    "sysexDeviceId": 16,
+    "sysexDeviceId": 0,
     "sysexExpected": 0,
     "sysexHeader": "",
     "sysexQuietMs": 300,
@@ -3416,5 +3416,921 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Portamento (MIDI)",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 64,
+      "sysex": "F0 3E 00 {dev} 60 00 00 00 {val} 7F F7"
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 120,
+      "sysex": "F0 3E 00 {dev} 60 00 00 01 {val} 7F F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 00 02 {val} 7F F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 3E 00 {dev} 60 00 00 03 {val} 7F F7"
+    },
+    {
+      "name": "Pitch Mode",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 00 04 {val} 7F F7"
+    },
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 64,
+      "sysex": "F0 3E 00 {dev} 60 00 00 0B {val} 7F F7"
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 120,
+      "sysex": "F0 3E 00 {dev} 60 00 00 0C {val} 7F F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 00 0D {val} 7F F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 3E 00 {dev} 60 00 00 0E {val} 7F F7"
+    },
+    {
+      "name": "Pitch Mode",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 00 0F {val} 7F F7"
+    },
+    {
+      "name": "Link Mode",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 01 06 {val} 7F F7"
+    },
+    {
+      "name": "Wavetable",
+      "group": "Oszillatoren / Wave",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 87,
+      "sysex": "F0 3E 00 {dev} 60 00 01 07 {val} 7F F7"
+    },
+    {
+      "name": "Start Wave",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 3E 00 {dev} 60 00 01 08 {val} 7F F7"
+    },
+    {
+      "name": "Start Sample",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 01 09 {val} 7F F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 01 0A {val} 7F F7"
+    },
+    {
+      "name": "Envelope Velocity",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 01 0B {val} 7F F7"
+    },
+    {
+      "name": "Keytrack Amount",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 01 0C {val} 7F F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 02 02 {val} 7F F7"
+    },
+    {
+      "name": "Start Wave",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 3E 00 {dev} 60 00 02 04 {val} 7F F7"
+    },
+    {
+      "name": "Start Sample",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 02 05 {val} 7F F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 02 06 {val} 7F F7"
+    },
+    {
+      "name": "Envelope Velocity",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 02 07 {val} 7F F7"
+    },
+    {
+      "name": "Keytrack Amount",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 02 08 {val} 7F F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 02 0E {val} 7F F7"
+    },
+    {
+      "name": "Link Mode",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 02 0F {val} 7F F7"
+    },
+    {
+      "name": "Wave 1 Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 112,
+      "sysex": "F0 3E 00 {dev} 60 00 03 00 {val} 7F F7"
+    },
+    {
+      "name": "Wave 2 Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 112,
+      "sysex": "F0 3E 00 {dev} 60 00 03 01 {val} 7F F7"
+    },
+    {
+      "name": "Noise Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 112,
+      "sysex": "F0 3E 00 {dev} 60 00 03 02 {val} 7F F7"
+    },
+    {
+      "name": "Glide",
+      "group": "Oszillatoren / Glide",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 3E 00 {dev} 60 00 09 00 {val} 7F F7"
+    },
+    {
+      "name": "Glide Rate",
+      "group": "Oszillatoren / Glide",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 09 01 {val} 7F F7"
+    },
+    {
+      "name": "Glide Mode",
+      "group": "Oszillatoren / Glide",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 09 02 {val} 7F F7"
+    },
+    {
+      "name": "Wave 1 Level Modifier Amount",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 120,
+      "sysex": "F0 3E 00 {dev} 60 00 0A 05 {val} 7F F7"
+    },
+    {
+      "name": "Wave 2 Level Modifier Amount",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 120,
+      "sysex": "F0 3E 00 {dev} 60 00 0A 07 {val} 7F F7"
+    },
+    {
+      "name": "Noise Level Modifier Amount",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 8,
+      "max": 120,
+      "sysex": "F0 3E 00 {dev} 60 00 0A 09 {val} 7F F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 0C {val} 7F F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 0D {val} 7F F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 0E {val} 7F F7"
+    },
+    {
+      "name": "Envelope Velocity",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 0F {val} 7F F7"
+    },
+    {
+      "name": "Keytrack Amount",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 04 00 {val} 7F F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Volume Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 04 08 {val} 7F F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Volume Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 04 09 {val} 7F F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Volume Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 04 0A {val} 7F F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Volume Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 04 0B {val} 7F F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 05 05 {val} 7F F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 05 06 {val} 7F F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 05 07 {val} 7F F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 05 08 {val} 7F F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 05 09 {val} 7F F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 05 {val} 7F F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 06 {val} 7F F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 07 {val} 7F F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 08 {val} 7F F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 09 {val} 7F F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 0A {val} 7F F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 0B {val} 7F F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 0C {val} 7F F7"
+    },
+    {
+      "name": "Time 5",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 0D {val} 7F F7"
+    },
+    {
+      "name": "Level 5",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 0E {val} 7F F7"
+    },
+    {
+      "name": "Time 6",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 06 0F {val} 7F F7"
+    },
+    {
+      "name": "Level 6",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 07 00 {val} 7F F7"
+    },
+    {
+      "name": "Time 7",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 07 01 {val} 7F F7"
+    },
+    {
+      "name": "Level 7",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 07 02 {val} 7F F7"
+    },
+    {
+      "name": "Time 8",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 07 03 {val} 7F F7"
+    },
+    {
+      "name": "Level 8",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 07 04 {val} 7F F7"
+    },
+    {
+      "name": "Key Off Point",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 00 {dev} 60 00 07 09 {val} 7F F7"
+    },
+    {
+      "name": "Loop Start Point",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 00 {dev} 60 00 07 0A {val} 7F F7"
+    },
+    {
+      "name": "Loop Mode",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 07 0B {val} 7F F7"
+    },
+    {
+      "name": "Mod Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 07 0C {val} 7F F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 3E 00 {dev} 60 00 07 0D {val} 7F F7"
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 07 0E {val} 7F F7"
+    },
+    {
+      "name": "Humanize",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 3E 00 {dev} 60 00 07 0F {val} 7F F7"
+    },
+    {
+      "name": "Sync",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 00 {dev} 60 00 08 03 {val} 7F F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 08 04 {val} 7F F7"
+    },
+    {
+      "name": "Attack",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 08 05 {val} 7F F7"
+    },
+    {
+      "name": "Decay",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 08 06 {val} 7F F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 08 07 {val} 7F F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 3E 00 {dev} 60 00 08 08 {val} 7F F7"
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 08 09 {val} 7F F7"
+    },
+    {
+      "name": "Humanize",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 3E 00 {dev} 60 00 08 0A {val} 7F F7"
+    },
+    {
+      "name": "Phase Shift",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 90,
+      "sysex": "F0 3E 00 {dev} 60 00 08 0B {val} 7F F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sound Volume",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 03 {val} 7F F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Mixer / Amp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 04 {val} 7F F7"
+    },
+    {
+      "name": "Envelope Velocity",
+      "group": "Mixer / Amp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 05 {val} 7F F7"
+    },
+    {
+      "name": "Keytrack Amount",
+      "group": "Mixer / Amp",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 03 06 {val} 7F F7"
+    },
+    {
+      "name": "Panning",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 00 {dev} 60 00 08 0D {val} 7F F7"
+    },
+    {
+      "name": "Breath",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 3,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tuning Table",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 3E 00 {dev} 60 00 09 03 {val} 7F F7"
+    }
+  ]
 }

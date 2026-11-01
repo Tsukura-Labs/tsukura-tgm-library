@@ -10926,5 +10926,2647 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Controller",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Controller",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Control",
+      "group": "Oszillatoren / Controller",
+      "kind": 1,
+      "number": 84,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance (Harmonic)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff (Brightness)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LPF Cutoff (NRPN)",
+      "group": "Filter",
+      "kind": 3,
+      "number": 160,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LPF Resonance (NRPN)",
+      "group": "Filter",
+      "kind": 3,
+      "number": 161,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 19 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 19 {val} F7"
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack (NRPN)",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 3,
+      "number": 227,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Decay (NRPN)",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 3,
+      "number": 228,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Release (NRPN)",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 3,
+      "number": 230,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 5 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 5 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 5 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 6 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 6 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 6 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 7 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 7 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 7 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 8 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 8 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 8 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 9 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 9 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 9 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 10 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 10 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 10 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 11 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 11 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 11 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 12 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 12 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 12 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 13 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 13 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 13 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 14 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 14 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 14 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 15 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 15 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 15 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 16 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 1A {val} F7"
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Part 16 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 1B {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 16 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 1C {val} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Rate (NRPN)",
+      "group": "LFOs",
+      "kind": 3,
+      "number": 136,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Depth (NRPN)",
+      "group": "LFOs",
+      "kind": 3,
+      "number": 137,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Delay (NRPN)",
+      "group": "LFOs",
+      "kind": 3,
+      "number": 138,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 1 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 2 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 3 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 4 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 5 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 6 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 7 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 7 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 7 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 8 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 8 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 8 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 9 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 9 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 9 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 10 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 10 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 10 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 11 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 11 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 11 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 12 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 12 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 12 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 13 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 13 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 13 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 14 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 14 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 14 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 15 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 15 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 15 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 17 {val} F7"
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Part 16 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 15 {val} F7"
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Part 16 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 16 {val} F7"
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Part 16 Vibrato",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 17 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Return",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 0C {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 0D {val} F7"
+    },
+    {
+      "name": "Return",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 2C {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 2D {val} F7"
+    },
+    {
+      "name": "To Reverb",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 2E {val} F7"
+    },
+    {
+      "name": "Return",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 56 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 57 {val} F7"
+    },
+    {
+      "name": "To Reverb",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 58 {val} F7"
+    },
+    {
+      "name": "To Chorus",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 02 01 59 {val} F7"
+    },
+    {
+      "name": "Variation Connection",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 4C 02 01 5A {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 14 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 13 {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 12 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 14 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Volume (GM)",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 7F 7F 04 01 00 {val} F7"
+    },
+    {
+      "name": "XG Master Volume",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 00 00 04 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 00 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 01 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 02 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 03 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 04 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 05 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 06 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 07 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 08 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 09 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0A 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0B 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0C 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0D 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0E 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 4C 08 0F 11 {val} F7"
+    },
+    {
+      "name": "Bank Select MSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select LSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 1 (Sustain)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Master Fine Tune",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Master Coarse Tune",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 40,
+      "max": 88
+    },
+    {
+      "name": "XG Transpose",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 43 {dev} 4C 00 00 06 {val} F7"
+    }
+  ]
 }

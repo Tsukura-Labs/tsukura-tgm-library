@@ -3163,5 +3163,1433 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Layer Mode [M2]",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 8,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Poly/Mono Mode [M2]",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 9,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Mod Depth [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Coarse [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave Type [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Edge [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Fine [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pulse Width [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "PWM Depth [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "PWM Source [M2]",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave Type [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Coarse [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Fine [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Edge [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pulse Width [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "PWM Depth [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Mod Depth [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "PWM Source [M2]",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync Pitch [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync Pitch Depth [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync Pitch Source [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync Pitch Mod Sw [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Algorithm [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Depth [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Source 1 [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 36,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Source 2 [M2]",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 1,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCO 1 Level [M2]",
+      "group": "Oszillatoren / Mixer",
+      "kind": 1,
+      "number": 68,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCO 2 Level [M2]",
+      "group": "Oszillatoren / Mixer",
+      "kind": 1,
+      "number": 69,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ring Mod Level [M2]",
+      "group": "Oszillatoren / Mixer",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Noise Level [M2]",
+      "group": "Oszillatoren / Mixer",
+      "kind": 1,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Mode [M2]",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Poly Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 5C 10 10 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Up",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 44,
+      "max": 84,
+      "sysex": "F0 43 {dev} 5C 10 10 01 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Down",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 44,
+      "max": 84,
+      "sysex": "F0 43 {dev} 5C 10 10 02 {val} F7"
+    },
+    {
+      "name": "Portamento Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5C 10 10 06 {val} F7"
+    },
+    {
+      "name": "Portamento Time (Voice)",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 07 {val} F7"
+    },
+    {
+      "name": "Algorithm",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 5C 10 10 0F {val} F7"
+    },
+    {
+      "name": "Sync Pitch",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 10 {val} F7"
+    },
+    {
+      "name": "Sync Pitch Depth",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 11 {val} F7"
+    },
+    {
+      "name": "Sync Pitch Source",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 5C 10 10 12 {val} F7"
+    },
+    {
+      "name": "Sync Pitch Mod Switch",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 3,
+      "sysex": "F0 43 {dev} 5C 10 10 13 {val} F7"
+    },
+    {
+      "name": "FM Depth",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 14 {val} F7"
+    },
+    {
+      "name": "FM Source 1",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 43 {dev} 5C 10 10 15 {val} F7"
+    },
+    {
+      "name": "FM Source 2",
+      "group": "Oszillatoren / Sync/FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 43 {dev} 5C 10 10 16 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 5C 10 10 17 {val} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 18 {val} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 43 {dev} 5C 10 10 19 {val} F7"
+    },
+    {
+      "name": "Edge",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 1A {val} F7"
+    },
+    {
+      "name": "Pulse Width",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 1B {val} F7"
+    },
+    {
+      "name": "PWM Depth",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 1C {val} F7"
+    },
+    {
+      "name": "PWM Source",
+      "group": "Oszillatoren / VCO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 43 {dev} 5C 10 10 1D {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 5C 10 10 20 {val} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 21 {val} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 43 {dev} 5C 10 10 22 {val} F7"
+    },
+    {
+      "name": "Edge",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 23 {val} F7"
+    },
+    {
+      "name": "Pulse Width",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 24 {val} F7"
+    },
+    {
+      "name": "PWM Depth",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 25 {val} F7"
+    },
+    {
+      "name": "PWM Source",
+      "group": "Oszillatoren / VCO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 43 {dev} 5C 10 10 26 {val} F7"
+    },
+    {
+      "name": "VCO 1 Level",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 29 {val} F7"
+    },
+    {
+      "name": "VCO 2 Level",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 2A {val} F7"
+    },
+    {
+      "name": "Ring Mod Level",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 2B {val} F7"
+    },
+    {
+      "name": "Noise Level",
+      "group": "Oszillatoren / Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 2C {val} F7"
+    },
+    {
+      "name": "Layer Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 5C 10 00 0C {val} F7"
+    },
+    {
+      "name": "Layer Separation",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 43 {dev} 5C 10 00 0E {val} F7"
+    },
+    {
+      "name": "Unison Detune",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 50,
+      "sysex": "F0 43 {dev} 5C 10 00 0F {val} F7"
+    },
+    {
+      "name": "Portamento Switch (Common)",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5C 10 00 13 {val} F7"
+    },
+    {
+      "name": "Filter Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Mod Depth [M2]",
+      "group": "Filter",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff Kbd Track [M2]",
+      "group": "Filter",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "HPF Cutoff [M2]",
+      "group": "Filter",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Type [M2]",
+      "group": "Filter",
+      "kind": 1,
+      "number": 59,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "HPF Cutoff",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 31 {val} F7"
+    },
+    {
+      "name": "Filter Type",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 5C 10 10 32 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 33 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 13,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 34 {val} F7"
+    },
+    {
+      "name": "Keyboard Track",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 38 {val} F7"
+    },
+    {
+      "name": "Filter Mod Depth",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 39 {val} F7"
+    },
+    {
+      "name": "Release (CC)",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack (CC)",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay (CC)",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Depth [M2]",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack [M2]",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay [M2]",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 1,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain [M2]",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release [M2]",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Velocity Sens [M2]",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 1,
+      "number": 60,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain [M2]",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Velocity Sens [M2]",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 1,
+      "number": 61,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Depth [M2]",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Switch [M2]",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay [M2]",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 03 {val} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 04 {val} F7"
+    },
+    {
+      "name": "Switch",
+      "group": "Hüllkurven / Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 3,
+      "sysex": "F0 43 {dev} 5C 10 10 05 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 2D {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 2E {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 2F {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 30 {val} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Hüllkurven / Filter EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 37 {val} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 3A {val} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 3B {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 3C {val} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 3D {val} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Hüllkurven / Amp EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 40 {val} F7"
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reset Mode [M2]",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave [M2]",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Speed [M2]",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Delay [M2]",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Speed [M2]",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reset Mode",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5C 10 10 08 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 43 {dev} 5C 10 10 09 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 0C {val} F7"
+    },
+    {
+      "name": "Reverb Depth",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus/Variation Depth",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Delay Depth",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Dry:Wet",
+      "group": "Effekte / Variation",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 42 {val} F7"
+    },
+    {
+      "name": "EQ Low Freq",
+      "group": "Effekte / 3-Band EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 4,
+      "max": 40,
+      "sysex": "F0 43 {dev} 5C 10 00 28 {val} F7"
+    },
+    {
+      "name": "EQ Low Gain",
+      "group": "Effekte / 3-Band EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 5C 10 00 29 {val} F7"
+    },
+    {
+      "name": "EQ Mid Freq",
+      "group": "Effekte / 3-Band EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 54,
+      "sysex": "F0 43 {dev} 5C 10 00 2A {val} F7"
+    },
+    {
+      "name": "EQ Mid Gain",
+      "group": "Effekte / 3-Band EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 5C 10 00 2B {val} F7"
+    },
+    {
+      "name": "EQ Mid Q",
+      "group": "Effekte / 3-Band EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 10,
+      "max": 120,
+      "sysex": "F0 43 {dev} 5C 10 00 2C {val} F7"
+    },
+    {
+      "name": "EQ High Freq",
+      "group": "Effekte / 3-Band EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 28,
+      "max": 58,
+      "sysex": "F0 43 {dev} 5C 10 00 2D {val} F7"
+    },
+    {
+      "name": "EQ High Gain",
+      "group": "Effekte / 3-Band EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 52,
+      "max": 76,
+      "sysex": "F0 43 {dev} 5C 10 00 2E {val} F7"
+    },
+    {
+      "name": "Delay-Reverb Connection",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5C 10 00 2F {val} F7"
+    },
+    {
+      "name": "Reverb Return",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 00 41 {val} F7"
+    },
+    {
+      "name": "Main Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA Volume [M2]",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 62,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA Feedback [M2]",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 63,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA Amp Mod Depth [M2]",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA Feedback",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 3E {val} F7"
+    },
+    {
+      "name": "VCA Volume",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 3F {val} F7"
+    },
+    {
+      "name": "VCA Amp Mod Depth",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 10 41 {val} F7"
+    },
+    {
+      "name": "Layer Pan",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 5C 10 00 0D {val} F7"
+    },
+    {
+      "name": "Foot Controller",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ribbon Z",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ribbon X",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Scene Select [M2]",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 3,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Arp/Step Seq Switch [M2]",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 90,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Scene Select",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 3,
+      "sysex": "F0 43 {dev} 5C 10 00 0B {val} F7"
+    },
+    {
+      "name": "Split Point",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5C 10 00 12 {val} F7"
+    },
+    {
+      "name": "Arpeggio/Step Seq On",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5C 10 00 50 {val} F7"
+    },
+    {
+      "name": "Arpeggio Hold",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 5C 10 00 54 {val} F7"
+    },
+    {
+      "name": "Arpeggio Subdivide",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 43 {dev} 5C 10 00 56 {val} F7"
+    }
+  ]
 }

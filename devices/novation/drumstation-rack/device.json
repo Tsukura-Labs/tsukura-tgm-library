@@ -1039,5 +1039,718 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Bass Drum",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Snare",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Snappy",
+      "group": "Oszillatoren / 808 Snare",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Low Tom",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Mid Tom",
+      "kind": 1,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 High Tom",
+      "kind": 1,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Rim Shot",
+      "kind": 1,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Hand Clap",
+      "kind": 1,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Cowbell",
+      "kind": 1,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Closed HiHat",
+      "kind": 1,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Open HiHat",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Low Conga",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Mid Conga",
+      "kind": 1,
+      "number": 68,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 High Conga",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Maracas",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 808 Claves",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 909 Bass Drum",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 909 Closed HiHat",
+      "kind": 1,
+      "number": 102,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 909 Open HiHat",
+      "kind": 1,
+      "number": 104,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 909 Crash",
+      "kind": 1,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / 909 Ride",
+      "kind": 1,
+      "number": 118,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Front Cut",
+      "group": "Filter / 808 Bass Drum",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone",
+      "group": "Filter / 808 Bass Drum",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Front Cut",
+      "group": "Filter / 808 Snare",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone",
+      "group": "Filter / 808 Snare",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Front Cut",
+      "group": "Filter / 808 Low Tom",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Front Cut",
+      "group": "Filter / 808 Mid Tom",
+      "kind": 1,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Front Cut",
+      "group": "Filter / 808 High Tom",
+      "kind": 1,
+      "number": 42,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone",
+      "group": "Filter / 808 Crash",
+      "kind": 1,
+      "number": 61,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Front Cut",
+      "group": "Filter / 909 Bass Drum",
+      "kind": 1,
+      "number": 105,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Front Cut",
+      "group": "Filter / 909 Snare",
+      "kind": 1,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 808 Bass Drum",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 808 Low Tom",
+      "kind": 1,
+      "number": 36,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 808 Mid Tom",
+      "kind": 1,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 808 High Tom",
+      "kind": 1,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 808 Closed HiHat",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 808 Open HiHat",
+      "kind": 1,
+      "number": 59,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 808 Crash",
+      "kind": 1,
+      "number": 62,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / 909 Bass Drum",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 909 Bass Drum",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 909 Closed HiHat",
+      "kind": 1,
+      "number": 103,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 909 Open HiHat",
+      "kind": 1,
+      "number": 113,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 909 Crash",
+      "kind": 1,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / 909 Ride",
+      "kind": 1,
+      "number": 119,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 Bass Drum",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 Snare",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 Low Tom",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 Mid Tom",
+      "kind": 1,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 High Tom",
+      "kind": 1,
+      "number": 44,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 Cowbell",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 Low Conga",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 Mid Conga",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 808 High Conga",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 909 Bass Drum",
+      "kind": 1,
+      "number": 107,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 909 Snare",
+      "kind": 1,
+      "number": 110,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / 909 Closed HiHat",
+      "kind": 1,
+      "number": 101,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Bass Drum",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Snare",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Low Tom",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Mid Tom",
+      "kind": 1,
+      "number": 38,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 High Tom",
+      "kind": 1,
+      "number": 43,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Rim Shot",
+      "kind": 1,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Hand Clap",
+      "kind": 1,
+      "number": 49,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Cowbell",
+      "kind": 1,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Closed HiHat",
+      "kind": 1,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Open HiHat",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Crash",
+      "kind": 1,
+      "number": 60,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Low Conga",
+      "kind": 1,
+      "number": 63,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Mid Conga",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 High Conga",
+      "kind": 1,
+      "number": 69,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Maracas",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 808 Claves",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 909 Bass Drum",
+      "kind": 1,
+      "number": 106,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 909 Snare",
+      "kind": 1,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 909 Closed HiHat",
+      "kind": 1,
+      "number": 111,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 909 Open HiHat",
+      "kind": 1,
+      "number": 112,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 909 Crash",
+      "kind": 1,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / 909 Ride",
+      "kind": 1,
+      "number": 117,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

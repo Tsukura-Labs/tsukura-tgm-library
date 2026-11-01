@@ -68,7 +68,7 @@
     "note": "",
     "pluginId": "",
     "sourceInfo": "E-mu Procussion, version 1.00, Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH",
-    "sysexDeviceId": 16,
+    "sysexDeviceId": 0,
     "sysexExpected": 0,
     "sysexHeader": "",
     "sysexQuietMs": 300,
@@ -3416,5 +3416,2861 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 1 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 1 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 1 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 41 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 1 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 41 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 41 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 41 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 1 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 42 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 1 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 42 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 42 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 42 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 1 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 43 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 1 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 43 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 43 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 1 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 43 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 2 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 2 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 2 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 45 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 2 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 45 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 45 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 45 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 2 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 46 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 2 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 46 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 46 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 46 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 2 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 47 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 2 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 47 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 47 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 2 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 47 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 3 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 3 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 3 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 49 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 3 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 49 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 49 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 49 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 3 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 4A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 3 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 4A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 4A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 4A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 3 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 4B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 3 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 4B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 4B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 3 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 4B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 4 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 4 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 4 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 4D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 4 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 4D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 4D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 4D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 4 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 4E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 4 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 4E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 4E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 4E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 4 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 4F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 4 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 4F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 4F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 4 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 4F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 5 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 5 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 5 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 51 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 5 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 51 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 51 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 51 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 5 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 52 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 5 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 52 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 52 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 52 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 5 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 53 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 5 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 53 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 53 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 5 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 53 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 6 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 6 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 6 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 55 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 6 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 55 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 55 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 55 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 6 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 56 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 6 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 56 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 56 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 56 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 6 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 57 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 6 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 57 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 57 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 6 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 57 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 7 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 7 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 7 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 59 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 7 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 59 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 59 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 59 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 7 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 5A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 7 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 5A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 5A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 5A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 7 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 5B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 7 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 5B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 5B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 7 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 5B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 8 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 8 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 8 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 5D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 8 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 5D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 5D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 5D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 8 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 5E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 8 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 5E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 5E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 5E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Attack",
+      "group": "Hüllkurven / Stack 8 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 49 5F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Hold",
+      "group": "Hüllkurven / Stack 8 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4A 5F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4B 5F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pitch Env Decay",
+      "group": "Hüllkurven / Stack 8 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 4D 5F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 5 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 5 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 5 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 6 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 6 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 6 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 7 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 7 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 7 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Stack 8 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 18 06 {dev} 03 1A 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / Stack 8 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 18 06 {dev} 03 19 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "LFOs / Stack 8 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 10,
+      "sysex": "F0 18 06 {dev} 03 1B 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 7,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 7,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 7,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 7,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 7,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 7,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 7,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 7,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 7,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 7,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 7,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 7,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 7,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 7,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 7,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 7,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1",
+      "kind": 1,
+      "number": 10,
+      "channel": 0,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 2",
+      "kind": 1,
+      "number": 10,
+      "channel": 1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 3",
+      "kind": 1,
+      "number": 10,
+      "channel": 2,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 4",
+      "kind": 1,
+      "number": 10,
+      "channel": 3,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 5",
+      "kind": 1,
+      "number": 10,
+      "channel": 4,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 6",
+      "kind": 1,
+      "number": 10,
+      "channel": 5,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 7",
+      "kind": 1,
+      "number": 10,
+      "channel": 6,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 8",
+      "kind": 1,
+      "number": 10,
+      "channel": 7,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 9",
+      "kind": 1,
+      "number": 10,
+      "channel": 8,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 10",
+      "kind": 1,
+      "number": 10,
+      "channel": 9,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 11",
+      "kind": 1,
+      "number": 10,
+      "channel": 10,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 12",
+      "kind": 1,
+      "number": 10,
+      "channel": 11,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 13",
+      "kind": 1,
+      "number": 10,
+      "channel": 12,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 14",
+      "kind": 1,
+      "number": 10,
+      "channel": 13,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 15",
+      "kind": 1,
+      "number": 10,
+      "channel": 14,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 16",
+      "kind": 1,
+      "number": 10,
+      "channel": 15,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 61 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 61 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 62 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 62 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 63 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 63 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 64 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 64 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 65 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 65 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 66 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 66 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 67 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 67 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 68 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 68 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 69 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 69 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 6A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 6A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 6B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 6B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 6C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 6C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 6D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 6D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 6E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 6E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "MIDI Volume",
+      "group": "Mixer / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 41 6F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Channel Enable",
+      "group": "Mixer / Part 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 06 {dev} 03 45 6F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 20 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 21 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 22 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 23 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 24 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 25 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 26 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 27 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 28 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 29 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 2A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 2B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 2C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 2D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 2E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 2F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 30 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 31 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 32 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 33 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 34 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 35 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 36 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Zone 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 05 37 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 1 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 40 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 1 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 41 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 1 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 42 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 1 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 43 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 2 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 44 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 2 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 45 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 2 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 46 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 2 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 47 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 3 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 48 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 3 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 49 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 3 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 4A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 3 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 4B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 4 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 4C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 4 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 4D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 4 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 4E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 4 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 4F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 5 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 50 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 5 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 51 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 5 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 52 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 5 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 53 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 6 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 54 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 6 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 55 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 6 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 56 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 6 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 57 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 7 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 58 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 7 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 59 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 7 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 5A {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 7 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 5B {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 8 Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 5C {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 8 Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 5D {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 8 Layer 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 5E {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Stack 8 Layer 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 06 {dev} 03 43 5F {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Trigger Tempo (kit)",
+      "group": "Sonstiges / Kit",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 240,
+      "sysex": "F0 18 06 {dev} 03 14 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Velocity Curve (kit)",
+      "group": "Sonstiges / Kit",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 18 06 {dev} 03 15 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Controller A Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 08 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Controller B Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 09 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Controller C Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 0A 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Controller D Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 0B 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Footswitch 1 Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 0C 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Footswitch 2 Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 0D 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Footswitch 3 Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 0E 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Footswitch 4 Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 0F 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume Controller Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 06 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Pan Controller Number",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 95,
+      "sysex": "F0 18 06 {dev} 03 07 60 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Global Trigger Tempo",
+      "group": "Sonstiges / Master",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 242,
+      "sysex": "F0 18 06 {dev} 03 10 60 {vallsb} {valmsb} F7"
+    }
+  ]
 }

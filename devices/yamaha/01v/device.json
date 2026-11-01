@@ -2655,5 +2655,1006 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Ch 1",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 2",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 3",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 4",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 5",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 6",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 7",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 8",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 84,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 9",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 10",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 11",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 12",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 13-14",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 89,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 15-16",
+      "group": "Effekte / Effect 1 Send",
+      "kind": 1,
+      "number": 90,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 1",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 2",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 3",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 4",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 5",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 95,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 6",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 102,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 7",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 103,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 8",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 104,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 9",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 105,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 10",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 106,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 11",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 107,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 12",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 13-14",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ch 15-16",
+      "group": "Effekte / Effect 2 Send",
+      "kind": 1,
+      "number": 110,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 1",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 2",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 3",
+      "kind": 1,
+      "number": 3,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 4",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 5",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 6",
+      "kind": 1,
+      "number": 6,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 7",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 8",
+      "kind": 1,
+      "number": 8,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 9",
+      "kind": 1,
+      "number": 9,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 10",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 11",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 12",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 13-14",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 15-16",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Return 1",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Return 2",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Aux 1",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Aux 2",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Aux 3",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Aux 4",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Bus 1",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Bus 2",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Bus 3",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Bus 4",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Effect 1",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Effect 2",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Stereo Out",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 1",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 2",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 3",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 4",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 5",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 6",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 7",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 8",
+      "kind": 1,
+      "number": 36,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 9",
+      "kind": 1,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 10",
+      "kind": 1,
+      "number": 38,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 11",
+      "kind": 1,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 12",
+      "kind": 1,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 13-14",
+      "kind": 1,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Ch 15-16",
+      "kind": 1,
+      "number": 42,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Return 1",
+      "kind": 1,
+      "number": 43,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Return 2",
+      "kind": 1,
+      "number": 44,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Aux 1",
+      "kind": 1,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Aux 2",
+      "kind": 1,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Aux 3",
+      "kind": 1,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Aux 4",
+      "kind": 1,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Bus 1",
+      "kind": 1,
+      "number": 49,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Bus 2",
+      "kind": 1,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Bus 3",
+      "kind": 1,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Bus 4",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Effect 1",
+      "kind": 1,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Effect 2",
+      "kind": 1,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On",
+      "group": "Mixer / Stereo Out",
+      "kind": 1,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 1",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 2",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 3",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 4",
+      "kind": 1,
+      "number": 59,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 5",
+      "kind": 1,
+      "number": 60,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 6",
+      "kind": 1,
+      "number": 61,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 7",
+      "kind": 1,
+      "number": 62,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 8",
+      "kind": 1,
+      "number": 63,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 9",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 10",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 11",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 12",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 13",
+      "kind": 1,
+      "number": 68,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 14",
+      "kind": 1,
+      "number": 69,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 15",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Ch 16",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Return 1 L",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Return 1 R",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Return 2 L",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Return 2 R",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Balance",
+      "group": "Mixer / Stereo Out",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 17",
+      "kind": 1,
+      "number": 111,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 18",
+      "kind": 1,
+      "number": 112,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 19",
+      "kind": 1,
+      "number": 113,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 20",
+      "kind": 1,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 21",
+      "kind": 1,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 22",
+      "kind": 1,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 23",
+      "kind": 1,
+      "number": 117,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fader",
+      "group": "Mixer / Ch 24",
+      "kind": 1,
+      "number": 118,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

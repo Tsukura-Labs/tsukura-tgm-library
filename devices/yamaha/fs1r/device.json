@@ -53428,5 +53428,2859 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Formant Control",
+      "group": "Oszillatoren / Formant",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Control",
+      "group": "Oszillatoren / FM",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 15,
+      "max": 112
+    },
+    {
+      "name": "Note Shift",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 40,
+      "max": 88
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 09 {val} F7"
+    },
+    {
+      "name": "Note Shift",
+      "group": "Oszillatoren / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 43 {dev} 5E 30 00 08 {val} F7"
+    },
+    {
+      "name": "Voiced/Unvoiced Balance",
+      "group": "Oszillatoren / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 0A {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 31 00 09 {val} F7"
+    },
+    {
+      "name": "Note Shift",
+      "group": "Oszillatoren / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 43 {dev} 5E 31 00 08 {val} F7"
+    },
+    {
+      "name": "Voiced/Unvoiced Balance",
+      "group": "Oszillatoren / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 31 00 0A {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 32 00 09 {val} F7"
+    },
+    {
+      "name": "Note Shift",
+      "group": "Oszillatoren / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 43 {dev} 5E 32 00 08 {val} F7"
+    },
+    {
+      "name": "Voiced/Unvoiced Balance",
+      "group": "Oszillatoren / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 32 00 0A {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 33 00 09 {val} F7"
+    },
+    {
+      "name": "Note Shift",
+      "group": "Oszillatoren / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 43 {dev} 5E 33 00 08 {val} F7"
+    },
+    {
+      "name": "Voiced/Unvoiced Balance",
+      "group": "Oszillatoren / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 33 00 0A {val} F7"
+    },
+    {
+      "name": "Mono/Poly",
+      "group": "Oszillatoren / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5E 30 00 05 {val} F7"
+    },
+    {
+      "name": "Formant",
+      "group": "Oszillatoren / Formant",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 1D {val} F7"
+    },
+    {
+      "name": "FM",
+      "group": "Oszillatoren / FM",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 1E {val} F7"
+    },
+    {
+      "name": "Portamento Time (Part)",
+      "group": "Oszillatoren / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 25 {val} F7"
+    },
+    {
+      "name": "Voice Note Shift",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 43 {dev} 5E 40 00 1E {val} F7"
+    },
+    {
+      "name": "Algorithm Preset",
+      "group": "Oszillatoren / Algorithm",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 87,
+      "sysex": "F0 43 {dev} 5E 40 00 2C {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 00 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 00 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 00 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 16 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 01 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 01 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 01 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 16 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 02 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 02 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 02 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 16 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 03 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 03 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 03 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 16 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 04 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 04 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 04 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 16 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 05 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 05 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 05 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 16 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 06 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 06 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 06 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 16 {val} F7"
+    },
+    {
+      "name": "Freq Coarse",
+      "group": "Oszillatoren / Op 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 5E 60 07 01 {val} F7"
+    },
+    {
+      "name": "Freq Fine",
+      "group": "Oszillatoren / Op 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 07 02 {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Op 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 43 {dev} 5E 60 07 07 {val} F7"
+    },
+    {
+      "name": "Total Level",
+      "group": "Oszillatoren / Op 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 16 {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 00 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 2E {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 01 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 2E {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 02 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 2E {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 03 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 2E {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 04 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 2E {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 05 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 2E {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 06 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 2E {val} F7"
+    },
+    {
+      "name": "Fine",
+      "group": "Oszillatoren / Formant 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 60 07 25 {val} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Oszillatoren / Formant 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 27 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Formant 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 2E {val} F7"
+    },
+    {
+      "name": "Harmonic Content",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Brightness",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Freq",
+      "group": "Filter",
+      "kind": 3,
+      "number": 160,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Reso",
+      "group": "Filter",
+      "kind": 3,
+      "number": 161,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 18 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 19 {val} F7"
+    },
+    {
+      "name": "Filter EG Depth",
+      "group": "Filter",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 1F {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 227,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Decay Time",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 228,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven",
+      "kind": 3,
+      "number": 230,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven / Part EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 1A {val} F7"
+    },
+    {
+      "name": "EG Decay Time",
+      "group": "Hüllkurven / Part EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 1B {val} F7"
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven / Part EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 1C {val} F7"
+    },
+    {
+      "name": "Pitch EG Initial Level",
+      "group": "Hüllkurven / Part Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 20 {val} F7"
+    },
+    {
+      "name": "Pitch EG Attack Time",
+      "group": "Hüllkurven / Part Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 21 {val} F7"
+    },
+    {
+      "name": "Pitch EG Release Level",
+      "group": "Hüllkurven / Part Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 22 {val} F7"
+    },
+    {
+      "name": "Pitch EG Release Time",
+      "group": "Hüllkurven / Part Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 23 {val} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 5E 40 00 1F {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 5E 40 00 20 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 5E 40 00 21 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 43 {dev} 5E 40 00 22 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 23 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 24 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 25 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 26 {val} F7"
+    },
+    {
+      "name": "Velocity Sensitivity",
+      "group": "Hüllkurven / Voice Pitch EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 43 {dev} 5E 40 00 27 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 0C {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 0D {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 0E {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 0F {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 10 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 11 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 12 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Op 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 13 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 1 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 00 37 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 2 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 01 37 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 3 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 02 37 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 4 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 03 37 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 5 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 04 37 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 6 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 05 37 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 7 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 06 37 {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 30 {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 31 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 32 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 33 {val} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 34 {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 35 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 36 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Formant 8 EG",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 60 07 37 {val} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO1 Speed",
+      "group": "LFOs / LFO 1",
+      "kind": 3,
+      "number": 136,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO1 Pitch Mod",
+      "group": "LFOs / LFO 1",
+      "kind": 3,
+      "number": 137,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO1 Delay",
+      "group": "LFOs / LFO 1",
+      "kind": 3,
+      "number": 138,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO2 Speed",
+      "group": "LFOs / LFO 2",
+      "kind": 3,
+      "number": 139,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO2 Filter Mod",
+      "group": "LFOs / LFO 2",
+      "kind": 3,
+      "number": 140,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO1 Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 15 {val} F7"
+    },
+    {
+      "name": "LFO1 Pitch Mod Depth",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 16 {val} F7"
+    },
+    {
+      "name": "LFO1 Delay (Part)",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 17 {val} F7"
+    },
+    {
+      "name": "LFO2 Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 2E {val} F7"
+    },
+    {
+      "name": "LFO2 Mod Depth",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 2F {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Voice LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 5E 40 00 10 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Voice LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 11 {val} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / Voice LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 12 {val} F7"
+    },
+    {
+      "name": "Key Sync",
+      "group": "LFOs / Voice LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5E 40 00 13 {val} F7"
+    },
+    {
+      "name": "Pitch Mod Depth",
+      "group": "LFOs / Voice LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 15 {val} F7"
+    },
+    {
+      "name": "Amp Mod Depth",
+      "group": "LFOs / Voice LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 16 {val} F7"
+    },
+    {
+      "name": "Freq Mod Depth",
+      "group": "LFOs / Voice LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 43 {dev} 5E 40 00 17 {val} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Voice LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 5E 40 00 18 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Voice LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 40 00 19 {val} F7"
+    },
+    {
+      "name": "Phase",
+      "group": "LFOs / Voice LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 43 {dev} 5E 40 00 1C {val} F7"
+    },
+    {
+      "name": "Key Sync",
+      "group": "LFOs / Voice LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 5E 40 00 1D {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 12 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 13 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 31 00 12 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 31 00 13 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 32 00 12 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 32 00 13 {val} F7"
+    },
+    {
+      "name": "Variation Send",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 33 00 12 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 33 00 13 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Performance Volume",
+      "group": "Mixer / Performance",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 10 00 10 {val} F7"
+    },
+    {
+      "name": "Performance Pan",
+      "group": "Mixer / Performance",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 10 00 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 30 00 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 31 00 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 31 00 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 31 00 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 32 00 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 32 00 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 32 00 11 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 33 00 0B {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 33 00 0E {val} F7"
+    },
+    {
+      "name": "Dry Level",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 5E 33 00 11 {val} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Performance Note Shift",
+      "group": "Sonstiges / Performance",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 43 {dev} 5E 10 00 12 {val} F7"
+    }
+  ]
 }

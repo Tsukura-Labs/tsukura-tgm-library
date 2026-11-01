@@ -3926,5 +3926,52 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Master Volume",
+      "group": "Mixer / Master",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Data Slider",
+      "group": "Sonstiges / Master",
+      "kind": 1,
+      "number": 6,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Data Increment",
+      "group": "Sonstiges / Master",
+      "kind": 1,
+      "number": 96,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Data Decrement",
+      "group": "Sonstiges / Master",
+      "kind": 1,
+      "number": 97,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges / Master",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
 }

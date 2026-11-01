@@ -1765,5 +1765,3964 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Wave Source",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 6E {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform MSB",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 6F {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform LSB",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 70 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 71 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 72 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Random",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 73 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 74 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bender",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 75 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Bend",
+      "group": "Oszillatoren / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 76 {val} > {rchk} F7"
+    },
+    {
+      "name": "Wave Source",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 36 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform MSB",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform LSB",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 39 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 3A {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Random",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 3B {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Bender",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 3D {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Bend",
+      "group": "Oszillatoren / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 3E {val} > {rchk} F7"
+    },
+    {
+      "name": "Wave Source",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 7E {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform MSB",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 7F {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform LSB",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 01 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Random",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 04 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bender",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 05 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Bend",
+      "group": "Oszillatoren / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Wave Source",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 46 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform MSB",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 47 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform LSB",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 49 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 4A {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Random",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 4B {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 4C {val} > {rchk} F7"
+    },
+    {
+      "name": "Bender",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 4D {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Bend",
+      "group": "Oszillatoren / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 4E {val} > {rchk} F7"
+    },
+    {
+      "name": "Solo Switch",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Solo Legato",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Mode",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Time CC",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Fine Tune (RPN 1)",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Mode",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 04 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Freq",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 05 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 40,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 07 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 08 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Select",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Depth",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "TVF Env Depth",
+      "group": "Filter / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "Filter Mode",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 4C {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Freq",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 4D {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 4E {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 40,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 4F {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 50 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Select",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 51 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Depth",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 52 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVF Env Depth",
+      "group": "Filter / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 53 {val} > {rchk} F7"
+    },
+    {
+      "name": "Filter Mode",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 14 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Freq",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 15 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 16 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 40,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 17 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Select",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Depth",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "TVF Env Depth",
+      "group": "Filter / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Filter Mode",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 5C {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Freq",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 5D {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 5E {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Follow",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 40,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 5F {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Select",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Depth",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVF Env Depth",
+      "group": "Filter / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 7B {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 7C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 7D {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 7E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 7F {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 01 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone A Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 0C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 0D {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 0E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 0F {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 10 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 11 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 12 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 13 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 14 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 15 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Tone A TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 16 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone A TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 45 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 46 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 47 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 49 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 4A {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone B Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 4B {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 54 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 55 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 56 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 57 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 58 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 59 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 5A {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 5B {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 5C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 5D {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Tone B TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 5E {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 67 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 68 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 69 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 6A {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 6B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 6C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 6D {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 6E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone B TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 6F {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 0C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 0D {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 0E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 0F {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 10 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 11 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 12 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone C Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 13 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Tone C TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 32 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 33 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 34 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 35 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 36 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone C TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 53 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 54 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 55 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 0",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 56 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 57 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 58 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 59 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 5A {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone D Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 5B {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 67 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 68 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 69 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 6A {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 6B {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 6C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 6D {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Tone D TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 6E {val} > {rchk} F7"
+    },
+    {
+      "name": "Velo",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 76 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Velo",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 77 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time KF",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 78 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 79 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 7A {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 7B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 7C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 7D {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 7E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Tone D TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 7F {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone A LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone A LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone A LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone A LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone A LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone A LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 67 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone A LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 68 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone A LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 69 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone A LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 6A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone A LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 6B {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone A LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 6C {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone A LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 6D {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO1 Sens",
+      "group": "LFOs / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 77 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO2 Sens",
+      "group": "LFOs / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 78 {val} > {rchk} F7"
+    },
+    {
+      "name": "Lever Sens",
+      "group": "LFOs / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 79 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Mod Sens",
+      "group": "LFOs / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 7A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone B LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone B LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone B LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone B LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone B LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone B LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone B LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone B LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone B LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 32 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone B LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 33 {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone B LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 34 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone B LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 35 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO1 Sens",
+      "group": "LFOs / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 3F {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO2 Sens",
+      "group": "LFOs / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 40 {val} > {rchk} F7"
+    },
+    {
+      "name": "Lever Sens",
+      "group": "LFOs / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 41 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Mod Sens",
+      "group": "LFOs / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone C LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 72 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone C LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 73 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone C LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 74 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone C LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 75 {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone C LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 76 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone C LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 77 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone C LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 78 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone C LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 79 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone C LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 7A {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone C LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 7B {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone C LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 7C {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone C LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 7D {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO1 Sens",
+      "group": "LFOs / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 07 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO2 Sens",
+      "group": "LFOs / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 08 {val} > {rchk} F7"
+    },
+    {
+      "name": "Lever Sens",
+      "group": "LFOs / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Mod Sens",
+      "group": "LFOs / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone D LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 3A {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone D LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 3B {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone D LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone D LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 3D {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone D LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 3E {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone D LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 3F {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / Tone D LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 40 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay (101 = REL)",
+      "group": "LFOs / Tone D LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 101,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 41 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / Tone D LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "Waveform",
+      "group": "LFOs / Tone D LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "Offset",
+      "group": "LFOs / Tone D LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Trigger",
+      "group": "LFOs / Tone D LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 45 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO1 Sens",
+      "group": "LFOs / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 4F {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO2 Sens",
+      "group": "LFOs / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 50 {val} > {rchk} F7"
+    },
+    {
+      "name": "Lever Sens",
+      "group": "LFOs / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 51 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Mod Sens",
+      "group": "LFOs / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 52 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bender Range Down",
+      "group": "LFOs / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bender Range Up",
+      "group": "LFOs / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Bend",
+      "group": "LFOs / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 26,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Sensitivity (RPN 0)",
+      "group": "LFOs",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Low Freq",
+      "group": "Effekte / EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Low Gain",
+      "group": "Effekte / EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Mid Freq",
+      "group": "Effekte / EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Mid Q",
+      "group": "Effekte / EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Mid Gain",
+      "group": "Effekte / EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "High Freq",
+      "group": "Effekte / EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "High Gain",
+      "group": "Effekte / EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group A Sequence",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 23,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 32 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group B Sequence",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 33 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group A Block 1",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 34 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group A Block 2",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 35 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group A Block 3",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 36 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group A Block 4",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group B Block 1",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group B Block 2",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 39 {val} > {rchk} F7"
+    },
+    {
+      "name": "Group B Block 3",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 3A {val} > {rchk} F7"
+    },
+    {
+      "name": "Group B Effect Balance",
+      "group": "Effekte / Effect Chain",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 3B {val} > {rchk} F7"
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / Distortion",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Drive",
+      "group": "Effekte / Distortion",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 3D {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Effekte / Distortion",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 3E {val} > {rchk} F7"
+    },
+    {
+      "name": "Manual",
+      "group": "Effekte / Phaser",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 3F {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "Effekte / Phaser",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 40 {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / Phaser",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 41 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Effekte / Phaser",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "Mix",
+      "group": "Effekte / Phaser",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "Band 1",
+      "group": "Effekte / Spectrum",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "Band 2",
+      "group": "Effekte / Spectrum",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 45 {val} > {rchk} F7"
+    },
+    {
+      "name": "Band 3",
+      "group": "Effekte / Spectrum",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 46 {val} > {rchk} F7"
+    },
+    {
+      "name": "Band 4",
+      "group": "Effekte / Spectrum",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 47 {val} > {rchk} F7"
+    },
+    {
+      "name": "Band 5",
+      "group": "Effekte / Spectrum",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "Band 6",
+      "group": "Effekte / Spectrum",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 49 {val} > {rchk} F7"
+    },
+    {
+      "name": "Band Width",
+      "group": "Effekte / Spectrum",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 4A {val} > {rchk} F7"
+    },
+    {
+      "name": "Sens",
+      "group": "Effekte / Enhancer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 4B {val} > {rchk} F7"
+    },
+    {
+      "name": "Mix",
+      "group": "Effekte / Enhancer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 4C {val} > {rchk} F7"
+    },
+    {
+      "name": "Center Tap",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 125,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 4D {val} > {rchk} F7"
+    },
+    {
+      "name": "Center Level",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 4E {val} > {rchk} F7"
+    },
+    {
+      "name": "Left Tap",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 125,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 4F {val} > {rchk} F7"
+    },
+    {
+      "name": "Left Level",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 50 {val} > {rchk} F7"
+    },
+    {
+      "name": "Right Tap",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 125,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 51 {val} > {rchk} F7"
+    },
+    {
+      "name": "Right Level",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 52 {val} > {rchk} F7"
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Delay",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 53 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 54 {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 55 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay Time",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 56 {val} > {rchk} F7"
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 98,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 57 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 58 {val} > {rchk} F7"
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 9,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 59 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pre Delay",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 121,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 5A {val} > {rchk} F7"
+    },
+    {
+      "name": "Early Ref Level",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 5B {val} > {rchk} F7"
+    },
+    {
+      "name": "HF Damp",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 5C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 5D {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 5E {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Mode",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 04 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 05 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Mode",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Mode",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 10 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 11 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Mode",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 16 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 17 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Mode",
+      "group": "Effekte / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Direction",
+      "group": "Mixer / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 17 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Point",
+      "group": "Mixer / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Level",
+      "group": "Mixer / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Mixer / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Select",
+      "group": "Mixer / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Depth",
+      "group": "Mixer / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Direction",
+      "group": "Mixer / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 5F {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Point",
+      "group": "Mixer / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Level",
+      "group": "Mixer / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Mixer / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Select",
+      "group": "Mixer / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Depth",
+      "group": "Mixer / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Direction",
+      "group": "Mixer / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Point",
+      "group": "Mixer / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Level",
+      "group": "Mixer / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Mixer / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Select",
+      "group": "Mixer / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Depth",
+      "group": "Mixer / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Direction",
+      "group": "Mixer / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 6F {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Point",
+      "group": "Mixer / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 70 {val} > {rchk} F7"
+    },
+    {
+      "name": "Bias Level",
+      "group": "Mixer / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 20,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 71 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 72 {val} > {rchk} F7"
+    },
+    {
+      "name": "A-touch Sens",
+      "group": "Mixer / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 73 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Select",
+      "group": "Mixer / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 74 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA LFO Depth",
+      "group": "Mixer / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 75 {val} > {rchk} F7"
+    },
+    {
+      "name": "Patch Level",
+      "group": "Mixer / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 10 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 01 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 07 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 0C {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 0D {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 0F {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 12 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 13 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 15 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 18 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 60,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Special Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 100,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Mixer / Special Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "Hold Control",
+      "group": "Sonstiges / Tone A",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Hold Control",
+      "group": "Sonstiges / Tone B",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 70 {val} > {rchk} F7"
+    },
+    {
+      "name": "Hold Control",
+      "group": "Sonstiges / Tone C",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 01 71 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "Hold Control",
+      "group": "Sonstiges / Tone D",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 3D 12 < 00 02 39 {val} > {rchk} F7"
+    },
+    {
+      "name": "Layer Tone",
+      "group": "Sonstiges / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Active Tone",
+      "group": "Sonstiges / Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 3D 12 < 00 00 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "MIDI Rx Channel",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "MIDI Rx Channel",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 08 {val} > {rchk} F7"
+    },
+    {
+      "name": "MIDI Rx Channel",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 0E {val} > {rchk} F7"
+    },
+    {
+      "name": "MIDI Rx Channel",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 14 {val} > {rchk} F7"
+    },
+    {
+      "name": "MIDI Rx Channel",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "MIDI Rx Channel",
+      "group": "Sonstiges / Special Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 3D 12 < 03 00 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Breath",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Pitch Bender",
+      "group": "Sonstiges",
+      "kind": 6,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Channel Aftertouch",
+      "group": "Sonstiges",
+      "kind": 7,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Program Change",
+      "group": "Sonstiges",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

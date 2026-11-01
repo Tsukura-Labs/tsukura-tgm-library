@@ -8424,5 +8424,3128 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Key Follow",
+      "group": "Oszillatoren / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Key Follow",
+      "group": "Oszillatoren / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 5D {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 5E {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Key Follow",
+      "group": "Oszillatoren / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 5F {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Coarse",
+      "group": "Oszillatoren / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 96,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Fine",
+      "group": "Oszillatoren / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 1C {val} > {rchk} F7"
+    },
+    {
+      "name": "Pitch Key Follow",
+      "group": "Oszillatoren / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 1D {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Part 1 Patch Lower",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Mode",
+      "group": "Oszillatoren / Part 1 Patch Lower",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 32 {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Part 1 Patch Lower",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 33 {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Part 1 Patch Upper",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 3B {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Mode",
+      "group": "Oszillatoren / Part 1 Patch Upper",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Part 1 Patch Upper",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 3D {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Shift",
+      "group": "Oszillatoren / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Shift",
+      "group": "Oszillatoren / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 50 {val} > {rchk} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 51 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Shift",
+      "group": "Oszillatoren / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 5D {val} > {rchk} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 5E {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Shift",
+      "group": "Oszillatoren / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 6A {val} > {rchk} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 6B {val} > {rchk} F7"
+    },
+    {
+      "name": "Portamento Time CC",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch CC",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "TVF Mode",
+      "group": "Filter / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 69 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 6A {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 6B {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Filter / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 6C {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 6D {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth",
+      "group": "Filter / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 6E {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth Velo",
+      "group": "Filter / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 6F {val} > {rchk} F7"
+    },
+    {
+      "name": "TVF Mode",
+      "group": "Filter / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Filter / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth",
+      "group": "Filter / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth Velo",
+      "group": "Filter / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "TVF Mode",
+      "group": "Filter / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 67 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Filter / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 68 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 69 {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth",
+      "group": "Filter / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 6A {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth Velo",
+      "group": "Filter / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 6B {val} > {rchk} F7"
+    },
+    {
+      "name": "TVF Mode",
+      "group": "Filter / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Filter / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 27 {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth",
+      "group": "Filter / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Env Depth Velo",
+      "group": "Filter / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 45 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 46 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 52 {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 53 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 5F {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 6C {val} > {rchk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 6D {val} > {rchk} F7"
+    },
+    {
+      "name": "Brightness (panel control, Control Ch)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "A Time",
+      "group": "Hüllkurven / Part 1 Section 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "A Depth",
+      "group": "Hüllkurven / Part 1 Section 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Time",
+      "group": "Hüllkurven / Part 1 Section 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 67 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Depth",
+      "group": "Hüllkurven / Part 1 Section 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 68 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 70 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Vel",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 71 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 72 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 73 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 74 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 75 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 76 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 77 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 78 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 79 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 7D {val} > {rchk} F7"
+    },
+    {
+      "name": "Time On Vel",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 7E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 7F {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 01 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 04 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 05 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 1 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "A Time",
+      "group": "Hüllkurven / Part 1 Section 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 23 {val} > {rchk} F7"
+    },
+    {
+      "name": "A Depth",
+      "group": "Hüllkurven / Part 1 Section 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 24 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Time",
+      "group": "Hüllkurven / Part 1 Section 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 25 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Depth",
+      "group": "Hüllkurven / Part 1 Section 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 26 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Vel",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 32 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 33 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 34 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 35 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 36 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 3B {val} > {rchk} F7"
+    },
+    {
+      "name": "Time On Vel",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 3D {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 3E {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 3F {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 40 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 41 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 2 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "A Time",
+      "group": "Hüllkurven / Part 1 Section 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "A Depth",
+      "group": "Hüllkurven / Part 1 Section 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Time",
+      "group": "Hüllkurven / Part 1 Section 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Depth",
+      "group": "Hüllkurven / Part 1 Section 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 6C {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Vel",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 6D {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 6E {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 6F {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 70 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 71 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 72 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 73 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 74 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 75 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 79 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time On Vel",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 7A {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 7B {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 7C {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 7D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 7E {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 7F {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 01 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 3 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 1E {val} > {rchk} F7"
+    },
+    {
+      "name": "A Time",
+      "group": "Hüllkurven / Part 1 Section 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "A Depth",
+      "group": "Hüllkurven / Part 1 Section 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Time",
+      "group": "Hüllkurven / Part 1 Section 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 21 {val} > {rchk} F7"
+    },
+    {
+      "name": "R Depth",
+      "group": "Hüllkurven / Part 1 Section 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 34,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 22 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Vel",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 31 {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 32 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVF Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 33 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Key Follow",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time On Vel",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "Time Rel Vel",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 39 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 3A {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 3B {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay BP",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 3D {val} > {rchk} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 3E {val} > {rchk} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 3F {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Section 4 TVA Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 40 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 47 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 54 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 55 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 6E {val} > {rchk} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 6F {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Waveform",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 07 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rate",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 08 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Delay Time",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rise Time",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Offset",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 0B {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Pitch Mod Depth",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 0C {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVF Mod Depth",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 0D {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVA Mod Depth",
+      "group": "LFOs / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 0E {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Waveform",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 45 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rate",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 46 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Delay Time",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 47 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rise Time",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Offset",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 49 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Pitch Mod Depth",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 4A {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVF Mod Depth",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 4B {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVA Mod Depth",
+      "group": "LFOs / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 4C {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Waveform",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rate",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 04 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Delay Time",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 05 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rise Time",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 06 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Offset",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 07 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Pitch Mod Depth",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 08 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVF Mod Depth",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 09 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVA Mod Depth",
+      "group": "LFOs / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 0A {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Waveform",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 41 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rate",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Delay Time",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Rise Time",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Offset",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 45 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO Pitch Mod Depth",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 46 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVF Mod Depth",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 47 {val} > {rchk} F7"
+    },
+    {
+      "name": "LFO TVA Mod Depth",
+      "group": "LFOs / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 49 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 56 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Assign",
+      "group": "Effekte / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 70 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect",
+      "group": "Effekte / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 48 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect",
+      "group": "Effekte / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect",
+      "group": "Effekte / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 02 {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect",
+      "group": "Effekte / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 1F {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect",
+      "group": "Effekte / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 3C {val} > {rchk} F7"
+    },
+    {
+      "name": "Effect",
+      "group": "Effekte / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 58 {val} > {rchk} F7"
+    },
+    {
+      "name": "Reverb Type",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 5A {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay Time",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 5B {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 5C {val} > {rchk} F7"
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 5D {val} > {rchk} F7"
+    },
+    {
+      "name": "Chorus Type",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 5E {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Mode",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 5F {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "Delay Time",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 62 {val} > {rchk} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 63 {val} > {rchk} F7"
+    },
+    {
+      "name": "Feedback",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 62,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Level",
+      "group": "Mixer / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 7A {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Curve",
+      "group": "Mixer / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 7B {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Sens",
+      "group": "Mixer / Part 1 Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 06 7C {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Level",
+      "group": "Mixer / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Curve",
+      "group": "Mixer / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 39 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Sens",
+      "group": "Mixer / Part 1 Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 3A {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Level",
+      "group": "Mixer / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 76 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Curve",
+      "group": "Mixer / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 77 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Sens",
+      "group": "Mixer / Part 1 Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 07 78 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Level",
+      "group": "Mixer / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 34 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Curve",
+      "group": "Mixer / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 35 {val} > {rchk} F7"
+    },
+    {
+      "name": "TVA Velocity Sens",
+      "group": "Mixer / Part 1 Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 08 36 {val} > {rchk} F7"
+    },
+    {
+      "name": "Patch Level",
+      "group": "Mixer / Part 1 Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 28 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 14,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 4A {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 4F {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 14,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 57 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 5C {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 14,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 64 {val} > {rchk} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 69 {val} > {rchk} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 14,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 71 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Mixer / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 44 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Mixer / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 61 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Mixer / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 7E {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Mixer / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 1B {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Mixer / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "Output Level",
+      "group": "Mixer / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 54 {val} > {rchk} F7"
+    },
+    {
+      "name": "Part Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panpot",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Velocity Curve",
+      "group": "Sonstiges / Part 1 Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 29 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Sonstiges / Part 1 Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 2A {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Mode",
+      "group": "Sonstiges / Part 1 Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 2B {val} > {rchk} F7"
+    },
+    {
+      "name": "Split Point",
+      "group": "Sonstiges / Part 1 Patch",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 2C {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Mode",
+      "group": "Sonstiges / Part 1 Patch Lower",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 2D {val} > {rchk} F7"
+    },
+    {
+      "name": "Threshold Sens",
+      "group": "Sonstiges / Part 1 Patch Lower",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 2E {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Assign",
+      "group": "Sonstiges / Part 1 Patch Lower",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 2F {val} > {rchk} F7"
+    },
+    {
+      "name": "Solo Legato",
+      "group": "Sonstiges / Part 1 Patch Lower",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 30 {val} > {rchk} F7"
+    },
+    {
+      "name": "Velocity Mode",
+      "group": "Sonstiges / Part 1 Patch Upper",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Threshold Sens",
+      "group": "Sonstiges / Part 1 Patch Upper",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 38 {val} > {rchk} F7"
+    },
+    {
+      "name": "Key Assign",
+      "group": "Sonstiges / Part 1 Patch Upper",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 39 {val} > {rchk} F7"
+    },
+    {
+      "name": "Solo Legato",
+      "group": "Sonstiges / Part 1 Patch Upper",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 3A {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Select",
+      "group": "Sonstiges / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 41 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Switch",
+      "group": "Sonstiges / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 4B {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Lower Limit",
+      "group": "Sonstiges / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 4C {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Upper Limit",
+      "group": "Sonstiges / Part 1 Patch Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 4D {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Select",
+      "group": "Sonstiges / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 4E {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Switch",
+      "group": "Sonstiges / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 58 {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Lower Limit",
+      "group": "Sonstiges / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 59 {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Upper Limit",
+      "group": "Sonstiges / Part 1 Patch Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 5A {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Select",
+      "group": "Sonstiges / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 5B {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Switch",
+      "group": "Sonstiges / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 65 {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Lower Limit",
+      "group": "Sonstiges / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Upper Limit",
+      "group": "Sonstiges / Part 1 Patch Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 67 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Select",
+      "group": "Sonstiges / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 68 {val} > {rchk} F7"
+    },
+    {
+      "name": "Tone Switch",
+      "group": "Sonstiges / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 72 {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Lower Limit",
+      "group": "Sonstiges / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 73 {val} > {rchk} F7"
+    },
+    {
+      "name": "Zone Upper Limit",
+      "group": "Sonstiges / Part 1 Patch Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 03 74 {val} > {rchk} F7"
+    },
+    {
+      "name": "RX Channel",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 42 {val} > {rchk} F7"
+    },
+    {
+      "name": "Patch Select",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 43 {val} > {rchk} F7"
+    },
+    {
+      "name": "Analog Feel",
+      "group": "Sonstiges / Part 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 49 {val} > {rchk} F7"
+    },
+    {
+      "name": "RX Channel",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 5F {val} > {rchk} F7"
+    },
+    {
+      "name": "Patch Select",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 60 {val} > {rchk} F7"
+    },
+    {
+      "name": "Analog Feel",
+      "group": "Sonstiges / Part 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 66 {val} > {rchk} F7"
+    },
+    {
+      "name": "RX Channel",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 7C {val} > {rchk} F7"
+    },
+    {
+      "name": "Patch Select",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 01 7D {val} > {rchk} F7"
+    },
+    {
+      "name": "Analog Feel",
+      "group": "Sonstiges / Part 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 03 {val} > {rchk} F7"
+    },
+    {
+      "name": "RX Channel",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 19 {val} > {rchk} F7"
+    },
+    {
+      "name": "Patch Select",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 1A {val} > {rchk} F7"
+    },
+    {
+      "name": "Analog Feel",
+      "group": "Sonstiges / Part 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 20 {val} > {rchk} F7"
+    },
+    {
+      "name": "RX Channel",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 36 {val} > {rchk} F7"
+    },
+    {
+      "name": "Patch Select",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 37 {val} > {rchk} F7"
+    },
+    {
+      "name": "Analog Feel",
+      "group": "Sonstiges / Part 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 3D {val} > {rchk} F7"
+    },
+    {
+      "name": "RX Channel",
+      "group": "Sonstiges / Rhythm Part",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 41 {dev} 39 12 < 00 02 53 {val} > {rchk} F7"
+    },
+    {
+      "name": "Master Tune",
+      "group": "Sonstiges / System",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 41 {dev} 39 12 < 00 00 00 {val} > {rchk} F7"
+    },
+    {
+      "name": "Hold / Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Data Entry = CI/EXP Pedal (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 6,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone Palette Slider 1 (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone Palette Slider 2 (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone Palette Slider 3 (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone Palette Slider 4 (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pedal Switch (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone Palette Button (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Play Button (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tone/Zone Select Button (Control Ch)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend",
+      "group": "Sonstiges",
+      "kind": 6,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Channel Aftertouch",
+      "group": "Sonstiges",
+      "kind": 7,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Program Change",
+      "group": "Sonstiges",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }

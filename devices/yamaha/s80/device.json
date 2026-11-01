@@ -13706,5 +13706,3056 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Controller",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren / Controller",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mono/Poly",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 40 00 03 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range Up",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 88,
+      "sysex": "F0 43 {dev} 64 40 00 05 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range Down",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 88,
+      "sysex": "F0 43 {dev} 64 40 00 06 {val} F7"
+    },
+    {
+      "name": "Portamento Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 40 00 07 {val} F7"
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 40 00 08 {val} F7"
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 00 09 {val} F7"
+    },
+    {
+      "name": "Wave Number",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 553,
+      "sysex": "F0 43 {dev} 64 41 00 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 02 {val} F7"
+    },
+    {
+      "name": "Random Pan Depth",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 03 {val} F7"
+    },
+    {
+      "name": "Alternate Pan Depth",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 04 {val} F7"
+    },
+    {
+      "name": "Scaling Pan Depth",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 05 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 20 {val} F7"
+    },
+    {
+      "name": "Level Velocity Sens",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 21 {val} F7"
+    },
+    {
+      "name": "Level Key Follow Sens",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 2E {val} F7"
+    },
+    {
+      "name": "Coarse Tune",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 64 42 00 00 {val} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 01 {val} F7"
+    },
+    {
+      "name": "Random Pitch Depth",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 03 {val} F7"
+    },
+    {
+      "name": "Pitch Key Follow Sens",
+      "group": "Oszillatoren / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 17 {val} F7"
+    },
+    {
+      "name": "Wave Number",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 553,
+      "sysex": "F0 43 {dev} 64 41 01 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 02 {val} F7"
+    },
+    {
+      "name": "Random Pan Depth",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 03 {val} F7"
+    },
+    {
+      "name": "Alternate Pan Depth",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 04 {val} F7"
+    },
+    {
+      "name": "Scaling Pan Depth",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 05 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 20 {val} F7"
+    },
+    {
+      "name": "Level Velocity Sens",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 21 {val} F7"
+    },
+    {
+      "name": "Level Key Follow Sens",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 2E {val} F7"
+    },
+    {
+      "name": "Coarse Tune",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 64 42 01 00 {val} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 01 {val} F7"
+    },
+    {
+      "name": "Random Pitch Depth",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 03 {val} F7"
+    },
+    {
+      "name": "Pitch Key Follow Sens",
+      "group": "Oszillatoren / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 17 {val} F7"
+    },
+    {
+      "name": "Wave Number",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 553,
+      "sysex": "F0 43 {dev} 64 41 02 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 02 {val} F7"
+    },
+    {
+      "name": "Random Pan Depth",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 03 {val} F7"
+    },
+    {
+      "name": "Alternate Pan Depth",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 04 {val} F7"
+    },
+    {
+      "name": "Scaling Pan Depth",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 05 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 20 {val} F7"
+    },
+    {
+      "name": "Level Velocity Sens",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 21 {val} F7"
+    },
+    {
+      "name": "Level Key Follow Sens",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 2E {val} F7"
+    },
+    {
+      "name": "Coarse Tune",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 64 42 02 00 {val} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 01 {val} F7"
+    },
+    {
+      "name": "Random Pitch Depth",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 03 {val} F7"
+    },
+    {
+      "name": "Pitch Key Follow Sens",
+      "group": "Oszillatoren / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 17 {val} F7"
+    },
+    {
+      "name": "Wave Number",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 553,
+      "sysex": "F0 43 {dev} 64 41 03 00 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 02 {val} F7"
+    },
+    {
+      "name": "Random Pan Depth",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 03 {val} F7"
+    },
+    {
+      "name": "Alternate Pan Depth",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 04 {val} F7"
+    },
+    {
+      "name": "Scaling Pan Depth",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 05 {val} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 20 {val} F7"
+    },
+    {
+      "name": "Level Velocity Sens",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 21 {val} F7"
+    },
+    {
+      "name": "Level Key Follow Sens",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 2E {val} F7"
+    },
+    {
+      "name": "Coarse Tune",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 43 {dev} 64 42 03 00 {val} F7"
+    },
+    {
+      "name": "Fine Tune",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 01 {val} F7"
+    },
+    {
+      "name": "Random Pitch Depth",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 03 {val} F7"
+    },
+    {
+      "name": "Pitch Key Follow Sens",
+      "group": "Oszillatoren / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 17 {val} F7"
+    },
+    {
+      "name": "Resonance (Harmonic)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff (Brightness)",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Filter Type",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 64 43 00 00 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Velocity Sens",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 03 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 64 43 00 04 {val} F7"
+    },
+    {
+      "name": "Resonance Velocity Sens",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 05 {val} F7"
+    },
+    {
+      "name": "HPF Cutoff",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Filter Gain",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 20 {val} F7"
+    },
+    {
+      "name": "Filter Type",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 64 43 01 00 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Velocity Sens",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 03 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 64 43 01 04 {val} F7"
+    },
+    {
+      "name": "Resonance Velocity Sens",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 05 {val} F7"
+    },
+    {
+      "name": "HPF Cutoff",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Filter Gain",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 20 {val} F7"
+    },
+    {
+      "name": "Filter Type",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 64 43 02 00 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Velocity Sens",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 03 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 64 43 02 04 {val} F7"
+    },
+    {
+      "name": "Resonance Velocity Sens",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 05 {val} F7"
+    },
+    {
+      "name": "HPF Cutoff",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Filter Gain",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 20 {val} F7"
+    },
+    {
+      "name": "Filter Type",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 43 {dev} 64 43 03 00 {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 01 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Velocity Sens",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 03 {val} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 31,
+      "sysex": "F0 43 {dev} 64 43 03 04 {val} F7"
+    },
+    {
+      "name": "Resonance Velocity Sens",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 05 {val} F7"
+    },
+    {
+      "name": "HPF Cutoff",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 06 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Filter Gain",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Cutoff Key Follow",
+      "group": "Filter / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 20 {val} F7"
+    },
+    {
+      "name": "EG Sustain Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Release Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Attack Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Decay Time",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Voice Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 70 24 {val} F7"
+    },
+    {
+      "name": "Sustain Offset",
+      "group": "Hüllkurven / Voice Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 70 25 {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 23 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 24 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 25 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 26 {val} F7"
+    },
+    {
+      "name": "Init Level",
+      "group": "Hüllkurven / Element 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 27 {val} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 29 {val} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 1 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 2A {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 04 {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 05 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 06 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 07 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 08 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 00 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 00 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 00 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 00 0F {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 00 11 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 1 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 00 13 {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 0D {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 0E {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 0F {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 10 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 11 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 12 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 14 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 18 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 00 1A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 1 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 00 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 23 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 24 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 25 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 26 {val} F7"
+    },
+    {
+      "name": "Init Level",
+      "group": "Hüllkurven / Element 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 27 {val} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 29 {val} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 2 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 2A {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 04 {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 05 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 06 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 07 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 08 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 01 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 01 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 01 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 01 0F {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 01 11 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 2 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 01 13 {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 0D {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 0E {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 0F {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 10 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 11 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 12 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 14 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 18 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 01 1A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 2 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 01 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 23 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 24 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 25 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 26 {val} F7"
+    },
+    {
+      "name": "Init Level",
+      "group": "Hüllkurven / Element 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 27 {val} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 29 {val} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 3 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 2A {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 04 {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 05 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 06 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 07 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 08 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 02 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 02 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 02 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 02 0F {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 02 11 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 3 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 02 13 {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 0D {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 0E {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 0F {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 10 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 11 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 12 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 14 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 18 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 02 1A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 3 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 02 1C {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 23 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 24 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 25 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 26 {val} F7"
+    },
+    {
+      "name": "Init Level",
+      "group": "Hüllkurven / Element 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 27 {val} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 29 {val} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 4 Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 2A {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 04 {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 05 {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 06 {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 07 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 08 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 03 09 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 03 0B {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 03 0D {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 03 0F {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 42 03 11 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 4 Pitch Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 42 03 13 {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 0D {val} F7"
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 0E {val} F7"
+    },
+    {
+      "name": "Decay 1 Time",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 0F {val} F7"
+    },
+    {
+      "name": "Decay 2 Time",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 10 {val} F7"
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 11 {val} F7"
+    },
+    {
+      "name": "Hold Level",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 12 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 14 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Decay 1 Level",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 16 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 18 {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 43 {dev} 64 43 03 1A {valmsb} {vallsb} F7"
+    },
+    {
+      "name": "Depth",
+      "group": "Hüllkurven / Element 4 Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 43 03 1C {val} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Phase",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 64 40 06 00 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 11,
+      "sysex": "F0 43 {dev} 64 40 06 01 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 80,
+      "sysex": "F0 43 {dev} 64 40 06 02 {val} F7"
+    },
+    {
+      "name": "Delay Time",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 06 03 {val} F7"
+    },
+    {
+      "name": "Fade In Time",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 06 04 {val} F7"
+    },
+    {
+      "name": "Hold Time",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 06 05 {val} F7"
+    },
+    {
+      "name": "Fade Out Time",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 06 06 {val} F7"
+    },
+    {
+      "name": "Key On Reset",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 40 06 07 {val} F7"
+    },
+    {
+      "name": "Box 1 Depth",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 06 09 {val} F7"
+    },
+    {
+      "name": "Box 2 Depth",
+      "group": "LFOs / Common LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 06 0C {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / Element 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 44 00 40 {val} F7"
+    },
+    {
+      "name": "Key On Sync",
+      "group": "LFOs / Element 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 44 00 41 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Element 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 64 44 00 42 {val} F7"
+    },
+    {
+      "name": "AMod Depth",
+      "group": "LFOs / Element 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 00 43 {val} F7"
+    },
+    {
+      "name": "PMod Depth",
+      "group": "LFOs / Element 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 00 44 {val} F7"
+    },
+    {
+      "name": "FMod Depth",
+      "group": "LFOs / Element 1 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 00 45 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / Element 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 44 01 40 {val} F7"
+    },
+    {
+      "name": "Key On Sync",
+      "group": "LFOs / Element 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 44 01 41 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Element 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 64 44 01 42 {val} F7"
+    },
+    {
+      "name": "AMod Depth",
+      "group": "LFOs / Element 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 01 43 {val} F7"
+    },
+    {
+      "name": "PMod Depth",
+      "group": "LFOs / Element 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 01 44 {val} F7"
+    },
+    {
+      "name": "FMod Depth",
+      "group": "LFOs / Element 2 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 01 45 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / Element 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 44 02 40 {val} F7"
+    },
+    {
+      "name": "Key On Sync",
+      "group": "LFOs / Element 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 44 02 41 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Element 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 64 44 02 42 {val} F7"
+    },
+    {
+      "name": "AMod Depth",
+      "group": "LFOs / Element 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 02 43 {val} F7"
+    },
+    {
+      "name": "PMod Depth",
+      "group": "LFOs / Element 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 02 44 {val} F7"
+    },
+    {
+      "name": "FMod Depth",
+      "group": "LFOs / Element 3 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 02 45 {val} F7"
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / Element 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 44 03 40 {val} F7"
+    },
+    {
+      "name": "Key On Sync",
+      "group": "LFOs / Element 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 43 {dev} 64 44 03 41 {val} F7"
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / Element 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 43 {dev} 64 44 03 42 {val} F7"
+    },
+    {
+      "name": "AMod Depth",
+      "group": "LFOs / Element 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 03 43 {val} F7"
+    },
+    {
+      "name": "PMod Depth",
+      "group": "LFOs / Element 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 03 44 {val} F7"
+    },
+    {
+      "name": "FMod Depth",
+      "group": "LFOs / Element 4 LFO",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 44 03 45 {val} F7"
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Sends",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 00 0B {val} F7"
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 00 0C {val} F7"
+    },
+    {
+      "name": "Return",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 01 16 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Effekte / Reverb",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 01 17 {val} F7"
+    },
+    {
+      "name": "Return",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 02 16 {val} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 02 17 {val} F7"
+    },
+    {
+      "name": "Chorus to Reverb",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 02 18 {val} F7"
+    },
+    {
+      "name": "Insertion Connect",
+      "group": "Effekte / Insertion",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 40 00 0A {val} F7"
+    },
+    {
+      "name": "Chorus Control",
+      "group": "Effekte / Chorus",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 70 23 {val} F7"
+    },
+    {
+      "name": "Insertion Switch",
+      "group": "Effekte / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 41 00 0C {val} F7"
+    },
+    {
+      "name": "EQ Type",
+      "group": "Effekte / Element 1 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 64 44 00 00 {val} F7"
+    },
+    {
+      "name": "EQ 1 Gain",
+      "group": "Effekte / Element 1 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 00 04 {val} F7"
+    },
+    {
+      "name": "EQ 2 Gain",
+      "group": "Effekte / Element 1 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 00 07 {val} F7"
+    },
+    {
+      "name": "Insertion Switch",
+      "group": "Effekte / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 41 01 0C {val} F7"
+    },
+    {
+      "name": "EQ Type",
+      "group": "Effekte / Element 2 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 64 44 01 00 {val} F7"
+    },
+    {
+      "name": "EQ 1 Gain",
+      "group": "Effekte / Element 2 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 01 04 {val} F7"
+    },
+    {
+      "name": "EQ 2 Gain",
+      "group": "Effekte / Element 2 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 01 07 {val} F7"
+    },
+    {
+      "name": "Insertion Switch",
+      "group": "Effekte / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 41 02 0C {val} F7"
+    },
+    {
+      "name": "EQ Type",
+      "group": "Effekte / Element 3 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 64 44 02 00 {val} F7"
+    },
+    {
+      "name": "EQ 1 Gain",
+      "group": "Effekte / Element 3 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 02 04 {val} F7"
+    },
+    {
+      "name": "EQ 2 Gain",
+      "group": "Effekte / Element 3 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 02 07 {val} F7"
+    },
+    {
+      "name": "Insertion Switch",
+      "group": "Effekte / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 43 {dev} 64 41 03 0C {val} F7"
+    },
+    {
+      "name": "EQ Type",
+      "group": "Effekte / Element 4 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 43 {dev} 64 44 03 00 {val} F7"
+    },
+    {
+      "name": "EQ 1 Gain",
+      "group": "Effekte / Element 4 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 03 04 {val} F7"
+    },
+    {
+      "name": "EQ 2 Gain",
+      "group": "Effekte / Element 4 EQ",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 32,
+      "max": 96,
+      "sysex": "F0 43 {dev} 64 44 03 07 {val} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Volume (GM)",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 7F 7F 04 01 00 {val} F7"
+    },
+    {
+      "name": "Voice Volume",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 00 00 {val} F7"
+    },
+    {
+      "name": "Voice Pan",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 40 70 21 {val} F7"
+    },
+    {
+      "name": "Bank Select MSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select LSB",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Master Fine Tune",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Master Coarse Tune",
+      "group": "Sonstiges",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 40,
+      "max": 88
+    },
+    {
+      "name": "Note Limit Low",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 06 {val} F7"
+    },
+    {
+      "name": "Note Limit High",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 07 {val} F7"
+    },
+    {
+      "name": "Velocity Limit Low",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 08 {val} F7"
+    },
+    {
+      "name": "Velocity Limit High",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 09 {val} F7"
+    },
+    {
+      "name": "Key On Delay",
+      "group": "Sonstiges / Element 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 00 0A {val} F7"
+    },
+    {
+      "name": "Note Limit Low",
+      "group": "Sonstiges / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 06 {val} F7"
+    },
+    {
+      "name": "Note Limit High",
+      "group": "Sonstiges / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 07 {val} F7"
+    },
+    {
+      "name": "Velocity Limit Low",
+      "group": "Sonstiges / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 08 {val} F7"
+    },
+    {
+      "name": "Velocity Limit High",
+      "group": "Sonstiges / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 09 {val} F7"
+    },
+    {
+      "name": "Key On Delay",
+      "group": "Sonstiges / Element 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 01 0A {val} F7"
+    },
+    {
+      "name": "Note Limit Low",
+      "group": "Sonstiges / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 06 {val} F7"
+    },
+    {
+      "name": "Note Limit High",
+      "group": "Sonstiges / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 07 {val} F7"
+    },
+    {
+      "name": "Velocity Limit Low",
+      "group": "Sonstiges / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 08 {val} F7"
+    },
+    {
+      "name": "Velocity Limit High",
+      "group": "Sonstiges / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 09 {val} F7"
+    },
+    {
+      "name": "Key On Delay",
+      "group": "Sonstiges / Element 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 02 0A {val} F7"
+    },
+    {
+      "name": "Note Limit Low",
+      "group": "Sonstiges / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 06 {val} F7"
+    },
+    {
+      "name": "Note Limit High",
+      "group": "Sonstiges / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 07 {val} F7"
+    },
+    {
+      "name": "Velocity Limit Low",
+      "group": "Sonstiges / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 08 {val} F7"
+    },
+    {
+      "name": "Velocity Limit High",
+      "group": "Sonstiges / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 09 {val} F7"
+    },
+    {
+      "name": "Key On Delay",
+      "group": "Sonstiges / Element 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 43 {dev} 64 41 03 0A {val} F7"
+    }
+  ]
 }

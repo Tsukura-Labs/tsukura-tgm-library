@@ -70,7 +70,7 @@
     "note": "",
     "pluginId": "",
     "sourceInfo": "E-mu Proteus 2 1, version 1.00, Steinberg Soft- und Hard GmbH Steinberg Soft- und Hard GmbH",
-    "sysexDeviceId": 16,
+    "sysexDeviceId": 0,
     "sysexExpected": 0,
     "sysexHeader": "",
     "sysexQuietMs": 300,
@@ -3418,5 +3418,906 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Volume",
+      "group": "Oszillatoren / Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 1B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Oszillatoren / Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 1D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Reverse Sound",
+      "group": "Oszillatoren / Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 04 {dev} 03 28 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Solo Mode",
+      "group": "Oszillatoren / Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 04 {dev} 03 26 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Oszillatoren / Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 2D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Oszillatoren / Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 2F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Reverse Sound",
+      "group": "Oszillatoren / Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 04 {dev} 03 3A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Solo Mode",
+      "group": "Oszillatoren / Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 04 {dev} 03 38 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Crossfade Mode",
+      "group": "Oszillatoren / Crossfade",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 18 04 {dev} 03 3B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Crossfade Direction",
+      "group": "Oszillatoren / Crossfade",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 04 {dev} 03 3C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Crossfade Balance",
+      "group": "Oszillatoren / Crossfade",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 3D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Crossfade Amount",
+      "group": "Oszillatoren / Crossfade",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 18 04 {dev} 03 3E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Switch Point",
+      "group": "Oszillatoren / Crossfade",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 3F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Vol Env On",
+      "group": "Hüllkurven / Alt Vol Env 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 04 {dev} 03 25 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Alt Vol Env 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 20 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Hold",
+      "group": "Hüllkurven / Alt Vol Env 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 21 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Alt Vol Env 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 22 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Alt Vol Env 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 23 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Alt Vol Env 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 24 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Alt Vol Env On",
+      "group": "Hüllkurven / Alt Vol Env 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 18 04 {dev} 03 37 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Alt Vol Env 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 32 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Hold",
+      "group": "Hüllkurven / Alt Vol Env 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 33 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Alt Vol Env 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 34 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Alt Vol Env 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 35 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Alt Vol Env 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 36 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 4A 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 4B 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Hold",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 4C 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 4D 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 4E 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Aux Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 99,
+      "sysex": "F0 18 04 {dev} 03 4F 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 18 04 {dev} 03 40 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 41 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 42 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Variation",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 43 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 44 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 4,
+      "sysex": "F0 18 04 {dev} 03 45 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 46 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 47 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Variation",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 48 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 49 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Chorus",
+      "group": "Effekte / Layer 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 18 04 {dev} 03 27 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Chorus",
+      "group": "Effekte / Layer 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 18 04 {dev} 03 39 00 {vallsb} {valmsb} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC0",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC2",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC3",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 3,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC4",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC5",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC6",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 6,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC8",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 8,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC9",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 9,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC11",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC12",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC13",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC14",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC15",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC16",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC17",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC18",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC19",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC20",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC21",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC22",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC23",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC24",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC25",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC26",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC27",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC28",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC29",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC30",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Realtime Ctl CC31",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC64",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC65",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC66",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC67",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC68",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 68,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC69",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 69,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC70",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC71",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC72",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC73",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC74",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC75",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC76",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC77",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC78",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Footswitch CC79",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Keyboard Center",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 18 04 {dev} 03 7D 00 {vallsb} {valmsb} F7"
+    }
+  ]
 }

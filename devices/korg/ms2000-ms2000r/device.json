@@ -3419,5 +3419,988 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2
+  "version": 3,
+  "params": [
+    {
+      "name": "Wave",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Control 1",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Control 2",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Switch",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Type",
+      "group": "Filter",
+      "kind": 1,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG1 Intensity",
+      "group": "Filter",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keyboard Track",
+      "group": "Filter",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / EG 1",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / EG 1",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / EG 1",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / EG 1",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / EG 2",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / EG 2",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / EG 2",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / EG 2",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG2/Gate",
+      "group": "Hüllkurven / Amp",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Frequency",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Frequency",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato (Mod Wheel)",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Distortion",
+      "group": "Effekte / Amp",
+      "kind": 1,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "LFO Speed",
+      "group": "Effekte / Mod FX",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / Mod FX",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Depth",
+      "group": "Effekte / Delay",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "OSC 1 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "OSC 2 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Noise Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Amp Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Patch 1 Intensity",
+      "group": "Sonstiges / Virtual Patch",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Patch 2 Intensity",
+      "group": "Sonstiges / Virtual Patch",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Patch 3 Intensity",
+      "group": "Sonstiges / Virtual Patch",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Patch 4 Intensity",
+      "group": "Sonstiges / Virtual Patch",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sequencer On/Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 89,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Damper",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "On/Off",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 3,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Range",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 3,
+      "number": 3,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Latch",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 3,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Type",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 3,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Gate Time",
+      "group": "Sonstiges / Arpeggio",
+      "kind": 3,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Virtual Patch 1",
+      "kind": 3,
+      "number": 512,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Virtual Patch 1",
+      "kind": 3,
+      "number": 520,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Virtual Patch 2",
+      "kind": 3,
+      "number": 513,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Virtual Patch 2",
+      "kind": 3,
+      "number": 521,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Virtual Patch 3",
+      "kind": 3,
+      "number": 514,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Virtual Patch 3",
+      "kind": 3,
+      "number": 522,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Virtual Patch 4",
+      "kind": 3,
+      "number": 515,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Virtual Patch 4",
+      "kind": 3,
+      "number": 523,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 1",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 528,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 2",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 529,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 3",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 530,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 4",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 531,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 5",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 532,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 6",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 533,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 7",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 534,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 8",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 535,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 9",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 536,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 10",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 537,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 11",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 538,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 12",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 539,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 13",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 540,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 14",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 541,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 15",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 542,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 16",
+      "group": "Sonstiges / Mod Seq 1",
+      "kind": 3,
+      "number": 543,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 1",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 544,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 2",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 545,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 3",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 546,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 4",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 547,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 5",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 548,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 6",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 549,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 7",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 550,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 8",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 551,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 9",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 552,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 10",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 553,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 11",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 554,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 12",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 555,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 13",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 556,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 14",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 557,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 15",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 558,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 16",
+      "group": "Sonstiges / Mod Seq 2",
+      "kind": 3,
+      "number": 559,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 1",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 560,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 2",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 561,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 3",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 562,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 4",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 563,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 5",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 564,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 6",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 565,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 7",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 566,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 8",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 567,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 9",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 568,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 10",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 569,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 11",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 570,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 12",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 571,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 13",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 572,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 14",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 573,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 15",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 574,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Step 16",
+      "group": "Sonstiges / Mod Seq 3",
+      "kind": 3,
+      "number": 575,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
 }

@@ -1,0 +1,11 @@
+{
+  "schema": "tgm.panels/1",
+  "panels": [
+    {
+      "uuid": "0aa8ff948cb70856b8df46ef02489015",
+      "name": "Klangbearbeitung",
+      "sort": 0,
+      "json": "{\"v\":1,\"w\":800,\"h\":400,\"controls\":[{\"id\":\"c1\",\"t\":7,\"x\":16,\"y\":16,\"w\":276,\"h\":124,\"label\":\"Oszillatoren\",\"color\":\"#649AD8\"},{\"id\":\"c2\",\"t\":0,\"x\":28,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Pitch Bend Range\",\"color\":\"#649AD8\",\"kind\":5,\"num\":0,\"ch\":-1,\"sx\":\"\",\"min\":0,\"max\":127,\"def\":0,\"names\":[],\"slot\":0,\"rx\":true,\"step\":1,\"vd\":1},{\"id\":\"c3\",\"t\":0,\"x\":112,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Fine Tune\",\"color\":\"#649AD8\",\"kind\":5,\"num\":1,\"ch\":-1,\"sx\":\"\",\"min\":0,\"max\":127,\"def\":0,\"names\":[],\"slot\":1,\"rx\":true,\"step\":1,\"vd\":1},{\"id\":\"c4\",\"t\":0,\"x\":196,\"y\":50,\"w\":80,\"h\":78,\"label\":\"Coarse Tune\",\"color\":\"#649AD8\",\"kind\":5,\"num\":2,\"ch\":-1,\"sx\":\"\",\"min\":0,\"max\":127,\"def\":0,\"names\":[],\"slot\":2,\"rx\":true,\"step\":1,\"vd\":1}]}"
+    }
+  ]
+}

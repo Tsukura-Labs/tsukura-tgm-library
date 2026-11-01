@@ -19816,5 +19816,215 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend Sensitivity",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Master Fine Tuning",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Coarse Tuning",
+      "group": "Oszillatoren",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 40,
+      "max": 88
+    },
+    {
+      "name": "TVF Cutoff Frequency",
+      "group": "Filter",
+      "kind": 3,
+      "number": 160,
+      "channel": -1,
+      "min": 14,
+      "max": 80
+    },
+    {
+      "name": "TVF Resonance",
+      "group": "Filter",
+      "kind": 3,
+      "number": 161,
+      "channel": -1,
+      "min": 14,
+      "max": 114
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / TVF/TVA Env",
+      "kind": 3,
+      "number": 227,
+      "channel": -1,
+      "min": 14,
+      "max": 114
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / TVF/TVA Env",
+      "kind": 3,
+      "number": 228,
+      "channel": -1,
+      "min": 14,
+      "max": 114
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / TVF/TVA Env",
+      "kind": 3,
+      "number": 230,
+      "channel": -1,
+      "min": 14,
+      "max": 114
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Vibrato Rate",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 136,
+      "channel": -1,
+      "min": 14,
+      "max": 114
+    },
+    {
+      "name": "Vibrato Depth",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 137,
+      "channel": -1,
+      "min": 14,
+      "max": 114
+    },
+    {
+      "name": "Vibrato Delay",
+      "group": "LFOs / Vibrato",
+      "kind": 3,
+      "number": 138,
+      "channel": -1,
+      "min": 14,
+      "max": 114
+    },
+    {
+      "name": "Reverb Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus Send",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "GS Reset",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 41 {dev} 42 12 < 40 00 7F {val} > {rchk} F7"
+    }
+  ]
 }

@@ -6742,5 +6742,3013 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 1
+  "version": 2,
+  "params": [
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Transpose",
+      "group": "Oszillatoren / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 48,
+      "sysex": "F0 40 {ch} 10 00 08 01 05 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255,
+      "sysex": "F0 40 {ch} 10 00 08 01 06 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Cutoff Offset",
+      "group": "Filter / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 09 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Attack Offset",
+      "group": "Hüllkurven / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0A 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Release Offset",
+      "group": "Hüllkurven / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 0B 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Modulation",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Depth",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Effect Level",
+      "group": "Effekte / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 40 {ch} 10 00 08 01 07 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 00 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 01 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 02 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 03 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 04 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 05 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 06 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 07 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 08 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 09 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 0A {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 0B {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 0C {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 0D {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 0E {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 0F {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 17",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 10 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 18",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 11 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 19",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 12 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 20",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 13 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 21",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 14 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 22",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 15 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 23",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 16 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 24",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 17 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 25",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 18 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 26",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 19 {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 27",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 1A {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 28",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 1B {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 29",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 1C {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 30",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 1D {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 31",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 1E {valhn} {valln} F7"
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 02 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 40 {ch} 10 00 08 01 04 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Status",
+      "group": "Mixer / Section 32",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 40 {ch} 10 00 08 01 03 1F {valhn} {valln} F7"
+    },
+    {
+      "name": "Data Entry",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 6,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 1 (Sustain)",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Hold 2",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 69,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "RPN Pitch Bend Sensitivity",
+      "group": "Sonstiges / RPN",
+      "kind": 5,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "RPN Master Fine Tuning",
+      "group": "Sonstiges / RPN",
+      "kind": 5,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "RPN Master Coarse Tuning",
+      "group": "Sonstiges / RPN",
+      "kind": 5,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
 }
