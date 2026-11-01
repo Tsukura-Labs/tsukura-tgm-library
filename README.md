@@ -56,10 +56,18 @@ eroeffnen; das Geraet wird dann entfernt.
 
 ### Device photos / Geraetefotos
 
-**EN** - Some device photos (`images/device.jpg`) come from Wikimedia Commons. They are NOT covered by the
-CC0 dedication: each keeps its own free license (public domain, CC0, CC BY or CC BY-SA). Photographer,
-license and source page are named at the end of the device's `description`. Reuse them under their license.
+**EN** - Device photos (`images/device.jpg`) are NOT covered by the CC0 dedication. Each keeps its own license,
+named with the photographer at the end of the device's `description`:
+- photos from Wikimedia Commons: their free license (public domain, CC0, CC BY or CC BY-SA) and source page;
+- photos submitted by users on tsukura.media: CC BY 4.0 with the name the photographer chose;
+- official manufacturer photos (only with written permission): "(c) <manufacturer>, used with kind permission" -
+  these may NOT be reused outside this library.
+Reuse every photo only under its license.
 
-**DE** - Einige Geraetefotos (`images/device.jpg`) stammen von Wikimedia Commons. Sie fallen NICHT unter die
-CC0-Widmung, sondern behalten ihre eigene freie Lizenz (gemeinfrei, CC0, CC BY oder CC BY-SA). Fotograf,
-Lizenz und Quellseite stehen am Ende der `description` des Geraets. Weiterverwendung nur nach dieser Lizenz.
+**DE** - Geraetefotos (`images/device.jpg`) fallen NICHT unter die CC0-Widmung. Jedes behaelt seine eigene Lizenz,
+die mit dem Fotografen am Ende der `description` des Geraets steht:
+- Fotos von Wikimedia Commons: ihre freie Lizenz (gemeinfrei, CC0, CC BY oder CC BY-SA) und Quellseite;
+- von Nutzern auf tsukura.media eingereichte Fotos: CC BY 4.0 mit dem vom Fotografen gewaehlten Namen;
+- offizielle Herstellerfotos (nur mit schriftlicher Erlaubnis): "(c) <Hersteller>, mit freundlicher Genehmigung" -
+  diese duerfen ausserhalb dieser Sammlung NICHT weiterverwendet werden.
+Weiterverwendung jedes Fotos nur nach seiner Lizenz.
