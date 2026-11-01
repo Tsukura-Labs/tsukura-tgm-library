@@ -710,7 +710,7 @@
       "uuid": "feb9b29a-6cc8-8231-b7f0-cf89beae47c0"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha PSR-S950 VOICES (1.00)\" (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha PSR-S950 VOICES (1.00)\" (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "",
   "device": {
     "alias": "",
     "audioMono": 0,

@@ -350,7 +350,7 @@
       "uuid": "fe3ada77-aae7-8d86-8534-a0ea499cd001"
     }
   ],
-  "description": "Klangliste übernommen aus dem Cubase-Patchname-Skript \"Yamaha PSR-8000 (1.00)\", erstellt von Yamaha Yamaha (mitgeliefert mit Steinberg Cubase). Import 2026-10-31.\n\nSound list taken from the Cubase patch name script \"Yamaha PSR-8000 (1.00)\", created by Yamaha Yamaha (shipped with Steinberg Cubase). Imported 2026-10-31.",
+  "description": "",
   "device": {
     "alias": "",
     "audioMono": 0,
