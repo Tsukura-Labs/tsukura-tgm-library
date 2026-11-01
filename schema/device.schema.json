@@ -42,6 +42,12 @@
         "networkProtocol": { "type": ["string", "integer", "null"] },
         "networkOptionsJson": { "type": ["string", "null"] },
         "audioMono": { "type": ["boolean", "integer", "null"] },
+        "dumpProfile": {
+          "type": ["object", "null"],
+          "required": ["schema"],
+          "properties": { "schema": { "type": "string", "const": "tgm.dump/1" } },
+          "description": "SysEx fetch/store profile tgm.dump/1 (see docs/superpowers/specs/2026-11-01-tgm-dump-profile-schema.md). Validated in detail by TGM when installing; nothing is sent to a device if it is invalid."
+        },
         "info": {
           "type": ["object", "string", "null"],
           "description": "Device description tgm.deviceinfo/1: {schema, text:{de|en:{description,features[]}}, ports:[{type,count,note:{de,en}}], source}. localEdit is local-only and never part of a package."
@@ -120,6 +126,25 @@
           "sysexDumpHex": { "type": ["string", "null"] },
           "paramDumpJson": { "type": ["string", "null"] },
           "tint": { "type": ["string", "integer", "null"] }
+        }
+      }
+    },
+    "params": {
+      "type": "array",
+      "maxItems": 2000,
+      "description": "CC/NRPN/SysEx table of the device in display order. kind: 1 CC, 2 CC 14 bit, 3 NRPN, 4 NRPN 14 bit, 5 RPN, 6 pitch bend, 7 channel pressure, 8 program change, 9 note, 10 SysEx (template in sysex, value placeholders {val} {valmsb} {vallsb} {valhn} {valln}). channel -1 = device channel.",
+      "items": {
+        "type": "object",
+        "required": ["name", "kind"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "group": { "type": ["string", "null"], "maxLength": 200 },
+          "kind": { "type": "integer", "minimum": 1, "maximum": 10 },
+          "number": { "type": "integer", "minimum": 0, "maximum": 16383 },
+          "channel": { "type": "integer", "minimum": -1, "maximum": 15 },
+          "min": { "type": "integer", "minimum": -16384, "maximum": 16383 },
+          "max": { "type": "integer", "minimum": -16384, "maximum": 16383 },
+          "sysex": { "type": ["string", "null"], "maxLength": 4096 }
         }
       }
     },

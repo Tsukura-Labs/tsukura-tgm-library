@@ -1,0 +1,453 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "MONOPOLY",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Behringer MONOPOLY, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "219ae34c-93a4-8c5a-aa5c-190c3086a710",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "text": {
+        "de": {
+          "description": "Der MONOPOLY ist ein analoger, vierstimmiger Synthesizer von Behringer mit 37 Tasten. Er hat vier Oszillatoren mit einem Tiefpassfilter (24 dB pro Oktave), zwei Modulationsgeneratoren (MG1 und MG2), zwei Hüllkurven und einen Arpeggiator. Die Oszillatoren lassen sich per Sync und Kreuzmodulation verknüpfen, und die Tastenzuweisung bietet Chord Memory, Unison, Unison/Share und Poly. In der Bedienungsanleitung sind keine speicherbaren Klangprogramme beschrieben; die Einstellung erfolgt direkt über die Regler.",
+          "features": [
+            "4 Oszillatoren, vierstimmig polyphon oder monophon im Unison",
+            "Tiefpassfilter mit 24 dB/Oktave",
+            "2 Modulationsgeneratoren (MG1, MG2), 2 Hüllkurven (VCF, VCA)",
+            "Sync und Kreuzmodulation (X-Mod) zwischen den Oszillatoren",
+            "Arpeggiator mit Latch und externem Takteingang",
+            "Key-Assign-Modi: Chord Memory, Unison, Unison/Share, Poly",
+            "37 halbgewichtete Tasten mit Anschlagdynamik",
+            "MIDI (5-polig, 16 Kanäle) und USB-MIDI, CV/Trigger-Ein- und Ausgang"
+          ]
+        },
+        "en": {
+          "description": "The MONOPOLY is a four-voice analog synthesizer from Behringer with 37 keys. It has four oscillators with a 24 dB/octave low-pass filter, two modulation generators (MG1 and MG2), two envelopes and an arpeggiator. The oscillators can be linked with sync and cross modulation, and key assignment offers chord memory, unison, unison/share and poly. The manual describes no storable sound programs; settings are made directly with the controls.",
+          "features": [
+            "4 oscillators, four-voice polyphonic or monophonic in unison",
+            "24 dB/octave low-pass filter",
+            "2 modulation generators (MG1, MG2), 2 envelopes (VCF, VCA)",
+            "Sync and cross modulation (X-Mod) between the oscillators",
+            "Arpeggiator with latch and external clock input",
+            "Key assign modes: chord memory, unison, unison/share, poly",
+            "37 semi-weighted keys with velocity",
+            "MIDI (5-pin, 16 channels) and USB MIDI, CV/trigger input and output"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB Typ B, klassenkonformes USB-MIDI",
+            "en": "USB type B, class-compliant USB MIDI"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "OUTPUT, 6,3-mm-Klinke (TS), unsymmetrisch",
+            "en": "OUTPUT, 1/4-inch TS, unbalanced"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "PHONES, 6,3-mm-Stereoklinke (TRS)",
+            "en": "PHONES, 1/4-inch TRS"
+          }
+        },
+        {
+          "type": "sync-in",
+          "count": 1,
+          "note": {
+            "de": "ARPEGGIO: Takteingang für den Arpeggiator, 6,3-mm-TRS (Spitze = Takt, Ring = Start/Stop)",
+            "en": "ARPEGGIO: arpeggiator clock input, 1/4-inch TRS (tip = clock, ring = start/stop)"
+          }
+        },
+        {
+          "type": "footswitch",
+          "count": 1,
+          "note": {
+            "de": "PORTAMENTO: Fußschalter, 6,3-mm-Klinke",
+            "en": "PORTAMENTO: footswitch, 1/4-inch jack"
+          }
+        },
+        {
+          "type": "expression-pedal",
+          "count": 2,
+          "note": {
+            "de": "VCF und VCO: Pedaleingänge zur Modulation von Filter-Cutoff bzw. Oszillatorfrequenz, 6,3-mm-Klinke",
+            "en": "VCF and VCO: pedal inputs to modulate filter cutoff and oscillator frequency, 1/4-inch jacks"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 1,
+          "note": {
+            "de": "TRIG IN, 6,3-mm-Klinke, Polarität umschaltbar",
+            "en": "TRIG IN, 1/4-inch jack, polarity switchable"
+          }
+        },
+        {
+          "type": "gate-out",
+          "count": 1,
+          "note": {
+            "de": "TRIG OUT, 6,3-mm-Klinke, Polarität umschaltbar",
+            "en": "TRIG OUT, 1/4-inch jack, polarity switchable"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 1,
+          "note": {
+            "de": "CV IN, 6,3-mm-Klinke, 1 V/Oktave",
+            "en": "CV IN, 1/4-inch jack, 1 V/octave"
+          }
+        },
+        {
+          "type": "cv-out",
+          "count": 1,
+          "note": {
+            "de": "CV OUT, 6,3-mm-Klinke, 1 V/Oktave",
+            "en": "CV OUT, 1/4-inch jack, 1 V/octave"
+          }
+        }
+      ],
+      "source": "tgm-prefill"
+    },
+    "dumpProfile": {
+      "schema": "tgm.dump/1",
+      "identity": {
+        "request": "F0 7E 7F 06 01 F7",
+        "state": "unknown",
+        "hint": {
+          "de": "Ob das Gerät auf die allgemeine Geräteabfrage antwortet, ist nicht bekannt.",
+          "en": "It is not known whether the device answers the standard device inquiry."
+        },
+        "note": "Original wording (EN): A device inquiry (identity) is not described in Behringer's documentation; whether the device replies is not documented. || Original (DE): Eine Geräteabfrage (Identity) ist in der Behringer-Dokumentation nicht beschrieben; ob das Gerät antwortet, ist nicht belegt."
+      },
+      "portNames": [
+        "MONOPOLY"
+      ],
+      "devId": {
+        "default": 0,
+        "min": 0,
+        "max": 127
+      },
+      "pacing": {
+        "gapMs": 50,
+        "msgDelayMs": 0,
+        "quietMs": 300,
+        "timeoutMs": 2000
+      },
+      "ack": null,
+      "prepare": [],
+      "areas": [],
+      "functions": {
+        "readNames": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readCurrent": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readSlot": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readBank": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "backupAll": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "audition": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "writeSlot": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "writeBank": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "restoreAll": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readParams": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "paramsFromDump": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readSystem": {
+          "state": "none",
+          "hint": {
+            "de": "Die globalen Einstellungen lassen sich nur setzen, nicht auslesen.",
+            "en": "The global settings can only be set, not read back."
+          },
+          "note": "Original wording (EN): The global settings can only be set, not read back (per Behringer's data sheet and SynthTool). || Original (DE): Die globalen Einstellungen lassen sich nur setzen, nicht auslesen (laut Behringer-Datenblatt und SynthTool)."
+        },
+        "identify": {
+          "state": "unknown",
+          "hint": {
+            "de": "Ob das Gerät auf die allgemeine Geräteabfrage antwortet, ist nicht bekannt.",
+            "en": "It is not known whether the device answers the standard device inquiry."
+          },
+          "note": "Original wording (EN): A device inquiry (identity) is not described in Behringer's documentation; whether the device replies is not documented. || Original (DE): Eine Geräteabfrage (Identity) ist in der Behringer-Dokumentation nicht beschrieben; ob das Gerät antwortet, ist nicht belegt."
+        }
+      },
+      "params": [],
+      "sources": [
+        {
+          "url": "https://shop.scavino.it/files/scavino_Files/DocFiles/000/011/305/Behringer-MonoPoly-Sintetizzatore-analogico-37-tasti-polifonico-4-voci.pdf",
+          "title": "Behringer MONOPOLY Quick Start Guide incl. System Exclusive Data Sheet pp. 36-37"
+        },
+        {
+          "url": "https://www.sunnysynths.com/_files/ugd/48bb89_4a92f67a3db3466fa5ffac916e576b26.pdf",
+          "title": "Sunny Synths MonoPoly Ctrlr panel documentation V1.0 (third party; confirms no program memory, global settings write-only)"
+        }
+      ],
+      "notes": "Firmware: not stated in the quick start guide. Analog 4-voice polyphonic synth without patch memory. SysEx (manufacturer 00 20 32, model 00 01 12) only SETS global settings: MIDI channel, transpose, velocity, key priority, mod curve, clock settings, MIDI outputs, glide option, restore factory (see CC research file behringer__monopoly). No request / read-back messages exist in the data sheet. Identity not documented. Port name 'MONOPOLY' is an assumption (class-compliant USB device)."
+    }
+  },
+  "id": "behringer/monopoly",
+  "images": {},
+  "manufacturer": {
+    "name": "Behringer",
+    "website": ""
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1,
+  "params": [
+    {
+      "name": "MIDI Channel TX=RX",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 0E 01 {val} {val} F7"
+    },
+    {
+      "name": "MIDI In Transpose",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 0F {val} F7"
+    },
+    {
+      "name": "Key Priority",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 12 {val} F7"
+    },
+    {
+      "name": "Modulation Curve",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 15 {val} F7"
+    },
+    {
+      "name": "Ext Clock Polarity",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 19 {val} F7"
+    },
+    {
+      "name": "Sync Clock Rate",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 1A {val} F7"
+    },
+    {
+      "name": "Sync Clock Source",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 1B {val} F7"
+    },
+    {
+      "name": "Mod Wheel MIDI Out",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 21 {val} F7"
+    },
+    {
+      "name": "Pitch Wheel MIDI Out",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 22 {val} F7"
+    },
+    {
+      "name": "Keyboard MIDI Out",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 23 {val} F7"
+    },
+    {
+      "name": "Arpeggiator MIDI Out",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 26 {val} F7"
+    },
+    {
+      "name": "Glide Option",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 32 00 01 12 {dev} 27 {val} F7"
+    }
+  ]
+}

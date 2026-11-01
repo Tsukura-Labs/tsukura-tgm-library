@@ -1,0 +1,421 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "MODEL D",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Behringer MODEL D, 1.0, Tsukura Labs",
+    "sysexDeviceId": 127,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "dbe00438-ba79-89ad-b2f6-d04d5270ceb9",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "text": {
+        "de": {
+          "description": "Der MODEL D ist ein monophoner Analogsynthesizer von Behringer, der den Aufbau des Minimoog Model D nachempfindet. Er besitzt drei Oszillatoren, einen schaltbaren Tiefpass- oder Hochpassfilter mit 24 dB pro Oktave, einen LFO, einen Rauschgenerator und je einen Konturgenerator für Filter und Lautstärke. Ein externer Audioeingang kann in den Mixer geleitet werden. In der Bedienungsanleitung ist kein Programmspeicher beschrieben; alle Einstellungen werden an den Reglern vorgenommen. Über das Patch-Feld mit 3,5-mm-Buchsen lässt sich das Gerät mit Modularsystemen verbinden, es ist auch im Eurorack-Format erhältlich.",
+          "features": [
+            "3 Oszillatoren (0,1 Hz bis 20 kHz in 6 Bereichen)",
+            "Tiefpass- oder Hochpassfilter mit 24 dB/Oktave",
+            "LFO sowie Rauschquelle (weiß oder rosa)",
+            "Je ein Konturgenerator für Filter und Lautstärke",
+            "Externer Audioeingang mit Pegelregler",
+            "Patch-Feld mit Ein- und Ausgängen für Steuerspannung und Gate",
+            "MIDI-Eingang, MIDI THRU und USB-MIDI, 16 Kanäle",
+            "Hoher und niedriger Mono-Ausgang an der Rückseite"
+          ]
+        },
+        "en": {
+          "description": "The MODEL D is a monophonic analog synthesizer from Behringer modelled on the layout of the Minimoog Model D. It has three oscillators, a switchable low-pass or high-pass filter with a 24 dB/octave slope, an LFO, a noise generator and one contour generator each for filter and loudness. An external audio input can be fed into the mixer. The manual describes no program memory; all settings are made with the controls. Its patch bay with 3.5 mm jacks connects it to modular systems, and it is also available in Eurorack format.",
+          "features": [
+            "3 oscillators (0.1 Hz to 20 kHz in 6 ranges)",
+            "Low-pass or high-pass filter with 24 dB/octave",
+            "LFO and noise source (white or pink)",
+            "One contour generator each for filter and loudness",
+            "External audio input with level control",
+            "Patch bay with control voltage and gate inputs and outputs",
+            "MIDI in, MIDI thru and USB MIDI, 16 channels",
+            "High and low mono outputs on the rear panel"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB Typ B, klassenkonformes USB-MIDI",
+            "en": "USB type B, class-compliant USB MIDI"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "MAIN OUTPUT (Rückseite): LOW (Instrumentenpegel) und HIGH (Line-Pegel), je 6,3-mm-Klinke mono",
+            "en": "MAIN OUTPUT (rear): LOW (instrument level) and HIGH (line level), 1/4-inch mono jacks"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "MAIN (OUTPUT), 3,5-mm-TRS-Buchse (Patch-Feld)",
+            "en": "MAIN (OUTPUT), 3.5 mm TRS jack (patch bay)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "MIX (OUTPUT), 3,5-mm-Buchse (Patch-Feld)",
+            "en": "MIX (OUTPUT), 3.5 mm jack (patch bay)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "PHONES, 3,5-mm-TRS-Buchse",
+            "en": "PHONES, 3.5 mm TRS jack"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "EXT (INPUT), 3,5-mm-Buchse",
+            "en": "EXT (INPUT), 3.5 mm jack"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 5,
+          "note": {
+            "de": "OSC 1V/OCT, LFO CV, MOD SOURCE, CUT CV, LOUD CV (3,5-mm-Buchsen)",
+            "en": "OSC 1V/OCT, LFO CV, MOD SOURCE, CUT CV, LOUD CV (3.5 mm jacks)"
+          }
+        },
+        {
+          "type": "cv-out",
+          "count": 2,
+          "note": {
+            "de": "FILT CONT, LOUD CONTOUR (3,5-mm-Buchsen)",
+            "en": "FILT CONT, LOUD CONTOUR (3.5 mm jacks)"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 2,
+          "note": {
+            "de": "FC GATE, LC GATE (3,5-mm-Buchsen)",
+            "en": "FC GATE, LC GATE (3.5 mm jacks)"
+          }
+        },
+        {
+          "type": "other",
+          "count": 4,
+          "note": {
+            "de": "DIP-Schalter für den MIDI-Kanal (Rückseite)",
+            "en": "DIP switches for the MIDI channel (rear panel)"
+          }
+        }
+      ],
+      "source": "tgm-prefill"
+    },
+    "dumpProfile": {
+      "schema": "tgm.dump/1",
+      "identity": {
+        "request": "F0 7E 7F 06 01 F7",
+        "state": "unknown",
+        "hint": {
+          "de": "Ob das Gerät auf die allgemeine Geräteabfrage antwortet, ist nicht bekannt.",
+          "en": "It is not known whether the device answers the standard device inquiry."
+        },
+        "note": "Original wording (EN): A device inquiry (identity) is not described in the manual; whether the device replies is not documented. || Original (DE): Eine Geräteabfrage (Identity) ist in der Anleitung nicht beschrieben; ob das Gerät antwortet, ist nicht belegt."
+      },
+      "portNames": [
+        "MODEL D"
+      ],
+      "devId": {
+        "default": 127,
+        "min": 0,
+        "max": 127
+      },
+      "pacing": {
+        "gapMs": 50,
+        "msgDelayMs": 0,
+        "quietMs": 300,
+        "timeoutMs": 2000
+      },
+      "ack": null,
+      "prepare": [],
+      "areas": [],
+      "functions": {
+        "readNames": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readCurrent": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readSlot": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readBank": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "backupAll": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "audition": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "writeSlot": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "writeBank": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "restoreAll": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readParams": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "paramsFromDump": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readSystem": {
+          "state": "none",
+          "hint": {
+            "de": "Einstellungen wie Kanal und Notenpriorität kann TGM nur setzen, nicht auslesen - über das Bedienfeld des Geräts in TGM oder die Behringer-App.",
+            "en": "Settings such as channel and note priority can only be set, not read back - through the device panel in TGM or Behringer's app."
+          },
+          "note": "Original wording (EN): The settings (channel, note priority etc.) can only be set, not read back. Setting works through the device panel in TGM (SysEx commands) or Behringer's app. || Original (DE): Die Einstellungen (Kanal, Notenpriorität usw.) lassen sich nur setzen, nicht auslesen. Setzen geht über das Bedienfeld des Geräts in TGM (SysEx-Befehle) oder die Behringer-App."
+        },
+        "identify": {
+          "state": "unknown",
+          "hint": {
+            "de": "Ob das Gerät auf die allgemeine Geräteabfrage antwortet, ist nicht bekannt.",
+            "en": "It is not known whether the device answers the standard device inquiry."
+          },
+          "note": "Original wording (EN): A device inquiry (identity) is not described in the manual; whether the device replies is not documented. || Original (DE): Eine Geräteabfrage (Identity) ist in der Anleitung nicht beschrieben; ob das Gerät antwortet, ist nicht belegt."
+        }
+      },
+      "params": [],
+      "sources": [
+        {
+          "url": "https://media.djmania.net/manuales/pdf/Manual_Behringer_Model_D.pdf",
+          "title": "Behringer MODEL D User Manual, 7. System Exclusive Commands pp. 30-31"
+        }
+      ],
+      "notes": "Firmware: manual of the original Model D (no firmware version printed). Analog monophonic synth without patch memory; the only documented SysEx are SET commands for global settings (F0 00 20 32 00 <devId> 0A <sub> 00 <value> F7, see the CC research file behringer__model-d for the controls) plus two calibration commands. The Model D cannot be asked for these settings (no read-back), so no function in this profile can read anything. Identity request not documented (manual does not mention it). Port name 'MODEL D' is an assumption (class-compliant USB device; name not printed)."
+    }
+  },
+  "id": "behringer/model-d",
+  "images": {},
+  "manufacturer": {
+    "name": "Behringer",
+    "website": ""
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1,
+  "params": [
+    {
+      "name": "MIDI Channel",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 00 20 32 00 {dev} 0A 00 00 {val} F7"
+    },
+    {
+      "name": "Key Priority",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 20 32 00 {dev} 0A 01 00 {val} F7"
+    },
+    {
+      "name": "Multi Trigger",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 32 00 {dev} 0A 02 00 {val} F7"
+    },
+    {
+      "name": "Pitch Bend Range",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 00 20 32 00 {dev} 0A 03 00 {val} F7"
+    },
+    {
+      "name": "MIDI In Transpose",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 24,
+      "sysex": "F0 00 20 32 00 {dev} 0A 06 00 {val} F7"
+    },
+    {
+      "name": "MIDI Note Zero Volts",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 00 20 32 00 {dev} 0A 07 00 {val} F7"
+    },
+    {
+      "name": "Poly Chain",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 32 00 {dev} 0A 08 00 {val} F7"
+    },
+    {
+      "name": "Device ID",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 00 20 32 00 {dev} 0A 09 00 {val} F7"
+    },
+    {
+      "name": "Disable Channel Switches",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 00 20 32 00 {dev} 0A 0A 00 {val} F7"
+    },
+    {
+      "name": "Modulation Curve",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 00 20 32 00 {dev} 0A 0B 00 {val} F7"
+    }
+  ]
+}

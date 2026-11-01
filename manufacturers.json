@@ -10,6 +10,10 @@
       "aliases": []
     },
     {
+      "name": "Behringer",
+      "aliases": []
+    },
+    {
       "name": "Boss",
       "aliases": []
     },
@@ -56,6 +60,13 @@
     {
       "name": "Roland",
       "aliases": []
+    },
+    {
+      "name": "Sequential",
+      "aliases": [
+        "Dave Smith Instruments",
+        "DSI"
+      ]
     },
     {
       "name": "Studio Electronics",

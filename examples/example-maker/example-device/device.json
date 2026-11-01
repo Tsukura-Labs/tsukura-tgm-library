@@ -56,7 +56,11 @@
     "name": "Example Device",
     "sysexQuietMs": 50,
     "sysexTimeoutMs": 1000,
-    "uuid": "00000000-0000-4000-8000-000000000001"
+    "uuid": "00000000-0000-4000-8000-000000000001",
+    "dumpProfile": {
+      "schema": "tgm.dump/1",
+      "notes": "example"
+    }
   },
   "id": "example-maker/example-device",
   "images": {

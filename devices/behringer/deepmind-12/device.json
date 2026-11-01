@@ -1,0 +1,7653 @@
+{
+  "authors": [],
+  "banks": [
+    {
+      "lsb": 0,
+      "msb": -1,
+      "name": "Bank A",
+      "uuid": "baac8a3d-e22e-824f-936b-da17055ed750"
+    },
+    {
+      "lsb": 1,
+      "msb": -1,
+      "name": "Bank B",
+      "uuid": "22ba964f-bab3-8be5-bb99-85d461a41f31"
+    },
+    {
+      "lsb": 2,
+      "msb": -1,
+      "name": "Bank C",
+      "uuid": "9ada1c7a-2d21-88c5-b914-50460d5fd1ac"
+    },
+    {
+      "lsb": 3,
+      "msb": -1,
+      "name": "Bank D",
+      "uuid": "98787f5d-db58-81ee-8830-3d7e4e9de6b9"
+    },
+    {
+      "lsb": 4,
+      "msb": -1,
+      "name": "Bank E",
+      "uuid": "ad010095-1b02-8abd-a750-896ffe3e9a87"
+    },
+    {
+      "lsb": 5,
+      "msb": -1,
+      "name": "Bank F",
+      "uuid": "a81d1b27-abb8-8758-8d65-85e978b7b0a0"
+    },
+    {
+      "lsb": 6,
+      "msb": -1,
+      "name": "Bank G",
+      "uuid": "8eebd0b4-2e23-8194-ad17-682b62c4cb46"
+    },
+    {
+      "lsb": 7,
+      "msb": -1,
+      "name": "Bank H",
+      "uuid": "6346a0be-b393-86cd-8346-3d61b855f3e1"
+    }
+  ],
+  "description": "",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "DeepMind 12",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Behringer DeepMind 12, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "43bcb371-66d2-851e-8192-659e60004458",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "text": {
+        "de": {
+          "description": "Der DeepMind 12 ist ein analoger, zwölfstimmiger Synthesizer von Behringer mit 49 halbgewichteten Tasten und Aftertouch. Jede Stimme besitzt zwei Oszillatoren, einen Midas-Tiefpassfilter mit zusätzlichem Hochpass sowie drei Hüllkurven und zwei LFOs. Dazu kommen eine Modulationsmatrix mit acht Bussen, vier Effekte pro Programm, ein Arpeggiator und ein Control-Sequenzer mit 32 Schritten. Der Speicher fasst 1024 Programme in acht Bänken (A bis H), und über WLAN oder USB lässt sich das Gerät mit Tablet- und Computer-Editor fernsteuern.",
+          "features": [
+            "12 Stimmen mit je 2 Oszillatoren, Hard-Sync und Unison-Modi",
+            "2-/4-Pol-Tiefpassfilter (Midas) plus Hochpassfilter, Bass-Boost",
+            "3 Hüllkurven (VCA, VCF, MOD) und 2 LFOs pro Stimme",
+            "Modulationsmatrix mit 8 Bussen",
+            "35 Effekte, 4 Effekte pro Programm",
+            "Arpeggiator, Poly-Chord-Speicher und 32-Schritt-Control-Sequenzer",
+            "1024 Programme in 8 Bänken zu je 128",
+            "Eingebautes WLAN (Client/Access-Point) mit Tablet-Fernsteuerung, USB-MIDI"
+          ]
+        },
+        "en": {
+          "description": "The DeepMind 12 is a twelve-voice analog synthesizer from Behringer with a 49-key semi-weighted keyboard with aftertouch. Each voice has two oscillators, a Midas low-pass filter with an additional high-pass, three envelopes and two LFOs. It adds an eight-bus modulation matrix, four effects per program, an arpeggiator and a 32-step control sequencer. The memory holds 1024 programs in eight banks (A to H), and the unit can be remote-controlled from tablet and computer editors over Wi-Fi or USB.",
+          "features": [
+            "12 voices with 2 oscillators each, hard sync and unison modes",
+            "2/4-pole Midas low-pass filter plus high-pass filter, bass boost",
+            "3 envelopes (VCA, VCF, MOD) and 2 LFOs per voice",
+            "Modulation matrix with 8 busses",
+            "35 effects, 4 effects per program",
+            "Arpeggiator, poly chord memory and 32-step control sequencer",
+            "1024 programs in 8 banks of 128",
+            "Built-in Wi-Fi (client/access point) with tablet remote control, USB MIDI"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB Typ B, klassenkonformes USB-MIDI, keine Treiber nötig",
+            "en": "USB type B, class-compliant USB MIDI, no drivers needed"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "OUTPUT L/R, symmetrisch, 6,3-mm-Klinke (TRS)",
+            "en": "OUTPUT L/R, balanced, 1/4-inch TRS"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Stereo-Klinke 6,3 mm (PHONES)",
+            "en": "stereo 1/4-inch jack (PHONES)"
+          }
+        },
+        {
+          "type": "sustain-pedal",
+          "count": 1,
+          "note": {
+            "de": "SUSTAIN, 6,3-mm-Klinke (TS)",
+            "en": "SUSTAIN, 1/4-inch TS jack"
+          }
+        },
+        {
+          "type": "expression-pedal",
+          "count": 1,
+          "note": {
+            "de": "PEDAL/CV, 6,3-mm-Klinke (TRS), Expression-Pedal / 0-5 V",
+            "en": "PEDAL/CV, 1/4-inch TRS jack, expression pedal / 0-5 V"
+          }
+        },
+        {
+          "type": "network",
+          "count": 1,
+          "note": {
+            "de": "Eingebautes WLAN (Client oder Access-Point), kein Buchsenanschluss",
+            "en": "Built-in Wi-Fi (client or access point), no physical jack"
+          }
+        }
+      ],
+      "source": "tgm-prefill"
+    },
+    "dumpProfile": {
+      "schema": "tgm.dump/1",
+      "identity": {
+        "request": "F0 7E 7F 06 01 F7",
+        "manufacturer": "00 20 32",
+        "family": "20 00",
+        "model": "01 00",
+        "devIdFromReply": true,
+        "state": "auto",
+        "source": 0,
+        "hint": {
+          "de": "TGM erkennt den DeepMind 12 über die allgemeine Geräteabfrage; die Antwort enthält die Geräte-Nummer.",
+          "en": "TGM recognizes the DeepMind 12 with the standard device inquiry; the reply contains the device number."
+        },
+        "note": "Original wording (EN): Reply: F0 7E nn 06 02 00 20 32 20 00 01 00 jn 00 ii nn F7 (nn = device ID 0-15). || Original (DE): Antwort: F0 7E nn 06 02 00 20 32 20 00 01 00 jn 00 ii nn F7 (nn = Geräte-ID 0-15)."
+      },
+      "portNames": [
+        "DeepMind"
+      ],
+      "devId": {
+        "default": 0,
+        "min": 0,
+        "max": 15
+      },
+      "pacing": {
+        "gapMs": 20,
+        "msgDelayMs": 0,
+        "quietMs": 400,
+        "timeoutMs": 4000
+      },
+      "ack": null,
+      "prepare": [
+        {
+          "id": "sysexDest",
+          "source": 0,
+          "text": {
+            "de": "Am DeepMind: GLOBAL so oft drücken, bis das Menü CONNECTIVITY erscheint. Zeile EXPORT wählen, +/YES drücken, bei DESTINATION die Verbindung wählen, die TGM nutzt (USB oder Midi).",
+            "en": "On the DeepMind: press GLOBAL repeatedly until the CONNECTIVITY menu appears. Select the EXPORT line, press +/YES, under DESTINATION choose the connection TGM uses (USB or Midi)."
+          },
+          "note": "Original wording (EN): On the DeepMind: press GLOBAL repeatedly until the CONNECTIVITY menu appears. Select the EXPORT line, press +/YES. Under DESTINATION choose the connection TGM uses (USB or Midi). SysEx replies are sent to that destination. || Original (DE): Am DeepMind: Taste GLOBAL so oft drücken, bis das Menü CONNECTIVITY erscheint. Zeile EXPORT wählen, +/YES drücken. Dort bei DESTINATION die Verbindung einstellen, die TGM benutzt (USB oder Midi). Die SysEx-Antworten werden an dieses Ziel gesendet."
+        }
+      ],
+      "areas": [
+        {
+          "id": "programs",
+          "name": {
+            "de": "Klänge (Bank A–H)",
+            "en": "Sounds (banks A–H)"
+          },
+          "kind": "sound",
+          "slots": 1024,
+          "progsPerBank": 128,
+          "readVia": "request",
+          "request": "F0 00 20 32 20 {dev} 01 {bank} {prog} F7",
+          "bankRequest": "F0 00 20 32 20 {dev} 09 {bank} 00 7F F7",
+          "reply": {
+            "header": "F0 00 20 32 20 {dev} 02",
+            "messages": 1,
+            "group": "single"
+          },
+          "slotField": {
+            "offset": 9,
+            "fmt": "b7",
+            "var": "prog"
+          },
+          "bankField": {
+            "offset": 8,
+            "fmt": "b7",
+            "var": "bank"
+          },
+          "nameRule": {
+            "messageIndex": 0,
+            "offset": 223,
+            "length": 16,
+            "enc": "packed7",
+            "packedDataOffset": 10
+          },
+          "checksum": {
+            "type": "none"
+          },
+          "writable": true,
+          "source": 2,
+          "toEditBuffer": {
+            "prefix": {
+              "match": "F0 00 20 32 20 ?? 02 ?? ?? ??",
+              "replace": "F0 00 20 32 20 {dev} 04 07"
+            }
+          },
+          "toSlot": {
+            "prefix": {
+              "match": "F0 00 20 32 20 ?? 02 ?? ?? ??",
+              "replace": "F0 00 20 32 20 {dev} 02 07 {bank} {prog}"
+            }
+          },
+          "bankReply": {
+            "header": "F0 00 20 32 20 {dev} 02",
+            "messages": 128,
+            "group": "single"
+          },
+          "bankMap": [
+            {
+              "msb": -1,
+              "lsb": 0
+            },
+            {
+              "msb": -1,
+              "lsb": 1
+            },
+            {
+              "msb": -1,
+              "lsb": 2
+            },
+            {
+              "msb": -1,
+              "lsb": 3
+            },
+            {
+              "msb": -1,
+              "lsb": 4
+            },
+            {
+              "msb": -1,
+              "lsb": 5
+            },
+            {
+              "msb": -1,
+              "lsb": 6
+            },
+            {
+              "msb": -1,
+              "lsb": 7
+            }
+          ],
+          "pcOffset": 0,
+          "note": "Original wording (EN): Programs (banks A-H) || Original (DE): Programme (Bank A-H)"
+        },
+        {
+          "id": "userPatterns",
+          "name": {
+            "de": "Arpeggiator-Muster (User 1-32)",
+            "en": "Arpeggiator patterns (user 1-32)"
+          },
+          "kind": "pattern",
+          "slots": 32,
+          "progsPerBank": 32,
+          "readVia": "request",
+          "request": "F0 00 20 32 20 {dev} 07 {prog} F7",
+          "reply": {
+            "header": "F0 00 20 32 20 {dev} 08",
+            "messages": 1,
+            "group": "single"
+          },
+          "slotField": {
+            "offset": 9,
+            "fmt": "b7",
+            "var": "prog"
+          },
+          "checksum": {
+            "type": "none"
+          },
+          "writable": false,
+          "source": 0
+        }
+      ],
+      "functions": {
+        "identify": {
+          "state": "auto",
+          "hint": {
+            "de": "TGM fragt das Gerät nach Geräte-Nummer (= globaler MIDI-Kanal) und Firmware-Version.",
+            "en": "TGM asks the device for its device number (= global MIDI channel) and firmware version."
+          },
+          "source": 0,
+          "note": "Original wording (EN): Universal device inquiry; the reply carries the device ID (= global MIDI channel) and firmware version. || Original (DE): Universal Geräteabfrage; die Antwort enthält die Geräte-ID (= globaler MIDI-Kanal) und die Firmware-Version."
+        },
+        "readNames": {
+          "state": "prepare",
+          "areas": [
+            "programs"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "TGM holt die 128 Namen einer Bank in einem Schritt.",
+            "en": "TGM fetches the 128 names of a bank in one step."
+          },
+          "source": 0,
+          "request": "F0 00 20 32 20 {dev} 0A {bank} F7",
+          "reply": {
+            "header": "F0 00 20 32 20 {dev} 0B",
+            "messages": 1,
+            "group": "single"
+          },
+          "nameRule": {
+            "messageIndex": 0,
+            "offset": 0,
+            "length": 16,
+            "enc": "packed7",
+            "packedDataOffset": 10,
+            "perSlot": true
+          },
+          "note": "Original wording (EN): All 128 names of a bank in ONE request (16 chars each). || Original (DE): Namen einer Bank in EINER Anfrage (128 Namen a 16 Zeichen)."
+        },
+        "readCurrent": {
+          "state": "prepare",
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "TGM holt den gerade gespielten Klang, auch mit ungespeicherten Änderungen.",
+            "en": "TGM fetches the sound being played, including unsaved changes."
+          },
+          "source": 0,
+          "request": "F0 00 20 32 20 {dev} 03 F7",
+          "reply": {
+            "header": "F0 00 20 32 20 {dev} 04",
+            "messages": 1,
+            "group": "single"
+          },
+          "note": "Original wording (EN): Sends the program in the edit buffer. || Original (DE): Sendet das Programm im Bearbeitungsspeicher (Edit Buffer)."
+        },
+        "readSlot": {
+          "state": "prepare",
+          "areas": [
+            "programs",
+            "userPatterns"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "TGM holt pro Abfrage einen Klang oder ein Arpeggiator-Muster.",
+            "en": "TGM fetches one sound or one arpeggiator pattern per request."
+          },
+          "source": 0,
+          "note": "Original wording (EN): One program or pattern per request. || Original (DE): Ein Programm bzw. ein Muster pro Anfrage."
+        },
+        "readBank": {
+          "state": "prepare",
+          "areas": [
+            "programs"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "TGM holt eine ganze Bank (oder einen Bereich) auf einmal.",
+            "en": "TGM fetches a whole bank (or a range) at once."
+          },
+          "source": 0,
+          "note": "Original wording (EN): A whole bank (or range) in one request; the reply is a sequence of single program dumps. || Original (DE): Eine ganze Bank (oder Bereich) in einer Anfrage; die Antwort sind einzelne Programm-Dumps."
+        },
+        "readSystem": {
+          "state": "prepare",
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "TGM holt die globalen Geräteeinstellungen.",
+            "en": "TGM fetches the global device settings."
+          },
+          "source": 0,
+          "request": "F0 00 20 32 20 {dev} 05 F7",
+          "reply": {
+            "header": "F0 00 20 32 20 {dev} 06",
+            "messages": 1,
+            "group": "single"
+          },
+          "note": "Original wording (EN): Global settings (45 bytes, packed). || Original (DE): Globale Einstellungen (45 Bytes, gepackt)."
+        },
+        "backupAll": {
+          "state": "prepare",
+          "areas": [
+            "programs",
+            "userPatterns"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "Sichert die 8 Klangbänke, die 32 Arpeggiator-Muster und die globalen Einstellungen. Kalibrierdaten werden nicht gesichert.",
+            "en": "Backs up the 8 sound banks, the 32 arpeggiator patterns and the global settings. Calibration data is not backed up."
+          },
+          "source": 0,
+          "note": "Original wording (EN): 8 bank requests, 32 pattern requests and the global settings. Calibration data (command 11) is not part of the backup. || Original (DE): 8 Bank-Anfragen, 32 Muster-Anfragen und die globalen Einstellungen. Kalibrierdaten (Befehl 11) werden nicht gesichert."
+        },
+        "audition": {
+          "state": "prepare",
+          "areas": [
+            "programs"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "TGM schickt den Klang zum Probehören ans Gerät, ohne zu speichern. Am Gerät danach den Klang nicht wechseln, sonst ist er weg.",
+            "en": "TGM sends the sound to the device for listening, without storing. Do not change the sound on the device afterwards or it is lost."
+          },
+          "source": 2,
+          "note": "Original wording (EN): Sends the program as an Edit Buffer Dump (command 04, version 07); nothing is stored. Tested on real hardware (firmware 1.1.2): accepted and read back identical. Do not change program on the synth afterwards or the edit is lost. || Original (DE): Sendet das Programm als Edit-Buffer-Dump (Befehl 04, Version 07) an das Gerät; es wird nichts gespeichert. Auf einem echten Gerät (Firmware 1.1.2) getestet: wird angenommen und unverändert zurückgelesen. Danach das Programm am Gerät NICHT wechseln, sonst sind die Änderungen weg."
+        },
+        "writeSlot": {
+          "state": "prepare",
+          "areas": [
+            "programs"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "Überschreibt den Klang im Gerät und speichert ihn dauerhaft. Bisher nicht am echten Gerät getestet - vorher den alten Klang sichern.",
+            "en": "Overwrites the sound in the device and stores it permanently. Not yet tested on the real device - back up the old sound first."
+          },
+          "source": 3,
+          "note": "Original wording (EN): Sends a Program Dump (command 02, version 07, bank, number); this writes DIRECTLY to flash and replaces the program. Derived from analysis of Behringer's editor and KnobKraft Orm; no own hardware test of flash writes exists. Back up the old program first. || Original (DE): Sendet einen Programm-Dump (Befehl 02, Version 07, Bank, Nummer); das schreibt DIREKT in den Flash-Speicher und ersetzt das Programm. Aus der Analyse von Behringers Editor und von KnobKraft Orm abgeleitet, vom Schreiben in den Flash gibt es keinen eigenen Hardwaretest. Vorher altes Programm sichern."
+        },
+        "writeBank": {
+          "state": "prepare",
+          "areas": [
+            "programs"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "Schreibt 128 Klänge nacheinander mit kurzer Pause dazwischen und speichert sie dauerhaft; überschreibt die Bank.",
+            "en": "Writes 128 sounds one after the other with a short pause in between and stores them permanently; overwrites the bank."
+          },
+          "source": 3,
+          "note": "Original wording (EN): 128 single Program Dumps in sequence (Behringer's editor waits 200 ms between programs); writes to flash. || Original (DE): 128 einzelne Programm-Dumps nacheinander (Behringers Editor wartet 200 ms zwischen zwei Programmen); schreibt in den Flash."
+        },
+        "restoreAll": {
+          "state": "prepare",
+          "areas": [
+            "programs"
+          ],
+          "prepare": [
+            "sysexDest"
+          ],
+          "hint": {
+            "de": "Schreibt alle gesicherten Klänge einzeln zurück. Arpeggiator-Muster und globale Einstellungen werden nicht zurückgespielt.",
+            "en": "Writes all backed-up sounds back one by one. Arpeggiator patterns and global settings are not restored."
+          },
+          "source": 3,
+          "note": "Original wording (EN): Writes all saved programs back one by one (see write program). Patterns and globals are not restored (receive not documented). || Original (DE): Alle gesicherten Programme einzeln zurückschreiben (siehe Programm schreiben). Muster und Globals werden nicht zurückgespielt (Empfang nicht belegt)."
+        },
+        "readParams": {
+          "state": "none",
+          "hint": {
+            "de": "Einzelwerte kann TGM nicht abfragen; mit dem gerade gespielten Klang bekommt es aber alle Werte.",
+            "en": "TGM cannot ask for single values, but it gets all values with the sound being played."
+          },
+          "note": "Original wording (EN): Single values cannot be queried; read the edit buffer to get all values. || Original (DE): Einzelne Werte lassen sich nicht abfragen; über 'Programm im Bearbeitungsspeicher lesen' bekommt man alle Werte."
+        },
+        "paramsFromDump": {
+          "state": "auto",
+          "hint": {
+            "de": "TGM liest alle Reglerwerte direkt aus dem Klang.",
+            "en": "TGM reads all knob values directly from the sound."
+          },
+          "source": 0,
+          "note": "Original wording (EN): Each parameter sits in its own byte; position = NRPN number (table in the manual). || Original (DE): Jeder Parameter liegt in einem eigenen Byte; Position = NRPN-Nummer (Tabelle in der Anleitung)."
+        }
+      },
+      "params": [
+        {
+          "name": "Device Inquiry",
+          "section": "other",
+          "tab": "Requests",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 0,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Device Inquiry",
+          "section": "other",
+          "tab": "Requests",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 0,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Delay / Fade",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 1,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Delay / Fade",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 1,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Shape",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 2,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Shape",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 2,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Key Sync",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 3,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Key Sync",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 3,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Arp Sync",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 4,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Arp Sync",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 4,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Mono Mode",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 5,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Mono Mode",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 5,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Slew Rate",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 6,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Slew Rate",
+          "section": "lfo",
+          "tab": "LFO 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 6,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Rate",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 7,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Rate",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 7,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Delay / Fade",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 8,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Delay / Fade",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 8,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Shape",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 9,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Shape",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 9,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Key Sync",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 10,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Key Sync",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 10,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Arp Sync",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 11,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Arp Sync",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 11,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Mono Mode",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 12,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Mono Mode",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 12,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Slew Rate",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 13,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Slew Rate",
+          "section": "lfo",
+          "tab": "LFO 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 13,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Range",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 14,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Range",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 14,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Range",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 15,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Range",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 15,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "PWM Source",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 16,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "PWM Source",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 16,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Tone Mod Source",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 17,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Tone Mod Source",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 17,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pulse Enable",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 18,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pulse Enable",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 18,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Saw Enable",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 19,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Saw Enable",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 19,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sync Enable",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 20,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sync Enable",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 20,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Depth",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 21,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Depth",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 21,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Select",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 22,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Select",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 22,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Aftertouch > Pitch Mod D",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 23,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Aftertouch > Pitch Mod D",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 23,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Mod Wheel > Pitch Mod De",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 24,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Mod Wheel > Pitch Mod De",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 24,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "PWM Depth",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 25,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "PWM Depth",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 25,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Level",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 26,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Level",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 26,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 27,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 27,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Tone Mod Depth",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 28,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Tone Mod Depth",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 28,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Depth",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 29,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Depth",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 29,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Aftertouch > Pitch Mod D",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 30,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Aftertouch > Pitch Mod D",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 30,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Mod Wheel > Pitch Mod De",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 31,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Mod Wheel > Pitch Mod De",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 31,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Select",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 32,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Select",
+          "section": "osc",
+          "tab": "Osc 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 32,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Noise Level",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 33,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Noise Level",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 33,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Portamento time",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 34,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Portamento time",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 34,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Portamento mode",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 35,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Portamento mode",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 35,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch bend Up depth",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 36,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch bend Up depth",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 36,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch bend Down depth",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 37,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch bend Down depth",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 37,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Mode",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 38,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch Mod Mode",
+          "section": "osc",
+          "tab": "Osc 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 38,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Frequency",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 39,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Frequency",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 39,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "HighPass Frequency",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 40,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "HighPass Frequency",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 40,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Resonance",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 41,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Resonance",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 41,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Env Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 42,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Env Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 42,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Env Velocity Sensitivity",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 43,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Env Velocity Sensitivity",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 43,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pitch Bend to Freq Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 44,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pitch Bend to Freq Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 44,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "LFO Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 45,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "LFO Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 45,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "LFO Select",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 46,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "LFO Select",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 46,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Aftertouch > LFO Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 47,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Aftertouch > LFO Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 47,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Mod Wheel > LFO Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 48,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Mod Wheel > LFO Depth",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 48,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Keyboard Tracking",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 49,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Keyboard Tracking",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 49,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Env Polarity",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 50,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Env Polarity",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 50,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "2 Pole Mode",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 51,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "2 Pole Mode",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 51,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Bass Boost",
+          "section": "filter",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 52,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Bass Boost",
+          "section": "filter",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 52,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Attack Time",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 53,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Attack Time",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 53,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Decay Time",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 54,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Decay Time",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 54,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sustain Level",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 55,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sustain Level",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 55,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Release Time",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 56,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Release Time",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 56,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Trigger Mode",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 57,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Trigger Mode",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 57,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Attack Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 58,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Attack Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 58,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Decay Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 59,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Decay Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 59,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sustain Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 60,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sustain Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 60,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Release Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 61,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Release Curve",
+          "section": "env",
+          "tab": "VCA Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 61,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Attack Time",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 62,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Attack Time",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 62,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Decay Time",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 63,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Decay Time",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 63,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sustain Level",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 64,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sustain Level",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 64,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Release Time",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 65,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Release Time",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 65,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Trigger Mode",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 66,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Trigger Mode",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 66,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Attack Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 67,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Attack Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 67,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Decay Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 68,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Decay Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 68,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sustain Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 69,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sustain Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 69,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Release Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 70,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Release Curve",
+          "section": "env",
+          "tab": "VCF Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 70,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Attack Time",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 71,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Attack Time",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 71,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Decay Time",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 72,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Decay Time",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 72,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sustain Level",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 73,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sustain Level",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 73,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Release Time",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 74,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Release Time",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 74,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Trigger Mode",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 75,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Trigger Mode",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 75,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Attack Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 76,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Attack Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 76,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Decay Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 77,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Decay Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 77,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sustain Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 78,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sustain Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 78,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Release Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 79,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Release Curve",
+          "section": "env",
+          "tab": "Mod Env",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 79,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Level",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 80,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Level",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 80,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Env Depth",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 81,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Env Depth",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 81,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Env Velocity Sensitivity",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 82,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Env Velocity Sensitivity",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 82,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pan Spread",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 83,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pan Spread",
+          "section": "mixer",
+          "tab": "VCA",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 83,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Voice Priority Mode",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 84,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Voice Priority Mode",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 84,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Polyphony Mode",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 85,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Polyphony Mode",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 85,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Env Trigger Mode",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 86,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Env Trigger Mode",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 86,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Unison Detune",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 87,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Unison Detune",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 87,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Voice Drift",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 88,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Voice Drift",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 88,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Parameter Drift",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 89,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Parameter Drift",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 89,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Drift Rate",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 90,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Drift Rate",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 90,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Portamento  Balance",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 91,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Portamento  Balance",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 91,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Key Down Reset",
+          "section": "osc",
+          "tab": "Common",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 92,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Key Down Reset",
+          "section": "osc",
+          "tab": "Common",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 92,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 93,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 93,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 94,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 94,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 95,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 95,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 96,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 96,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 97,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 97,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 98,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 98,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 99,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 99,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 100,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 100,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 101,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 101,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 102,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 102,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 103,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 103,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 104,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 104,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 5",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 105,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 5",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 105,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 5",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 106,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 5",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 106,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 5",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 107,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 5",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 107,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 6",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 108,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 6",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 108,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 6",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 109,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 6",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 109,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 6",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 110,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 6",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 110,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 7",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 111,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 7",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 111,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 7",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 112,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 7",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 112,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 7",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 113,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 7",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 113,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 8",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 114,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Source",
+          "section": "other",
+          "tab": "Mod 8",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 114,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 8",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 115,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Destination",
+          "section": "other",
+          "tab": "Mod 8",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 115,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 8",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 116,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Depth",
+          "section": "other",
+          "tab": "Mod 8",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 116,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Enable",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 117,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Enable",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 117,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Clock Divider",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 118,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Clock Divider",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 118,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sequence Length",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 119,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sequence Length",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 119,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Sequencer Swing Timing",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 120,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Sequencer Swing Timing",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 120,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Key Sync & Loop",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 121,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Key Sync & Loop",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 121,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Slew Rate",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 122,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Slew Rate",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 122,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 1",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 123,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 1",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 123,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 2",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 124,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 2",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 124,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 3",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 125,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 3",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 125,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 4",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 126,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 4",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 126,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 5",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 127,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 5",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 127,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 6",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 128,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 6",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 128,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 7",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 129,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 7",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 129,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 8",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 130,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 8",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 130,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 9",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 131,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 9",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 131,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 10",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 132,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 10",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 132,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 11",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 133,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 11",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 133,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 12",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 134,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 12",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 134,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 13",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 135,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 13",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 135,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 14",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 136,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 14",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 136,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 15",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 137,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 15",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 137,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 16",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 138,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 16",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 138,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 17",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 139,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 17",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 139,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 18",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 140,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 18",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 140,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 19",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 141,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 19",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 141,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 20",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 142,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 20",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 142,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 21",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 143,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 21",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 143,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 22",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 144,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 22",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 144,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 23",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 145,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 23",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 145,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 24",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 146,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 24",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 146,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 25",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 147,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 25",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 147,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 26",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 148,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 26",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 148,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 27",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 149,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 27",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 149,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 28",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 150,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 28",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 150,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 29",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 151,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 29",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 151,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 30",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 152,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 30",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 152,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 31",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 153,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 31",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 153,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Step 32",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 154,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Step 32",
+          "section": "other",
+          "tab": "Ctrl Seq",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 154,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "On/Off",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 155,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "On/Off",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 155,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Mode",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 156,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Mode",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 156,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Rate (tempo)",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 157,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Rate (tempo)",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 157,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Clock",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 158,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Clock",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 158,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Key Sync",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 159,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Key Sync",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 159,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Gate Time",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 160,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Gate Time",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 160,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Hold",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 161,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Hold",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 161,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Pattern",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 162,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Pattern",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 162,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Swing",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 163,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Swing",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 163,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Octaves",
+          "section": "other",
+          "tab": "Arp",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 164,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Octaves",
+          "section": "other",
+          "tab": "Arp",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 164,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "FX Routing",
+          "section": "fx",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 165,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "FX Routing",
+          "section": "fx",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 165,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 166,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 166,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 167,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 167,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 168,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 168,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 169,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 169,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 170,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 170,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 171,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 171,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 172,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 172,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 173,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 173,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 174,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 174,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 175,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 175,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 176,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 176,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 177,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 177,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 178,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 178,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 179,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 179,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 180,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 180,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 181,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 181,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 182,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 182,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 183,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 183,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 184,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 184,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 185,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 185,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 186,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 186,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 187,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 187,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 188,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 188,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 189,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 189,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 190,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 190,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 191,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 191,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 192,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 192,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 193,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 193,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 194,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 194,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 195,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 195,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 196,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 196,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 197,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 197,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 198,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 198,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 199,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 199,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 200,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 200,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 201,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 201,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 202,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 202,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 203,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 203,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 204,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 204,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 205,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Type",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 205,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 206,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 1",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 206,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 207,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 2",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 207,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 208,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 3",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 208,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 209,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 4",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 209,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 210,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 5",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 210,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 211,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 6",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 211,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 212,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 7",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 212,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 213,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 8",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 213,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 214,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 9",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 214,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 215,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 10",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 215,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 216,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 11",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 216,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 217,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Param 12",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 217,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 218,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 1",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 218,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 219,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 2",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 219,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 220,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 3",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 220,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 221,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Output Gain",
+          "section": "fx",
+          "tab": "FX 4",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 221,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "FX Mode",
+          "section": "fx",
+          "tab": "",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 222,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "FX Mode",
+          "section": "fx",
+          "tab": "",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 222,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Program Category",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 240,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Program Category",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 240,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        },
+        {
+          "name": "Program Transpose",
+          "section": "other",
+          "tab": "Voice",
+          "area": "current",
+          "messageIndex": 0,
+          "offset": 241,
+          "fmt": "packed7",
+          "packedDataOffset": 8,
+          "source": 0
+        },
+        {
+          "name": "Program Transpose",
+          "section": "other",
+          "tab": "Voice",
+          "area": "programs",
+          "messageIndex": 0,
+          "offset": 241,
+          "fmt": "packed7",
+          "packedDataOffset": 10,
+          "source": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.synthmanuals.com/manuals/behringer/deepmind_12/user_manual/deepmind_12_m_en.pdf",
+          "title": "DeepMind 12 User Manual, 19. MIDI SysEx Commands pp. 121-126, 7.2.11 Connectivity / SysEx Export p. 27"
+        },
+        {
+          "url": "https://www.synthmanuals.com/manuals/behringer/deepmind_12/user_manual/deepmind_12_m_en.pdf",
+          "title": "DeepMind 12 User Manual, 17. MIDI NRPN Commands pp. 117-120 (parameter positions)"
+        },
+        {
+          "url": "https://github.com/Este13/Deepmind12-mcp/blob/main/notes/hardware_check.md",
+          "title": "Este13/Deepmind12-mcp notes/hardware_check.md (edit buffer write tested on firmware 1.1.2-619) and notes/sysex.md (static analysis of Behringer's editor: cmd 04 / 02, version 07, 280 packed bytes, no checksum)"
+        },
+        {
+          "url": "https://github.com/Este13/Deepmind12-mcp/blob/main/notes/patch_format.md",
+          "title": "Este13/Deepmind12-mcp notes/patch_format.md: editor sends ProgramDumpResponse to write flash, 200 ms between programs"
+        },
+        {
+          "url": "https://github.com/christofmuc/KnobKraft-orm/blob/master/adaptations/Behringer%20Deepmind%2012.py",
+          "title": "KnobKraft Orm adaptation 'Behringer Deepmind 12.py' (convertToEditBuffer / convertToProgramDump; README lists Deepmind 12 as 'works')"
+        }
+      ],
+      "notes": "Firmware described: DeepMind 12 manual with Comms Protocol Version 06 (MIDI Implementation chart v1.0, 2016). DeepMind 6, 12 and 12D share this implementation (same manual chapters and Model ID 20); the 6 has fewer voices only. Packed 'MS bit' format: 7 data bytes -> 8 MIDI bytes, MS bits first. Program data = 242 bytes (278 packed), one byte per parameter, position = NRPN 14-bit number (0-241); name = 16 chars at 223 (17 incl. null). Message header F0 00 20 32 20 dd cmd; dd = device ID = global MIDI channel 0-15. Program dump response: ... 02 06 bank prog data F7 (data from byte 10); edit buffer response: ... 04 06 data F7 (from byte 8). WRITES (not in the manual, which only documents the dumps the synth sends): Este13/Deepmind12-mcp (static analysis of Behringer's official editor + hardware tests on firmware 1.1.2-619) shows the synth accepts Edit Buffer Dump F0 00 20 32 20 dev 04 07 <280 packed bytes> F7 (verified, read back identical) -> audition. The editor writes flash with Program Dump F0 00 20 32 20 dev 02 07 bank prog <280 bytes> F7 (200 ms between programs); KnobKraft Orm builds the same messages (convertToProgramDump keeps the protocol version byte). Flash writes were NOT hardware-tested by Este13, so writeSlot/writeBank/restoreAll stay prepare with a warning. Real firmware sends protocol version 07 and 280 packed bytes (manual: version 06, 278); the editor accepts versions 1..7 of equal length; there is no checksum. Reply headers therefore match only up to the command byte. Banks: 8 (A-H) x 128 programs; CC0/CC32 bank select values for A-H are NOT documented (manual chart only says Bank Select is recognised; Este13 and KnobKraft do not use it; a Gearspace user claims 0-7 without citation), so no bankMap - banks are addressed via the SysEx bank byte 0-7 only. The patterns area (32 user arp patterns) is read-only here. Port name 'DeepMind' is an assumption from the product name (not printed in the manual). Extra: the nameRule on readNames describes the bank names response (0B), 128 names x 16 bytes packed; Calibration (cmd 11/12), chord memory (1B/1C) and poly chord memory (1D/1E) dumps exist but are not part of the profile. On the device, SYSEX EXPORT (DUMP TYPE Prog/Bank/EditProg/Glob/UserPat/AllPat/All) can also send dumps manually. Bank select (CC32 LSB 0..7 = banks A..H) from the MIDI implementation chart of the manual (source 0), added by TGM."
+    }
+  },
+  "id": "behringer/deepmind-12",
+  "images": {},
+  "manufacturer": {
+    "name": "Behringer",
+    "website": ""
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1,
+  "params": [
+    {
+      "name": "Range",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 3,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Range",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 3,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "PWM Source",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 3,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Tone Mod Source",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 3,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Pulse Enable",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 3,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Saw Enable",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 3,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Sync Enable",
+      "group": "Oszillatoren / Common",
+      "kind": 3,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Pitch Mod Depth",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 4,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Pitch Mod Select",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 3,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 6
+    },
+    {
+      "name": "Aftertouch > Pitch Mod D",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 4,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Mod Wheel > Pitch Mod De",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 4,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "PWM Depth",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 4,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Level",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 4,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Pitch",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 4,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Tone Mod Depth",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 4,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Pitch Mod Depth",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 4,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Aftertouch > Pitch Mod D",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 4,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Mod Wheel > Pitch Mod De",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 4,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Pitch Mod Select",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 3,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 6
+    },
+    {
+      "name": "Noise Level",
+      "group": "Oszillatoren / Common",
+      "kind": 4,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Portamento time",
+      "group": "Oszillatoren / Common",
+      "kind": 4,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Portamento mode",
+      "group": "Oszillatoren / Common",
+      "kind": 3,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 13
+    },
+    {
+      "name": "Pitch bend Up depth",
+      "group": "Oszillatoren / Common",
+      "kind": 3,
+      "number": 36,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Pitch bend Down depth",
+      "group": "Oszillatoren / Common",
+      "kind": 3,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Pitch Mod Mode",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 3,
+      "number": 38,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Portamento  Balance",
+      "group": "Oszillatoren / Common",
+      "kind": 4,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Key Down Reset",
+      "group": "Oszillatoren / Common",
+      "kind": 3,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Frequency",
+      "group": "Filter",
+      "kind": 4,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "HighPass Frequency",
+      "group": "Filter",
+      "kind": 4,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 4,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Env Depth",
+      "group": "Filter",
+      "kind": 4,
+      "number": 42,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Env Velocity Sensitivity",
+      "group": "Filter",
+      "kind": 4,
+      "number": 43,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Pitch Bend to Freq Depth",
+      "group": "Filter",
+      "kind": 4,
+      "number": 44,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "LFO Depth",
+      "group": "Filter",
+      "kind": 4,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "LFO Select",
+      "group": "Filter",
+      "kind": 3,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Aftertouch > LFO Depth",
+      "group": "Filter",
+      "kind": 4,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Mod Wheel > LFO Depth",
+      "group": "Filter",
+      "kind": 4,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Keyboard Tracking",
+      "group": "Filter",
+      "kind": 4,
+      "number": 49,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Env Polarity",
+      "group": "Filter",
+      "kind": 3,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "2 Pole Mode",
+      "group": "Filter",
+      "kind": 3,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Bass Boost",
+      "group": "Filter",
+      "kind": 3,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Trigger Mode",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 3,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "Attack Curve",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Decay Curve",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 59,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Sustain Curve",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 60,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Release Curve",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 4,
+      "number": 61,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 62,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 63,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Trigger Mode",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 3,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "Attack Curve",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Decay Curve",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 68,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Sustain Curve",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 69,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Release Curve",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 4,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Attack Time",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Decay Time",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Trigger Mode",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 3,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "Attack Curve",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Decay Curve",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Sustain Curve",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Release Curve",
+      "group": "Hüllkurven / Mod Env",
+      "kind": 4,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 4,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Delay / Fade",
+      "group": "LFOs / LFO 1",
+      "kind": 4,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 3,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 6
+    },
+    {
+      "name": "Key Sync",
+      "group": "LFOs / LFO 1",
+      "kind": 3,
+      "number": 3,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Arp Sync",
+      "group": "LFOs / LFO 1",
+      "kind": 3,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Mono Mode",
+      "group": "LFOs / LFO 1",
+      "kind": 4,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Slew Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 4,
+      "number": 6,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 4,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Delay / Fade",
+      "group": "LFOs / LFO 2",
+      "kind": 4,
+      "number": 8,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 3,
+      "number": 9,
+      "channel": -1,
+      "min": 0,
+      "max": 6
+    },
+    {
+      "name": "Key Sync",
+      "group": "LFOs / LFO 2",
+      "kind": 3,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Arp Sync",
+      "group": "LFOs / LFO 2",
+      "kind": 3,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Mono Mode",
+      "group": "LFOs / LFO 2",
+      "kind": 4,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Slew Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 4,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Mod Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX Routing",
+      "group": "Effekte",
+      "kind": 3,
+      "number": 165,
+      "channel": -1,
+      "min": 0,
+      "max": 9
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / FX 1",
+      "kind": 3,
+      "number": 166,
+      "channel": -1,
+      "min": 0,
+      "max": 33
+    },
+    {
+      "name": "Param 1",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 167,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 2",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 168,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 3",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 169,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 4",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 170,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 5",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 171,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 6",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 172,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 7",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 173,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 8",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 174,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 9",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 175,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 10",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 176,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 11",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 177,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 12",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 178,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / FX 2",
+      "kind": 3,
+      "number": 179,
+      "channel": -1,
+      "min": 0,
+      "max": 33
+    },
+    {
+      "name": "Param 1",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 180,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 2",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 181,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 3",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 182,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 4",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 183,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 5",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 184,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 6",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 185,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 7",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 186,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 8",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 187,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 9",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 188,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 10",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 189,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 11",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 190,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 12",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 191,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / FX 3",
+      "kind": 3,
+      "number": 192,
+      "channel": -1,
+      "min": 0,
+      "max": 33
+    },
+    {
+      "name": "Param 1",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 193,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 2",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 194,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 3",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 195,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 4",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 196,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 5",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 197,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 6",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 198,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 7",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 199,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 8",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 200,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 9",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 201,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 10",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 202,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 11",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 203,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 12",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 204,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / FX 4",
+      "kind": 3,
+      "number": 205,
+      "channel": -1,
+      "min": 0,
+      "max": 33
+    },
+    {
+      "name": "Param 1",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 206,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 2",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 207,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 3",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 208,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 4",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 209,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 5",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 210,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 6",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 211,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 7",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 212,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 8",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 213,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 9",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 214,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 10",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 215,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 11",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 216,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Param 12",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 217,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Output Gain",
+      "group": "Effekte / FX 1",
+      "kind": 4,
+      "number": 218,
+      "channel": -1,
+      "min": 0,
+      "max": 150
+    },
+    {
+      "name": "Output Gain",
+      "group": "Effekte / FX 2",
+      "kind": 4,
+      "number": 219,
+      "channel": -1,
+      "min": 0,
+      "max": 150
+    },
+    {
+      "name": "Output Gain",
+      "group": "Effekte / FX 3",
+      "kind": 4,
+      "number": 220,
+      "channel": -1,
+      "min": 0,
+      "max": 150
+    },
+    {
+      "name": "Output Gain",
+      "group": "Effekte / FX 4",
+      "kind": 4,
+      "number": 221,
+      "channel": -1,
+      "min": 0,
+      "max": 150
+    },
+    {
+      "name": "FX Mode",
+      "group": "Effekte",
+      "kind": 3,
+      "number": 222,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Level",
+      "group": "Mixer / VCA",
+      "kind": 4,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Env Depth",
+      "group": "Mixer / VCA",
+      "kind": 4,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Env Velocity Sensitivity",
+      "group": "Mixer / VCA",
+      "kind": 4,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Pan Spread",
+      "group": "Mixer / VCA",
+      "kind": 4,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Channel Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Voice Priority Mode",
+      "group": "Sonstiges / Voice",
+      "kind": 3,
+      "number": 84,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Polyphony Mode",
+      "group": "Sonstiges / Voice",
+      "kind": 3,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 12
+    },
+    {
+      "name": "Env Trigger Mode",
+      "group": "Sonstiges / Voice",
+      "kind": 3,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Unison Detune",
+      "group": "Sonstiges / Voice",
+      "kind": 4,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Voice Drift",
+      "group": "Sonstiges / Voice",
+      "kind": 4,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Parameter Drift",
+      "group": "Sonstiges / Voice",
+      "kind": 4,
+      "number": 89,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Drift Rate",
+      "group": "Sonstiges / Voice",
+      "kind": 4,
+      "number": 90,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 1",
+      "kind": 3,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 1",
+      "kind": 4,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 1",
+      "kind": 4,
+      "number": 95,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 2",
+      "kind": 3,
+      "number": 96,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 2",
+      "kind": 4,
+      "number": 97,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 2",
+      "kind": 4,
+      "number": 98,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 3",
+      "kind": 3,
+      "number": 99,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 3",
+      "kind": 4,
+      "number": 100,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 3",
+      "kind": 4,
+      "number": 101,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 4",
+      "kind": 3,
+      "number": 102,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 4",
+      "kind": 4,
+      "number": 103,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 4",
+      "kind": 4,
+      "number": 104,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 5",
+      "kind": 3,
+      "number": 105,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 5",
+      "kind": 4,
+      "number": 106,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 5",
+      "kind": 4,
+      "number": 107,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 6",
+      "kind": 3,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 6",
+      "kind": 4,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 6",
+      "kind": 4,
+      "number": 110,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 7",
+      "kind": 3,
+      "number": 111,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 7",
+      "kind": 4,
+      "number": 112,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 7",
+      "kind": 4,
+      "number": 113,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 8",
+      "kind": 3,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 22
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 8",
+      "kind": 4,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 129
+    },
+    {
+      "name": "Depth",
+      "group": "Sonstiges / Mod 8",
+      "kind": 4,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Enable",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 3,
+      "number": 117,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Clock Divider",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 3,
+      "number": 118,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Sequence Length",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 3,
+      "number": 119,
+      "channel": -1,
+      "min": 0,
+      "max": 31
+    },
+    {
+      "name": "Sequencer Swing Timing",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 3,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 25
+    },
+    {
+      "name": "Key Sync & Loop",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 3,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Slew Rate",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 122,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 1",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 2",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 124,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 3",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 125,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 4",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 126,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 5",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 127,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 6",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 128,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 7",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 129,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 8",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 130,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 9",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 131,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 10",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 132,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 11",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 133,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 12",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 134,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 13",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 135,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 14",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 136,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 15",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 137,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 16",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 138,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 17",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 139,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 18",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 140,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 19",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 141,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 20",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 142,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 21",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 143,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 22",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 144,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 23",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 145,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 24",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 146,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 25",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 147,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 26",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 148,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 27",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 149,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 28",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 150,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 29",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 151,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 30",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 152,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 31",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 153,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Step 32",
+      "group": "Sonstiges / Ctrl Seq",
+      "kind": 4,
+      "number": 154,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "On/Off",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 155,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Mode",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 156,
+      "channel": -1,
+      "min": 0,
+      "max": 10
+    },
+    {
+      "name": "Rate (tempo)",
+      "group": "Sonstiges / Arp",
+      "kind": 4,
+      "number": 157,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Clock",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 158,
+      "channel": -1,
+      "min": 0,
+      "max": 12
+    },
+    {
+      "name": "Key Sync",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 159,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Gate Time",
+      "group": "Sonstiges / Arp",
+      "kind": 4,
+      "number": 160,
+      "channel": -1,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Hold",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 161,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Pattern",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 162,
+      "channel": -1,
+      "min": 0,
+      "max": 64
+    },
+    {
+      "name": "Swing",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 163,
+      "channel": -1,
+      "min": 0,
+      "max": 25
+    },
+    {
+      "name": "Octaves",
+      "group": "Sonstiges / Arp",
+      "kind": 3,
+      "number": 164,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Program Category",
+      "group": "Sonstiges / Voice",
+      "kind": 3,
+      "number": 240,
+      "channel": -1,
+      "min": 0,
+      "max": 16
+    },
+    {
+      "name": "Program Transpose",
+      "group": "Sonstiges / Voice",
+      "kind": 4,
+      "number": 241,
+      "channel": -1,
+      "min": 80,
+      "max": 176
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges / Controllers",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges / Controllers",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges / Controllers",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Request Edit Buffer",
+      "group": "Sonstiges / Requests",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 00 20 32 20 {dev} 03 F7"
+    },
+    {
+      "name": "Request Globals",
+      "group": "Sonstiges / Requests",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 00 20 32 20 {dev} 05 F7"
+    },
+    {
+      "name": "Device Inquiry",
+      "group": "Sonstiges / Requests",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 7E {dev} 06 01 F7"
+    }
+  ]
+}

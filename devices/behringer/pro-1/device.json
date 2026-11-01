@@ -1,0 +1,330 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "PRO-1",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Behringer PRO-1, 1.0, Tsukura Labs",
+    "sysexDeviceId": 16,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "11d79fb1-633d-84b5-a58a-8a11382a7d27",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "text": {
+        "de": {
+          "description": "Der PRO-1 ist ein monophoner Analogsynthesizer von Behringer, der den Klang des Sequential Circuits Pro-One nachbildet. Er besitzt zwei Oszillatoren mit drei gleichzeitig mischbaren Wellenformen, einen 4-Pol-Filter und eine umfangreiche Modulationsmatrix. Eingebaut sind ein Arpeggiator und zwei Sequenzer mit je 64 Noten, und mehrere PRO-1 lassen sich zu einer bis zu 16-stimmigen Poly-Kette verbinden. In der Bedienungsanleitung ist kein Programmspeicher beschrieben; Einstellungen werden direkt an den Reglern vorgenommen. Über ein Patch-Feld mit 3,5-mm-Buchsen lässt sich das Gerät in Modularsysteme einbinden.",
+          "features": [
+            "Zwei Oszillatoren mit Sägezahn, Puls und Dreieck (Dreieck nur OSC B)",
+            "4-Pol-Filter mit Hüllkurven für Filter und Verstärker",
+            "Modulationsmatrix mit Rad- und Direkt-Routing",
+            "2 x 64-Noten-Sequenzer und Arpeggiator",
+            "16-stimmige Poly-Kette möglich",
+            "Patch-Feld mit 3,5-mm-Ein- und Ausgängen für Modularsysteme",
+            "Eurorack-Format",
+            "MIDI und klassenkonformes USB-MIDI"
+          ]
+        },
+        "en": {
+          "description": "The PRO-1 is a monophonic analog synthesizer from Behringer that recreates the sound of the Sequential Circuits Pro-One. It has two oscillators with three waveforms that can be mixed at the same time, a 4-pole filter and an extensive modulation matrix. It includes an arpeggiator and two 64-note sequencers, and several PRO-1 units can be chained into a polyphonic system of up to 16 voices. The manual describes no program memory; settings are made directly with the controls. A patch bay with 3.5 mm jacks lets it integrate into modular systems.",
+          "features": [
+            "Two oscillators with sawtooth, pulse and triangle (triangle on OSC B only)",
+            "4-pole filter with filter and amplifier envelopes",
+            "Modulation matrix with wheel and direct routing",
+            "2 x 64-note sequencers and arpeggiator",
+            "16-voice poly chain possible",
+            "Patch bay with 3.5 mm inputs and outputs for modular systems",
+            "Eurorack format",
+            "MIDI and class-compliant USB MIDI"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Eingang an der Oberseite (Handbuch Pos. 44)",
+            "en": "MIDI input on the top panel (manual item 44)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI OUT/THRU, 5-polige DIN-Buchse an der Rückseite",
+            "en": "MIDI OUT/THRU, 5-pin DIN on the rear panel"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB-Anschluss, klassenkonformes USB-MIDI",
+            "en": "USB port, class-compliant USB MIDI"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "OUTPUT, 6,3-mm-Klinke mono, Rückseite",
+            "en": "OUTPUT, 1/4-inch mono jack, rear panel"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "AUDIO OUT, 3,5-mm-Buchse mono (Patch-Feld)",
+            "en": "AUDIO OUT, 3.5 mm mono jack (patch bay)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "MIXER-Ausgang, 3,5-mm-Buchse (Patch-Feld)",
+            "en": "MIXER output, 3.5 mm jack (patch bay)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "PHONES, Stereo-Buchse 3,5 mm",
+            "en": "PHONES, stereo 3.5 mm jack"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "EXT, externer Audioeingang, 3,5-mm-Buchse (Patch-Feld)",
+            "en": "EXT, external audio input, 3.5 mm jack (patch bay)"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 5,
+          "note": {
+            "de": "MOD WH CV, OSC CV, LFO CV, CUTOFF CV, RESO CV (3,5-mm-Buchsen, Patch-Feld)",
+            "en": "MOD WH CV, OSC CV, LFO CV, CUTOFF CV, RESO CV (3.5 mm jacks, patch bay)"
+          }
+        },
+        {
+          "type": "cv-out",
+          "count": 4,
+          "note": {
+            "de": "LFO OUT, KYBD CV, FILTER ENV, AMP ENV (3,5-mm-Buchsen, Patch-Feld)",
+            "en": "LFO OUT, KYBD CV, FILTER ENV, AMP ENV (3.5 mm jacks, patch bay)"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 1,
+          "note": {
+            "de": "GATE/CLK, externer Gate-/Takt-Eingang (3,5 mm)",
+            "en": "GATE/CLK, external gate/clock input (3.5 mm)"
+          }
+        },
+        {
+          "type": "gate-out",
+          "count": 1,
+          "note": {
+            "de": "GATE, Gate-Ausgang von Arpeggiator/Sequenzer (3,5 mm)",
+            "en": "GATE, gate output of arpeggiator/sequencer (3.5 mm)"
+          }
+        },
+        {
+          "type": "other",
+          "count": 4,
+          "note": {
+            "de": "DIP-Schalter für den MIDI-Empfangskanal (Rückseite)",
+            "en": "DIP switches for the MIDI receive channel (rear panel)"
+          }
+        }
+      ],
+      "source": "tgm-prefill"
+    },
+    "dumpProfile": {
+      "schema": "tgm.dump/1",
+      "identity": {
+        "request": "F0 7E 7F 06 01 F7",
+        "state": "unknown",
+        "hint": {
+          "de": "Ob das Gerät auf die allgemeine Geräteabfrage antwortet, ist nicht bekannt; der Hersteller hat dazu nichts veröffentlicht.",
+          "en": "It is not known whether the device answers the standard device inquiry; the manufacturer has published nothing about it."
+        },
+        "note": "Original wording (EN): No documented device inquiry; Behringer has not published a SysEx data sheet for the Pro-1 (none found). || Original (DE): Es gibt keine belegte Geräteabfrage; Behringer hat kein SysEx-Datenblatt für den Pro-1 veröffentlicht (nicht gefunden)."
+      },
+      "portNames": [
+        "PRO-1"
+      ],
+      "devId": {
+        "default": 0,
+        "min": 0,
+        "max": 127
+      },
+      "pacing": {
+        "gapMs": 50,
+        "msgDelayMs": 0,
+        "quietMs": 300,
+        "timeoutMs": 2000
+      },
+      "ack": null,
+      "prepare": [],
+      "areas": [],
+      "functions": {
+        "readNames": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readCurrent": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readSlot": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readBank": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "backupAll": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "audition": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "writeSlot": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "writeBank": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "restoreAll": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "areas": [],
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readParams": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "paramsFromDump": {
+          "state": "none",
+          "hint": {
+            "de": "Das Gerät hat keinen Klangspeicher; die Reglerstellungen lassen sich weder auslesen noch im Gerät ablegen.",
+            "en": "The device has no sound memory; the knob positions can neither be read from nor stored in the device."
+          },
+          "note": "Original wording (EN): The device has no patch memory: the panel knob positions cannot be read from or stored in the device. || Original (DE): Das Gerät hat keinen Klangspeicher: Einstellungen der Reglerstellung können nicht ausgelesen oder abgelegt werden."
+        },
+        "readSystem": {
+          "state": "none",
+          "hint": {
+            "de": "Die globalen Einstellungen lassen sich nicht auslesen.",
+            "en": "The global settings cannot be read back."
+          }
+        },
+        "identify": {
+          "state": "unknown",
+          "hint": {
+            "de": "Ob das Gerät auf die allgemeine Geräteabfrage antwortet, ist nicht bekannt; der Hersteller hat dazu nichts veröffentlicht.",
+            "en": "It is not known whether the device answers the standard device inquiry; the manufacturer has published nothing about it."
+          },
+          "note": "Original wording (EN): No documented device inquiry; Behringer has not published a SysEx data sheet for the Pro-1 (none found). || Original (DE): Es gibt keine belegte Geräteabfrage; Behringer hat kein SysEx-Datenblatt für den Pro-1 veröffentlicht (nicht gefunden)."
+        }
+      },
+      "params": [],
+      "sources": [
+        {
+          "url": "https://www.sunnysynths.com/_files/ugd/48bb89_0fb82176ba0949a0abd37200d7f219ea.pdf",
+          "title": "Sunny Synths Behringer Pro-1 Ctrlr panel documentation V2.3 (third party)"
+        },
+        {
+          "url": "https://gzhls.at/blob/ldb/a/b/f/7/30aeba991e580000816d4cd8669ed5003201.pdf",
+          "title": "Behringer PRO-1 Quick Start Guide (multilingual); MIDI channel via DIP switches, no SysEx section"
+        }
+      ],
+      "notes": "Firmware: not stated. Analog monophonic synth without patch memory. The third-party Ctrlr documentation states the Pro-1 accepts only global-setting SysEx (model ID 00 01 08; e.g. 'f0 00 20 32 00 01 08 11 0c 00 f7' observed for pitch bend range 12) and cannot be read back; Behringer publishes no command table, so no write function is described here. Settings can be changed with Behringer's SynthTribe app. Port name 'PRO-1' is an assumption."
+    }
+  },
+  "id": "behringer/pro-1",
+  "images": {},
+  "manufacturer": {
+    "name": "Behringer",
+    "website": ""
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

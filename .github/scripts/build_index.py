@@ -354,6 +354,8 @@ def self_test():
         assert isinstance(info, dict) and info.get("schema") == "tgm.deviceinfo/1", "device info missing in index"
         assert info["text"]["en"]["features"] and info["ports"][0]["type"] == "midi-in", "device info content"
         assert "localEdit" not in info, "localEdit must never be published"
+        zdev = json.loads(zipfile.ZipFile(zpath).read("device.json").decode("utf-8"))
+        assert zdev["device"]["dumpProfile"]["schema"] == "tgm.dump/1", "dumpProfile must travel in device.json"
         assert len(open(os.path.join(ns.out, "changed.txt")).read().split()) == 1, "changed.txt"
         # determinism + previous-index handling
         ns.out = os.path.join(tmp, "b")
@@ -372,6 +374,15 @@ def self_test():
         errs, _dev, _panel = validate_device("m", "d", bad, {"device": load_schema("device.schema.json"),
                                                           "panels": load_schema("panels.schema.json")})
         assert len(errs) >= 4, "negative probe expected errors, got %r" % errs
+        # negative probe: a dumpProfile with a wrong schema id is refused
+        badp = os.path.join(tmp, "badp", "m", "d")
+        os.makedirs(badp)
+        with open(os.path.join(badp, "device.json"), "w", encoding="utf-8") as fh:
+            json.dump({"schema": "tgm.device/1", "id": "m/d", "version": 1, "manufacturer": {"name": "M"},
+                       "device": {"uuid": "u", "name": "N", "dumpProfile": {"schema": "other/1"}}}, fh)
+        errs2, _d2, _p2 = validate_device("m", "d", badp, {"device": load_schema("device.schema.json"),
+                                                         "panels": load_schema("panels.schema.json")})
+        assert any("dumpProfile" in e for e in errs2), "wrong dumpProfile schema must be refused, got %r" % errs2
     print("SELF-TEST OK")
     return 0
 
