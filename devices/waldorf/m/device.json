@@ -1,0 +1,571 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "M",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf M, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "c78e6e0f-8d4c-5189-d9fd-b59379d7f33e",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Waldorf M ist ein Wavetable-Synthesizer im Desktop-Gehäuse (440 x 305 x 85 mm, 5,7 kg). Er hat zwei Wavetable-Oszillatoren mit unabhängigen Wavetables und zwei Klangmodellen (klassisch Microwave I und modern Microwave II), dazu ein analoges 24-dB-Tiefpassfilter (SSI 2144) und einen analogen Stereo-VCA pro Stimme. Der M ist 4-fach multitimbral und kann Microwave-I-SysEx-Klänge verarbeiten. Das Handbuch ist Revision 1.0.6 vom Januar 2022.",
+          "features": [
+            "2 Wavetable-Oszillatoren, 96 Werks-Wavetables plus 32 User-Slots",
+            "Analoger 24-dB-Tiefpass (SSI 2144) mit Sättigung, analoger Stereo-VCA",
+            "4 Hüllkurven (8-Punkt-Wave-Hüllkurve, VCF, VCA, freie 4-Punkt-Hüllkurve) und 2 LFOs",
+            "Arpeggiator mit 16 Mustern und Akkordmodus, MIDI-Clock-Sync",
+            "2048 Klänge (16 Bänke zu 128) und 128 Multi-Programme",
+            "8/16 Stimmen, 4 Parts auf 4 einzelne Stereo-Ausgänge",
+            "USB-2.0-MIDI und DIN-MIDI, SD-Karte für Soundbänke und Wavetables",
+            "Kompatibel zu klassischen Microwave-I-SysEx-Nachrichten"
+          ]
+        },
+        "en": {
+          "description": "The Waldorf M is a wavetable synthesizer in a desktop case (440 x 305 x 85 mm, 5.7 kg). It has two wavetable oscillators with independent wavetables and two tone-generation models (classic Microwave I and modern Microwave II), plus an analog 24 dB low-pass filter (SSI 2144) and an analog stereo VCA per voice. It is 4-part multitimbral and accepts classic Microwave I SysEx sounds. The manual is revision 1.0.6, January 2022.",
+          "features": [
+            "2 wavetable oscillators, 96 factory wavetables plus 32 user slots",
+            "Analog 24 dB low-pass (SSI 2144) with saturation, analog stereo VCA",
+            "4 envelopes (8-point wave envelope, VCF, VCA, free 4-point envelope) and 2 LFOs",
+            "Arpeggiator with 16 patterns and chord mode, MIDI clock sync",
+            "2048 sounds (16 banks of 128) and 128 multi programs",
+            "8/16 voices, 4 parts routable to 4 individual stereo outputs",
+            "USB 2.0 MIDI and DIN MIDI, SD card for sound banks and wavetables",
+            "Compatible with classic Microwave I SysEx messages"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Stereo-Hauptausgang L (Mono) + R",
+            "en": "main stereo outputs L (mono) + R"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 4,
+          "note": {
+            "de": "Aux-Ausgänge A-D (Stereo)",
+            "en": "aux outputs A-D (stereo)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Klinke mit Lautstärkeregler",
+            "en": "jack with volume control"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB 2.0 MIDI-Anschluss",
+            "en": "USB 2.0 MIDI port"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "SD-Kartenslot, Kensington-Schloss",
+            "en": "SD card slot, Kensington lock"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteil 12 V DC",
+            "en": "power supply 12 V DC"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/m",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Glide Rate",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Glide Enable",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 38,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync to Osc 1",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wavetable",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wavetable",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 63,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Filter",
+      "kind": 1,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Amount",
+      "group": "Filter",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "EG Velocity",
+      "group": "Filter",
+      "kind": 1,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave EG to Wave Osc 1",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave EG to Wave Osc 2",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA EG Amount",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA EG Velocity",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 59,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time 2 (2nd entry)",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 89,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Level",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 90,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 1 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 2 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Ringmod Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Noise Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Master Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
+}

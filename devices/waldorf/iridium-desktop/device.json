@@ -1,0 +1,154 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Iridium Desktop",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Iridium Desktop, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "f1450416-a604-2d98-24ab-c0f83b741391",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Iridium Desktop ist die Tischvariante des Waldorf Iridium mit Touchscreen, Pad-Bereich und Bedienfeld für Oszillatoren, Filter, Hüllkurven und LFOs. Er nutzt die Klangerzeugung des Quantum und spielt bis zu 16 Stimmen. Das Handbuch (OS 3, Revision 3.0, Juli 2023) gilt gemeinsam mit dem Iridium Keyboard.",
+          "features": [
+            "Pad-Bereich zusätzlich zum Bedienfeld",
+            "Touchscreen-Display, Auswahlrad und Mode-Page-Tasten",
+            "Klangerzeugung kompatibel zum Quantum, 16 Stimmen, Layer 1/2 mit Split-Aufteilung",
+            "Arpeggiator und Sequenzer, auch von externem Signal startbar",
+            "Audio-Eingang kann durch den Signalweg laufen oder mit dem Audio-Recorder aufgenommen werden",
+            "CV/Gate/Clock-Anschlüsse für Modular/Eurorack",
+            "MPE-Unterstützung (MIDI DIN, USB Host, USB Device)",
+            "USB-Speicher und microSD für Patches, Samples und Wavetables"
+          ]
+        },
+        "en": {
+          "description": "The Iridium Desktop is the tabletop version of the Waldorf Iridium with a touchscreen, pad section and panel controls for oscillators, filters, envelopes and LFOs. It uses the Quantum synth engine and plays up to 16 voices. Its manual (OS 3, revision 3.0, July 2023) is shared with the Iridium Keyboard.",
+          "features": [
+            "Pad section in addition to the panel controls",
+            "Touchscreen display, selection dial and mode page buttons",
+            "Quantum-compatible engine, 16 voices, Layer 1/2 with split allocation",
+            "Arpeggiator and sequencer, can be started by an external signal",
+            "Audio input can run through the signal path or be recorded with the audio recorder",
+            "CV/Gate/Clock connections for modular/Eurorack",
+            "MPE support (MIDI DIN, USB host, USB device)",
+            "USB storage and microSD for patches, samples and wavetables"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (TS), Stereo",
+            "en": "2x TS jacks, stereo"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (mono), Stereo",
+            "en": "2x mono jacks, stereo"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Klinke mit Lautstärkeregler",
+            "en": "jack with volume control"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 2,
+          "note": {
+            "de": "USB 2.0: Controller-Anschluss (Host) und Computer-Anschluss",
+            "en": "USB 2.0: Controller port (host) and Computer port"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "CV/Gate/Clock-Anschlüsse (genaue Anzahl nicht geprüft)",
+            "en": "CV/Gate/Clock connections (exact count not checked)"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "MicroSD-Slot",
+            "en": "MicroSD slot"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteilbuchse und Netzschalter",
+            "en": "power supply jack and switch"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/iridium-desktop",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

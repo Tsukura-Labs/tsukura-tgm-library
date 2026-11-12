@@ -1,0 +1,122 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Protein",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Protein, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "8e9dcc1f-5232-bcfe-c080-9f6c6e7c2235",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Protein ist ein kompakter Wavetable-Synthesizer, der die Klangerzeugung des Waldorf Microwave mit originalem ASIC-Verhalten nachbildet. Er besitzt zwei Oszillatoren, CEM-Filtermodelle, drei Hüllkurven, zwei LFOs und eine Modulationsmatrix mit acht Slots. Dazu kommen vier Layer, Arpeggiator, Step-Sequencer, MPE-Unterstützung und zwei Effektslots. Er wird per USB-C mit Strom versorgt und ist ab 2025 erhältlich.",
+          "features": [
+            "8 Stimmen, 4 klangliche Layer (Stacked, Round Robin, Random Robin, MIDI-Split)",
+            "Alle Original-Wavetables des Microwave 1, 8-Bit-Quantisierung und Aliasing nachgebildet",
+            "CEM-Filtermodelle mit einstellbarer De-Kalibrierung",
+            "3 Hüllkurven, 2 LFOs mit Tempo-Sync und Sample & Hold, 8-Slot-Modulationsmatrix",
+            "Zwei Effektslots (Reverb, Delay, Chorus, Phaser, Flanger, Drive, EQ, Compressor, Tremolo)",
+            "Arpeggiator und Step-Sequencer mit bis zu 32 Schritten, Chord- und Scale-Modus",
+            "MPE-kompatibel, MIDI CC Learn",
+            "Über 150 Werks-Patches, 250 Patch-Speicherplätze, Import/Export per SysEx"
+          ]
+        },
+        "en": {
+          "description": "The Protein is a compact wavetable synthesizer that recreates the Waldorf Microwave sound engine with original ASIC behaviour. It has two oscillators, CEM filter models, three envelopes, two LFOs and an 8-slot modulation matrix. It adds four layers, arpeggiator, step sequencer, MPE support and two effect slots. It is powered over USB-C (released 2025 according to the release event date in the Readme).",
+          "features": [
+            "8-voice polyphony, 4 timbral layers (stacked, round robin, random robin, MIDI split)",
+            "All original Microwave 1 wavetables, 8-bit quantization and aliasing recreated",
+            "CEM filter models with adjustable de-calibration",
+            "3 envelopes, 2 LFOs with tempo sync and sample & hold, 8-slot modulation matrix",
+            "Two effect slots (reverb, delay, chorus, phaser, flanger, drive, EQ, compressor, tremolo)",
+            "Arpeggiator and step sequencer with up to 32 steps, chord and scale modes",
+            "MPE compatible, MIDI CC Learn",
+            "150+ factory patches, 250 patch slots, import/export via SysEx"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Stereo-Ausgang, 6,35-mm-Klinke (TS oder TRS)",
+            "en": "Stereo audio out, 6.35 mm jacks (TS or TRS)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Kopfhörer, 3,5-mm-TRS",
+            "en": "Headphones, 3.5 mm TRS"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In, 3,5-mm-TRS Typ A (DIN-Adapter beiliegend)",
+            "en": "MIDI In, 3.5 mm TRS Type A (DIN adapter included)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out, 3,5-mm-TRS Typ A (DIN-Adapter beiliegend)",
+            "en": "MIDI Out, 3.5 mm TRS Type A (DIN adapter included)"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB-C (Strom, MIDI, Firmware-Update)",
+            "en": "USB-C (power, MIDI, firmware update)"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Versorgung über USB-C",
+            "en": "Powered via USB-C"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/protein",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

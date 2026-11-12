@@ -1,0 +1,76 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "2-Pole",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf 2-Pole, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "c061dc61-9488-5fde-f8f0-8182b1d39553",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der 2-Pole ist ein kompakter, quadratischer schwarzer Analogfilter-Kasten für Gitarristen, DJs und Keyboarder. Er arbeitet nach dem Prinzip 'ein Regler, eine Funktion', ermöglicht Filterfahrten für Live-Auftritte und besitzt einen Hüllkurvenfolger sowie einen LFO, um etwa Pad-Klänge zu beleben. Ein CV-Eingang für die Cutoff-Frequenz nimmt ein Pedal als Controller auf.",
+          "features": [
+            "Analoger Filter",
+            "Ein Regler pro Funktion",
+            "Eingebauter Hüllkurvenfolger",
+            "LFO",
+            "Cutoff-CV-Eingang (z. B. Pedal)"
+          ]
+        },
+        "en": {
+          "description": "The 2-Pole is a compact, square black analog filter box for guitarists, DJs and keyboard players. It follows a 'one knob, one function' interface, allows filter sweeps for live performance and has a built-in envelope follower and an LFO to animate pad sounds. A cutoff CV input accepts a pedal controller.",
+          "features": [
+            "Analog filter",
+            "One knob per function",
+            "Built-in envelope follower",
+            "LFO",
+            "Cutoff CV input (e.g. pedal)"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "cv-in",
+          "count": 1,
+          "note": {
+            "de": "Cutoff-CV-Eingang (Pedal)",
+            "en": "Cutoff CV input (pedal)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/2-pole",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

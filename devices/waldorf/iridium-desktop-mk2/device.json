@@ -1,0 +1,178 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Iridium Desktop MK2",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Iridium Desktop MK2, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "592ddf0f-a39d-ce82-6adc-7f0e78efd4cd",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Iridium Desktop MK2 ist die überarbeitete Tischversion des Iridium mit Synthesis Platform OS 4.0 oder neuer. Er bringt 16 Stimmen, multitimbralen Betrieb mit 4 Layern, eine 4x4-Silikon-Pad-Matrix mit RGB-Licht und einen sechsten Synthesemodus namens Seeds. Neu sind außerdem Per-Note-Parameter-Locks, polyphone Arpeggiator-Modi, der Patch-Randomizer Mutator und MIDI-2.0-Kompatibilität. Patches von Quantum und anderen Iridium-Modellen sind austauschbar.",
+          "features": [
+            "3 Oszillatoren mit je 6 Modi: Wavetable, Waveform, Particle, Resonator, Kernels, Seeds",
+            "Duale Stereo-Filter, Digital Former mit Raiser und Formant-Filtern",
+            "6 Hüllkurven, 6 LFOs, Komplex-Modulator, 40-Slot-Modulationsmatrix",
+            "Per-Note-Parameter-Locks und Flavour-Regler für Mikro-Variationen",
+            "16 Stimmen, 4 Layer, Round-Robin und Random-Robin",
+            "4x4-Pads mit RGB-Beleuchtung für Noten, Skalen oder Akkorde",
+            "Über 1750 Werks-Patches, 7000 Speicherplätze, 6 GB Sample-Flash",
+            "4 CV-Eingänge, Gate- und Start-Eingang, Analog-Clock, MIDI 2.0, MPE"
+          ]
+        },
+        "en": {
+          "description": "The Iridium Desktop MK2 is the revised tabletop Iridium running Synthesis Platform OS 4.0 or later. It adds 16 voices, multi-timbral operation with 4 layers, a 4x4 RGB-backlit silicone pad matrix and a sixth synthesis mode called Seeds. New are also per-note parameter locks, polyphonic arpeggiator modes, the Mutator patch randomizer and MIDI 2.0 compatibility. Patches are exchangeable with the Quantum and the other Iridium models.",
+          "features": [
+            "3 oscillators with 6 modes each: Wavetable, Waveform, Particle, Resonator, Kernels, Seeds",
+            "Dual stereo filters, Digital Former with Raiser and formant filters",
+            "6 envelopes, 6 LFOs, Komplex Modulator, 40-slot mod matrix",
+            "Per-note parameter locks and Flavour control for micro-variations",
+            "16 voices, 4 layers, round-robin and random-robin",
+            "4x4 RGB pads for notes, scales or chords",
+            "Over 1750 factory patches, 7000 memory slots, 6 GB sample flash",
+            "4 CV inputs, gate and start inputs, analog clock, MIDI 2.0, MPE"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (TS), Stereo",
+            "en": "2x TS jacks, stereo"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (TS), Stereo",
+            "en": "2x TS jacks, stereo"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Klinke (TRS) mit Lautstärkeregler",
+            "en": "TRS jack with level control"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 2,
+          "note": {
+            "de": "USB Typ B (Gerät, MIDI zum Computer) und USB Typ A (Host)",
+            "en": "USB Type B (device, MIDI to computer) and USB Type A (host)"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 4,
+          "note": {
+            "de": "4 hochauflösende CV-Eingänge",
+            "en": "4 high-resolution CV inputs"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 1,
+          "note": {
+            "de": "Analoger Gate-Eingang (zusätzlich Start-Eingang)",
+            "en": "analog gate input (plus a start input)"
+          }
+        },
+        {
+          "type": "clock-in",
+          "count": 1,
+          "note": {
+            "de": "Analog-Clock-Eingang",
+            "en": "analog clock in"
+          }
+        },
+        {
+          "type": "clock-out",
+          "count": 1,
+          "note": {
+            "de": "Analog-Clock-Ausgang",
+            "en": "analog clock out"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "MicroSD-Slot",
+            "en": "MicroSD slot"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteil 12 V DC / 3 A",
+            "en": "external power supply 12 V DC / 3 A"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/iridium-desktop-mk2",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

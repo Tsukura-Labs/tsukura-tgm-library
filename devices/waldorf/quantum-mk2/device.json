@@ -1,0 +1,170 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Quantum MK2",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Quantum MK2, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "f2381ad4-90aa-3fb2-c4dc-257330a35222",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Waldorf Quantum MK2 ist ein 61-Tasten-Hybridsynthesizer mit der neuen Fatar-TP8-Tastatur samt polyphonem Aftertouch. Er spielt bis zu 16 Stimmen (8 mit analogem, 8 mit digitalem Filter) in zwei Klang-Layern. Das Handbuch (Revision 3.0, Januar 2023) gilt für Quantum und Quantum MK2 gemeinsam. Die Patches sind mit den Iridium-Modellen austauschbar.",
+          "features": [
+            "61 Tasten (Fatar TP8) mit polyphonem Aftertouch (MK2)",
+            "16 Stimmen: 8 analoge und 8 digitale Filterstimmen, Stimmzuweisung wählbar",
+            "Zwei Klang-Layer, auch als Split nutzbar",
+            "Touchscreen mit Modulation-Pad und Noten-Pads",
+            "MPE-Unterstützung mit optionaler zweiter Zone",
+            "MIDI-Learn für die meisten Parameter, eigene CC-Zuordnungen speicherbar",
+            "Zwei USB-Anschlüsse (Controller und Computer) sowie SD-Karte und USB-Speicher",
+            "Main- und Aux-Ausgänge, Audio-Eingänge, Pedal-Eingänge"
+          ]
+        },
+        "en": {
+          "description": "The Waldorf Quantum MK2 is a 61-key hybrid synthesizer with the new Fatar TP8 keyboard including polyphonic aftertouch. It plays up to 16 voices (8 with analog, 8 with digital filters) in two sound layers. Its manual (revision 3.0, January 2023) covers both Quantum and Quantum MK2. Patches are exchangeable with the Iridium models.",
+          "features": [
+            "61 keys (Fatar TP8) with polyphonic aftertouch (MK2)",
+            "16 voices: 8 analog and 8 digital filter voices, selectable voice allocation",
+            "Two sound layers, usable as a split",
+            "Touchscreen with modulation pad and note pads",
+            "MPE support with an optional second zone",
+            "MIDI learn for most parameters, custom CC mappings can be saved",
+            "Two USB ports (controller and computer) plus SD card and USB storage",
+            "Main and aux outputs, audio inputs, pedal inputs"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Main-Ausgang Stereo",
+            "en": "main output, stereo"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "Aux-Ausgang (6,35 mm Mono)",
+            "en": "aux output (1/4-inch mono)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "Stereo-Audio-Eingang",
+            "en": "stereo audio input"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Klinke mit Lautstärkeregler",
+            "en": "jack with volume control"
+          }
+        },
+        {
+          "type": "sustain-pedal",
+          "count": 1,
+          "note": {
+            "de": "Sustain-Pedal-Eingang",
+            "en": "sustain pedal input"
+          }
+        },
+        {
+          "type": "expression-pedal",
+          "count": 1,
+          "note": {
+            "de": "Control-Pedal-Eingang",
+            "en": "control pedal input"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 2,
+          "note": {
+            "de": "Controller-USB (Host) und Computer-USB",
+            "en": "Controller USB (host) and Computer USB"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "SD-Kartenslot",
+            "en": "SD card slot"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzbuchse und Schalter",
+            "en": "power jack and switch"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/quantum-mk2",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

@@ -1,0 +1,350 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Kyra",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Kyra, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "6b59f993-c3a6-d739-ccb0-dfebac49d069",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Kyra ist ein virtuell-analoger Desktop-Synthesizer von Waldorf auf FPGA-Basis (Handbuch Firmware 1.7, Oktober 2019). Er bietet garantierte 128 Stimmen, acht multitimbrale Parts mit je neun modularen Effekten und 3328 Patches. Zwei Oszillatorgruppen pro Stimme liefern Sägezahn, Rechteck, Wave und Rauschen; dazu kommen Hypersaw, Dual-Modus, Mikrotuning und viele Effekte.",
+          "features": [
+            "128 garantierte Stimmen; Dual-Modus oder Dual-Filter-Patch nutzt zwei Stimmen je Note",
+            "8 unabhängige Parts mit je 9 Multi-Effekten, Routing auf vier analoge Stereo-Line-Ausgänge",
+            "Zwei aliasfreie Oszillatorgruppen, Hypersaw, 4096 Single-Cycle-Waves, Sync, Ringmodulation und FM",
+            "72 Effektmodule gleichzeitig nutzbar",
+            "Arpeggiator mit 128 Preset-Patterns, Akkord-Modus, MIDI-Clock-Sync",
+            "3328 Patches (Bänke A-Z à 128), abrufbar per Bank Select und Program Change",
+            "Mikrotuning mit MIDI Tuning Standard",
+            "USB 2.0 (Soundkarten-Modus) und DIN-MIDI, OLED-Display 256 x 64"
+          ]
+        },
+        "en": {
+          "description": "The Kyra is a virtual-analog desktop synthesizer from Waldorf based on an FPGA (manual firmware 1.7, October 2019). It offers a guaranteed 128 voices, eight multitimbral parts with nine modular effects each, and 3328 patches. Two oscillator groups per voice provide saw, pulse, wave and noise; further features include Hypersaw, a dual mode, microtuning and a large effects section.",
+          "features": [
+            "128 guaranteed voices; dual mode or dual-filter patches use two voices per note",
+            "8 independent parts with 9 multi effects each, routing to four analog stereo line outputs",
+            "Two alias-free oscillator groups, Hypersaw, 4096 single-cycle waves, sync, ring modulation and FM",
+            "72 effect modules usable at the same time",
+            "Arpeggiator with 128 preset patterns, chord mode, MIDI clock sync",
+            "3328 patches (banks A-Z of 128), recalled via Bank Select and Program Change",
+            "Microtuning with MIDI Tuning Standard",
+            "USB 2.0 (soundcard mode) and DIN MIDI, 256 x 64 OLED display"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In (5-polig DIN)",
+            "en": "MIDI In (5-pin DIN)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out (5-polig DIN)",
+            "en": "MIDI Out (5-pin DIN)"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI Thru (5-polig DIN)",
+            "en": "MIDI Thru (5-pin DIN)"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB 2.0 (MIDI und Audio)",
+            "en": "USB 2.0 (MIDI and audio)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 4,
+          "note": {
+            "de": "Vier analoge Stereo-Line-Ausgänge",
+            "en": "Four analog stereo line outputs"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/kyra",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento On/Off",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff (Filter 1)",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Control 1",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Effect Control 2",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Channel Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Balance",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 8,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pan",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Expression",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 11,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Breath Controller",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Foot Controller",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "General Purpose 1",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "General Purpose 2",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "General Purpose 3",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "General Purpose 4",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sostenuto",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 66,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Soft Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 67,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
+}

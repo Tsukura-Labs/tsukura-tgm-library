@@ -1,0 +1,102 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "vcf1",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf vcf1, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "4dd878b1-b4f5-1712-aced-b657c9dd3995",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Das vcf1 ist ein analoges Eurorack-Filtermodul, das Klang und Funktionen des Rocket und des 2-Pole ins Modularsystem bringt. Es ist ein 12-dB-Multimode-Filter mit Verzerrung und Resonanz bis zur Selbstoszillation. Der Signalweg läuft über Verzerrung, Filter und Overdrive; vor dem Filter gibt es eine Verzerrung mit Pegelregler, dahinter einen Overdrive mit einstellbarem Gain. Zwei Audioeingänge und Side-Chaining sind vorhanden.",
+          "features": [
+            "Analoger 12-dB/Okt.-Multimode-Filter",
+            "Verzerrung vor dem Filter, Overdrive danach",
+            "Resonanz bis zur Selbstoszillation",
+            "2 Audioeingänge mit Gain, Side-Chain",
+            "Ausgänge: Distortion, LP, BP, HP, Drive",
+            "18 HP, +/-12 V, 100 mA"
+          ]
+        },
+        "en": {
+          "description": "The vcf1 is an analog Eurorack filter module that brings the sound and functions of the Rocket and the 2-Pole to the modular system. It is a 12 dB multimode filter with distortion and resonance up to self-oscillation. The signal path runs distortion, filter, overdrive; a pre-filter distortion with level control and a post-filter overdrive with adjustable gain are provided. Two audio inputs and side-chaining are available.",
+          "features": [
+            "Analog 12 dB/oct multimode filter",
+            "Distortion before the filter, overdrive after",
+            "Resonance up to self-oscillation",
+            "2 audio inputs with gain, side-chain",
+            "Outputs: distortion, LP, BP, HP, drive",
+            "18 HP, +/-12 V, 100 mA"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-in",
+          "count": 2,
+          "note": {
+            "de": "Audio In 1, Audio In 2",
+            "en": "Audio In 1, Audio In 2"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 3,
+          "note": {
+            "de": "Cutoff Mod 1, Cutoff Mod 2 (eine bipolar), Resonance",
+            "en": "Cutoff Mod 1, Cutoff Mod 2 (one bipolar), Resonance"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 5,
+          "note": {
+            "de": "Distortion, LP, BP, HP, Drive",
+            "en": "Distortion, LP, BP, HP, Drive"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Eurorack-Bus +/-12 V",
+            "en": "Eurorack bus +/-12 V"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/vcf1",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

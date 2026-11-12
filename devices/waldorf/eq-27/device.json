@@ -1,0 +1,63 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "EQ 27",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf EQ 27, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "a9e5baa2-be85-fb7c-354f-eb7631aec2bf",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der EQ 27 ist ein kompakter, programmierbarer, per MIDI steuerbarer 7-Band-Equalizer im Konsolen-Stil von Waldorf. Er bietet 60 Presets. Eine Beschreibung der MIDI-Implementierung oder der Anschlüsse liegt in den Pressematerialien nicht vor.",
+          "features": [
+            "7-Band-Equalizer",
+            "Programmierbar mit 60 Presets",
+            "Per MIDI steuerbar"
+          ]
+        },
+        "en": {
+          "description": "The EQ 27 is a compact, programmable, MIDI-controllable 7-band console-style equalizer from Waldorf. It offers 60 presets. The press material contains no description of the MIDI implementation or the connectors.",
+          "features": [
+            "7-band equalizer",
+            "Programmable with 60 presets",
+            "MIDI controllable"
+          ]
+        }
+      },
+      "ports": []
+    }
+  },
+  "id": "waldorf/eq-27",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

@@ -1,0 +1,112 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "NW1",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf NW1, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "19698926-23e9-f649-7f56-c2ce5887865b",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Das NW1 ist ein Eurorack-Wavetable- und Sprachoszillator von Waldorf (Handbuch Rev. 1.0, September 2015) auf Basis der Nave-Engine. Es enthält 80 Werks-Wavetables der Microwave-Reihe bzw. Nave, 10 Speicherplätze für eigene oder aufgenommene Wavetables und 50 für Text-Wavetables der integrierten Sprachsynthese. Ein Wavetable-Recorder nimmt Audio über Modulationseingang 1 auf. Wavetables und Firmware werden per USB übertragen.",
+          "features": [
+            "Wavetable-Oszillator mit Nave-Engine",
+            "80 Werks-Wavetables, 10 User-Plätze, 50 Text-Plätze",
+            "Integrierte Sprachsynthese (Text-to-Speech)",
+            "Wavetable-Recorder",
+            "Pitch-CV (1 V/Okt.), Gate und 3 Modulationseingänge",
+            "USB für Wavetable-Transfer und Firmware-Update",
+            "32 HP, +/-12 V, 150 mA"
+          ]
+        },
+        "en": {
+          "description": "The NW1 is a Eurorack wavetable and speech oscillator from Waldorf (manual rev. 1.0, September 2015) based on the Nave engine. It contains 80 factory wavetables of the Microwave series / Nave, 10 slots for custom or recorded wavetables and 50 for text wavetables of the built-in speech synthesizer. A wavetable recorder records audio via modulation input 1. Wavetables and firmware are transferred via USB.",
+          "features": [
+            "Wavetable oscillator with Nave engine",
+            "80 factory wavetables, 10 user slots, 50 text slots",
+            "Built-in speech synthesis (text-to-speech)",
+            "Wavetable recorder",
+            "Pitch CV (1 V/oct), gate and 3 modulation inputs",
+            "USB for wavetable transfer and firmware update",
+            "32 HP, +/-12 V, 150 mA"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "cv-in",
+          "count": 4,
+          "note": {
+            "de": "Pitch CV + 3 Modulationseingänge",
+            "en": "Pitch CV + 3 modulation inputs"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 1,
+          "note": {
+            "de": "Gate",
+            "en": "Gate"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "Oszillator-Ausgang",
+            "en": "Oscillator output"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB (galvanisch getrennt)",
+            "en": "USB (galvanically isolated)"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Eurorack-Bus +/-12 V",
+            "en": "Eurorack bus +/-12 V"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/nw1",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

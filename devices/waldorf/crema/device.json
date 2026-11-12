@@ -1,0 +1,158 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Crema",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Crema, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "552ec63a-476f-be79-e032-2b0dfe7f7209",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Die Waldorf Crema ist eine Pad Machine und String Ensemble im bunten Kunststoffgehäuse mit Metall-Frontplatte (252 x 170 x 48 mm, 0,9 kg). Sie hat zwei Engines: Texture mit 24 Typen aus Strings, Wavetable und FM sowie Lines, einen polyphonen Analogsynth auf Basis des Streichfett-Solo-Teils. Die Engines lassen sich schichten oder per Notenbereich bzw. MIDI-Kanal teilen. Die Stromversorgung läuft über USB-C.",
+          "features": [
+            "Texture-Engine mit 24 Typen (Strings, Wavetable, FM) und Ensemble-Effekt aus dem Streichfett",
+            "Lines-Engine: 8-stimmiger Analogsynth mit zwei Oszillatoren (Square/Saw), Mono- und Legato-Modus",
+            "Zwei Effekt-Slots: Chorus, Phaser, Flanger, Drive, Tremolo, Delay sowie Reverb mit Shimmer",
+            "Arpeggiator je Engine, Step-Sequenzer mit bis zu 32 Schritten und Skalenmodus",
+            "Über 130 Werks-Patches, 360 Speicherplätze, SysEx-Import und -Export",
+            "MPE-kompatibel und MIDI-CC-Learn",
+            "USB-C für Strom und MIDI, Mini-TRS-MIDI mit DIN-Adaptern"
+          ]
+        },
+        "en": {
+          "description": "The Waldorf Crema is a pad machine and string ensemble in a colourful plastic case with a metal front plate (252 x 170 x 48 mm, 0.9 kg). It has two engines: Texture with 24 types from Strings, Wavetable and FM, and Lines, a polyphonic analog-style synth based on the Streichfett solo engine. The engines can be layered or split by note range or MIDI channel. Power comes via USB-C.",
+          "features": [
+            "Texture engine with 24 types (Strings, Wavetable, FM) and the Streichfett ensemble effect",
+            "Lines engine: 8-voice analog-style synth with two oscillators (square/saw), mono and legato modes",
+            "Two effect slots: chorus, phaser, flanger, drive, tremolo, delay plus reverb with shimmer",
+            "Arpeggiator per engine, step sequencer with up to 32 steps and scale mode",
+            "Over 130 factory patches, 360 memory slots, SysEx import and export",
+            "MPE compatible and MIDI CC learn",
+            "USB-C for power and MIDI, mini-TRS MIDI with DIN adapters"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Stereo-Ausgänge 6,35 mm (TRS), optional Mono",
+            "en": "stereo outputs 6.35 mm (TRS), optional mono"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Mini-TRS 3,5 mm",
+            "en": "3.5 mm mini-TRS"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "Mini-TRS Typ A (Adapter auf DIN im Lieferumfang)",
+            "en": "mini-TRS Type A (DIN adapter included)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "Mini-TRS Typ A (Adapter auf DIN im Lieferumfang)",
+            "en": "mini-TRS Type A (DIN adapter included)"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB-C: Strom, MIDI, Firmware-Update",
+            "en": "USB-C: power, MIDI, firmware update"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Versorgung über USB-C (Netzteil nicht im Lieferumfang)",
+            "en": "powered via USB-C (power supply not included)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/crema",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Mod Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend",
+      "group": "Sonstiges",
+      "kind": 6,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Aftertouch",
+      "group": "Sonstiges",
+      "kind": 7,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
+}

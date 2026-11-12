@@ -1,0 +1,86 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "AFB-16",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf AFB-16, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "2cba2637-a6c6-996f-f290-7c0e6c44cb4f",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Die AFB16 ist eine analoge Filterbank von Waldorf (Handbuch März 2003) mit 16 analogen Tiefpassfiltern und nachgeschalteten, übersteuerbaren VCAs. Sie hat keine analogen Ein- oder Ausgänge: das Audiosignal läuft über USB 2.0 vom und zum Computer. Gesteuert wird sie von AFB-fähigen VST-Plug-ins; im Lieferumfang waren der Filter-Stepsequenzer ROT und der Wavetable-Synthesizer PPG Red, später kam das Overdrive-Plug-in Messing hinzu.",
+          "features": [
+            "16 analoge Tiefpassfilter (12 oder 24 dB/Okt.) mit Resonanz",
+            "Analoge VCA-Stufe, übersteuerbar",
+            "Audio und Steuerdaten über USB 2.0",
+            "Gerät arbeitet nur mit AFB-fähigen Plug-ins",
+            "Plug-ins: ROT, PPG Red, Messing",
+            "Mehrere Plug-ins gleichzeitig nutzbar"
+          ]
+        },
+        "en": {
+          "description": "The AFB16 is an analog filter bank from Waldorf (manual March 2003) with 16 analog low-pass filters followed by overdrivable VCAs. It has no analog inputs or outputs: audio travels over USB 2.0 to and from the computer. It is controlled by AFB-aware VST plug-ins; ROT (filter step sequencer) and PPG Red (wavetable synthesizer) were included, the Messing overdrive plug-in followed later.",
+          "features": [
+            "16 analog low-pass filters (12 or 24 dB/oct) with resonance",
+            "Analog VCA stage, can be overdriven",
+            "Audio and control data via USB 2.0",
+            "Works only with AFB-aware plug-ins",
+            "Plug-ins: ROT, PPG Red, Messing",
+            "Several plug-ins usable at the same time"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB 2.0",
+            "en": "USB 2.0"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzbuchse 100-240 V AC",
+            "en": "Mains socket 100-240 V AC"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/afb-16",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

@@ -1,0 +1,102 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "mod1",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf mod1, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "4c9e803d-ea10-1303-070f-d4d7454032f4",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Das mod1 ist ein vollanaloges Eurorack-Modulationsmodul von Waldorf (Handbuch V1.0) mit drei Modulationsquellen in einem Modul. Ein Symmetry-Generator arbeitet als LFO oder kurze Hüllkurve (Modi Trigger, Gate, LFO; Geschwindigkeit bis 25 Hz). Eine Multi-Stage-Hüllkurve bietet ein ADSR mit drei einstellbaren Decay-Stufen samt Loop-Modus. Dazu kommt eine kurze Hüllkurve mit Rise, Fall, Curve und optionalem Loop.",
+          "features": [
+            "Symmetry-Generator: LFO oder Kurzhüllkurve (Trigger/Gate/LFO)",
+            "Multi-Stage-Hüllkurve mit 3 Decay-Stufen und Loop",
+            "Kurzhüllkurve mit Rise, Fall, Curve, Loop",
+            "CV-Eingänge für Speed und Symmetry",
+            "Inverser Ausgang",
+            "Gate/Trigger-Eingänge, Bus-Gate nutzbar"
+          ]
+        },
+        "en": {
+          "description": "The mod1 is a fully analog Eurorack modulation module from Waldorf (manual V1.0) with three modulation sources in one module. A symmetry generator works as LFO or short envelope (modes Trigger, Gate, LFO; speed up to 25 Hz). A multi-stage envelope offers an ADSR with three configurable decay stages and loop mode. A short envelope with rise, fall, curve and optional loop completes it.",
+          "features": [
+            "Symmetry generator: LFO or short envelope (Trigger/Gate/LFO)",
+            "Multi-stage envelope with 3 decay stages and loop",
+            "Short envelope with rise, fall, curve, loop",
+            "CV inputs for speed and symmetry",
+            "Inverse output",
+            "Gate/trigger inputs, bus gate usable"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "cv-in",
+          "count": 2,
+          "note": {
+            "de": "Sym CV, Speed CV",
+            "en": "Sym CV, Speed CV"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 4,
+          "note": {
+            "de": "2 x Signal In, Gate In, Trigger In",
+            "en": "2 x Signal in, Gate in, Trigger in"
+          }
+        },
+        {
+          "type": "cv-out",
+          "count": 4,
+          "note": {
+            "de": "3 Ausgänge + Inverse Output",
+            "en": "3 outputs + inverse output"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Eurorack-Bus +/-12 V",
+            "en": "Eurorack bus +/-12 V"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/mod1",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

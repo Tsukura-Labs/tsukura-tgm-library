@@ -1,0 +1,437 @@
+{
+  "authors": [],
+  "banks": [
+    {
+      "lsb": -1,
+      "msb": -1,
+      "name": "Programs",
+      "uuid": "abace9d1-0738-5cba-ca04-5d68e3feab6d"
+    }
+  ],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "4-Pole",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf 4-Pole, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "0a7527b9-bdcc-6c1c-b607-5387996cded9",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der 4-Pole ist ein Filtergerät aus der miniWORKS-Reihe von Waldorf (Handbuch von 1995). Er filtert ein beliebiges Signal mit einem 24-dB-Tiefpass samt Resonanz; dieser Filter entspricht dem des Microwave. Über zwei Hüllkurven, einen LFO und frei wählbare Modulationsquellen lassen sich Filterfrequenz, Resonanz, Lautstärke und Panorama steuern. Die Hüllkurven starten manuell, per Audiosignal, per Triggereingang oder per MIDI-Note; die Bedienung per MIDI ist umfangreich.",
+          "features": [
+            "24-dB-Tiefpassfilter mit Resonanz (wie im Microwave)",
+            "40 Programme: 1-20 frei, 21-40 feste Werksprogramme",
+            "VCF- und VCA-Hüllkurve (ADSR)",
+            "LFO mit 5 Wellenformen",
+            "Modulationsquellen für Cutoff, Resonanz, Lautstärke, Panorama",
+            "Trigger per Audio, MIDI oder Triggereingang",
+            "Alle Parameter per MIDI-Controller steuerbar",
+            "SysEx-Dumps (Programm, Alle)"
+          ]
+        },
+        "en": {
+          "description": "The 4-Pole is a filter unit of Waldorf's miniWORKS series (manual dated 1995). It filters any signal through a 24 dB low-pass with resonance, identical to the filter of the Microwave. Two envelopes, an LFO and freely assignable modulation sources control cutoff, resonance, volume and panning. The envelopes can be started manually, by the audio signal, a trigger input or MIDI notes; MIDI control is comprehensive.",
+          "features": [
+            "24 dB low-pass filter with resonance (as in the Microwave)",
+            "40 programs: 1-20 user, 21-40 fixed factory",
+            "VCF and VCA envelopes (ADSR)",
+            "LFO with 5 waveforms",
+            "Modulation sources for cutoff, resonance, volume, panning",
+            "Trigger via audio, MIDI or trigger input",
+            "All parameters controllable by MIDI controllers",
+            "SysEx dumps (program, all)"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "Audio In (6,3-mm-Klinke, mono)",
+            "en": "Audio In (1/4\" jack, mono)"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 1,
+          "note": {
+            "de": "Trigger In (6,3-mm-Klinke)",
+            "en": "Trigger In (1/4\" jack)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Out L / Out R (6,3-mm-Klinke)",
+            "en": "Out L / Out R (1/4\" jacks)"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In",
+            "en": "MIDI In"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out",
+            "en": "MIDI Out"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteilbuchse 9 V",
+            "en": "9 V power socket"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/4-pole",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Env Cutoff Amount",
+      "group": "Filter",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff Mod Amount",
+      "group": "Filter",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff Mod Source",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Resonance Mod Amount",
+      "group": "Filter",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance Mod Source",
+      "group": "Filter",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Gate Time",
+      "group": "Hüllkurven / Gate",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "Speed Mod Amount",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Speed Mod Source",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Env Volume Amount",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 9,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume Mod Amount",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume Mod Source",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Panning Mod Amount",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning Mod Source",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Trigger Source",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Trigger Mode",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Breath Controller",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Switch",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
+}

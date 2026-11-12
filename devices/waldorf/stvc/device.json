@@ -1,0 +1,136 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "STVC",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf STVC, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "d1f1a0e5-1481-1467-8fbe-684965abae2a",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Waldorf STVC kombiniert einen Streichersynthesizer mit einem Vocoder und hat 49 Tasten. Die Klangerzeugung besteht aus den Teilen Strings und Solo, die per Balance-Regler gemischt werden. Der Vocoder arbeitet mit dem mitgelieferten Schwanenhals-Mikrofon, einem Line-Signal oder einer eingefrorenen Schleife. Das Handbuch ist Revision 1.0 vom August 2019.",
+          "features": [
+            "49 Tasten, Transpose-Schalter für bis zu zwei Oktaven nach oben und unten",
+            "Strings- und Solo-Sektion mit Balance-Regler",
+            "Vocoder mit Mikrofon (XLR), Line-Eingang oder Freeze-Schleife (ca. 20 Sekunden, eine Schleife speicherbar)",
+            "Drei gleichzeitig nutzbare Effekte: Animate, Phaser, Reverb",
+            "Modulationsmatrix über die Tweak-Taste",
+            "Bank A und B mit Werksklängen, Bank C für eigene Klänge",
+            "USB-MIDI und DIN-MIDI, Sustain- und Expression-Pedal-Eingang"
+          ]
+        },
+        "en": {
+          "description": "The Waldorf STVC combines a string synthesizer with a vocoder and has 49 keys. Its sound engine consists of a Strings and a Solo part mixed with a balance dial. The vocoder works with the supplied gooseneck microphone, a line signal or a frozen loop. The manual is revision 1.0, August 2019.",
+          "features": [
+            "49 keys, transpose switch for up to two octaves up or down",
+            "Strings and Solo sections with a balance dial",
+            "Vocoder with microphone (XLR), line input or freeze loop (about 20 seconds, one loop can be saved)",
+            "Three effects usable at the same time: Animate, Phaser, Reverb",
+            "Modulation matrix via the Tweak button",
+            "Banks A and B hold factory sounds, bank C is for user sounds",
+            "USB MIDI and DIN MIDI, sustain and expression pedal inputs"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke 6,35 mm Mono, Stereo (Mono über rechte Buchse)",
+            "en": "2x 1/4-inch mono jacks, stereo (mono via right jack)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Klinke 6,35 mm Stereo",
+            "en": "1/4-inch stereo jack"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "Mikrofon-XLR (nur 2,4 V Speisung)",
+            "en": "microphone XLR (only 2.4 V supply)"
+          }
+        },
+        {
+          "type": "expression-pedal",
+          "count": 1,
+          "note": {
+            "de": "Pedal/Line-Eingang (umschaltbar auf Line-Signal)",
+            "en": "Pedal/Line input (switchable to line signal)"
+          }
+        },
+        {
+          "type": "sustain-pedal",
+          "count": 1,
+          "note": {
+            "de": "Sustain-Eingang",
+            "en": "sustain input"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "DIN",
+            "en": "DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "DIN",
+            "en": "DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB 2.0: Stromversorgung, MIDI, Firmware-Update",
+            "en": "USB 2.0: power supply, MIDI, firmware update"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/stvc",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

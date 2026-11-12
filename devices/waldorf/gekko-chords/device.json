@@ -1,0 +1,86 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Gekko Chords",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Gekko Chords, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "232180e0-43d1-2660-4ecf-c26e93e1c516",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Gekko Chords ist die grüne Variante der Gekko-Geräte mit Chord-Memory-Funktion. Man speichert einen Akkord mit bis zu 16 Stimmen (gleichzeitig oder bei gehaltenem Haltepedal nacheinander), danach löst jede einzelne gespielte Taste den ganzen Akkord aus, wobei die gespielte Taste dem tiefsten Ton des Akkords entspricht. Die Funktion lässt sich per Tastendruck am Gerät ein- und ausschalten; ein Doppelklick sendet All Notes Off.",
+          "features": [
+            "Akkord-Speicher bis 16 Stimmen",
+            "Eingabe als Akkord oder nacheinander mit Haltepedal",
+            "Gespielte Taste = tiefster Ton des Akkords",
+            "Ein/Aus per Gerätetaste",
+            "Doppelklick: All Notes Off",
+            "Mit LED-Anzeige"
+          ]
+        },
+        "en": {
+          "description": "The Gekko Chords is the green Gekko variant featuring chord memory. You store a chord of up to 16 voices (simultaneously or one after another with the sustain pedal held); afterwards each single key played triggers the whole chord, the played key corresponding to the chord's lowest note. The function is toggled with the unit's button; a double click sends All Notes Off.",
+          "features": [
+            "Chord memory up to 16 voices",
+            "Entry as chord or in succession with sustain pedal",
+            "Played key = lowest chord note",
+            "On/off via unit button",
+            "Double click: All Notes Off",
+            "LED indicator"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In (laut Anschlussskizzen)",
+            "en": "MIDI In (per connection diagrams)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out (laut Anschlussskizzen)",
+            "en": "MIDI Out (per connection diagrams)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/gekko-chords",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

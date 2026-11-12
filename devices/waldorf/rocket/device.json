@@ -1,0 +1,387 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Rocket",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Rocket, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "78a2d6d5-96b6-1d7b-bd06-54ebe05a4456",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Rocket ist ein kleiner monophoner Synthesizer von Waldorf (Handbuch-Revision Februar 2013) mit nur einem Oszillator, Multimode-Filter, zwei Hüllkurven, LFO und Arpeggiator. Er hat bewusst keine Presets; Klangdaten lassen sich als MIDI-Controller-Dump sichern und zurückspielen. Er wird über USB oder ein USB-Netzteil versorgt.",
+          "features": [
+            "Ein Oszillator mit Wave, Tune und Shape",
+            "Multimode-Filter mit Resonanz, Env Mod und Keytrack, Boost-Schalter",
+            "Zwei Hüllkurven (Filter und Lautstärke)",
+            "LFO mit wählbarem Ziel und Arpeggiator",
+            "Keine Presets - Sound-Dump per MIDI-Controller",
+            "Audio-Eingang in das Filter (VCF Audio In)",
+            "USB-Anschluss für Strom und MIDI, MIDI-Kanal per Taster einstellbar"
+          ]
+        },
+        "en": {
+          "description": "The Rocket is a small monophonic Waldorf synthesizer (manual revision February 2013) with a single oscillator, multimode filter, two envelopes, an LFO and an arpeggiator. It deliberately has no presets; sound data can be saved and restored as a MIDI controller dump. It is powered over USB or a USB power supply.",
+          "features": [
+            "One oscillator with wave, tune and shape",
+            "Multimode filter with resonance, env mod and keytrack, boost switch",
+            "Two envelopes (filter and volume)",
+            "LFO with selectable target and arpeggiator",
+            "No presets - sound dump as MIDI controllers",
+            "Audio input into the filter (VCF audio in)",
+            "USB port for power and MIDI, MIDI channel set by a button"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI-In-Buchse",
+            "en": "MIDI In jack"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Out-Buchse",
+            "en": "MIDI Out jack"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB-Anschluss (Strom und MIDI)",
+            "en": "USB port (power and MIDI)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 1,
+          "note": {
+            "de": "Audio-Line-Ausgang (Mono-Klinke)",
+            "en": "Audio line output (mono jack)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "VCF Audio Line Input (Mono-Klinke)",
+            "en": "VCF audio line input (mono jack)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Stereo-Kopfhörerbuchse",
+            "en": "Stereo headphone jack"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/rocket",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Wave",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Glide",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Mod",
+      "group": "Filter",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Filter",
+      "kind": 1,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 103,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Depth",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Vibrato Mod LFO",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Target",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Arp Tempo",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Arp Range",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Arp Direction",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Local Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 122,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "MIDI Receive Channel",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 3E 17 {dev} 24 00 {val} F7"
+    },
+    {
+      "name": "MIDI Transmit Channel",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 3E 17 {dev} 24 01 {val} F7"
+    },
+    {
+      "name": "MIDI CC Map",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 17 {dev} 24 02 {val} F7"
+    },
+    {
+      "name": "Controller Dump Request",
+      "group": "Sonstiges / Global",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 0,
+      "sysex": "F0 3E 17 {dev} 50 F7"
+    }
+  ]
+}

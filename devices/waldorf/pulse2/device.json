@@ -1,0 +1,76 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Pulse 2",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Pulse 2, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "f5684431-a6ed-94e2-b756-93ef0d2d87ec",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Pulse 2 ist der Nachfolger des analogen Waldorf Pulse. Laut Handbuch bietet er unter anderem eine Modulationsmatrix mit acht Slots (MOD1-MOD8), einen Arpeggiator mit Swing und Pattern-Länge, Unison- und Para-Modi sowie einen CV-Ausgang. Er wird mit einem 12-V-Netzteil betrieben. Die Pressematerialien im Share enthalten nur ein Readme mit Videos; die Beschreibung stützt sich auf Teile des öffentlichen Handbuchs.",
+          "features": [
+            "Modulationsmatrix mit 8 Slots (MOD1-MOD8) und Kombinationsmodi (M-ACCU, M-PRODUCT, M-MIN, M-MAX, M-DELAY, M-SMOOTH)",
+            "Arpeggiator mit Swing, Delay, Pattern-Länge und Akzent-Steuerung",
+            "Unison- und Para-Modi",
+            "MIDI-Parametersendung wählbar (OFF/CC/SYSEX/CC+SYS)",
+            "Abmessungen 304 x 132 x 54 mm, 1,5 kg"
+          ]
+        },
+        "en": {
+          "description": "The Pulse 2 is the successor to the analog Waldorf Pulse. According to its manual it offers an 8-slot modulation matrix (MOD1-MOD8), an arpeggiator with swing and pattern length, unison and para modes, and a CV output. It runs from a 12 V power supply. The press share only contains a Readme with videos; this description relies on parts of the public manual.",
+          "features": [
+            "8-slot modulation matrix (MOD1-MOD8) with combining modes (M-ACCU, M-PRODUCT, M-MIN, M-MAX, M-DELAY, M-SMOOTH)",
+            "Arpeggiator with swing, delay, pattern length and accent control",
+            "Unison and para modes",
+            "Selectable MIDI parameter transmit (OFF/CC/SYSEX/CC+SYS)",
+            "Dimensions 304 x 132 x 54 mm, 1.5 kg"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteil 12 V DC",
+            "en": "Power supply 12 V DC"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/pulse2",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

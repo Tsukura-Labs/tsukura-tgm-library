@@ -1,0 +1,65 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Midibay",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Midibay, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "ea965398-35fa-7add-920b-a1e805802eaa",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Die Midibay ist ein MIDI-Patchbay mit Merge-Funktion im 19-Zoll-Gehäuse mit zwei Höheneinheiten. Laut einer Zweitquelle (Handbuch-Auszüge) bietet sie 15 frei programmierbare Ein- und Ausgänge; bei aktivem Merger stehen 14 zur Verfügung. Die Pressematerialien selbst nennen nur Patchbay, Merging und das 2-HE-Gehäuse.",
+          "features": [
+            "MIDI-Patchbay",
+            "MIDI-Merge-Funktion",
+            "19-Zoll-Gehäuse, 2 HE",
+            "Laut Handbuch-Auszug: 15 programmierbare Ein-/Ausgänge"
+          ]
+        },
+        "en": {
+          "description": "The Midibay is a MIDI patchbay with merge functions in a 2U 19-inch case. According to a secondary source (manual excerpts) it offers 15 freely programmable inputs and outputs; with the merger active 14 remain. The press material itself only states patchbay, merging and the 2U case.",
+          "features": [
+            "MIDI patchbay",
+            "MIDI merge function",
+            "19-inch case, 2U",
+            "Per manual excerpt: 15 programmable inputs/outputs"
+          ]
+        }
+      },
+      "ports": []
+    }
+  },
+  "id": "waldorf/midibay",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

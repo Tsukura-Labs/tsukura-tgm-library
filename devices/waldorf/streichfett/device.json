@@ -1,0 +1,329 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Streichfett",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Streichfett, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "4f2c06b5-55c7-3a10-8014-0b4ca26b9fb1",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Streichfett ist ein Streicher-Synthesizer von Waldorf (Handbuch-Revision Juli 2014) im Stil klassischer String-Maschinen, ergänzt um einen Solo-Synthesizer-Teil. Der Klang wird über die Bereiche Strings, Solo und Effekt geformt. Zwölf Speicherplätze liegen in drei Bänken (A, B, C) zu je vier Klängen. Er wird per USB oder Netzteil versorgt und über MIDI oder USB gespielt.",
+          "features": [
+            "String-Ensemble mit Registration, Octaves, Release und Crescendo",
+            "Solo-Teil mit Tone, Tremolo, Split, Sustain, Attack und Decay",
+            "Effektbereich mit Reverb, Phaser und Animate",
+            "12 Speicherplätze in 3 Bänken (A-C) zu je 4 Klängen",
+            "Sound-Dump über MIDI/USB-MIDI",
+            "MIDI-Kanal per Tastendruck einstellbar, Omni-Modus",
+            "USB-Anschluss für Strom und MIDI"
+          ]
+        },
+        "en": {
+          "description": "The Streichfett is a Waldorf string synthesizer (manual revision July 2014) in the style of classic string machines, extended by a solo synthesizer section. The sound is shaped in the Strings, Solo and Effect sections. Twelve memory locations are arranged in three banks (A, B, C) of four sounds each. It is powered over USB or a supplied adapter and played via MIDI or USB.",
+          "features": [
+            "String ensemble with registration, octaves, release and crescendo",
+            "Solo section with tone, tremolo, split, sustain, attack and decay",
+            "Effect section with reverb, phaser and animate",
+            "12 memory locations in 3 banks (A-C) of 4 sounds",
+            "Sound dump via MIDI/USB MIDI",
+            "MIDI channel set by key press, omni mode",
+            "USB port for power and MIDI"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI-In-Buchse",
+            "en": "MIDI In jack"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Out-Buchse",
+            "en": "MIDI Out jack"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB-Anschluss (Strom und MIDI)",
+            "en": "USB port (power and MIDI)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Audio-Ausgang links/stereo und rechts/mono",
+            "en": "Audio output left/stereo and right/mono"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Stereo-Kopfhörerbuchse",
+            "en": "Stereo headphone jack"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "5 V DC (über USB)",
+            "en": "5 V DC (via USB)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/streichfett",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "String Registration",
+      "group": "Oszillatoren / Strings",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "String Octaves",
+      "group": "Oszillatoren / Strings",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Solo Tone",
+      "group": "Oszillatoren / Solo",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Solo Split",
+      "group": "Oszillatoren / Solo",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "String Release",
+      "group": "Hüllkurven / Strings",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Crescendo",
+      "group": "Hüllkurven / Strings",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Solo Sustain",
+      "group": "Hüllkurven / Solo",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Solo Attack",
+      "group": "Hüllkurven / Solo",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Solo Decay",
+      "group": "Hüllkurven / Solo",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Solo Tremolo",
+      "group": "LFOs / Solo",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "String Ensemble Type",
+      "group": "Effekte / Strings Ensemble",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "String Ensemble",
+      "group": "Effekte / Strings Ensemble",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX Type",
+      "group": "Effekte / Effect",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "FX Animate Amount",
+      "group": "Effekte / Effect",
+      "kind": 1,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX Phaser Amount",
+      "group": "Effekte / Effect",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FX Reverb Amount",
+      "group": "Effekte / Effect",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Balance",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Local Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 122,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
+}

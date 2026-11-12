@@ -1,0 +1,1142 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Wave",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Wave, 1.0, Tsukura Labs",
+    "sysexDeviceId": 127,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "e99a1beb-9434-4173-0fe1-9790dc61f3fd",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Waldorf Wave ist ein klassischer Wavetable-Synthesizer aus den frühen 1990ern. Die Unterlagen im Archiv sind die SysEx-Beschreibung (Operating System 1.400, September 1993) und die MIDI-Implementationstabelle (Version 1.640, April 1995). Er arbeitet mit Sound-Programmen und Performances in zwei Bänken zu je 128 Plätzen. Bis zu acht Instrumente und acht externe Geräte lassen sich in einer Performance mischen.",
+          "features": [
+            "Zwei Oszillatoren mit Wavetable, 128 Wavetables, Waves 0-299 im ROM",
+            "Filter-Modi Tiefpass, Hochpass, Bandpass und Dual",
+            "Vier Hüllkurven: Volume, Filter, Wave (8 Punkte) und Free (4 Punkte), dazu zwei LFOs",
+            "Steuer-Module wie Ramp, Mixer, Delay, Shaper, Sample & Hold und Komparator",
+            "Glide-Modi Porta und Gliss, auch MIDI-gesteuert und fingered",
+            "Performances mit 8 Instrumenten, 8 externen Geräten, 8 Fadern, Free Wheel, Tasten und Pedalen",
+            "MIDI-Tuning-Standard, wählbare Tuning- und Velocity-Tabellen",
+            "SysEx-Dumps für Sounds, Performances, Waves, Tabellen und Global-Parameter"
+          ]
+        },
+        "en": {
+          "description": "The Waldorf Wave is a classic wavetable synthesizer from the early 1990s. The material in the share is the SysEx description (operating system 1.400, September 1993) and the MIDI implementation chart (version 1.640, April 1995). It works with sound programs and performances in two banks of 128 slots each. A performance can combine up to eight instruments and eight external devices.",
+          "features": [
+            "Two oscillators with wavetables, 128 wavetables, ROM waves 0-299",
+            "Filter modes lowpass, highpass, bandpass and dual",
+            "Four envelopes: volume, filter, wave (8 points) and free (4 points), plus two LFOs",
+            "Control modules such as ramp, mixer, delay, shaper, sample & hold and comparator",
+            "Glide modes porta and gliss, also MIDI-controlled and fingered",
+            "Performances with 8 instruments, 8 external devices, 8 faders, free wheel, buttons and pedals",
+            "MIDI Tuning Standard, selectable tuning and velocity tables",
+            "SysEx dumps for sounds, performances, waves, tables and global parameters"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Eingang",
+            "en": "MIDI input"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 2,
+          "note": {
+            "de": "MIDI-Ausgangsports A und B (laut SysEx-Beschreibung)",
+            "en": "MIDI output ports A and B (per SysEx description)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 4,
+          "note": {
+            "de": "Audio-Eingänge 1-4 (laut SysEx-Beschreibung)",
+            "en": "audio inputs 1-4 (per SysEx description)"
+          }
+        },
+        {
+          "type": "other",
+          "count": 3,
+          "note": {
+            "de": "Pedal-Eingänge 1-3 mit einstellbarer Polarität (laut SysEx-Beschreibung)",
+            "en": "pedal inputs 1-3 with selectable polarity (per SysEx description)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/wave",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 64,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 01 {val} > {schk} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 02 {val} > {schk} F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 03 {val} > {schk} F7"
+    },
+    {
+      "name": "Pitch Mode",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 04 {val} > {schk} F7"
+    },
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 64,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 0C {val} > {schk} F7"
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 0D {val} > {schk} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 14,
+      "max": 114,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 0E {val} > {schk} F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 16,
+      "max": 112,
+      "sysex": "F0 3E 03 {dev} 09 < 00 00 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Pitch Mode",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 03 {dev} 09 < 00 01 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Link",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 01 07 {val} > {schk} F7"
+    },
+    {
+      "name": "Wavetable",
+      "group": "Oszillatoren / Wave",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 01 09 {val} > {schk} F7"
+    },
+    {
+      "name": "Wave Pos",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 3E 03 {dev} 09 < 00 01 0A {val} > {schk} F7"
+    },
+    {
+      "name": "Wave Phase",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 01 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 01 0E {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Velocity",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 01 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 02 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Key Center",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 02 01 {val} > {schk} F7"
+    },
+    {
+      "name": "Smooth",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 02 08 {val} > {schk} F7"
+    },
+    {
+      "name": "Wave Pos",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 63,
+      "sysex": "F0 3E 03 {dev} 09 < 00 02 0A {val} > {schk} F7"
+    },
+    {
+      "name": "Wave Phase",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 02 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 02 0E {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Velocity",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 02 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 03 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Key Center",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 03 01 {val} > {schk} F7"
+    },
+    {
+      "name": "Smooth",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 03 08 {val} > {schk} F7"
+    },
+    {
+      "name": "Wave 2 Link",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 03 09 {val} > {schk} F7"
+    },
+    {
+      "name": "Wave 1 Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 112,
+      "sysex": "F0 3E 03 {dev} 09 < 00 03 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Wave 2 Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 112,
+      "sysex": "F0 3E 03 {dev} 09 < 00 03 0C {val} > {schk} F7"
+    },
+    {
+      "name": "Noise Volume",
+      "group": "Oszillatoren / Mix",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 112,
+      "sysex": "F0 3E 03 {dev} 09 < 00 03 0D {val} > {schk} F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Oszillatoren / Glide",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 1,
+      "max": 6,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0E 09 {val} > {schk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "Oszillatoren / Glide",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0E 0A {val} > {schk} F7"
+    },
+    {
+      "name": "Slope",
+      "group": "Oszillatoren / Glide",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0E 0B {val} > {schk} F7"
+    },
+    {
+      "name": "On",
+      "group": "Oszillatoren / Glide",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0E 0E {val} > {schk} F7"
+    },
+    {
+      "name": "Mode",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 3E 03 {dev} 09 < 00 04 0E {val} > {schk} F7"
+    },
+    {
+      "name": "Frequency",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 04 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 05 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 05 01 {val} > {schk} F7"
+    },
+    {
+      "name": "Velocity Amount",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 05 02 {val} > {schk} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 05 03 {val} > {schk} F7"
+    },
+    {
+      "name": "Key Center",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 05 04 {val} > {schk} F7"
+    },
+    {
+      "name": "Bandwidth",
+      "group": "Filter / Main",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 08 {val} > {schk} F7"
+    },
+    {
+      "name": "Frequency",
+      "group": "Filter / Dual HP",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 05 0D {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Filter / Dual HP",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 05 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Velocity Amount",
+      "group": "Filter / Dual HP",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Filter / Dual HP",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 01 {val} > {schk} F7"
+    },
+    {
+      "name": "Key Center",
+      "group": "Filter / Dual HP",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 02 {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Amount",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 04 04 {val} > {schk} F7"
+    },
+    {
+      "name": "Envelope Velocity",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 04 05 {val} > {schk} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 04 06 {val} > {schk} F7"
+    },
+    {
+      "name": "Key Center",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 04 07 {val} > {schk} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 0A {val} > {schk} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 0C {val} > {schk} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 06 0D {val} > {schk} F7"
+    },
+    {
+      "name": "Delay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 07 07 {val} > {schk} F7"
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 07 08 {val} > {schk} F7"
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 07 09 {val} > {schk} F7"
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 07 0A {val} > {schk} F7"
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 07 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 07 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 08 {val} > {schk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 09 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 0A {val} > {schk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 0C {val} > {schk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 0D {val} > {schk} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 0E {val} > {schk} F7"
+    },
+    {
+      "name": "Time 5",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 08 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Level 5",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Time 6",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 01 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 6",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 02 {val} > {schk} F7"
+    },
+    {
+      "name": "Time 7",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 03 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 7",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 04 {val} > {schk} F7"
+    },
+    {
+      "name": "Time 8",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 05 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 8",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 06 {val} > {schk} F7"
+    },
+    {
+      "name": "Key Off Point",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Loop Start Point",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 0C {val} > {schk} F7"
+    },
+    {
+      "name": "Loop",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 0D {val} > {schk} F7"
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 09 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 00 {val} > {schk} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 01 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 02 {val} > {schk} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 03 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 04 {val} > {schk} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 05 {val} > {schk} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 06 {val} > {schk} F7"
+    },
+    {
+      "name": "Zero Axis",
+      "group": "Hüllkurven / Free Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 0B {val} > {schk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 0C {val} > {schk} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 0D {val} > {schk} F7"
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 0E {val} > {schk} F7"
+    },
+    {
+      "name": "Humanize",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0A 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Sync",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0B 05 {val} > {schk} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0B 06 {val} > {schk} F7"
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0B 07 {val} > {schk} F7"
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0B 08 {val} > {schk} F7"
+    },
+    {
+      "name": "Humanize",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0B 09 {val} > {schk} F7"
+    },
+    {
+      "name": "Sync",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 03 {dev} 09 < 00 0B 0F {val} > {schk} F7"
+    },
+    {
+      "name": "Main Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mod Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Pedal",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitch Bend",
+      "group": "Sonstiges",
+      "kind": 6,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383
+    },
+    {
+      "name": "Channel Aftertouch",
+      "group": "Sonstiges",
+      "kind": 7,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
+}

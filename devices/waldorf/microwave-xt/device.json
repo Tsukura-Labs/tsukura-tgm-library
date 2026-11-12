@@ -1,0 +1,1365 @@
+{
+  "authors": [],
+  "banks": [
+    {
+      "lsb": 0,
+      "msb": -1,
+      "name": "Bank A",
+      "uuid": "2a51a710-c336-1b1b-6572-c077200c86ec"
+    },
+    {
+      "lsb": 1,
+      "msb": -1,
+      "name": "Bank B",
+      "uuid": "9a292bcf-d81c-73c6-da8c-d2f554982c44"
+    }
+  ],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Microwave II / XT / XTk",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Microwave II / XT / XTk, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "ccd52114-1e15-26f6-6116-c0eeeaa6881e",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Microwave II, Microwave XT und Microwave XTk sind Wavetable-Synthesizer mit gemeinsamer Klangerzeugung: das II als 2-HE-Rack, das XT als 5-HE-Rack-Modul und das XTk als Keyboard-Version. Sie arbeiten mit 65 ROM-Wavetables und 32 Anwender-Wavetables, haben 10 Stimmen, zwei Filter, Effekte, Arpeggiator und acht Instrumente im Multimodus. Speicher: 256 Sound-Programme (A001–B128) und 128 Multi-Programme. Das Handbuch stammt aus dem Jahr 1999, die Systemsoftware reicht bis Version 2.28.",
+          "features": [
+            "Wavetable-Synthese mit 65 ROM- und 32 Anwender-Wavetables",
+            "10 Stimmen",
+            "Zwei Filter, zehn Typen im ersten Filter",
+            "Effekte und Arpeggiator",
+            "Multimodus mit bis zu 8 Instrumenten",
+            "256 Sound-Programme und 128 Multi-Programme",
+            "Bank Select (Bank A/B) und Programmwechsel",
+            "Stereo-Audioeingang beim XT und XTk",
+            "XTk: Pedal- und CV-Eingang"
+          ]
+        },
+        "en": {
+          "description": "The Microwave II, Microwave XT and Microwave XTk are wavetable synthesizers sharing one sound engine: the II as a 2U rack unit, the XT as a 5U rack module and the XTk as a keyboard version. They use 65 ROM wavetables and 32 user wavetables, have 10 voices, two filters, effects, an arpeggiator and eight instruments in Multi mode. Memory: 256 sound programs (A001-B128) and 128 multi programs. The manual dates from 1999, system software up to version 2.28.",
+          "features": [
+            "Wavetable synthesis with 65 ROM and 32 user wavetables",
+            "10 voices",
+            "Two filters, ten types in filter 1",
+            "Effects and arpeggiator",
+            "Multi mode with up to 8 instruments",
+            "256 sound programs and 128 multi programs",
+            "Bank select (Bank A/B) and program change",
+            "Stereo audio input on XT and XTk",
+            "XTk: pedal and CV input"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In",
+            "en": "MIDI In"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out",
+            "en": "MIDI Out"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI Thru",
+            "en": "MIDI Thru"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Main Out (L/Stereo, R/Mono), Sub Out (L/Stereo, R/Mono)",
+            "en": "Main Out (L/Stereo, R/Mono), Sub Out (L/Stereo, R/Mono)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "Analog In (nur XT/XTk)",
+            "en": "Analog In (XT/XTk only)"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 1,
+          "note": {
+            "de": "Pedal / CV In (nur XTk, 0-5 V)",
+            "en": "Pedal / CV In (XTk only, 0-5 V)"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzanschluss (II/XT: 12 V DC, XTk: 100-240 V AC)",
+            "en": "Power (II/XT: 12 V DC, XTk: 100-240 V AC)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/microwave-xt",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Glide Time",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "FM Amount",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 13,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Glide Type",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Glide Mode",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 8
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Octave",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 38,
+      "channel": -1,
+      "min": 0,
+      "max": 8
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Pitchbend Scale",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 36,
+      "channel": -1,
+      "min": 0,
+      "max": 122
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Pitchbend Scale",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 42,
+      "channel": -1,
+      "min": 0,
+      "max": 122
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 43,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Link",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 44,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Glide On/Off",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 65,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wavetable",
+      "group": "Oszillatoren",
+      "kind": 1,
+      "number": 70,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Startwave",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 1,
+      "number": 71,
+      "channel": -1,
+      "min": 0,
+      "max": 63
+    },
+    {
+      "name": "Phase",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 1,
+      "number": 72,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Amount",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 1,
+      "number": 73,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Vel Amount",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 1,
+      "number": 74,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 1,
+      "number": 75,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Limit",
+      "group": "Oszillatoren / Wave 1",
+      "kind": 1,
+      "number": 76,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Startwave",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 1,
+      "number": 77,
+      "channel": -1,
+      "min": 0,
+      "max": 63
+    },
+    {
+      "name": "Phase",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 1,
+      "number": 78,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Amount",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 1,
+      "number": 79,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Vel Amount",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 1,
+      "number": 80,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 1,
+      "number": 81,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Limit",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 1,
+      "number": 82,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Link",
+      "group": "Oszillatoren / Wave 2",
+      "kind": 1,
+      "number": 83,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Aliasing",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 0E {dev} 20 00 00 35 {val} F7"
+    },
+    {
+      "name": "Time Quantization",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 0E {dev} 20 00 00 36 {val} F7"
+    },
+    {
+      "name": "Clipping",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 0E {dev} 20 00 00 37 {val} F7"
+    },
+    {
+      "name": "Allocation Mode",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 0E {dev} 20 00 00 6C {val} F7"
+    },
+    {
+      "name": "Assignment",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 3E 0E {dev} 20 00 00 6D {val} F7"
+    },
+    {
+      "name": "Detune",
+      "group": "Oszillatoren",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 00 6E {val} F7"
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Amount",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Velocity",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Type",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 9
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter / Filter 1",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 60,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Type",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 61,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Keytrack",
+      "group": "Filter / Filter 2",
+      "kind": 1,
+      "number": 62,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Trigger",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 85,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 86,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 87,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 88,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 89,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 90,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Time",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 91,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release Level",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 92,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger",
+      "group": "Hüllkurven / Free Env",
+      "kind": 1,
+      "number": 93,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Time 1",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 00 7D {val} F7"
+    },
+    {
+      "name": "Level 1",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 00 7E {val} F7"
+    },
+    {
+      "name": "Time 2",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 00 7F {val} F7"
+    },
+    {
+      "name": "Level 2",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 00 {val} F7"
+    },
+    {
+      "name": "Time 3",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 01 {val} F7"
+    },
+    {
+      "name": "Level 3",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 02 {val} F7"
+    },
+    {
+      "name": "Time 4",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 03 {val} F7"
+    },
+    {
+      "name": "Level 4",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 04 {val} F7"
+    },
+    {
+      "name": "Time 5",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 05 {val} F7"
+    },
+    {
+      "name": "Level 5",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 06 {val} F7"
+    },
+    {
+      "name": "Time 6",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 07 {val} F7"
+    },
+    {
+      "name": "Level 6",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 08 {val} F7"
+    },
+    {
+      "name": "Time 7",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 09 {val} F7"
+    },
+    {
+      "name": "Level 7",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 0A {val} F7"
+    },
+    {
+      "name": "Time 8",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 0B {val} F7"
+    },
+    {
+      "name": "Level 8",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 01 0C {val} F7"
+    },
+    {
+      "name": "Trigger",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 2,
+      "sysex": "F0 3E 0E {dev} 20 00 01 0D {val} F7"
+    },
+    {
+      "name": "Key On Loop",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 0E {dev} 20 00 01 0E {val} F7"
+    },
+    {
+      "name": "Key On Loop Start",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 0E {dev} 20 00 01 0F {val} F7"
+    },
+    {
+      "name": "Key On Loop End",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 0E {dev} 20 00 01 10 {val} F7"
+    },
+    {
+      "name": "Key Off Loop",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 0E {dev} 20 00 01 11 {val} F7"
+    },
+    {
+      "name": "Key Off Loop Start",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 0E {dev} 20 00 01 12 {val} F7"
+    },
+    {
+      "name": "Key Off Loop End",
+      "group": "Hüllkurven / Wave Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 0E {dev} 20 00 01 13 {val} F7"
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Rate",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 5
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 112,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 113,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Humanize",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sync",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Symmetry",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Humanize",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 117,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Phase",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 118,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Chorus",
+      "group": "Effekte",
+      "kind": 1,
+      "number": 12,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Channel Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave 1 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Wave 2 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "RingMod Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Noise Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning Keytrack",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 0E {dev} 20 00 00 55 {val} F7"
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Breath Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Foot Controller",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Bank Select",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Keytrack",
+      "group": "Sonstiges / Amp",
+      "kind": 1,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Sonstiges / Amp",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env Velocity",
+      "group": "Sonstiges / Amp",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Switch",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mod 1 Amount",
+      "group": "Sonstiges / Mod Matrix",
+      "kind": 1,
+      "number": 94,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mod 2 Amount",
+      "group": "Sonstiges / Mod Matrix",
+      "kind": 1,
+      "number": 95,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Active",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 102,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Range",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 103,
+      "channel": -1,
+      "min": 0,
+      "max": 9
+    },
+    {
+      "name": "Clock",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 104,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Tempo",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 105,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Direction",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 106,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Pattern",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 107,
+      "channel": -1,
+      "min": 0,
+      "max": 16
+    },
+    {
+      "name": "Note Order",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Velocity",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Reset",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 110,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Pattern Length",
+      "group": "Sonstiges / Arp",
+      "kind": 1,
+      "number": 111,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Zarenbourg",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Zarenbourg, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "829a5507-737d-d7f5-1997-e7c19f4697d8",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Zarenbourg ist ein Stage-Piano von Waldorf (2011) ohne Display, das klassische elektromechanische Tasteninstrumente nachbildet. Er hat 76 gewichtete Tasten mit Hammermechanik, ein eingebautes Lautsprechersystem und bis zu 100 Stimmen. Die Klangerzeugung kombiniert Physical Modeling, Samples und FM-Synthese; Presets und Benutzerplätze werden über Bank- und Sound-Taster gewählt.",
+          "features": [
+            "76 gewichtete Tasten mit Hammermechanik",
+            "Klangerzeugung: Physical Modeling, Sampling, FM-Synthese; bis 100 Stimmen, 4 GB Sample-Speicher",
+            "7 Presets (Tines, Bars, Reeds, Grand, Electric Grand, FM, Clavinet) und 21 Benutzerplätze in den Bänken A-C",
+            "Effekte: Tremolo, Chorus, Flanger, Phaser, Reverb, Echo, Auto-Wah, Equalizer, Overdrive",
+            "Eingebautes Lautsprechersystem (2 x 20 W + 20-W-Subwoofer)",
+            "Anschlüsse: MIDI In/Thru/Out, USB-MIDI, S/PDIF, SDHC-Slot, Pedale"
+          ]
+        },
+        "en": {
+          "description": "The Zarenbourg is a Waldorf stage piano (2011) without a display that recreates classic electromechanical keyboard instruments. It has 76 weighted hammer-action keys, a built-in speaker system and up to 100 voices. Sound generation combines physical modeling, sampling and FM synthesis; presets and user locations are selected with the bank and sound buttons.",
+          "features": [
+            "76 weighted hammer-action keys",
+            "Sound generation: physical modeling, sampling, FM synthesis; up to 100 voices, 4 GB sample memory",
+            "7 presets (Tines, Bars, Reeds, Grand, Electric Grand, FM, Clavinet) and 21 user locations in banks A-C",
+            "Effects: tremolo, chorus, flanger, phaser, reverb, echo, auto-wah, equalizer, overdrive",
+            "Built-in speaker system (2 x 20 W + 20 W subwoofer)",
+            "Connections: MIDI In/Thru/Out, USB MIDI, S/PDIF, SDHC slot, pedals"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI-In-Buchse",
+            "en": "MIDI In jack"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Out-Buchse",
+            "en": "MIDI Out jack"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Thru-Buchse",
+            "en": "MIDI Thru jack"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB-MIDI (klassenkonform)",
+            "en": "USB MIDI (class compliant)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Line Out links / rechts (Mono)",
+            "en": "Line Out left / right (mono)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "Stereo-Eingang",
+            "en": "Stereo input"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Stereo-Kopfhörerbuchse",
+            "en": "Stereo headphone jack"
+          }
+        },
+        {
+          "type": "sustain-pedal",
+          "count": 1,
+          "note": {
+            "de": "Sustain-Pedal-Buchse",
+            "en": "Sustain pedal jack"
+          }
+        },
+        {
+          "type": "expression-pedal",
+          "count": 1,
+          "note": {
+            "de": "Expression-Pedal-Buchse (Auto-Wah)",
+            "en": "Expression pedal jack (Auto Wah)"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "S/PDIF-Digitalausgang; SDHC-Kartenslot",
+            "en": "S/PDIF digital output; SDHC card slot"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzbuchse, 100-230 V AC",
+            "en": "Power jack, 100-230 V AC"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/zarenbourg",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

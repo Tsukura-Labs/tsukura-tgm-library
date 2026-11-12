@@ -1,0 +1,174 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Iridium Keyboard",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Iridium Keyboard, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "3f591bc5-757b-2ff1-c874-7203bc70a62f",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Das Iridium Keyboard ist die Tastaturversion des Waldorf Iridium mit 49 Tasten und polyphonem Aftertouch. Es hat Touchscreen, Performance-Bereich mit Rädern und Tasten sowie die Bedienelemente für Oszillatoren, Filter, Hüllkurven und LFOs. Die Klangerzeugung ist mit dem Quantum kompatibel. Das Handbuch (OS 3, Revision 3.0, Juli 2023) gilt gemeinsam mit dem Iridium Desktop.",
+          "features": [
+            "49 Tasten mit polyphonem Aftertouch",
+            "Performance-Bereich mit Rädern und Tasten",
+            "Touchscreen-Display, Auswahlrad und Mode-Page-Tasten",
+            "Klangerzeugung kompatibel zum Quantum, 16 Stimmen, Layer 1/2 mit Split-Aufteilung",
+            "Arpeggiator und Sequenzer, auch von externem Signal startbar",
+            "Audio-Eingang kann durch den Signalweg laufen oder mit dem Audio-Recorder aufgenommen werden",
+            "CV/Gate/Clock-Anschlüsse für Modular/Eurorack",
+            "MPE-Unterstützung (MIDI DIN, USB Host, USB Device)",
+            "USB-Speicher und microSD für Patches, Samples und Wavetables",
+            "Sustain- und Control-Pedal-Eingang"
+          ]
+        },
+        "en": {
+          "description": "The Iridium Keyboard is the keyboard version of the Waldorf Iridium with 49 keys and polyphonic aftertouch. It has a touchscreen, a performance section with wheels and buttons, and panel controls for oscillators, filters, envelopes and LFOs. The synth engine is Quantum-compatible. Its manual (OS 3, revision 3.0, July 2023) is shared with the Iridium Desktop.",
+          "features": [
+            "49 keys with polyphonic aftertouch",
+            "Performance section with wheels and buttons",
+            "Touchscreen display, selection dial and mode page buttons",
+            "Quantum-compatible engine, 16 voices, Layer 1/2 with split allocation",
+            "Arpeggiator and sequencer, can be started by an external signal",
+            "Audio input can run through the signal path or be recorded with the audio recorder",
+            "CV/Gate/Clock connections for modular/Eurorack",
+            "MPE support (MIDI DIN, USB host, USB device)",
+            "USB storage and microSD for patches, samples and wavetables",
+            "Sustain and control pedal inputs"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (TS), Stereo",
+            "en": "2x TS jacks, stereo"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (mono), Stereo",
+            "en": "2x mono jacks, stereo"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Klinke mit Lautstärkeregler",
+            "en": "jack with volume control"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "5-polige DIN-Buchse",
+            "en": "5-pin DIN"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 2,
+          "note": {
+            "de": "USB 2.0: Controller-Anschluss (Host) und Computer-Anschluss",
+            "en": "USB 2.0: Controller port (host) and Computer port"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "CV/Gate/Clock-Anschlüsse (genaue Anzahl nicht geprüft)",
+            "en": "CV/Gate/Clock connections (exact count not checked)"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "MicroSD-Slot",
+            "en": "MicroSD slot"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteilbuchse und Netzschalter",
+            "en": "power supply jack and switch"
+          }
+        },
+        {
+          "type": "sustain-pedal",
+          "count": 1,
+          "note": {
+            "de": "Sustain-Pedal-Eingang",
+            "en": "sustain pedal input"
+          }
+        },
+        {
+          "type": "expression-pedal",
+          "count": 1,
+          "note": {
+            "de": "Control-Pedal-Eingang (auch CV-Quelle 0-5 V)",
+            "en": "control pedal input (also 0-5 V CV source)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/iridium-keyboard",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

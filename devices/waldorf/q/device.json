@@ -1,0 +1,124 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Q",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Q, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "57ab6543-1289-af7f-ec5a-a4a6c8bff194",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Waldorf Q ist ein virtuell-analoger Synthesizer mit Wavetable-Oszillatoren, der als Keyboard (Q), als Rack-Version (Q Rack), als Q+ mit mehr Stimmen und in der Sonderfarbe Phoenix Edition erschien. Die Q-Serie bietet bis zu fünf Oszillatoren einschließlich Wavetable-Generatoren, drei LFOs, vier Hüllkurven und zwei Filter, dazu den PPG-Filter und einen 25-Band-Vocoder. Das Q hat bis zu 32 Stimmen, das Q+ bis zu 100. Bedient wird es über 58 Endlosregler. Der microQ nutzt dieselbe Klangbasis und empfängt Sound-Dumps des Q.",
+          "features": [
+            "Bis zu fünf Oszillatoren inkl. Wavetable",
+            "Drei LFOs, vier Hüllkurven, zwei Filter",
+            "PPG-Filter",
+            "25-Band-Vocoder",
+            "Q: bis zu 32 Stimmen, Q+: bis zu 100",
+            "58 Endlosregler",
+            "Sechs analoge Ausgänge (drei Stereo-Paare), Stereo-Eingang",
+            "S/PDIF-Ausgang (koaxial, 44,1 kHz)",
+            "Q+ Phoenix Edition: Sonderfarbe"
+          ]
+        },
+        "en": {
+          "description": "The Waldorf Q is a virtual-analog synthesizer with wavetable oscillators, released as a keyboard (Q), a rack version (Q Rack), the Q+ with more voices, and the special-colour Phoenix Edition. The Q series offers up to five oscillators including wavetable generators, three LFOs, four envelopes and two filters, plus the PPG filter and a 25-band vocoder. The Q has up to 32 voices, the Q+ up to 100. It is operated with 58 endless rotary controls. The microQ shares the same sound basis and accepts sound dumps from the Q.",
+          "features": [
+            "Up to five oscillators incl. wavetable",
+            "Three LFOs, four envelopes, two filters",
+            "PPG filter",
+            "25-band vocoder",
+            "Q: up to 32 voices, Q+: up to 100",
+            "58 endless rotary controls",
+            "Six analog outputs (three stereo pairs), stereo input",
+            "S/PDIF output (coax, 44.1 kHz)",
+            "Q+ Phoenix Edition: special colour scheme"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In",
+            "en": "MIDI In"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out",
+            "en": "MIDI Out"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI Thru",
+            "en": "MIDI Thru"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 3,
+          "note": {
+            "de": "3 Stereo-Ausgänge (6 analoge Ausgänge)",
+            "en": "3 stereo outputs (6 analog outputs)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "1 Stereo-Eingang",
+            "en": "1 stereo input"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "S/PDIF-Ausgang, koaxial, 44,1 kHz",
+            "en": "S/PDIF output, coaxial, 44.1 kHz"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/q",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

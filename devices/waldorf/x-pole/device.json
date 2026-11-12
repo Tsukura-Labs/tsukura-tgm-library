@@ -1,0 +1,479 @@
+{
+  "authors": [],
+  "banks": [
+    {
+      "lsb": -1,
+      "msb": -1,
+      "name": "Programs",
+      "uuid": "35c25007-210c-ea7d-10e8-523f912261a9"
+    }
+  ],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "X-Pole",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf X-Pole, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "171ec057-570e-c878-1823-b3b20435b43b",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der X-Pole ist ein zweikanaliges (duales) Filtergerät von Waldorf; das Handbuch trägt das Datum 08.12.1997. Er filtert Audiosignale mit einem Tiefpassfilter (12 oder 24 dB), und über Modulationen lassen sich Lautstärke und Panorama beeinflussen. Es gibt 60 Programme: 1-30 sind frei belegbar, 31-60 feste Werksprogramme. Neben den Audioeingängen besitzt er CV- und Gate-Eingänge sowie einen ACM-Eingang, und er lässt sich umfassend per MIDI steuern.",
+          "features": [
+            "Duales Filter (Stereo 1, Stereo 2 oder Dual-Modus)",
+            "Tiefpass mit 12/24 dB Flankensteilheit",
+            "60 Programme: 1-30 frei, 31-60 Werksprogramme",
+            "VCF- und VCA-Hüllkurve, LFO mit 8 Wellenformen",
+            "Modulationsquellen inkl. CV- und Gate-Eingänge",
+            "ACM-Eingang",
+            "Parameter per MIDI-Controller steuerbar",
+            "SysEx: Programm-, Alle- und Global-Dump"
+          ]
+        },
+        "en": {
+          "description": "The X-Pole is a dual-channel filter unit from Waldorf; its manual is dated 08.12.1997. It filters audio with a low-pass filter (12 or 24 dB) and modulations can influence volume and panorama. There are 60 programs: 1-30 are user programs, 31-60 fixed factory programs. Besides the audio inputs it offers CV and gate inputs and an ACM input, and it is comprehensively controllable via MIDI.",
+          "features": [
+            "Dual filter (Stereo 1, Stereo 2 or Dual mode)",
+            "Low-pass with 12/24 dB slope",
+            "60 programs: 1-30 user, 31-60 factory",
+            "VCF and VCA envelopes, LFO with 8 waveforms",
+            "Modulation sources incl. CV and gate inputs",
+            "ACM input",
+            "Parameters controllable by MIDI controllers",
+            "SysEx: program, all and global dumps"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-in",
+          "count": 2,
+          "note": {
+            "de": "Audio In CH.1/Left (Mono), CH.2/Right",
+            "en": "Audio In CH.1/Left (Mono), CH.2/Right"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "ACM In",
+            "en": "ACM In"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Stereo Out Left/Stereo, Right/Mono",
+            "en": "Stereo Out Left/Stereo, Right/Mono"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In",
+            "en": "MIDI In"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out",
+            "en": "MIDI Out"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI Thru",
+            "en": "MIDI Thru"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 2,
+          "note": {
+            "de": "CV In 1, CV In 2",
+            "en": "CV In 1, CV In 2"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 2,
+          "note": {
+            "de": "Gate In 1, Gate In 2",
+            "en": "Gate In 1, Gate In 2"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteilbuchse DC 12 V",
+            "en": "DC 12 V power socket"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/x-pole",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff Env Sens",
+      "group": "Filter",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Cutoff Mod Source",
+      "group": "Filter",
+      "kind": 1,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 19
+    },
+    {
+      "name": "Cutoff Mod Amount",
+      "group": "Filter",
+      "kind": 1,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Slope",
+      "group": "Filter",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / VCF Env",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / VCA Env",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 7
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA Velo Sens",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "VCA Env Sens",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 59,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume Mod Source",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 19
+    },
+    {
+      "name": "Volume Mod Amount",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning Mod Source",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 111,
+      "channel": -1,
+      "min": 0,
+      "max": 19
+    },
+    {
+      "name": "Panning Mod Amount",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 112,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mode",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Trigger",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Input Gain",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attenuator",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "ACM Gain",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "ACM Source",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Channel Link",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Routable Mod Source",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 19
+    },
+    {
+      "name": "Routable Mod Amount",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Routable Mod Dest",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
+}

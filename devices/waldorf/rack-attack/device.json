@@ -1,0 +1,188 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Rack Attack",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Rack Attack, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "0afc0b57-9236-4c5c-ac24-22564bce6efe",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Rack Attack ist ein Percussion-Synthesizer im 19-Zoll-Gehäuse aus der Q-Familie, gedacht für lebendige Rhythmen und Drum-Sounds. Er bietet Oszillatoren mit synthetischen Wellenformen und drei Hi-Hat-Samples, einen Crack-Modulator für Handclaps, Filter, Effekte und einen Pattern-Spieler mit Step-Listen. Es gibt 50 Programme und drei Stereo-Ausgänge. Die Handbuchversion 1.04 stammt von Januar 2003.",
+          "features": [
+            "Percussion-Synthesizer",
+            "Synthetische Wellenformen plus drei Hi-Hat-Samples",
+            "Crack-Modulator für Handclaps",
+            "Sample-&-Hold-Generator und Rauschen",
+            "Pattern-Spieler mit Step-Listen bis 128 Schritten",
+            "Effekte inkl. Sample-Rate-Reduktion",
+            "50 Programme",
+            "Drei Stereo-Ausgänge und ein Stereo-Eingang",
+            "Peek-Modus zum Prüfen von Reglerwerten"
+          ]
+        },
+        "en": {
+          "description": "The Rack Attack is a rack-mounted percussion synthesizer from the Q family, made for lively rhythms and drum sounds. It features oscillators with synthetic waveforms and three hi-hat samples, a Crack Modulator for hand claps, filters, effects and a pattern player with step lists. It has 50 programs and three stereo outputs. Manual version 1.04 is dated January 2003.",
+          "features": [
+            "Percussion synthesizer",
+            "Synthetic waveforms plus three hi-hat samples",
+            "Crack Modulator for hand claps",
+            "Sample & Hold generator and noise",
+            "Pattern player with note lists up to 128 steps",
+            "Effects incl. sample-rate reduction",
+            "50 programs",
+            "Three stereo outputs and one stereo input",
+            "Peek mode to inspect control values"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In",
+            "en": "MIDI In"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out",
+            "en": "MIDI Out"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI Thru",
+            "en": "MIDI Thru"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 3,
+          "note": {
+            "de": "Out 1/2, Out 3/4, Out 5/6 (je Stereo oder 2x Mono)",
+            "en": "Out 1/2, Out 3/4, Out 5/6 (stereo or 2x mono each)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "External In (Stereo)",
+            "en": "External In (stereo)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Stereo-Kopfhörerbuchse",
+            "en": "Stereo headphone jack"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteil-Buchse (100-240 V AC)",
+            "en": "Power supply socket (100-240 V AC)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/rack-attack",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Channel Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Breath Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Foot Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 4,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "All Sound Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 120,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
+}

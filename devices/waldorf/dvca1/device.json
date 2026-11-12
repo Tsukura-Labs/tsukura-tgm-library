@@ -1,0 +1,102 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "dvca1",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf dvca1, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "f7762189-43d5-e653-1ac4-902a026a7d0e",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Das dvca1 ist ein analoges Dual-VCA-Eurorack-Modul von Waldorf (Handbuch 1.0 vom 15.09.2016). Zwei identische VCAs lassen sich für Stereosteuerung oder Panning verkoppeln. Jeder VCA hat lineare und exponentielle Steuerung gleichzeitig, einen Gain-Regler mit bis zu +13,5 dB und einen Colour-Regler, der einen Zweipol-Tiefpass an die VCA-Steuerung koppelt, ähnlich einem Low-Pass-Gate. Der Eingang kann Audio (AC) oder Steuersignale (DC) aufnehmen.",
+          "features": [
+            "2 analoge VCAs, koppelbar (3 Link-Modi)",
+            "Linear- und Exponential-CV je VCA",
+            "Gain bis +13,5 dB",
+            "Colour: Tiefpass nach Art eines Low-Pass-Gates",
+            "AC- und DC-Eingänge, einzelne Ausgänge und Mix-Ausgang",
+            "20 HP, +/-12 V, 100 mA"
+          ]
+        },
+        "en": {
+          "description": "The dvca1 is an analog dual VCA Eurorack module from Waldorf (manual 1.0 dated 2016-09-15). Two identical VCAs can be linked for stereo control or panning effects. Each VCA has linear and exponential control at once, a gain knob adding up to +13.5 dB and a Colour control that ties a two-pole low-pass to the VCA control, similar to a low-pass gate. The input accepts audio (AC) or control signals (DC).",
+          "features": [
+            "2 analog VCAs, linkable (3 link modes)",
+            "Linear and exponential CV per VCA",
+            "Gain up to +13.5 dB",
+            "Colour: low-pass-gate style filtering",
+            "AC and DC inputs, individual outputs and mix output",
+            "20 HP, +/-12 V, 100 mA"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-in",
+          "count": 4,
+          "note": {
+            "de": "2 x AC In, 2 x DC In (3,5-mm-Klinke)",
+            "en": "2 x AC in, 2 x DC in (3.5 mm)"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 6,
+          "note": {
+            "de": "je VCA: Exp CV, Lin CV, Colour CV",
+            "en": "per VCA: Exp CV, Lin CV, Colour CV"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 3,
+          "note": {
+            "de": "2 Einzelausgänge + Mix-Ausgang",
+            "en": "2 individual outputs + Mix output"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Eurorack-Bus +/-12 V",
+            "en": "Eurorack bus +/-12 V"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/dvca1",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

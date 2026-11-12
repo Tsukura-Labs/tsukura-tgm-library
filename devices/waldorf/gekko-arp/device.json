@@ -1,0 +1,88 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Gekko Arp",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Gekko Arp, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "5c94d097-4a2e-ef80-d24b-d0cf665896ad",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Gekko Arp (Gekko Arpeggio) ist ein kleiner orangefarbener MIDI-Arpeggiator. Er zerlegt gehaltene Akkorde in Einzelnoten und wiederholt sie rhythmisch; Geschwindigkeit, Notenlänge und Tonumfang sind einstellbar. Eine Oktave der Tastatur dient als Steuerzone mit Funktionen wie Auf, Ab, Alternate, Oktavbereich, Gate, Clock 1/8-1/32, Tempo und Hold. Er synchronisiert sich auf MIDI-Clock und kann jeden MIDI-Klangerzeuger ansteuern.",
+          "features": [
+            "Arpeggio auf, ab, Alternate",
+            "Tonumfang erweiterbar (Oktave ab/auf, 1 Oktave)",
+            "Notenlänge: halb, doppelt, Legato",
+            "Clock 1/8, 1/16, 1/32; Tempo per Tasten",
+            "Hold-Modus",
+            "Steuerzone auf der Tastatur, Super-Hotkey",
+            "All Notes Off per Doppelklick"
+          ]
+        },
+        "en": {
+          "description": "The Gekko Arp (Gekko Arpeggio) is a small orange MIDI arpeggiator. It splits held chords into single notes and repeats them rhythmically; speed, note length and range are adjustable. One keyboard octave is reserved as control zone with functions such as up, down, alternate, octave range, gate, clock 1/8-1/32, tempo and hold. It syncs to MIDI clock and can drive any MIDI sound generator.",
+          "features": [
+            "Arpeggio up, down, alternate",
+            "Extendable range (octave down/up, 1 octave)",
+            "Note length: half, double, legato",
+            "Clock 1/8, 1/16, 1/32; tempo via keys",
+            "Hold mode",
+            "Keyboard control zone, Super HotKey",
+            "All Notes Off via double click"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In (laut Anschlussskizzen)",
+            "en": "MIDI In (per connection diagrams)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out (laut Anschlussskizzen)",
+            "en": "MIDI Out (per connection diagrams)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/gekko-arp",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

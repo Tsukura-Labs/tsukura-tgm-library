@@ -8,7 +8,7 @@
       "uuid": "96a7c146-2202-8c61-acbf-b6245b2e9e9b"
     }
   ],
-  "description": "Foto: Mattrack_@_matthewvenn's_studio.jpg: *Mattpc_@_matthewvenn's_studio.jpg: matthew venn derivative work: Clusternote (talk) derivative work: Clusternote (talk), CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Waldorf_MicroWave_(lowres).jpg\nPhoto: Mattrack_@_matthewvenn's_studio.jpg: *Mattpc_@_matthewvenn's_studio.jpg: matthew venn derivative work: Clusternote (talk) derivative work: Clusternote (talk), CC BY-SA 2.0, Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Waldorf_MicroWave_(lowres).jpg",
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
   "device": {
     "alias": "",
     "audioMono": 0,
@@ -17,48 +17,33 @@
     "color": "",
     "deviceType": "",
     "info": {
-      "ports": [
-        {
-          "count": 1,
-          "note": {
-            "de": "5-polige DIN-Buchse",
-            "en": "5-pin DIN"
-          },
-          "type": "midi-in"
-        },
-        {
-          "count": 1,
-          "note": {
-            "de": "5-polige DIN-Buchse",
-            "en": "5-pin DIN"
-          },
-          "type": "midi-out"
-        }
-      ],
       "schema": "tgm.deviceinfo/1",
-      "source": "tgm-prefill",
+      "source": "waldorf-press",
       "text": {
         "de": {
-          "description": "Der Waldorf MicroWave ist ein Wavetable-Synthesizer im 19-Zoll-Rackformat aus dem Jahr 1989. Er führt das Wavetable-Prinzip der PPG-Wave-Synthesizer fort und kombiniert digitale Wellenformtabellen mit analogen Filtern. Er ist 8-stimmig polyphon und multitimbral spielbar.",
+          "description": "Das Microwave (Microwave I) ist ein Wavetable-Synthesizer im kompakten Rack-Gehäuse und gilt als Klassiker der Wavetable-Synthese. Die Klangerzeugung arbeitet mit Wavetables aus je 64 Wellenformen. Es ist multitimbral: ein Multi-Programm kann bis zu acht Instrumente (Sounds) gleichzeitig spielen. Zur Dokumentation gehören detaillierte SysEx-Beschreibungen für die Systemsoftware 2.00 (1993/94) sowie Handbücher.",
           "features": [
-            "Wavetable-Synthese (PPG-Tradition)",
-            "Analoge Filter",
-            "8-stimmig polyphon",
-            "Multitimbraler Betrieb",
-            "19-Zoll-Rackgerät"
+            "Wavetable-Klangerzeugung (Wavetables aus 64 Wellen)",
+            "Benutzer-Wavetables über SysEx ladbar",
+            "Multimodus mit bis zu acht Instrumenten",
+            "Programmwechsel-Tabellen für Sounds und Multis",
+            "Vier frei zuweisbare Controller (W–Z)",
+            "Umfangreiche SysEx-Schnittstelle (Dumps, Echtzeit-Parameteränderung)"
           ]
         },
         "en": {
-          "description": "The Waldorf MicroWave is a 19-inch rack wavetable synthesizer from 1989. It continues the wavetable principle of the PPG Wave synthesizers and combines digital wavetables with analog filters. It offers 8-voice polyphony and multitimbral operation.",
+          "description": "The Microwave (Microwave I) is a wavetable synthesizer in a compact rack case and a classic of wavetable synthesis. Its sound generation uses wavetables of 64 waves each. It is multitimbral: a Multi program can play up to eight instruments (sounds) at once. The documentation includes detailed SysEx descriptions for system software 2.00 (1993/94) plus manuals.",
           "features": [
-            "Wavetable synthesis (PPG tradition)",
-            "Analog filters",
-            "8-voice polyphony",
-            "Multitimbral operation",
-            "19-inch rack unit"
+            "Wavetable sound generation (wavetables of 64 waves)",
+            "User wavetables loadable via SysEx",
+            "Multi mode with up to eight instruments",
+            "Program change maps for sounds and multis",
+            "Four freely assignable controllers (W-Z)",
+            "Extensive SysEx interface (dumps, real-time parameter change)"
           ]
         }
-      }
+      },
+      "ports": []
     },
     "kind": 0,
     "name": "MicroWave",
@@ -82,7 +67,7 @@
   },
   "manufacturer": {
     "name": "Waldorf",
-    "website": ""
+    "website": "https://waldorfmusic.com"
   },
   "presets": [
     {
@@ -3416,7 +3401,7 @@
   ],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 3,
+  "version": 4,
   "params": [
     {
       "name": "Portamento (MIDI)",

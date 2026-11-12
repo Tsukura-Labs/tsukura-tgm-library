@@ -1,0 +1,162 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Iridium Core",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Iridium Core, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "7088eee3-ed00-faf2-4999-13b58579a3df",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Iridium Core ist die kompakte Desktop-Variante des Iridium im Metallgehäuse (346 x 200 x 64 mm, 2,2 kg) mit der Klangerzeugung des Quantum. Er bietet 12 Stimmen, duo-timbralen Betrieb und einen 1024x600-Touchscreen. Patches von Quantum und anderen Iridium-Modellen lassen sich laden und umgekehrt. Mit zwei CV-Eingängen und Analog-Clock ist er für Modularsysteme gedacht.",
+          "features": [
+            "3 Oszillatoren mit je 5 Synthesemodi: Wavetable, Waveform (VA), Particle, Resonator, Kernels",
+            "Duale Stereo-Filter pro Stimme (Nave, Largo, PPG, Quantum, State Variable) plus Digital Former",
+            "6 Hüllkurven, 6 LFOs und Komplex-Modulator, Modulationsmatrix mit 40 Slots",
+            "5 Effekt-Slots pro Layer (Reverb, Delay, Chorus, Phaser, Flanger, Drive, EQ, Kompressor, Tremolo)",
+            "Arpeggiator und Step-Sequenzer mit bis zu 64 Schritten",
+            "2x4 Pads, 4 frei belegbare Potis, 6 Makro-Tasten",
+            "Über 1700 Werks-Patches, 7000 Speicherplätze, 2,6 GB Sample-Flash",
+            "MPE-fähig, Mono/Legato/Unisono"
+          ]
+        },
+        "en": {
+          "description": "The Iridium Core is the compact desktop version of the Iridium in a metal case (346 x 200 x 64 mm, 2.2 kg), built on the Quantum synth engine. It offers 12 voices, duo-timbral operation and a 1024x600 touchscreen. Patches can be exchanged with the Quantum and the other Iridium models. Two CV inputs and analog clock make it suited for modular setups.",
+          "features": [
+            "3 oscillators with 5 synthesis modes each: Wavetable, Waveform (VA), Particle, Resonator, Kernels",
+            "Dual stereo filters per voice (Nave, Largo, PPG, Quantum, State Variable) plus Digital Former",
+            "6 envelopes, 6 LFOs and a Komplex Modulator, 40-slot mod matrix",
+            "5 effect slots per layer (reverb, delay, chorus, phaser, flanger, drive, EQ, compressor, tremolo)",
+            "Arpeggiator and step sequencer with up to 64 steps",
+            "2x4 pads, 4 assignable pots, 6 macro buttons",
+            "Over 1700 factory patches, 7000 memory slots, 2.6 GB sample flash",
+            "MPE capable, mono/legato/unison"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (TS), Stereo",
+            "en": "2x TS jacks, stereo"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 2,
+          "note": {
+            "de": "2x Klinke (TS), Stereo",
+            "en": "2x TS jacks, stereo"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Klinke (TRS) mit Lautstärkeregler",
+            "en": "TRS jack with level control"
+          }
+        },
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "Mini-TRS Typ A (Adapter auf DIN-Buchse im Lieferumfang)",
+            "en": "mini-TRS Type A (adapter to DIN included)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "Mini-TRS Typ A (Adapter auf DIN-Buchse im Lieferumfang)",
+            "en": "mini-TRS Type A (adapter to DIN included)"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 2,
+          "note": {
+            "de": "USB Typ B (Gerät, MIDI zum Computer) und USB Typ A (Host, Speicher und MIDI-Geräte)",
+            "en": "USB Type B (device, MIDI to computer) and USB Type A (host, storage and MIDI devices)"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 2,
+          "note": {
+            "de": "2 hochauflösende CV-Eingänge, in der Mod-Matrix nutzbar",
+            "en": "2 high-resolution CV inputs usable in the mod matrix"
+          }
+        },
+        {
+          "type": "clock-in",
+          "count": 1,
+          "note": {
+            "de": "Analog-Clock-Eingang mit Teiler",
+            "en": "analog clock in with divider"
+          }
+        },
+        {
+          "type": "clock-out",
+          "count": 1,
+          "note": {
+            "de": "Analog-Clock-Ausgang mit Teiler",
+            "en": "analog clock out with divider"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "MicroSD-Slot",
+            "en": "MicroSD slot"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteil 12 V DC / 3 A",
+            "en": "external power supply 12 V DC / 3 A"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/iridium-core",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

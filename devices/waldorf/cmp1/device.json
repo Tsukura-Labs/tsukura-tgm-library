@@ -1,0 +1,88 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "cmp1",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf cmp1, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "17770fd0-0303-c9c5-ba27-8f0686720e4f",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Das cmp1 ist ein analoger High-End-Kompressor, der sich auf ungewöhnliche Weise modulieren lässt. Er bietet Side-Chaining mit einstellbarer Balance zwischen Side- und Hauptsignal, Attack und Release (manuell oder automatisch), Hard-/Soft-Knee, RMS- und Peak-Erkennung sowie einen Bleed-Regler, der das Originalsignal zurückmischt. CV-Eingänge für Threshold und Kompression ergänzen die Regler; ein Detektor-Ausgang taugt als Hüllkurvenfolger, ein weiterer Pegel-Eingang als exponentieller VCA.",
+          "features": [
+            "Analoger Kompressor mit Side-Chain-Balance",
+            "Attack/Release manuell oder automatisch",
+            "Hard- und Soft-Knee",
+            "RMS- und Peak-Detektion",
+            "Bleed-Regler, Output-Gain",
+            "CV für Threshold und Kompression",
+            "Detektor-Ausgang als Envelope Follower"
+          ]
+        },
+        "en": {
+          "description": "The cmp1 is a true high-end analog compressor that can be modulated in unconventional ways. It offers side-chaining with an adjustable balance between side and main signal, attack and release (manual or automatic), hard and soft knee, RMS and peak detection and a bleed control that mixes the original signal back in. CV inputs for threshold and compression complement the panel controls; a detector output can serve as envelope follower and an extra level input as exponential VCA.",
+          "features": [
+            "Analog compressor with side-chain balance",
+            "Attack/release manual or automatic",
+            "Hard and soft knee",
+            "RMS and peak detection",
+            "Bleed control, output gain",
+            "CV for threshold and compression",
+            "Detector output as envelope follower"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "cv-in",
+          "count": 3,
+          "note": {
+            "de": "CV Threshold, CV Compression, Level-Eingang",
+            "en": "CV threshold, CV compression, level input"
+          }
+        },
+        {
+          "type": "cv-out",
+          "count": 1,
+          "note": {
+            "de": "Detektor-Ausgang",
+            "en": "Detector output"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/cmp1",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

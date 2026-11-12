@@ -1,0 +1,84 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Gekko Trigger",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Gekko Trigger, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "359650ba-5418-5d3b-9fcb-c4b33a09ef59",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Gekko Trigger ist die blaue Variante der Gekko-Geräte. Man legt fest, welche Taste oder welcher Tastenbereich als Auslöser dient (bei einem Bereich bestimmen die tiefste und höchste gespielte Taste den Umfang), und weist ihm einen Akkord oder Töne zu, die auf dem übrigen Keyboard oder von einem Sequenzer gespielt werden. Als Auslöser können auch andere MIDI-Controller wie Drumpads oder eine in einen Sequenzer eingespielte Hi-Hat-Figur dienen. Doppelklick auf die Gerätetaste sendet All Notes Off.",
+          "features": [
+            "Auslöser-Taste oder -Bereich per Gerätetaste festlegbar",
+            "Löst zugeordnete Akkorde oder Töne aus",
+            "Auslöser auch von Drumpads oder Sequenzer",
+            "Ein/Aus per Gerätetaste",
+            "Doppelklick: All Notes Off"
+          ]
+        },
+        "en": {
+          "description": "The Gekko Trigger is the blue Gekko variant. You define which key or key range acts as trigger (for a range, the lowest and highest keys pressed set the extent) and assign chords or notes that you play on the remaining keyboard or from a sequencer. Other MIDI controllers such as drum pads or a hi-hat figure recorded in a sequencer can also serve as triggers. A double click on the unit's button sends All Notes Off.",
+          "features": [
+            "Trigger key or key range set via unit button",
+            "Triggers assigned chords or notes",
+            "Triggers can come from drum pads or a sequencer",
+            "On/off via unit button",
+            "Double click: All Notes Off"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In (laut Anschlussskizzen)",
+            "en": "MIDI In (per connection diagrams)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out (laut Anschlussskizzen)",
+            "en": "MIDI Out (per connection diagrams)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/gekko-trigger",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 1
+}

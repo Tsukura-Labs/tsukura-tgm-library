@@ -1,0 +1,820 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "Pulse / Pulse Plus",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf Pulse / Pulse Plus, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "167aea5a-b948-db69-6a01-2e3285176669",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Der Pulse ist ein analoger Monosynthesizer von Waldorf mit drei Oszillatoren, Rauschgenerator, Filter, zwei Hüllkurven, zwei LFOs und vier Modulationseinheiten. Der Pulse Plus erweitert ihn um Audio-Eingang und eine CV/Gate-Schnittstelle sowie MIDI Thru und Stereo-Ausgänge. Er hat 99 Programmplätze: Programme 1-40 sind frei programmierbar, 41-99 sind feste Werksprogramme. Das Handbuch (Version 2.0) gilt für beide Modelle.",
+          "features": [
+            "Drei Oszillatoren mit Pulse/Sägezahn/Dreieck, Sync und Cross-Modulation",
+            "Analoges Filter mit Resonanz, zwei Hüllkurven, zwei LFOs",
+            "Vier Modulationseinheiten mit 16 Quellen und 16 Zielen",
+            "Arpeggiator",
+            "99 Programme (1-40 frei, 41-99 Werk), Zufallsprogramm P.rn",
+            "Pulse Plus: Audio-Eingang, CV/Gate-Schnittstelle (CV In, Gate In, 2x CV Out, Gate Out), MIDI Thru, Stereo-Ausgang",
+            "Programmwechsel über MIDI Program Change 1-100, Sound-Dumps per SysEx"
+          ]
+        },
+        "en": {
+          "description": "The Pulse is a Waldorf analog monosynth with three oscillators, a noise generator, a filter, two envelopes, two LFOs and four modulation units. The Pulse Plus adds an audio input and a CV/Gate interface as well as MIDI Thru and stereo outputs. It has 99 program locations: programs 1-40 are user-programmable, 41-99 are fixed factory programs. The v2.0 manual covers both models.",
+          "features": [
+            "Three oscillators with pulse/saw/triangle, sync and cross modulation",
+            "Analog filter with resonance, two envelopes, two LFOs",
+            "Four modulation units with 16 sources and 16 destinations",
+            "Arpeggiator",
+            "99 programs (1-40 user, 41-99 factory), random program P.rn",
+            "Pulse Plus: audio input, CV/Gate interface (CV In, Gate In, 2x CV Out, Gate Out), MIDI Thru, stereo output",
+            "Program select via MIDI Program Change 1-100, SysEx sound dumps"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI-In-Buchse",
+            "en": "MIDI In jack"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Out-Buchse",
+            "en": "MIDI Out jack"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI-Thru-Buchse",
+            "en": "MIDI Thru jack"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Stereo Out Links/Mono und Rechts",
+            "en": "Stereo Out left/mono and right"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzteil-Buchse 12 V DC",
+            "en": "Power supply socket 12 V DC"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 1,
+          "note": {
+            "de": "Audio-In (nur Pulse Plus)",
+            "en": "Audio In (Pulse Plus only)"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 1,
+          "note": {
+            "de": "CV In (nur Pulse Plus)",
+            "en": "CV In (Pulse Plus only)"
+          }
+        },
+        {
+          "type": "cv-out",
+          "count": 2,
+          "note": {
+            "de": "CV 1 Out / CV 2 Out (nur Pulse Plus)",
+            "en": "CV 1 Out / CV 2 Out (Pulse Plus only)"
+          }
+        },
+        {
+          "type": "gate-in",
+          "count": 1,
+          "note": {
+            "de": "Gate In (nur Pulse Plus)",
+            "en": "Gate In (Pulse Plus only)"
+          }
+        },
+        {
+          "type": "gate-out",
+          "count": 1,
+          "note": {
+            "de": "Gate Out (nur Pulse Plus)",
+            "en": "Gate Out (Pulse Plus only)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/pulse",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Portamento Time",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 5,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 32,
+      "channel": -1,
+      "min": 16,
+      "max": 112
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 33,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 34,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Pulsewidth",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 1,
+      "number": 35,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 36,
+      "channel": -1,
+      "min": 16,
+      "max": 112
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 37,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 38,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Pulsewidth",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 39,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 40,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Sync",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 1,
+      "number": 41,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Semitone",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 1,
+      "number": 42,
+      "channel": -1,
+      "min": 16,
+      "max": 112
+    },
+    {
+      "name": "Tune",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 1,
+      "number": 43,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 1,
+      "number": 44,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Pitch Mod Source",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 60,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Pitch Mod Amount",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 61,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Portamento Mode",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 62,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Pitchbend Scale",
+      "group": "Oszillatoren / Common",
+      "kind": 1,
+      "number": 63,
+      "channel": -1,
+      "min": 0,
+      "max": 24
+    },
+    {
+      "name": "Cutoff",
+      "group": "Filter",
+      "kind": 1,
+      "number": 50,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Filter",
+      "kind": 1,
+      "number": 51,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Env1 Sens",
+      "group": "Filter",
+      "kind": 1,
+      "number": 52,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Velocity Sens",
+      "group": "Filter",
+      "kind": 1,
+      "number": 53,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Mod Source",
+      "group": "Filter",
+      "kind": 1,
+      "number": 54,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Mod Amount",
+      "group": "Filter",
+      "kind": 1,
+      "number": 55,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Resonance",
+      "group": "Filter",
+      "kind": 1,
+      "number": 56,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Env 1",
+      "kind": 1,
+      "number": 14,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Env 1",
+      "kind": 1,
+      "number": 15,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Env 1",
+      "kind": 1,
+      "number": 16,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Env 1",
+      "kind": 1,
+      "number": 17,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Attack",
+      "group": "Hüllkurven / Env 2",
+      "kind": 1,
+      "number": 18,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Decay",
+      "group": "Hüllkurven / Env 2",
+      "kind": 1,
+      "number": 19,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain",
+      "group": "Hüllkurven / Env 2",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Release",
+      "group": "Hüllkurven / Env 2",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Keytrack",
+      "group": "Hüllkurven / Env 1",
+      "kind": 1,
+      "number": 28,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger",
+      "group": "Hüllkurven / Env 1",
+      "kind": 1,
+      "number": 29,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Keytrack",
+      "group": "Hüllkurven / Env 2",
+      "kind": 1,
+      "number": 30,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Trigger",
+      "group": "Hüllkurven / Env 2",
+      "kind": 1,
+      "number": 31,
+      "channel": -1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Shape",
+      "group": "LFOs / LFO 1",
+      "kind": 1,
+      "number": 25,
+      "channel": -1,
+      "min": 0,
+      "max": 7
+    },
+    {
+      "name": "Speed",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 26,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Delay",
+      "group": "LFOs / LFO 2",
+      "kind": 1,
+      "number": 27,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Main Volume",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 7,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Panning",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 10,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 1 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 45,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 2 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 46,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Osc 3 Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 47,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Noise Level",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 48,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "External Level (Pulse Plus)",
+      "group": "Mixer",
+      "kind": 1,
+      "number": 49,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume",
+      "group": "Mixer / Amp",
+      "kind": 1,
+      "number": 57,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Volume Velo Sens",
+      "group": "Mixer / Amp",
+      "kind": 1,
+      "number": 58,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Breath Control",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 2,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "CV 2 Source (Pulse Plus)",
+      "group": "Sonstiges / CV/Gate",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "CV 2 Amount (Pulse Plus)",
+      "group": "Sonstiges / CV/Gate",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Sustain Switch",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 64,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Arp Active",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 102,
+      "channel": -1,
+      "min": 0,
+      "max": 2
+    },
+    {
+      "name": "Arp Range",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 103,
+      "channel": -1,
+      "min": 0,
+      "max": 9
+    },
+    {
+      "name": "Arp Clock",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 104,
+      "channel": -1,
+      "min": 0,
+      "max": 31
+    },
+    {
+      "name": "Arp Tempo",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 105,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Arp Mode",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 106,
+      "channel": -1,
+      "min": 0,
+      "max": 6
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 1",
+      "kind": 1,
+      "number": 108,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 1",
+      "kind": 1,
+      "number": 109,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 1",
+      "kind": 1,
+      "number": 110,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 2",
+      "kind": 1,
+      "number": 111,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 2",
+      "kind": 1,
+      "number": 112,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 2",
+      "kind": 1,
+      "number": 113,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 3",
+      "kind": 1,
+      "number": 114,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 3",
+      "kind": 1,
+      "number": 115,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 3",
+      "kind": 1,
+      "number": 116,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 4",
+      "kind": 1,
+      "number": 117,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 4",
+      "kind": 1,
+      "number": 118,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 4",
+      "kind": 1,
+      "number": 119,
+      "channel": -1,
+      "min": 0,
+      "max": 15
+    },
+    {
+      "name": "Reset All Controls",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "All Notes Off",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 123,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "authors": [],
+  "banks": [],
+  "description": "Foto und Beschreibung: © Waldorf Music GmbH, mit freundlicher Genehmigung (Waldorf-Pressematerial).\nPhoto and description: © Waldorf Music GmbH, courtesy of Waldorf Music (press material).",
+  "device": {
+    "alias": "",
+    "audioMono": 0,
+    "bankOptions": 0,
+    "channelModesJson": "",
+    "color": "",
+    "deviceType": "",
+    "kind": 0,
+    "name": "KB37",
+    "nameRuleJson": "",
+    "networkOptionsJson": "",
+    "networkProtocol": "",
+    "note": "",
+    "pluginId": "",
+    "sourceInfo": "Waldorf KB37, 1.0, Tsukura Labs",
+    "sysexDeviceId": 0,
+    "sysexExpected": 0,
+    "sysexHeader": "",
+    "sysexQuietMs": 300,
+    "sysexRequest": "",
+    "sysexTimeoutMs": 3000,
+    "uuid": "ef0af908-e6e4-abd4-a790-0d44193724cb",
+    "info": {
+      "schema": "tgm.deviceinfo/1",
+      "source": "waldorf-press",
+      "text": {
+        "de": {
+          "description": "Das KB37 ist eine 37-Tasten-Controller-Tastatur von Waldorf mit eingebautem Modulrahmen für Eurorack-/A-100-Module und CV/Gate-Schnittstelle. Es erzeugt aus MIDI (Tastatur, DIN oder USB) Pitch, Gate, Clock, Reset, Velocity, Aftertouch, Bend, Mod-Rad, Sensor und drei frei lernbare Controller-Ausgänge. Dazu kommen ein Arpeggiator, ein Stereo-Audioweg mit Kopfhörerausgang und eine Sustain-Pedal-Buchse.",
+          "features": [
+            "37 Tasten mit Pitch- und Mod-Rad",
+            "Modulrahmen mit Bus für Eurorack/A-100",
+            "CV/Gate: Pitch 1 V/Okt., Gate, Clock, Reset, Velocity, Aftertouch, Bend, Wheel",
+            "Ctrl-X/Y/Z: frei lernbare MIDI-CC-Ausgänge (Standard CC 2, 4, 11)",
+            "Ctrl-X optional als zweiter Pitch-Ausgang (Duophon)",
+            "Arpeggiator, per MIDI-CC steuerbar",
+            "Stereo-Audioeingänge, Hauptausgang, Kopfhörer",
+            "MIDI In/Out/Thru und USB"
+          ]
+        },
+        "en": {
+          "description": "The KB37 is a 37-key controller keyboard from Waldorf with a built-in module frame for Eurorack/A-100 modules and a CV/gate interface. From MIDI (keyboard, DIN or USB) it generates pitch, gate, clock, reset, velocity, aftertouch, bend, mod wheel, sensor and three freely learnable controller outputs. It also has an arpeggiator, a stereo audio path with headphone output and a sustain pedal jack.",
+          "features": [
+            "37 keys with pitch and mod wheels",
+            "Module frame with bus for Eurorack/A-100",
+            "CV/gate: pitch 1 V/oct, gate, clock, reset, velocity, aftertouch, bend, wheel",
+            "Ctrl-X/Y/Z: learnable MIDI CC outputs (default CC 2, 4, 11)",
+            "Ctrl-X optionally second pitch output (duophonic)",
+            "Arpeggiator, controllable via MIDI CC",
+            "Stereo audio inputs, main outputs, headphones",
+            "MIDI In/Out/Thru and USB"
+          ]
+        }
+      },
+      "ports": [
+        {
+          "type": "midi-in",
+          "count": 1,
+          "note": {
+            "de": "MIDI In (5-polig DIN)",
+            "en": "MIDI In (5-pin DIN)"
+          }
+        },
+        {
+          "type": "midi-out",
+          "count": 1,
+          "note": {
+            "de": "MIDI Out",
+            "en": "MIDI Out"
+          }
+        },
+        {
+          "type": "midi-thru",
+          "count": 1,
+          "note": {
+            "de": "MIDI Thru",
+            "en": "MIDI Thru"
+          }
+        },
+        {
+          "type": "usb",
+          "count": 1,
+          "note": {
+            "de": "USB (Host-Anschluss)",
+            "en": "USB (host connection)"
+          }
+        },
+        {
+          "type": "audio-in",
+          "count": 2,
+          "note": {
+            "de": "Left/Mono, Right (Frontplatte, für Module)",
+            "en": "Left/Mono, Right (front panel, from modules)"
+          }
+        },
+        {
+          "type": "audio-out",
+          "count": 2,
+          "note": {
+            "de": "Stereo-Ausgänge (Rückseite)",
+            "en": "Stereo outputs (back)"
+          }
+        },
+        {
+          "type": "headphones",
+          "count": 1,
+          "note": {
+            "de": "Kopfhörer",
+            "en": "Headphones"
+          }
+        },
+        {
+          "type": "sustain-pedal",
+          "count": 1,
+          "note": {
+            "de": "Sustain-Pedal (Polarität automatisch)",
+            "en": "Sustain pedal (auto polarity)"
+          }
+        },
+        {
+          "type": "cv-in",
+          "count": 1,
+          "note": {
+            "de": "Sensor-Eingang 0..+5 V",
+            "en": "Sensor input 0..+5 V"
+          }
+        },
+        {
+          "type": "cv-out",
+          "count": 9,
+          "note": {
+            "de": "Pitch, Velocity, Aftertouch, Ctrl-X, Ctrl-Y, Ctrl-Z, Sensor, Bend, Wheel",
+            "en": "Pitch, Velocity, Aftertouch, Ctrl-X, Ctrl-Y, Ctrl-Z, Sensor, Bend, Wheel"
+          }
+        },
+        {
+          "type": "gate-out",
+          "count": 1,
+          "note": {
+            "de": "Gate",
+            "en": "Gate"
+          }
+        },
+        {
+          "type": "clock-out",
+          "count": 1,
+          "note": {
+            "de": "Clock",
+            "en": "Clock"
+          }
+        },
+        {
+          "type": "other",
+          "count": 1,
+          "note": {
+            "de": "Reset-Ausgang",
+            "en": "Reset output"
+          }
+        },
+        {
+          "type": "power",
+          "count": 1,
+          "note": {
+            "de": "Netzbuchse mit Schalter (110/220 V)",
+            "en": "Mains socket with switch (110/220 V)"
+          }
+        }
+      ]
+    }
+  },
+  "id": "waldorf/kb37",
+  "images": {
+    "device": "images/device.jpg"
+  },
+  "manufacturer": {
+    "name": "Waldorf",
+    "website": "https://waldorfmusic.com"
+  },
+  "presets": [],
+  "schema": "tgm.device/1",
+  "soundpacks": [],
+  "version": 2,
+  "params": [
+    {
+      "name": "Arp Enable",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 20,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Arp Hold",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 21,
+      "channel": -1,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "name": "Arp Clock",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 22,
+      "channel": -1,
+      "min": 0,
+      "max": 11
+    },
+    {
+      "name": "Arp Octaves",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 23,
+      "channel": -1,
+      "min": 1,
+      "max": 4
+    },
+    {
+      "name": "Arp Direction",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 1,
+      "number": 24,
+      "channel": -1,
+      "min": 0,
+      "max": 4
+    },
+    {
+      "name": "Modulation Wheel",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 1,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    }
+  ]
+}
