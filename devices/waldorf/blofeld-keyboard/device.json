@@ -177,7 +177,7 @@
   "presets": [],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2,
+  "version": 3,
   "params": [
     {
       "name": "Glide Rate",
@@ -414,6 +414,236 @@
       "max": 127
     },
     {
+      "name": "Bend Range",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 3E 13 {dev} 20 00 00 04 {val} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 05 {val} F7"
+    },
+    {
+      "name": "FM Source",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 11,
+      "sysex": "F0 3E 13 {dev} 20 00 00 06 {val} F7"
+    },
+    {
+      "name": "PWM Source",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 0A {val} F7"
+    },
+    {
+      "name": "Wave (all 73)",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 72,
+      "sysex": "F0 3E 13 {dev} 20 00 00 08 {val} F7"
+    },
+    {
+      "name": "Limit WT",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 13 {dev} 20 00 00 0E {val} F7"
+    },
+    {
+      "name": "Brilliance",
+      "group": "Oszillatoren / Osc 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 10 {val} F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 3E 13 {dev} 20 00 00 14 {val} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 15 {val} F7"
+    },
+    {
+      "name": "FM Source",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 11,
+      "sysex": "F0 3E 13 {dev} 20 00 00 16 {val} F7"
+    },
+    {
+      "name": "PWM Source",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 1A {val} F7"
+    },
+    {
+      "name": "Wave (all 73)",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 72,
+      "sysex": "F0 3E 13 {dev} 20 00 00 18 {val} F7"
+    },
+    {
+      "name": "Limit WT",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 13 {dev} 20 00 00 1E {val} F7"
+    },
+    {
+      "name": "Brilliance",
+      "group": "Oszillatoren / Osc 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 20 {val} F7"
+    },
+    {
+      "name": "Bend Range",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 40,
+      "max": 88,
+      "sysex": "F0 3E 13 {dev} 20 00 00 24 {val} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 25 {val} F7"
+    },
+    {
+      "name": "FM Source",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 11,
+      "sysex": "F0 3E 13 {dev} 20 00 00 26 {val} F7"
+    },
+    {
+      "name": "PWM Source",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 2A {val} F7"
+    },
+    {
+      "name": "Brilliance",
+      "group": "Oszillatoren / Osc 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 30 {val} F7"
+    },
+    {
+      "name": "Pitch Mod Source",
+      "group": "Oszillatoren / Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 32 {val} F7"
+    },
+    {
+      "name": "Glide Type",
+      "group": "Oszillatoren / Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 3E 13 {dev} 20 00 00 38 {val} F7"
+    },
+    {
+      "name": "Alloc/Unisono Mode",
+      "group": "Oszillatoren / Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 3A {val} F7"
+    },
+    {
+      "name": "Unisono Detune",
+      "group": "Oszillatoren / Common",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 00 3B {val} F7"
+    },
+    {
       "name": "Routing",
       "group": "Filter / Common",
       "kind": 1,
@@ -619,6 +849,86 @@
       "channel": -1,
       "min": 0,
       "max": 127
+    },
+    {
+      "name": "Drive Curve",
+      "group": "Filter / Filter 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 3E 13 {dev} 20 00 00 52 {val} F7"
+    },
+    {
+      "name": "Mod Source",
+      "group": "Filter / Filter 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 59 {val} F7"
+    },
+    {
+      "name": "FM Source",
+      "group": "Filter / Filter 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 11,
+      "sysex": "F0 3E 13 {dev} 20 00 00 5B {val} F7"
+    },
+    {
+      "name": "Pan Source",
+      "group": "Filter / Filter 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 5E {val} F7"
+    },
+    {
+      "name": "Drive Curve",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 3E 13 {dev} 20 00 00 66 {val} F7"
+    },
+    {
+      "name": "Mod Source",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 6D {val} F7"
+    },
+    {
+      "name": "FM Source",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 11,
+      "sysex": "F0 3E 13 {dev} 20 00 00 6F {val} F7"
+    },
+    {
+      "name": "Pan Source",
+      "group": "Filter / Filter 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 72 {val} F7"
     },
     {
       "name": "Attack",
@@ -837,6 +1147,86 @@
       "max": 127
     },
     {
+      "name": "Mode/Trigger",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 44 {val} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Filter Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 48 {val} F7"
+    },
+    {
+      "name": "Mode/Trigger",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 50 {val} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Amp Env",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 54 {val} F7"
+    },
+    {
+      "name": "Mode/Trigger",
+      "group": "Hüllkurven / Env 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 5C {val} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Env 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 60 {val} F7"
+    },
+    {
+      "name": "Mode/Trigger",
+      "group": "Hüllkurven / Env 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 68 {val} F7"
+    },
+    {
+      "name": "Attack Level",
+      "group": "Hüllkurven / Env 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 6C {val} F7"
+    },
+    {
       "name": "Shape",
       "group": "LFOs / LFO 1",
       "kind": 1,
@@ -945,6 +1335,126 @@
       "max": 127
     },
     {
+      "name": "Clocked",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 13 {dev} 20 00 01 24 {val} F7"
+    },
+    {
+      "name": "Start Phase",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 25 {val} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 27 {val} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "LFOs / LFO 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 2A {val} F7"
+    },
+    {
+      "name": "Clocked",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 13 {dev} 20 00 01 30 {val} F7"
+    },
+    {
+      "name": "Start Phase",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 31 {val} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 33 {val} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "LFOs / LFO 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 36 {val} F7"
+    },
+    {
+      "name": "Clocked",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 13 {dev} 20 00 01 3C {val} F7"
+    },
+    {
+      "name": "Start Phase",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 3D {val} F7"
+    },
+    {
+      "name": "Fade",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 3F {val} F7"
+    },
+    {
+      "name": "Keytrack",
+      "group": "LFOs / LFO 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 42 {val} F7"
+    },
+    {
       "name": "FX 1 Mix",
       "group": "Effekte / FX 1",
       "kind": 1,
@@ -961,6 +1471,306 @@
       "channel": -1,
       "min": 0,
       "max": 127
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 13 {dev} 20 00 01 00 {val} F7"
+    },
+    {
+      "name": "Param 1",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 02 {val} F7"
+    },
+    {
+      "name": "Param 2",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 03 {val} F7"
+    },
+    {
+      "name": "Param 3",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 04 {val} F7"
+    },
+    {
+      "name": "Param 4",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 05 {val} F7"
+    },
+    {
+      "name": "Param 5",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 06 {val} F7"
+    },
+    {
+      "name": "Param 6",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 07 {val} F7"
+    },
+    {
+      "name": "Param 7",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 08 {val} F7"
+    },
+    {
+      "name": "Param 8",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 09 {val} F7"
+    },
+    {
+      "name": "Param 9",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 0A {val} F7"
+    },
+    {
+      "name": "Param 10",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 0B {val} F7"
+    },
+    {
+      "name": "Param 11",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 0C {val} F7"
+    },
+    {
+      "name": "Param 12",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 0D {val} F7"
+    },
+    {
+      "name": "Param 13",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 0E {val} F7"
+    },
+    {
+      "name": "Param 14",
+      "group": "Effekte / FX 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 0F {val} F7"
+    },
+    {
+      "name": "Type",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 8,
+      "sysex": "F0 3E 13 {dev} 20 00 01 10 {val} F7"
+    },
+    {
+      "name": "Param 1",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 12 {val} F7"
+    },
+    {
+      "name": "Param 2",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 13 {val} F7"
+    },
+    {
+      "name": "Param 3",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 14 {val} F7"
+    },
+    {
+      "name": "Param 4",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 15 {val} F7"
+    },
+    {
+      "name": "Param 5",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 16 {val} F7"
+    },
+    {
+      "name": "Param 6",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 17 {val} F7"
+    },
+    {
+      "name": "Param 7",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 18 {val} F7"
+    },
+    {
+      "name": "Param 8",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 19 {val} F7"
+    },
+    {
+      "name": "Param 9",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 1A {val} F7"
+    },
+    {
+      "name": "Param 10",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 1B {val} F7"
+    },
+    {
+      "name": "Param 11",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 1C {val} F7"
+    },
+    {
+      "name": "Param 12",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 1D {val} F7"
+    },
+    {
+      "name": "Param 13",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 1E {val} F7"
+    },
+    {
+      "name": "Param 14",
+      "group": "Effekte / FX 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 1F {val} F7"
     },
     {
       "name": "Channel Volume",
@@ -1107,6 +1917,16 @@
       "max": 127
     },
     {
+      "name": "Amp Mod Source",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 00 7B {val} F7"
+    },
+    {
       "name": "Modulation Wheel",
       "group": "Sonstiges",
       "kind": 1,
@@ -1222,6 +2042,756 @@
       "channel": -1,
       "min": 0,
       "max": 0
+    },
+    {
+      "name": "Source A",
+      "group": "Sonstiges / Modifier 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 01 75 {val} F7"
+    },
+    {
+      "name": "Source B",
+      "group": "Sonstiges / Modifier 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 01 76 {val} F7"
+    },
+    {
+      "name": "Operation",
+      "group": "Sonstiges / Modifier 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 13 {dev} 20 00 01 77 {val} F7"
+    },
+    {
+      "name": "Constant",
+      "group": "Sonstiges / Modifier 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 78 {val} F7"
+    },
+    {
+      "name": "Source A",
+      "group": "Sonstiges / Modifier 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 01 79 {val} F7"
+    },
+    {
+      "name": "Source B",
+      "group": "Sonstiges / Modifier 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 01 7A {val} F7"
+    },
+    {
+      "name": "Operation",
+      "group": "Sonstiges / Modifier 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 13 {dev} 20 00 01 7B {val} F7"
+    },
+    {
+      "name": "Constant",
+      "group": "Sonstiges / Modifier 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 01 7C {val} F7"
+    },
+    {
+      "name": "Source A",
+      "group": "Sonstiges / Modifier 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 01 7D {val} F7"
+    },
+    {
+      "name": "Source B",
+      "group": "Sonstiges / Modifier 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 01 7E {val} F7"
+    },
+    {
+      "name": "Operation",
+      "group": "Sonstiges / Modifier 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 13 {dev} 20 00 01 7F {val} F7"
+    },
+    {
+      "name": "Constant",
+      "group": "Sonstiges / Modifier 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 00 {val} F7"
+    },
+    {
+      "name": "Source A",
+      "group": "Sonstiges / Modifier 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 01 {val} F7"
+    },
+    {
+      "name": "Source B",
+      "group": "Sonstiges / Modifier 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 02 {val} F7"
+    },
+    {
+      "name": "Operation",
+      "group": "Sonstiges / Modifier 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 7,
+      "sysex": "F0 3E 13 {dev} 20 00 02 03 {val} F7"
+    },
+    {
+      "name": "Constant",
+      "group": "Sonstiges / Modifier 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 04 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 05 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 06 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 1",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 07 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 08 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 09 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 2",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 0A {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 0B {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 0C {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 3",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 0D {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 0E {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 0F {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 4",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 10 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 11 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 12 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 5",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 13 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 14 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 15 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 6",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 16 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 17 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 18 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 7",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 19 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 1A {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 1B {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 8",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 1C {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 1D {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 1E {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 9",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 1F {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 20 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 21 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 10",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 22 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 23 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 24 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 11",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 25 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 26 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 27 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 12",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 28 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 29 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 2A {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 13",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 2B {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 2C {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 2D {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 14",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 2E {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 2F {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 30 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 15",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 31 {val} F7"
+    },
+    {
+      "name": "Source",
+      "group": "Sonstiges / Mod 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 30,
+      "sysex": "F0 3E 13 {dev} 20 00 02 32 {val} F7"
+    },
+    {
+      "name": "Destination",
+      "group": "Sonstiges / Mod 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 53,
+      "sysex": "F0 3E 13 {dev} 20 00 02 33 {val} F7"
+    },
+    {
+      "name": "Amount",
+      "group": "Sonstiges / Mod 16",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 34 {val} F7"
+    },
+    {
+      "name": "Pattern",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16,
+      "sysex": "F0 3E 13 {dev} 20 00 02 38 {val} F7"
+    },
+    {
+      "name": "Clock",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 42,
+      "sysex": "F0 3E 13 {dev} 20 00 02 3A {val} F7"
+    },
+    {
+      "name": "Note Length",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 43,
+      "sysex": "F0 3E 13 {dev} 20 00 02 3B {val} F7"
+    },
+    {
+      "name": "Direction",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 3,
+      "sysex": "F0 3E 13 {dev} 20 00 02 3D {val} F7"
+    },
+    {
+      "name": "Sort Order",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 5,
+      "sysex": "F0 3E 13 {dev} 20 00 02 3E {val} F7"
+    },
+    {
+      "name": "Velocity",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 6,
+      "sysex": "F0 3E 13 {dev} 20 00 02 3F {val} F7"
+    },
+    {
+      "name": "Timing Factor",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 40 {val} F7"
+    },
+    {
+      "name": "Pattern Reset",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 1,
+      "sysex": "F0 3E 13 {dev} 20 00 02 42 {val} F7"
+    },
+    {
+      "name": "Pattern Length",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 15,
+      "sysex": "F0 3E 13 {dev} 20 00 02 43 {val} F7"
+    },
+    {
+      "name": "Tempo",
+      "group": "Sonstiges / Arpeggiator",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127,
+      "sysex": "F0 3E 13 {dev} 20 00 02 46 {val} F7"
+    },
+    {
+      "name": "Category",
+      "group": "Sonstiges",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 12,
+      "sysex": "F0 3E 13 {dev} 20 00 02 7B {val} F7"
     }
   ]
 }

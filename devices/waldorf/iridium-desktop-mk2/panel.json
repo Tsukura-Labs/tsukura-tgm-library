@@ -1,0 +1,11 @@
+{
+  "schema": "tgm.panels/1",
+  "panels": [
+    {
+      "uuid": "618f861365b93d63882b602513180244",
+      "name": "Klangbearbeitung",
+      "sort": 0,
+      "json": "{\"v\":1,\"w\":800,\"h\":400,\"controls\":[{\"id\":\"c1\",\"t\":7,\"x\":16,\"y\":16,\"w\":200,\"h\":216,\"label\":\"Mixer\",\"color\":\"#D8BB64\"},{\"id\":\"c2\",\"t\":1,\"x\":28,\"y\":50,\"w\":60,\"h\":160,\"label\":\"Master Volume\",\"color\":\"#D8BB64\",\"kind\":1,\"num\":7,\"ch\":-1,\"sx\":\"\",\"min\":0,\"max\":127,\"def\":0,\"names\":[],\"slot\":0,\"rx\":true,\"step\":1,\"vd\":1}]}"
+    }
+  ]
+}

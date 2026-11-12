@@ -128,7 +128,7 @@
   "presets": [],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2,
+  "version": 3,
   "params": [
     {
       "name": "Channel Volume",
@@ -183,6 +183,33 @@
       "channel": -1,
       "min": 0,
       "max": 0
+    },
+    {
+      "name": "Reset All Controllers",
+      "group": "Sonstiges",
+      "kind": 1,
+      "number": 121,
+      "channel": -1,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "Channel Aftertouch",
+      "group": "Sonstiges",
+      "kind": 7,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Program Change",
+      "group": "Sonstiges",
+      "kind": 8,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 49
     }
   ]
 }

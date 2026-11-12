@@ -17,7 +17,7 @@
     "note": "",
     "pluginId": "",
     "sourceInfo": "Waldorf Kyra, 1.0, Tsukura Labs",
-    "sysexDeviceId": 0,
+    "sysexDeviceId": 127,
     "sysexExpected": 0,
     "sysexHeader": "",
     "sysexQuietMs": 300,
@@ -110,7 +110,7 @@
   "presets": [],
   "schema": "tgm.device/1",
   "soundpacks": [],
-  "version": 2,
+  "version": 3,
   "params": [
     {
       "name": "Portamento Time",
@@ -237,6 +237,16 @@
       "channel": -1,
       "min": 0,
       "max": 127
+    },
+    {
+      "name": "Master Volume (Universal SysEx)",
+      "group": "Mixer",
+      "kind": 10,
+      "number": 0,
+      "channel": -1,
+      "min": 0,
+      "max": 16383,
+      "sysex": "F0 7F {dev} 04 01 {vallsb} {valmsb} F7"
     },
     {
       "name": "Breath Controller",
