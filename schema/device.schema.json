@@ -152,7 +152,47 @@
       "type": "object",
       "properties": {
         "device": { "type": "string", "pattern": "^images/[A-Za-z0-9._-]+\\.(png|jpg)$" },
-        "panel": { "type": "string", "pattern": "^images/[A-Za-z0-9._-]+\\.(png|jpg)$" }
+        "panel": { "type": "string", "pattern": "^images/[A-Za-z0-9._-]+\\.(png|jpg)$" },
+        "gallery": {
+          "type": "array",
+          "maxItems": 12,
+          "description": "Additional photos (max 12, each <= 2 MB, PNG/JPEG).",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "properties": {
+              "path": { "type": "string", "pattern": "^images/[A-Za-z0-9._-]+\\.(png|jpg)$" },
+              "caption": {
+                "type": "object",
+                "properties": {
+                  "de": { "type": "string", "maxLength": 200 },
+                  "en": { "type": "string", "maxLength": 200 }
+                }
+              },
+              "credit": { "type": "string", "maxLength": 300 }
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "maxItems": 20,
+      "description": "Web links (https only). The manufacturer website comes from manufacturer.website.",
+      "items": {
+        "type": "object",
+        "required": ["kind", "title", "url"],
+        "properties": {
+          "kind": { "type": "string", "enum": ["manufacturer", "product", "manual", "download", "support", "other"] },
+          "title": {
+            "type": "object",
+            "properties": {
+              "de": { "type": "string", "maxLength": 120 },
+              "en": { "type": "string", "maxLength": 120 }
+            }
+          },
+          "url": { "type": "string", "pattern": "^https://", "maxLength": 500 }
+        }
       }
     }
   }

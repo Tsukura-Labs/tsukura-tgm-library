@@ -28,6 +28,20 @@
           "description": { "type": "string" },
           "info": { "type": "object" },
           "thumbUrl": { "type": "string" },
+          "gallery": {
+            "type": "array",
+            "maxItems": 12,
+            "items": {
+              "type": "object",
+              "required": ["url"],
+              "properties": {
+                "url": { "type": "string" },
+                "caption": { "type": "object" },
+                "credit": { "type": "string", "maxLength": 300 }
+              }
+            }
+          },
+          "links": { "type": "array", "maxItems": 20, "items": { "type": "object" } },
           "packageUrl": { "type": "string" },
           "packageSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
           "packageSize": { "type": "integer", "minimum": 0 }

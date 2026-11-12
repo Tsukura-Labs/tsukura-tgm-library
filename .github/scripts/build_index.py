@@ -30,6 +30,11 @@ REPO_ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 MAX_IMAGE_BYTES = 2 * 1024 * 1024
 ALLOWED_IMAGE_EXT = (".png", ".jpg")
+MAX_GALLERY = 12
+MAX_LINKS = 20
+LINK_KINDS = ("manufacturer", "product", "manual", "download", "support", "other")
+PNG_MAGIC = bytes([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A])
+JPEG_MAGIC = bytes([0xFF, 0xD8, 0xFF])
 FIXED_ZIP_DATE = (1980, 1, 1, 0, 0, 0)
 # Raw file host for device files (jsDelivr refuses GitHub repos larger than 50 MB).
 RAW = "https://raw.githubusercontent.com"
@@ -134,6 +139,73 @@ def folder_files(folder):
     return sorted(files)
 
 
+def has_control_chars(text):
+    return any(ord(c) < 0x20 or ord(c) == 0x7F for c in text)
+
+
+def check_image_magic(folder, rel):
+    """Extension AND file header must agree (.png = PNG, .jpg = JPEG). Returns an error or None."""
+    try:
+        with open(os.path.join(folder, rel), "rb") as fh:
+            head = fh.read(8)
+    except OSError as exc:
+        return "image unreadable: %s (%s)" % (rel, exc)
+    if rel.lower().endswith(".png"):
+        ok = head.startswith(PNG_MAGIC)
+    else:
+        ok = head.startswith(JPEG_MAGIC)
+    return None if ok else "image content does not match its extension (bad file header): %s" % rel
+
+
+def check_gallery_and_links(dev, files):
+    """Rules beyond the JSON schema for images.gallery and links. Returns a list of errors."""
+    errs = []
+    images = dev.get("images")
+    gallery = images.get("gallery") if isinstance(images, dict) else None
+    if isinstance(gallery, list):
+        if len(gallery) > MAX_GALLERY:
+            errs.append("images.gallery has %d entries (max %d)" % (len(gallery), MAX_GALLERY))
+        seen = set()
+        for i, item in enumerate(gallery):
+            if not isinstance(item, dict):
+                continue   # schema reports it
+            rel = item.get("path")
+            if isinstance(rel, str):
+                if rel not in files:
+                    errs.append("images.gallery[%d] references missing file: %s" % (i, rel))
+                if rel in seen:
+                    errs.append("images.gallery[%d] lists %s twice" % (i, rel))
+                seen.add(rel)
+            texts = [item.get("credit")]
+            if isinstance(item.get("caption"), dict):
+                texts.extend(item["caption"].values())
+            for t in texts:
+                if isinstance(t, str) and has_control_chars(t):
+                    errs.append("images.gallery[%d] contains control characters" % i)
+                    break
+    links = dev.get("links")
+    if isinstance(links, list):
+        if len(links) > MAX_LINKS:
+            errs.append("links has %d entries (max %d)" % (len(links), MAX_LINKS))
+        for i, link in enumerate(links):
+            if not isinstance(link, dict):
+                continue
+            url = link.get("url")
+            if isinstance(url, str):
+                if not url.startswith("https://") or len(url) <= len("https://"):
+                    errs.append("links[%d].url must start with https://" % i)
+                if has_control_chars(url) or any(c.isspace() for c in url):
+                    errs.append("links[%d].url contains control characters or spaces" % i)
+            title = link.get("title")
+            if isinstance(title, dict):
+                vals = [v for v in title.values() if isinstance(v, str)]
+                if not any(v.strip() for v in vals):
+                    errs.append("links[%d].title needs at least one of de/en" % i)
+                if any(has_control_chars(v) for v in vals):
+                    errs.append("links[%d].title contains control characters" % i)
+    return errs
+
+
 def validate_device(m, d, folder, schemas):
     """Returns (errors, device_json, panel_json_or_None)."""
     errs = []
@@ -148,6 +220,10 @@ def validate_device(m, d, folder, schemas):
             errs.append("file not allowed in a device folder: %s" % rel)
         elif top == "images" and os.path.getsize(os.path.join(folder, rel)) > MAX_IMAGE_BYTES:
             errs.append("image larger than 2 MB: %s" % rel)
+        elif top == "images":
+            magic_err = check_image_magic(folder, rel)
+            if magic_err:
+                errs.append(magic_err)
     if "device.json" not in files:
         errs.append("device.json missing")
         return errs, None, None
@@ -162,9 +238,13 @@ def validate_device(m, d, folder, schemas):
             errs.append("device.json id %r does not match folder %s/%s" % (dev.get("id"), m, d))
         if "scripts" in dev:
             errs.append("device.json must not contain scripts (online library = TGM device scripts only)")
-        for key, rel in list(dev.get("images", {}).items()):
+        images = dev.get("images")
+        for key, rel in list(images.items() if isinstance(images, dict) else []):
+            if key == "gallery":
+                continue   # list of objects, checked below
             if rel not in files:
                 errs.append("device.json references missing file: %s" % rel)
+        errs.extend(check_gallery_and_links(dev, files))
     panel = None
     if "panel.json" in files:
         try:
@@ -291,6 +371,18 @@ def build(args):
             "packageSha256": sha,
             "packageSize": os.path.getsize(zip_path),
         }
+        gallery = images.get("gallery") or []
+        if gallery:
+            entry["gallery"] = []
+            for g in gallery:
+                item = {"url": "%s/%s" % (base, g["path"])}
+                if g.get("caption"):
+                    item["caption"] = g["caption"]
+                if g.get("credit"):
+                    item["credit"] = g["credit"]
+                entry["gallery"].append(item)
+        if dev.get("links"):
+            entry["links"] = dev["links"]
         info = dev["device"].get("info")
         if isinstance(info, dict) and info:   # device description (tgm.deviceinfo/1) travels in the index
             entry["info"] = info
@@ -383,6 +475,58 @@ def self_test():
         errs2, _d2, _p2 = validate_device("m", "d", badp, {"device": load_schema("device.schema.json"),
                                                          "panels": load_schema("panels.schema.json")})
         assert any("dumpProfile" in e for e in errs2), "wrong dumpProfile schema must be refused, got %r" % errs2
+        # gallery / links: good case and bad cases (backward compatible: no gallery/links stays valid)
+        schemas = {"device": load_schema("device.schema.json"), "panels": load_schema("panels.schema.json")}
+        png = PNG_MAGIC + b"fake-png-body"
+        jpg = JPEG_MAGIC + b"fake-jpg-body"
+
+        def make_case(name, images, extra):
+            folder = os.path.join(tmp, name, "m", "d")
+            os.makedirs(os.path.join(folder, "images"))
+            for rel, data in images.items():
+                with open(os.path.join(folder, rel), "wb") as fh:
+                    fh.write(data)
+            devj = {"schema": "tgm.device/1", "id": "m/d", "version": 1, "manufacturer": {"name": "M"},
+                    "device": {"uuid": "u", "name": "N"}}
+            devj.update(extra)
+            with open(os.path.join(folder, "device.json"), "w", encoding="utf-8") as fh:
+                json.dump(devj, fh)
+            return validate_device("m", "d", folder, schemas)[0]
+
+        good_imgs = {"images/device.jpg": jpg, "images/g-01.png": png, "images/g-02.jpg": jpg}
+        good = {"images": {"device": "images/device.jpg",
+                           "gallery": [{"path": "images/g-01.png", "caption": {"de": "Vorne", "en": "Front"}, "credit": "Maker"},
+                                       {"path": "images/g-02.jpg"}]},
+                "links": [{"kind": "manual", "title": {"en": "Manual"}, "url": "https://example.com/manual.pdf"}]}
+        assert make_case("g_ok", good_imgs, good) == [], "good gallery/links must be valid"
+        assert make_case("g_none", {}, {}) == [], "device without gallery/links must stay valid"
+        bad_link = dict(good, links=[{"kind": "manual", "title": {"en": "M"}, "url": "http://example.com/a"}])
+        assert any("https" in e for e in make_case("g_http", good_imgs, bad_link)), "http link must be refused"
+        bad_kind = dict(good, links=[{"kind": "evil", "title": {"en": "M"}, "url": "https://example.com"}])
+        assert make_case("g_kind", good_imgs, bad_kind), "unknown link kind must be refused"
+        ctrl = dict(good, links=[{"kind": "other", "title": {"en": "M"}, "url": "https://example.com/a" + chr(10) + "b"}])
+        assert make_case("g_ctrl", good_imgs, ctrl), "control characters in a url must be refused"
+        many_links = dict(good, links=[{"kind": "other", "title": {"en": "M"}, "url": "https://example.com/%d" % i}
+                                       for i in range(21)])
+        assert make_case("g_links21", good_imgs, many_links), "21 links must be refused"
+        wrong = dict(good_imgs)
+        wrong["images/g-01.png"] = jpg   # .png file with JPEG content
+        assert any("file header" in e for e in make_case("g_magic", wrong, good)), "wrong magic must be refused"
+        wrong_main = dict(good_imgs)
+        wrong_main["images/device.jpg"] = b"MZ" + b"x" * 20   # magic check applies to the main image too
+        assert any("file header" in e for e in make_case("g_magic_main", wrong_main, good)), "wrong magic (main) refused"
+        many_imgs = {"images/device.jpg": jpg}
+        many_gal = []
+        for i in range(13):
+            many_imgs["images/g-%02d.jpg" % i] = jpg
+            many_gal.append({"path": "images/g-%02d.jpg" % i})
+        errs13 = make_case("g_13", many_imgs, {"images": {"device": "images/device.jpg", "gallery": many_gal}})
+        assert errs13 and any("12" in e for e in errs13), "13 gallery images must be refused"
+        miss = {"images": {"gallery": [{"path": "images/nope.jpg"}]}}
+        assert any("missing" in e for e in make_case("g_miss", {}, miss)), "missing gallery file must be refused"
+        big_imgs = {"images/g-01.jpg": jpg + b"x" * (MAX_IMAGE_BYTES + 1)}
+        assert any("2 MB" in e for e in make_case("g_big", big_imgs,
+                   {"images": {"gallery": [{"path": "images/g-01.jpg"}]}})), "oversized gallery image refused"
     print("SELF-TEST OK")
     return 0
 
